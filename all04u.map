@@ -3268,7 +3268,16 @@ SpySat=no
 [CIVBFM]
 Name=Civilian Beach Fat Male
 Image=BeInvisibleHack
+UIName=gui:blank
+DieSound=Dummy
+VoiceMove=Dummy
+DeathAnims=INVISO
+Selectable=no
+VoiceAttack=Dummy
+VoiceSelect=Dummy
 Insignificant=no
+VoiceFeedback=Dummy
+VoiceSpecialAttack=Dummy
 
 [CMIN]
 Storage=10
@@ -3463,7 +3472,7 @@ TechLevel=-1
 01000354=1,4,0,0
 
 [FA2spVersionControl]
-Version=39
+Version=47
 LastPreviewOption=2
 
 [GADEPT]
@@ -6426,4 +6435,4 @@ Value=50
 98=89142
 
 [Digest]
-1=r0Nzxji8edONd3sej/Gpi2Ymj5I=
+1=9k0xIQj8jyoktfV/4R632mFb0dI=
