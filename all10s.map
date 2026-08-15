@@ -1,392 +1,3240 @@
-[Ranking]
-ParTimeEasy=02:00:00
-ParTimeMedium=01:00:00
-ParTimeHard=00:20:00
-UnderParTitle=GUI:ParTitleALL11
-UnderParMessage=GUI:UnderParMsgALL10
-OverParTitle=GUI:ParTitleALL10
-OverParMessage=GUI:OverParMsgALL10
+; Map created with FinalAlert 2(tm) Mission Editor
+; Get it at http://www.westwood.com
+; note that all comments were truncated
 
-[General]
-TeamDelays=1500,750,500
-AISafeDistance=20
-DefaultMirageDisguises=TREE26,TREE27,TREE28,TREE25
-SpyMoneyStealPercent=.05
-TotalAITeamCap=30,30,30
+; This FA2 uses FA2sp created by secsome
+; Get the lastest dll at https://github.com/secsome/FA2sp
+; Current version : 1.6.3.1
 
-[HARV]
-Storage=20
+[07B70534]
+0=48,0
+1=49,0
+Name=Scout Team 1 SCR
 
-[CMIN]
-Storage=10
+[08938E10]
+0=1,HARV
+Name=BG2 Extra Harvester TF
+Group=-1
 
-[Tiberiums]
-0=Riparius
-1=Cruentus
-2=Vinifera
-3=Aboreus
+[08938F10]
+Max=1
+Full=no
+Name=BG2 Extra Harvester
+Group=-1
+House=BadGuy2
+Script=09EC24E0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08938E10
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[Riparius]
-Value=50
+[0893D480]
+0=1,HARV
+Name=BG3 Extra Harvester TF
+Group=-1
 
-[Cruentus]
-Value=100
+[0893D580]
+Max=1
+Full=no
+Name=BG3 Extra Harvester
+Group=-1
+House=BadGuy3
+Script=09EC2070
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0893D480
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[Vinifera]
-Value=50
+[08D2ABA0]
+0=2,V3
+1=1,HTNK
+2=1,HTK
+Name=Einstein Assualt Squad 3 TF
+Group=-1
 
-[Aboreus]
-Value=50
+[08D2F1A0]
+0=3,ENGINEER
+Name=Assault Team 13 TF
+Group=-1
 
-[CrateRules]
-SoloCrateMoney=1500
-UnitCrateType=CMIN
+[08DB1030]
+0=3,3
+1=9,0
+Name=BG3 MCV SCR
 
-[OilExplosionWH]
-Wall=Yes
+[08DB1340]
+0=1,SMCV
+Name=BG3 MCV TF
+Group=-1
 
-[Colors]
-NeoRed=0,140,205
+[08DB1420]
+Max=1
+Full=no
+Name=BG3 MCV
+Group=-1
+House=BadGuy3
+Script=08DB1030
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08DB1340
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[GACSPH]
-Name=Chrono Sphere
-TechLevel=12
+[08DB1550]
+0=3,2
+1=9,0
+Name=BG2 MCV SCR
+
+[08DB20F0]
+0=1,SMCV
+Name=BG2 MCV TF
+Group=-1
+
+[08DB22A0]
+Max=1
+Full=no
+Name=BG2 MCV
+Group=-1
+House=BadGuy2
+Script=08DB1550
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08DB20F0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08DB2680]
+0=3,1
+1=9,0
+Name=BG1 MCV SCR
+
+[08DF6AB0]
+0=16,3
+1=5,30
+2=16,13
+3=11,11
+Name=BG3 Invasion 1 SCR
+
+[093408A0]
+0=6,E2
+1=2,DOG
+2=4,DESO
+Name=Assault Team 14 TF
+Group=-1
+
+[09342730]
+0=4,E2
+Name=Scout Team 1 TF
+Group=-1
+
+[09D448E0]
+0=16,3
+1=0,7
+2=0,1
+Name=BG3 Invasion 2 SCR
+
+[09D44B20]
+Max=1
+Full=no
+Name=BG3 Invasion 2
+Group=-1
+House=BadGuy3
+Script=09D448E0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09E7D3E0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D459D0]
+0=16,2
+1=5,30
+2=16,12
+3=11,11
+Name=BG2 Invasion 1 SCR
+
+[09D45C10]
+Max=1
+Full=no
+Name=BG2 Invasion 1
+Group=-1
+House=BadGuy2
+Script=09D459D0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09EAADB0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D45D00]
+0=12,E2
+Name=BG1 Invasion 1 TF
+Group=-1
+
+[09D50DC0]
+0=16,1
+1=0,7
+2=0,1
+Name=BG1 Invasion 2 SCR
+
+[09D52BB0]
+0=16,1
+1=5,30
+2=16,11
+3=11,11
+Name=BG1 Invasion 1 SCR
+
+[09D54800]
+0=2,HTK
+1=2,HTNK
+Name=BG3 Invasion 3 TF
+Group=-1
+
+[09D58370]
+Max=1
+Full=no
+Name=BG3 Invasion 1a
+Group=-1
+House=BadGuy3
+Script=0ACD7DE0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09F50050
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D587F0]
+0=16,15
+1=5,120
+2=46,131295
+3=46,131075
+4=0,5
+5=0,2
+6=0,1
+Name=BG2 Invasion 2a SCR
+
+[09D58A50]
+Max=1
+Full=no
+Name=BG2 Invasion 2a
+Group=-1
+House=BadGuy2
+Script=09D587F0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0B0FC8F0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D58DC0]
+0=16,19
+1=46,131072
+2=0,9
+3=0,1
+Name=BG1 Invasion 3a SCR
+
+[09D591B0]
+Max=1
+Full=no
+Name=BG2 Invasion 1a
+Group=-1
+House=BadGuy2
+Script=0ACC85C0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09EAADB0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D592C0]
+Max=1
+Full=no
+Name=BG1 Invasion 3a
+Group=-1
+House=BadGuy1
+Script=09D58DC0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09EB8740
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D599A0]
+Max=1
+Full=no
+Name=BG1 Invasion 1a
+Group=-1
+House=BadGuy1
+Script=0A256DC0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09D45D00
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D5B840]
+0=19,0
+1=0,4
+2=0,5
+Name=German3 Guards SCR
+
+[09D5BCB0]
+0=19,0
+1=0,4
+2=0,5
+Name=German2 Guards SCR
+
+[09D5C280]
+0=19,0
+1=0,4
+2=0,5
+Name=German1 Guards SCR
+
+[09D61290]
+0=16,2
+1=0,7
+2=0,1
+Name=BG2 Invasion 2 SCR
+
+[09D670BC]
+0=6,E2
+Name=Einstein Assualt Squad 1 TF
+Group=-1
+
+[09D6743C]
+Max=3
+Full=no
+Name=Einstein Assualt Squad 1
+Group=-1
+House=BadGuy1
+Script=0D01E56C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=14
+Waypoint=O
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09D670BC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D67940]
+0=16,23
+1=5,30
+2=46,131295
+3=46,196793
+4=0,5
+5=0,1
+Name=BG3 Invasion 3a SCR
+
+[09D67BA0]
+Max=1
+Full=no
+Name=BG3 Invasion 3a
+Group=-1
+House=BadGuy3
+Script=09D67940
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09D54800
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D6C96C]
+Max=3
+Full=no
+Name=Einstein Assualt Squad 2
+Group=-1
+House=BadGuy3
+Script=0D01FDBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=14
+Waypoint=N
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0BFB8F20
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D6CEFC]
+Max=3
+Full=no
+Name=Einstein Assualt Squad 3
+Group=-1
+House=BadGuy2
+Script=0D01FA1C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=14
+Waypoint=P
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=08D2ABA0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D72A2C]
+0=8,E2
+1=2,SHK
+2=4,HTNK
+3=2,DRON
+Name=Assault Team 17 TF
+Group=-1
+
+[09D72B3C]
+Max=3
+Full=no
+Name=Assault Team 17
+Group=-1
+House=BadGuy1
+Script=09F48A1C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09D72A2C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09D7329C]
+0=5,HTNK
+1=3,DRON
+Name=Assault Team 18 TF
+Group=-1
+
+[09D733AC]
+Max=3
+Full=no
+Name=Assault Team 18
+Group=-1
+House=BadGuy1
+Script=09F4856C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09D7329C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09DD30F0]
+Max=1
+Full=no
+Name=German3 Guards
+Group=2
+House=Germany3
+Script=09D5B840
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=D
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0AE587FC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09DD3560]
+Max=1
+Full=no
+Name=German2 Guards
+Group=1
+House=Germany2
+Script=09D5BCB0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=C
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0AE58CAC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09DD39D0]
+Max=1
+Full=no
+Name=German1 Guards
+Group=0
+House=Germany1
+Script=09D5C280
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0AE5934C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09DE7370]
+0=2,DRON
+1=2,HTNK
+2=8,E2
+Name=Assault Team 16 TF
+Group=-1
+
+[09E397F0]
+0=11,11
+1=49,0
+Name=Spy Defenders SCR
+
+[09E4E950]
+0=11,11
+1=49,0
+Name=Hard Ass Defenders SCR
+
+[09E4F4E0]
+0=11,11
+1=49,0
+Name=Harrier Defenders SCR
+
+[09E4F950]
+0=11,11
+1=49,0
+Name=Rocketeer Defenders SCR
+
+[09E4FDC0]
+0=11,11
+1=49,0
+Name=Infantry Defenders SCR
+
+[09E78B60]
+0=3,13
+1=16,16
+2=5,60
+3=16,22
+4=0,6
+5=0,1
+Name=BG3 Invasion 2a SCR
+
+[09E79150]
+Max=1
+Full=no
+Name=BG3 Invasion 2a
+Group=-1
+House=BadGuy3
+Script=09E78B60
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09E7D3E0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09E79370]
+0=16,20
+1=5,120
+2=16,18
+3=0,9
+4=0,3
+5=0,1
+Name=BG2 Invasion 3a SCR
+
+[09E795D0]
+Max=1
+Full=no
+Name=BG2 Invasion 3a
+Group=-1
+House=BadGuy2
+Script=09E79370
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09E7BBB0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09E7A270]
+0=16,14
+1=5,30
+2=46,131072
+3=46,65721
+4=0,9
+5=0,5
+6=0,1
+Name=BG1 Invasion 2a SCR
+
+[09E7A4D0]
+Max=1
+Full=no
+Name=BG1 Invasion 2a
+Group=-1
+House=BadGuy1
+Script=09E7A270
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09E7DCC0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09E7BBB0]
+0=2,V3
+1=2,HTK
+Name=BG2 Invasion 3 TF
+Group=-1
+
+[09E7D3E0]
+0=2,HTNK
+1=2,V3
+Name=BG3 Invasion 2 TF
+Group=-1
+
+[09E7DCC0]
+0=2,HTNK
+1=2,V3
+Name=BG1 Invasion 2 TF
+Group=-1
+
+[09E7F0C0]
+Max=1
+Full=no
+Name=BG1 Invasion 2
+Group=-1
+House=BadGuy1
+Script=09D50DC0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=I
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09E7DCC0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09EAADB0]
+0=12,E2
+Name=BG2 Invasion 1 TF
+Group=-1
+
+[09EB8740]
+0=2,HTK
+1=2,HTNK
+Name=BG1 Invasion 3 TF
+Group=-1
+
+[09EC2070]
+0=3,29
+1=49,0
+Name=BG3 Extra Harvester SCR
+
+[09EC24E0]
+0=3,29
+1=49,0
+Name=BG2 Extra Harvester SCR
+
+[09EC2950]
+0=3,28
+1=49,0
+Name=BG1 Extra Harvester SCR
+
+[09EE54D0]
+Max=1
+Full=no
+Name=BG3 Invasion 1
+Group=-1
+House=BadGuy3
+Script=08DF6AB0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09F50050
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09EEC840]
+Max=4
+Full=no
+Name=Assault Team 16
+Group=-1
+House=BadGuy1
+Script=09F48DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09DE7370
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09F4045C]
+0=16,18
+1=0,7
+2=49,0
+3=0,8
+4=0,9
+5=0,1
+Name=Assault Team 03 SCR
+
+[09F4090C]
+0=0,3
+1=49,0
+2=0,5
+3=0,1
+Name=Assault Team 02 SCR
+
+[09F40DBC]
+0=0,4
+1=49,0
+2=0,1
+Name=Assault Team 01 SCR
+
+[09F42DBC]
+0=11,11
+1=49,0
+Name=Armor Defenders SCR
+
+[09F4856C]
+0=0,5
+1=49,0
+2=0,3
+3=0,6
+4=0,1
+Name=Assault Team 18 SCR
+
+[09F48A1C]
+0=0,5
+1=49,0
+2=0,4
+3=0,6
+4=0,1
+Name=Assault Team 17 SCR
+
+[09F48DBC]
+0=46,196609
+1=49,0
+2=46,196609
+3=0,3
+4=0,1
+Name=Assault Team 16 SCR
+
+[09F4E45C]
+0=16,22
+1=46,131127
+2=0,7
+3=49,0
+4=0,5
+5=0,1
+Name=Assault Team 09 SCR
+
+[09F4F45C]
+0=46,131074
+1=49,0
+2=0,9
+3=0,2
+4=0,1
+Name=Assault Team 06 SCR
+
+[09F4F90C]
+0=46,131079
+1=49,0
+2=0,6
+3=0,2
+4=0,1
+Name=Assault Team 05 SCR
+
+[09F4FDBC]
+0=0,5
+1=49,0
+2=0,4
+3=0,1
+Name=Assault Team 04 SCR
+
+[09F50050]
+0=12,E2
+Name=BG3 Invasion 1 TF
+Group=-1
+
+[0A0CA0D0]
+Max=1
+Full=no
+Name=BG1 Extra Harvester
+Group=-1
+House=BadGuy1
+Script=09EC2950
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=I
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0A0CF0E0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A0CF0E0]
+0=1,HARV
+Name=BG1 Extra Harvester TF
+Group=-1
+
+[0A24521C]
+0=1,HTK
+1=3,FLAKT
+Name=_Rocketeer Defenders
+Group=-1
+
+[0A24545C]
+0=4,E2
+1=1,DESO
+2=1,SHK
+3=2,FLAKT
+Name=_Infantry Defense
+Group=-1
+
+[0A24590C]
+0=4,SHK
+1=1,HTNK
+2=2,DRON
+Name=_Armor Defenders
+Group=-1
+
+[0A24621C]
+0=2,APOC
+1=1,V3
+2=2,DRON
+Name=_Hard Ass Defenders
+Group=-1
+
+[0A24645C]
+0=2,V3
+1=3,DRON
+Name=_Solar Refractor Defenders
+Group=-1
+
+[0A24690C]
+0=1,APOC
+1=2,HTK
+Name=_Harrier Defenders
+Group=-1
+
+[0A24790C]
+0=5,E2
+1=2,DOG
+2=1,SHK
+3=2,FLAKT
+Name=Assault Team 01 TF
+Group=-1
+
+[0A24A7FC]
+0=8,E2
+1=4,FLAKT
+Name=Assault Team 10 TF
+Group=-1
+
+[0A24BCAC]
+0=4,E2
+1=2,V3
+2=2,FLAKT
+Name=Assault Team 12 TF
+Group=-1
+
+[0A256DC0]
+0=16,17
+1=16,18
+2=0,4
+3=0,1
+Name=BG1 Invasion 1a SCR
+
+[0A2875F0]
+0=1,SMCV
+Name=BG1 MCV TF
+Group=-1
+
+[0A287950]
+Max=1
+Full=no
+Name=BG1 MCV
+Group=-1
+House=BadGuy1
+Script=08DB2680
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=I
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0A2875F0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0A476D90]
+0=3,APOC
+Name=First Apocalypse Sighting TF
+Group=-1
+
+[0ACC85C0]
+0=16,15
+1=5,20
+2=16,18
+3=0,4
+4=0,7
+5=0,1
+Name=BG2 Invasion 1a SCR
+
+[0ACD3370]
+0=11,11
+1=49,0
+Name=Solar Refractor Defenders SCR
+
+[0ACD7DE0]
+0=16,21
+1=16,22
+2=0,3
+3=0,5
+4=0,1
+Name=BG3 Invasion 1a SCR
+
+[0ACF734C]
+0=1,EUROC
+Name=Polar Bear Woman Car TF
+Group=-1
+
+[0ACF76CC]
+Max=1
+Full=no
+Name=Polar Bear Woman Car
+Group=-1
+House=Neutral
+Script=0AE7C36C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=30
+Waypoint=BC
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0ACF734C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0AD0021C]
+Max=5
+Full=no
+Name=Assault Team 06
+Group=-1
+House=BadGuy1
+Script=09F4F45C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD05CAC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0034C]
+0=1,HTK
+1=4,HTNK
+Name=Assault Team 05 TF
+Group=-1
+
+[0AD006CC]
+Max=4
+Full=no
+Name=Assault Team 05
+Group=-1
+House=BadGuy1
+Script=09F4F90C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD0034C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD007FC]
+0=3,SHK
+1=2,DRON
+2=1,HTK
+Name=Assault Team 04 TF
+Group=-1
+
+[0AD00B7C]
+Max=4
+Full=no
+Name=Assault Team 04
+Group=-1
+House=BadGuy1
+Script=09F4FDBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD007FC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD00CAC]
+0=3,HTNK
+1=2,V3
+2=1,HTK
+Name=Assault Team 03 TF
+Group=-1
+
+[0AD0232C]
+Max=5
+Full=no
+Name=Assault Team 12
+Group=-1
+House=BadGuy1
+Script=0D01B90C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=11
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0A24BCAC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD027DC]
+Max=6
+Full=no
+Name=Assault Team 11
+Group=-1
+House=BadGuy1
+Script=0D01BDBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=11
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0B9DCC10
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD02C8C]
+Max=6
+Full=no
+Name=Assault Team 10
+Group=-1
+House=BadGuy1
+Script=0D01A45C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=11
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0A24A7FC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0332C]
+Max=3
+Full=no
+Name=Assault Team 15
+Group=-1
+House=BadGuy1
+Script=0D01C90C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD0DCAC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=yes
+AreTeamMembersRecruitable=yes
+
+[0AD037DC]
+Max=3
+Full=no
+Name=Assault Team 14
+Group=-1
+House=BadGuy1
+Script=0D01CDBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=093408A0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD03C8C]
+Max=3
+Full=no
+Name=Assault Team 13a
+Group=-1
+House=BadGuy1
+Script=0D01B45C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=08D2F1A0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0510C]
+0=4,APOC
+1=2,HTNK
+Name=Assault Team 09 TF
+Group=-1
+
+[0AD0521C]
+Max=3
+Full=no
+Name=Assault Team 09
+Group=-1
+House=BadGuy1
+Script=09F4E45C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD0510C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0534C]
+0=2,APOC
+1=1,V3
+2=1,HTK
+Name=Assault Team 08 TF
+Group=-1
+
+[0AD056CC]
+Max=4
+Full=no
+Name=Assault Team 08
+Group=-1
+House=BadGuy1
+Script=0D6AADBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD0534C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD057FC]
+0=2,APOC
+1=3,DESO
+Name=Assault Team 07 TF
+Group=-1
+
+[0AD05CAC]
+0=2,V3
+1=2,DRON
+2=2,HTK
+Name=Assault Team 06 TF
+Group=-1
+
+[0AD060EC]
+Max=6
+Full=no
+Name=Assault Team 03
+Group=-1
+House=BadGuy1
+Script=09F4045C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD00CAC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0621C]
+0=3,SHK
+1=3,DRON
+Name=Assault Team 02 TF
+Group=-1
+
+[0AD0659C]
+Max=6
+Full=no
+Name=Assault Team 02
+Group=-1
+House=BadGuy1
+Script=09F4090C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD0621C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD06A4C]
+Max=8
+Full=no
+Name=Assault Team 01
+Group=-1
+House=BadGuy1
+Script=09F40DBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0A24790C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0B32C]
+Max=3
+Full=no
+Name=Assault Team 13b
+Group=-1
+House=BadGuy1
+Script=0D01E90C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08D2F1A0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0D6CC]
+Max=1
+Full=no
+Name=First Apocalypse Sighting
+Group=-1
+House=BadGuy2
+Script=0D01DDBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=14
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0A476D90
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0DB7C]
+Max=4
+Full=no
+Name=Scout Team 1
+Group=-1
+House=BadGuy1
+Script=07B70534
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=11
+Annoyance=yes
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09342730
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD0DCAC]
+0=1,HTK
+1=5,ENGINEER
+Name=Assault Team 15 TF
+Group=-1
+
+[0AD3121C]
+Max=1
+Full=no
+Name=BG3 Invasion 3
+Group=-1
+House=BadGuy3
+Script=0AFBC0BC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09D54800
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD316CC]
+Max=1
+Full=no
+Name=BG2 Invasion 3
+Group=-1
+House=BadGuy2
+Script=0AF95DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09E7BBB0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD31B7C]
+Max=1
+Full=no
+Name=BG1 Invasion 3
+Group=-1
+House=BadGuy1
+Script=0AF9645C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=I
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09EB8740
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AD98B7C]
+Max=1
+Full=no
+Name=Polar Bears
+Group=-1
+House=Neutral
+Script=0ADF5DBC
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=30
+Waypoint=BA
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AE737BC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0ADAEEFC]
+Max=1
+Full=no
+Name=BG1 Invasion 1
+Group=-1
+House=BadGuy1
+Script=09D52BB0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=I
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09D45D00
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0ADF5DBC]
+0=5,2
+1=3,52
+2=25,421
+3=19,0
+4=3,62
+5=39,5
+6=3,51
+7=37,0
+Name=Polar Bears SCR
+
+[0AE587FC]
+0=2,ENGINEER
+1=2,CTECH
+2=4,E1
+Name=German3 Guards TF
+Group=2
+
+[0AE58CAC]
+0=2,CTECH
+1=2,ENGINEER
+2=4,E1
+Name=German2 Guards TF
+Group=1
+
+[0AE5934C]
+0=2,ENGINEER
+1=2,CTECH
+2=4,E1
+Name=German1 Guards TF
+Group=0
+
+[0AE737BC]
+0=2,POLARB
+Name=Polar Bears TF
+Group=-1
+
+[0AE788EC]
+0=1,CIVBF
+Name=Polar Bear Woman TF
+Group=-1
+
+[0AE789FC]
+Max=1
+Full=no
+Name=Polar Bear Woman
+Group=-1
+House=Neutral
+Script=0AE7CA6C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=30
+Waypoint=BA
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AE788EC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0AE7C36C]
+0=3,55
+1=39,7
+2=3,56
+3=39,8
+4=3,57
+5=39,9
+6=3,58
+7=39,10
+8=3,59
+9=39,11
+10=3,60
+11=39,12
+12=3,61
+13=39,13
+14=37,0
+Name=Polar Bear Woman Car SCR
+
+[0AE7CA6C]
+0=25,405
+1=3,52
+2=3,53
+3=3,54
+4=39,6
+5=37,0
+Name=Polar Bear Woman SCR
+
+[0AF95DBC]
+0=16,15
+1=11,11
+Name=BG2 Invasion 3 SCR
+
+[0AF9645C]
+0=16,14
+1=11,11
+Name=BG1 Invasion 3 SCR
+
+[0AFBC0BC]
+0=16,16
+1=11,11
+Name=BG3 Invasion 3 SCR
+
+[0B02B14C]
+0=4,FLAKT
+1=5,E2
+2=2,SHK
+3=2,DOG
+Name=Baby Sitters TF
+Group=-1
+
+[0B02B25C]
+Max=1
+Full=no
+Name=BG1 Baby Sitters
+Group=-1
+House=BadGuy1
+Script=0B02D59C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=15
+Waypoint=I
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B02B14C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B02D59C]
+0=58,131097
+1=21,0
+2=21,0
+3=11,11
+Name=Baby Sitters SCR
+
+[0B02EDCC]
+Max=1
+Full=no
+Name=BG3 Baby Sitters
+Group=-1
+House=BadGuy3
+Script=0B02D59C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=15
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B02B14C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B02EEFC]
+Max=1
+Full=no
+Name=BG2 Baby Sitters
+Group=-1
+House=BadGuy2
+Script=0B02D59C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=15
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B02B14C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B0FC8F0]
+0=4,HTNK
+Name=BG2 Invasion 2 TF
+Group=-1
+
+[0B47CCAC]
+0=54,0
+1=47,196610
+2=8,0
+3=46,196610
+4=49,0
+5=0,6
+6=0,2
+Name=Assault Engineers SCR
+
+[0B47CF1C]
+0=5,SENGINEER
+1=1,HTK
+Name=Assault Engineers TF
+Group=-1
+
+[0B47D15C]
+Max=2
+Full=no
+Name=Assault Engineers
+Group=-1
+House=BadGuy1
+Script=0B47CCAC
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0B47CF1C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B5A8190]
+Max=1
+Full=no
+Name=BG2 Invasion 2
+Group=-1
+House=BadGuy2
+Script=09D61290
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B0FC8F0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B9DCC10]
+0=1,HTK
+1=2,HTNK
+2=3,SHK
+Name=Assault Team 11 TF
+Group=-1
+
+[0BFB8F20]
+0=3,HTNK
+Name=Einstein Assualt Squad 2 TF
+Group=-1
+
+[0CABE1CC]
+0=8,DOG
+Name=_Spy Defense
+Group=-1
+
+[0CEC832C]
+Max=1
+Full=no
+Name=Infantry Defenders
+Group=-1
+House=BadGuy1
+Script=09E4FDC0
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A24545C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0CEC87DC]
+Max=1
+Full=no
+Name=Armor Defenders
+Group=-1
+House=BadGuy1
+Script=09F42DBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A24590C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0CEC8C8C]
+Max=2
+Full=no
+Name=Spy Defenders
+Group=-1
+House=BadGuy1
+Script=09E397F0
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0CABE1CC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0CEC948C]
+Max=1
+Full=no
+Name=Solar Refractor Defenders
+Group=-1
+House=BadGuy1
+Script=0ACD3370
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A24645C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0CEC993C]
+Max=1
+Full=no
+Name=Harrier Defenders
+Group=-1
+House=BadGuy1
+Script=09E4F4E0
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A24690C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0CEC9DEC]
+Max=1
+Full=no
+Name=Rocketeer Defenders
+Group=-1
+House=BadGuy1
+Script=09E4F950
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A24521C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0CECADEC]
+Max=1
+Full=no
+Name=Hard Ass Defenders
+Group=-1
+House=BadGuy1
+Script=09E4E950
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=9
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A24621C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0D01945C]
+0=16,50
+1=46,131080
+2=49,0
+3=46,131073
+4=0,7
+5=0,5
+6=0,2
+7=0,1
+Name=Assault Team 07 SCR
+
+[0D0196CC]
+Max=3
+Full=no
+Name=Assault Team 07
+Group=-1
+House=BadGuy1
+Script=0D01945C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=11
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0AD057FC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0D01A45C]
+0=16,4
+1=46,131080
+2=49,0
+3=0,4
+4=0,7
+5=0,1
+Name=Assault Team 10 SCR
+
+[0D01B45C]
+0=16,41
+1=49,0
+2=46,131080
+3=46,131177
+4=0,2
+Name=Assault Team 13a SCR
+
+[0D01B90C]
+0=16,5
+1=16,7
+2=46,131080
+3=49,0
+4=0,7
+5=0,9
+6=0,1
+Name=Assault Team 12 SCR
+
+[0D01BDBC]
+0=16,7
+1=46,131080
+2=49,0
+3=0,2
+4=0,1
+Name=Assault Team 11 SCR
+
+[0D01C90C]
+0=14,0
+1=16,5
+2=16,4
+3=49,0
+4=8,0
+5=46,131080
+6=0,2
+Name=Assault Team 15 SCR
+
+[0D01CDBC]
+0=16,5
+1=16,4
+2=49,0
+3=46,131080
+4=0,4
+5=0,1
+Name=Assault Team 14 SCR
+
+[0D01DDBC]
+0=3,27
+1=16,15
+2=46,131127
+3=0,7
+4=46,131072
+5=0,9
+6=0,5
+7=0,1
+Name=First Apocalypse Sighting SCR
+
+[0D01E56C]
+0=16,42
+1=49,0
+2=46,131080
+3=0,1
+Name=Einstein Assualt Squad 1 SCR
+
+[0D01E90C]
+0=16,42
+1=49,0
+2=46,131080
+3=0,2
+Name=Assault Team 13b SCR
+
+[0D01FA1C]
+0=16,16
+1=16,43
+2=49,0
+3=46,131080
+4=0,2
+5=0,1
+Name=Einstein Assualt Squad 3 SCR
+
+[0D01FDBC]
+0=16,41
+1=49,0
+2=46,131080
+3=0,5
+4=0,1
+Name=Einstein Assualt Squad 2 SCR
+
+[0D6AADBC]
+0=46,196610
+1=49,0
+2=46,131080
+3=0,7
+4=0,2
+5=0,1
+Name=Assault Team 08 SCR
+
+[0E4787FC]
+0=3,MGTK
+Name=Einsteins Gift TF
+Group=-1
+
+[0E5FA71C]
+Max=1
+Full=no
+Name=Einsteins Gift
+Group=-1
+House=Einstein
+Script=0E65590C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=E
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0E4787FC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0E65590C]
+0=3,7
+1=3,5
+2=39,0
+3=49,0
+4=5,20
+5=20,14
+Name=Einsteins Gift SCR
+
+[AITriggerTypes]
+083D430C=Spy Defense,0CEC8C8C,<all>,10,0,SPY,0100000003000000000000000000000000000000000000000000000000000000,70.000000,50.000000,70.000000,0,0,2,0,<none>,1,1,1
+099EDAF4=Scout Team 1 AITrig,0AD0DB7C,<all>,1,0,GACNST,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,1,1,1
+09D76C7C=Assault Team 18 AITrig,09D733AC,<all>,4,0,SREF,0400000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
+09D7732C=Assault Team 17 AITrig,09D72B3C,<all>,5,0,MGTK,0300000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+09DF1120=Hard Ass Defense,0CECADEC,<all>,7,1,NATECH,0100000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,60.000000,0,0,2,0,<none>,0,1,1
+0A275780=Armor Defense,0CEC87DC,<all>,5,0,GAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+0ACD70C0=Solar Refractor Defense,0CEC948C,<all>,4,0,SREF,0200000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,2,0,<none>,1,1,1
+0ACD72E0=Rocketeer Defense,0CEC9DEC,<all>,3,0,JUMPJET,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,1,1,1
+0ACD73F0=Infantry Defense,0CEC832C,<all>,8,0,GAPILE,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+0AD20DAC=Assault Team 16 AITrig,09EEC840,<all>,4,0,GAREFN,0200000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+0AD2226C=Assault Team 05 AITrig,0AD006CC,<all>,3,0,GATECH,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+0AD2276C=Assault Team 01 AITrig,0AD06A4C,<all>,10,1,TESLA,0100000003000000000000000000000000000000000000000000000000000000,50.000000,30.000000,60.000000,0,0,2,0,<none>,1,1,1
+0AD22C6C=Harrier Defense,0CEC993C,<all>,7,0,ORCA,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,1,1,1
+0B1351C0=Einstein Asslt Sqd 3 AITrig,09D6CEFC,<all>,3,1,NALASR,0200000004000000000000000000000000000000000000000000000000000000,60.000000,50.000000,70.000000,0,0,2,0,<none>,0,1,1
+0B1377D0=Einstein Asslt Sqd 2 AITrig,09D6C96C,<all>,2,1,NAREFN,0200000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,2,0,<none>,0,1,1
+0B137910=Einstein Asslt Sqd 1 AITrig,09D6743C,<all>,1,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,2,0,<none>,1,1,1
+0B14AEEC=Assault Team 14 AITrig,0AD037DC,<all>,10,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+0B14B26C=Assault Team 13b AITrig,0AD0B32C,<all>,1,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,30.000000,60.000000,0,0,2,0,<none>,1,1,1
+0B14B8AC=Assault Team 15 AITrig,0AD0332C,<all>,10,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,0AD037DC,1,1,1
+0B14B9EC=Assault Team 13a AITrig,0AD03C8C,<all>,10,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,30.000000,60.000000,0,0,2,0,0AD037DC,1,1,1
+0B14BB2C=Assault Team 12 AITrig,0AD0232C,<all>,3,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,0,1
+0B14BC6C=Assault Team 11 AITrig,0AD027DC,<all>,5,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
+0B14BDAC=Assault Team 10 AITrig,0AD02C8C,<all>,1,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,1,1,1
+0B47C35C=Assault Engineers AITrig,0B47D15C,<all>,10,0,GACNST,0100000004000000000000000000000000000000000000000000000000000000,40.000000,10.000000,60.000000,0,0,2,0,<none>,0,1,1
+0CAB276C=Assault Team 09 AITrig,0AD0521C,<all>,7,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,0,0,1
+0CAB28AC=Assault Team 08 AITrig,0AD056CC,<all>,7,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,0,1
+0CAB29EC=Assault Team 07 AITrig,0D0196CC,<all>,8,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,0,1,1
+0CAB2B2C=Assault Team 06 AITrig,0AD0021C,<all>,4,0,GACNST,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
+0CAB2DAC=Assault Team 04 AITrig,0AD00B7C,<all>,5,0,GAWEAP,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,0,1,1
+0CAB2EEC=Assault Team 03 AITrig,0AD060EC,<all>,3,0,ATESLA,0300000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
+0CAB6EEC=Assault Team 02 AITrig B,0AD0659C,<all>,5,0,CMIN,0200000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
+0CBA13AC=Assault Team 02 AITrig A,0AD0659C,<all>,5,0,GAREFN,0200000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,0,1,1
+
+[AITriggerTypesEnable]
+083D430C=yes
+099EDAF4=yes
+09D76C7C=yes
+09D7732C=yes
+09DF1120=yes
+0A275780=yes
+0ACD70C0=yes
+0ACD72E0=yes
+0ACD73F0=yes
+0AD20DAC=yes
+0AD2226C=yes
+0AD2276C=yes
+0AD22C6C=yes
+0B1351C0=yes
+0B1377D0=yes
+0B137910=yes
+0B14AEEC=yes
+0B14B26C=yes
+0B14B8AC=yes
+0B14B9EC=yes
+0B14BB2C=yes
+0B14BC6C=yes
+0B14BDAC=yes
+0B47C35C=yes
+0CAB276C=yes
+0CAB28AC=yes
+0CAB29EC=yes
+0CAB2B2C=yes
+0CAB2DAC=yes
+0CAB2EEC=yes
+0CAB6EEC=yes
+0CBA13AC=yes
+0A31295C-G=yes
+0A44F17C-G=yes
+0A44F2CC-G=yes
+0A452C6C-G=yes
+0A452E5C-G=yes
+0AA845AC-G=yes
+0AA846FC-G=yes
+0AD2BAEC-G=yes
+0C0C7AEC-G=yes
+0C0D184C-G=yes
+0C0D251C-G=yes
+0C1245AC-G=yes
+0C1246FC-G=yes
+0C32599C-G=yes
+0C32D84C-G=yes
+0C87B45C-G=yes
+0C87B99C-G=yes
+0C87E5AC-G=yes
+0C8B81BC-G=yes
+0C8BC5AC-G=yes
+0C8C2AEC-G=yes
+0C8C2C3C-G=yes
+0C8C430C-G=yes
+0C8C4C3C-G=yes
+0C8C51BC-G=yes
+0C8C56FC-G=yes
+0C8C645C-G=yes
+0C8C6EDC-G=yes
+0C8C71BC-G=yes
+0C8E2C3C-G=yes
+0C8EE1BC-G=yes
+0C8EEAEC-G=yes
+0C8EEEDC-G=yes
+0C91D45C-G=yes
+0C92C1BC-G=yes
+0C92C45C-G=yes
+0C955AEC-G=yes
+0C955C3C-G=yes
+0C9561BC-G=yes
+0C9565AC-G=yes
+0C96F45C-G=yes
+0C96F5AC-G=yes
+0CA1F84C-G=yes
+0CA24D8C-G=yes
+0CA2A04C-G=yes
+0CA2B06C-G=yes
+0CA2D99C-G=yes
+0CA2FEDC-G=yes
+0CA5945C-G=yes
+0CA6621C-G=yes
+0CA6AEDC-G=yes
+0CAD0B2C-G=yes
+0CAD0C7C-G=yes
+0CAD0DCC-G=yes
+0CAD130C-G=yes
+0CAD145C-G=yes
+0CAD25AC-G=yes
+0CAD2AEC-G=yes
+0CAD2C3C-G=yes
+0CAD5AEC-G=yes
+0CADD99C-G=yes
+0CADDEDC-G=yes
+0CB29EDC-G=yes
+0CB2CEDC-G=yes
+0CDF899C-G=yes
+0CDF8D8C-G=yes
+0CDF8EDC-G=yes
+0CE2395C-G=yes
+0CE23AAC-G=yes
+0CE26B5C-G=yes
+0CE26CAC-G=yes
+0CE2E8DC-G=yes
+0CE2EA2C-G=yes
+0CE44D0C-G=yes
+0D022B1C-G=yes
+0D022C6C-G=yes
+0D052AEC-G=yes
+0D0803CC-G=yes
+0D08461C-G=yes
+0D0848BC-G=yes
+0D084A0C-G=yes
+0D084B5C-G=yes
+0D0873DC-G=yes
+0D087D8C-G=yes
+0D0B3B9C-G=yes
+0D2769BC-G=yes
+0D2C41EC-G=yes
+0D2C448C-G=yes
+0D2C45DC-G=yes
+0D53099C-G=yes
+0D53130C-G=yes
+0D53430C-G=yes
+0D535EDC-G=yes
+0D62145C-G=yes
+0D6215AC-G=yes
+0D6216FC-G=yes
+0D62199C-G=yes
+0ECCB2BC-G=yes
+0ECCB40C-G=yes
+0ECCB55C-G=yes
+0ECCB7FC-G=yes
+0ECCBC3C-G=yes
+0ECCF14C-G=yes
+0ECCF29C-G=yes
+0ECCF68C-G=yes
+0ECCFA7C-G=yes
+0ECCFCAC-G=yes
 
 [AMCV]
 TechLevel=5
 
-[ChronoSphereSpecial]
-RechargeTime=120
-ShowTimer=no
+[Aboreus]
+Value=50
 
-[SENGINEER]
-TechLevel=10
-
-[DOG]
-TechLevel=10
-
-[NAMISL]
-TechLevel=12
-
-[NAIRON]
-TechLevel=12
-
-[YURI]
-TechLevel=12
-
-[CLEG]
-TechLevel=12
-
-[NAYARD]
-TechLevel=12
-
-[ZEP]
-TechLevel=12
-
-[GAYARD]
-TechLevel=12
-
-[GAWEAT]
-TechLevel=12
-
-[GAGAP]
-Name=Gap Generator
-TechLevel=12
-
-[NACLON]
-TechLevel=12
-
-[NAPSIS]
-TechLevel=12
-
-[TANY]
-TechLevel=12
-
-[GAOREP]
-Name=Allied Ore Processor
-TechLevel=9
-
-[GHOST]
-Name=SEAL
-TechLevel=3
-
-[CTECH]
-Name=Technician
-Insignificant=no
-ThreatPosed=10
-
-[NEGLAMP]
-Name=Negative Light Post
-Image=GALITE
-LightVisibility=4000
-LightIntensity=-0.15
-LightRedTint=0.03
-LightGreenTint=0.04
-LightBlueTint=0.04
-
-[INPURPLAMP]
-Name=Invisible Purple Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=0.4000
-LightGreenTint=0.0000
-LightBlueTint=0.4000
-
-[INYELWLAMP]
-Name=Invisible Yellow Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=0.2
-LightGreenTint=0.2
-LightBlueTint=-0.1
-
-[CAMISC01]
-Name=RA2 Barrels
-Insignificant=no
-RadarInvisible=no
-
-[CAMISC02]
-Name=RA2 Barrel
-Insignificant=no
-RadarInvisible=no
-
-[CALAB]
-Name=RA2 Einstein's Lab
-TechLevel=-1
-Insignificant=no
-RadarInvisible=no
-ClickRepairable=yes
-CanBeOccupied=no
-MaxNumberOccupants=0
-DistributedFire=no
-Primary=none
-Secondary=none
-
-[SpecialFlags]
-TiberiumGrows=no
-TiberiumSpreads=yes
-TiberiumExplosive=no
-DestroyableBridges=yes
-MCVDeploy=no
-InitialVeteran=no
-FixedAlliance=no
-HarvesterImmune=no
-FogOfWar=no
-Inert=no
-IonStorms=no
-Meteorites=no
-Visceroids=no
-
-[Countries]
-0=Einstein
-1=Player
-2=BadGuy1
-3=BadGuy2
-4=BadGuy3
-5=Germany1
-6=Germany2
-7=Germany3
-8=Temp
-
-[Einstein]
-ParentCountry=Americans
-Name=Einstein
-Suffix=Allied
-Prefix=G
-Color=NeonBlue
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[Player]
-ParentCountry=Americans
-Name=Player
-Suffix=Allied
-Prefix=G
-Color=DarkGreen
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
+[Actions]
+03D64400=1,53,2,0B17C1F0,0,0,0,0,A
+03D7C6B0=4,11,4,MISSION:All10d1,0,0,0,0,A,11,4,MISSION:All10d2,0,0,0,0,A,11,4,MISSION:All10e,0,0,0,0,A,21,6,EVA_NewObjectiveReceived,0,0,0,0,A
+03D8B8D0=2,48,0,4,0,0,0,0,E,55,0,1,0,0,0,0,E
+03D8CE20=5,47,0,0,0,0,0,0,A,5,1,0E5FA71C,0,0,0,0,A,53,2,092A3410,0,0,0,0,A,11,4,MISSION:ALL01q,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A
+0881557C=2,46,0,0,0,0,0,0,A,21,6,EVA_EstablishBattlefieldControl,0,0,0,0,A
+08933B30=1,80,1,0A0CA0D0,0,0,0,0,I
+0893A890=1,80,1,08938F10,0,0,0,0,J
+0893AE50=1,80,1,0893D580,0,0,0,0,K
+0895A960=3,21,6,Mis_A10_Einstein4,0,0,0,0,A,55,0,5,0,0,0,0,F,17,0,5,0,0,0,0,F
+0895AD70=3,21,6,Mis_A10_Einstein4,0,0,0,0,A,55,0,5,0,0,0,0,F,17,0,5,0,0,0,0,F
+0895B320=3,21,6,Mis_A10_Einstein4,0,0,0,0,A,55,0,5,0,0,0,0,F,17,0,5,0,0,0,0,F
+0895BA00=3,53,2,0895B320,0,0,0,0,A,53,2,0895AD70,0,0,0,0,A,53,2,0895A960,0,0,0,0,A
+08962F40=2,4,1,09D6743C,0,0,0,0,A,53,2,0B155310,0,0,0,0,A
+089C46E0=3,53,2,09F7978C,0,0,0,0,A,112,0,0,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
+08B3CF3C=1,108,0,0,0,0,0,0,BM
+08DB0BD0=3,4,1,09DD39D0,0,0,0,0,A,55,0,0,0,0,0,0,B,53,2,09EE4770,0,0,0,0,A
+08DB3810=10,7,1,0A287950,0,0,0,0,I,101,0,1,0,0,0,0,B,5,1,0ADAEEFC,0,0,0,0,A,5,1,09E7F0C0,0,0,0,0,A,5,1,0AD31B7C,0,0,0,0,A,53,2,0925E080,0,0,0,0,A,101,0,11,0,0,0,0,L,101,0,32,0,0,0,0,AG,101,0,33,0,0,0,0,AH,101,0,34,0,0,0,0,AI
+08DB49A0=10,7,1,08DB1420,0,0,0,0,K,101,0,3,0,0,0,0,D,5,1,09EE54D0,0,0,0,0,A,5,1,09D44B20,0,0,0,0,A,5,1,0AD3121C,0,0,0,0,A,53,2,09250A70,0,0,0,0,A,101,0,37,0,0,0,0,AL,101,0,38,0,0,0,0,AM,101,0,39,0,0,0,0,AN,101,0,40,0,0,0,0,AO
+08DB4F60=10,7,1,08DB22A0,0,0,0,0,J,101,0,2,0,0,0,0,C,5,1,09D45C10,0,0,0,0,A,5,1,0B5A8190,0,0,0,0,A,5,1,0AD316CC,0,0,0,0,A,53,2,0924E6D0,0,0,0,0,A,101,0,35,0,0,0,0,AJ,101,0,12,0,0,0,0,M,101,0,36,0,0,0,0,AK,101,0,29,0,0,0,0,AD
+08DC0BA0=5,7,1,0E5FA71C,0,0,0,0,E,38,0,15,0,0,0,0,A,38,0,16,0,0,0,0,A,38,0,17,0,0,0,0,A,100,0,111,0,0,0,0,A
+08DC9190=4,3,0,15,0,0,0,0,A,74,0,15,0,0,0,0,A,32,0,0,0,0,0,0,A,53,2,0AC09D2C,0,0,0,0,A
+08DC95C0=4,3,0,16,0,0,0,0,A,74,0,16,0,0,0,0,A,32,0,0,0,0,0,0,A,53,2,0AC0326C,0,0,0,0,A
+08DCA960=4,3,0,17,0,0,0,0,A,74,0,17,0,0,0,0,A,32,0,0,0,0,0,0,A,53,2,0AC0044C,0,0,0,0,A
+08FB1E5C=1,6,0,17,0,0,0,0,A
+08FB473C=1,6,0,16,0,0,0,0,A
+08FB68BC=1,6,0,15,0,0,0,0,A
+0912CA20=4,17,0,0,0,0,0,0,A,17,0,1,0,0,0,0,B,17,0,2,0,0,0,0,C,17,0,3,0,0,0,0,D
+0924E6D0=5,4,1,09D591B0,0,0,0,0,A,4,1,09D58A50,0,0,0,0,A,4,1,09E795D0,0,0,0,0,A,38,0,13,0,0,0,0,A,38,0,14,0,0,0,0,A
+0924EB00=3,53,2,09F864EC,0,0,0,0,A,113,0,14,0,0,0,0,A,113,0,13,0,0,0,0,A
+09250A70=5,4,1,09D58370,0,0,0,0,A,4,1,09E79150,0,0,0,0,A,4,1,09D67BA0,0,0,0,0,A,38,0,13,0,0,0,0,A,38,0,14,0,0,0,0,A
+0925E080=5,4,1,09D599A0,0,0,0,0,A,4,1,09E7A4D0,0,0,0,0,A,4,1,09D592C0,0,0,0,0,A,38,0,13,0,0,0,0,A,38,0,14,0,0,0,0,A
+092A3410=5,7,1,09E7F0C0,0,0,0,0,I,7,1,0B5A8190,0,0,0,0,J,7,1,09D44B20,0,0,0,0,K,53,2,0B5B32F0,0,0,0,0,A,11,4,MISSION:All10b1,0,0,0,0,A
+0931E070=3,55,0,0,0,0,0,0,D,4,1,09DD30F0,0,0,0,0,A,53,2,09EE63A0,0,0,0,0,A
+0931E830=4,4,1,09DD3560,0,0,0,0,A,55,0,0,0,0,0,0,C,53,2,09EE67B0,0,0,0,0,A,42,0,35,0,0,0,0,AF
+09D79700=2,7,1,0AD0D6CC,0,0,0,0,J,53,2,09D79700,0,0,0,0,A
+09EE4770=2,32,0,0,0,0,0,0,A,7,1,0AD31B7C,0,0,0,0,I
+09EE63A0=4,32,0,0,0,0,0,0,A,7,1,0AD3121C,0,0,0,0,K,42,0,35,0,0,0,0,AA,42,0,35,0,0,0,0,Z
+09EE67B0=2,32,0,0,0,0,0,0,A,7,1,0AD316CC,0,0,0,0,J
+09F7978C=1,2,0,14,0,0,0,0,A
+09F864EC=1,1,0,14,0,0,0,0,A
+09FA7F40=3,53,2,09F7978C,0,0,0,0,A,112,0,0,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
+0A0F1D9C=2,53,2,0AE73F3C,0,0,0,0,A,99,7,BearSelect,0,0,0,0,BA
+0A37DCE0=3,53,2,09F7978C,0,0,0,0,A,112,0,0,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
+0A468320=2,7,1,0AD0D6CC,0,0,0,0,J,53,2,0A46CAF0,0,0,0,0,A
+0A4685D0=1,53,2,08DCA960,0,0,0,0,A
+0A468930=1,53,2,08DC95C0,0,0,0,0,A
+0A46CAF0=4,100,0,102,0,0,0,0,A,17,0,27,0,0,0,0,AB,112,0,27,0,0,0,0,AB,104,5,0AD0D6CC,0,0,0,0,30
+0A46D390=1,53,2,08DC9190,0,0,0,0,A
+0AAE8DCC=3,14,0,14,0,0,0,0,A,108,0,1,0,0,0,0,BL,99,7,Bonus,0,0,0,0,BL
+0AB2E52C=2,53,2,0AE73F3C,0,0,0,0,A,99,7,BearSelect,0,0,0,0,BA
+0AC0044C=1,53,2,0AC00A8C,0,0,0,0,A
+0AC00A8C=2,9,0,17,0,0,0,0,A,53,2,08FB1E5C,0,0,0,0,A
+0AC0257C=2,9,0,15,0,0,0,0,A,53,2,08FB68BC,0,0,0,0,A
+0AC0326C=1,53,2,0AC065EC,0,0,0,0,A
+0AC0456C=7,99,7,_Amb_WindCold,0,0,0,0,R,99,7,_Amb_WindCold,0,0,0,0,AT,99,7,_Amb_WindCold,0,0,0,0,AU,99,7,_Amb_WindCold,0,0,0,0,AV,99,7,_Amb_WindCold,0,0,0,0,AW,99,7,_Amb_WindCold,0,0,0,0,CU,99,7,_Amb_WindCold,0,0,0,0,AX
+0AC065EC=2,9,0,16,0,0,0,0,A,53,2,08FB473C,0,0,0,0,A
+0AC09D2C=1,53,2,0AC0257C,0,0,0,0,A
+0AD3822C=2,32,0,0,0,0,0,0,A,53,2,0AC09D2C,0,0,0,0,A
+0AD3E9AC=2,32,0,0,0,0,0,0,A,53,2,0AC0044C,0,0,0,0,A
+0AD3EBBC=2,32,0,0,0,0,0,0,A,53,2,0AC0326C,0,0,0,0,A
+0AE4646C=4,112,0,27,0,0,0,0,AB,55,0,5,0,0,0,0,AB,104,5,0AD0D6CC,0,0,0,0,30,21,6,Unit_Eva_Apocalypse,0,0,0,0,A
+0AE71F3C=2,108,0,0,0,0,0,0,BI,99,7,Bonus,0,0,0,0,BI
+0AE73F3C=2,4,1,0AD98B7C,0,0,0,0,A,99,7,BearSelect,0,0,0,0,BA
+0AE79EDC=1,4,1,0AE789FC,0,0,0,0,A
+0AE7B46C=2,108,0,0,0,0,0,0,BH,99,7,Bonus,0,0,0,0,BH
+0AE7B75C=2,108,0,0,0,0,0,0,BG,99,7,Bonus,0,0,0,0,BG
+0AE7BA4C=2,108,0,0,0,0,0,0,BF,99,7,Bonus,0,0,0,0,BF
+0AE7BD3C=2,108,0,0,0,0,0,0,BE,99,7,Bonus,0,0,0,0,BE
+0AE7D2BC=2,108,0,0,0,0,0,0,BD,99,7,Bonus,0,0,0,0,BD
+0AE7D53C=2,108,0,0,0,0,0,0,BC,99,7,Bonus,0,0,0,0,BC
+0AE7DEBC=1,4,1,0ACF76CC,0,0,0,0,A
+0B02E3EC=1,7,1,0B02B25C,0,0,0,0,A
+0B02F81C=1,7,1,0B02EDCC,0,0,0,0,A
+0B02FCAC=1,7,1,0B02EEFC,0,0,0,0,A
+0B0CC050=1,53,2,09F7978C,0,0,0,0,A
+0B0CF040=3,112,0,0,0,0,0,0,A,53,2,09F7978C,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
+0B155310=4,21,6,Mis_A10_Einstein1,0,0,0,0,A,17,0,42,0,0,0,0,AQ,55,0,5,0,0,0,0,AQ,56,0,1,0,0,0,0,A
+0B17B1F0=2,21,6,Mis_A10_EvaSpySat,0,0,0,0,A,56,0,4,0,0,0,0,A
+0B17C1F0=1,21,6,Mis_A10_EvaOrePurifier,0,0,0,0,A
+0B5B32F0=3,7,1,0ADAEEFC,0,0,0,0,I,7,1,09D45C10,0,0,0,0,J,7,1,09EE54D0,0,0,0,0,K
+0B5BD66C=1,11,4,MISSION:All10c,0,0,0,0,A
+0BF20F60=1,48,0,1,0,0,0,0,F
+0BF2B960=4,53,2,03D8CE20,0,0,0,0,A,11,4,MISSION:All10a1,0,0,0,0,A,11,4,MISSION:All10a2,0,0,0,0,A,11,4,MISSION:All10a3,0,0,0,0,A
+0BFBA880=2,4,1,09D6C96C,0,0,0,0,A,53,2,0BFBBEB0,0,0,0,0,A
+0BFBBEB0=4,21,6,Mis_A10_Einstein2,0,0,0,0,A,17,0,41,0,0,0,0,AP,55,0,5,0,0,0,0,AP,56,0,2,0,0,0,0,A
+0BFBC420=4,21,6,Mis_A10_Einstein3,0,0,0,0,A,55,0,5,0,0,0,0,AR,17,0,43,0,0,0,0,AR,56,0,3,0,0,0,0,A
+0BFBC710=2,4,1,09D6CEFC,0,0,0,0,A,53,2,0BFBC420,0,0,0,0,A
+0C701BBC=1,61,0,0,0,0,0,0,A
+0CF6E22C=1,56,0,14,0,0,0,0,A
 
 [BadGuy1]
-ParentCountry=Russians
 Name=BadGuy1
-Suffix=Soviet
-Prefix=B
-Color=DarkRed
 Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
-
-[BadGuy2]
 ParentCountry=Russians
-Name=BadGuy2
-Suffix=Soviet
-Prefix=B
-Color=DarkRed
-Side=Nod
-SmartAI=yes
-CostUnitsMult=1
-
-[BadGuy3]
-ParentCountry=Russians
-Name=BadGuy3
-Suffix=Soviet
-Prefix=B
-Color=DarkRed
-Side=Nod
-SmartAI=yes
-CostUnitsMult=1
-
-[Germany1]
-ParentCountry=Germans
-Name=Germany1
-Suffix=Allied
-Prefix=G
-Color=DarkGreen
-Side=GDI
-SmartAI=yes
-
-[Germany2]
-ParentCountry=Germans
-Name=Germany2
-Suffix=Allied
-Prefix=G
-Color=DarkGreen
-Side=GDI
-SmartAI=yes
-
-[Germany3]
-ParentCountry=Germans
-Name=Germany3
-Suffix=Allied
-Prefix=G
-Color=DarkGreen
-Side=GDI
-SmartAI=yes
-
-[Temp]
-ParentCountry=Americans
-Name=Temp
-Suffix=Allied
-Prefix=G
-Color=DarkGreen
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[Briefing]
-1=The Soviets have launched a surprise invasion across the German border.
-2=This aggression must be rolled back to insure safety of the European
-3=allies. Drive the Soviets off of Allied soil. You are the front line. Do
-4=NOT let any Soviet forces get past your position.@@ Objective One:
-5=Destroy all Soviet forces.@@ Objective Two: Defend Professor Einstein's
-6=laboratory.
-
-[Basic]
-Briefing=Brief:ALL10
-NextScenario=GDI2A.map
-AltNextScenario=GDI9C.MAP
-NewINIFormat=4
-CarryOverCap=0
-EndOfGame=no
-SkipScore=no
-OneTimeOnly=no
-SkipMapSelect=no
-Official=yes
-IgnoreGlobalAITriggers=yes
-TruckCrate=no
-TrainCrate=no
-Percent=0
-Theme=200Meters
-Player=Player House
-Intro=<none>
-Brief=A10_f00e
-Win=<none>
-Lose=<none>
-Action=<none>
-PostScore=<none>
-PreMapSelect=<none>
-CarryOverMoney=0.000000
-TimerInherit=no
-FillSilos=no
-StartingDropships=0
-HomeCell=98
-AltHomeCell=98
-MultiplayerOnly=0
-TiberiumGrowthEnabled=no
-VeinGrowthEnabled=no
-IceGrowthEnabled=yes
-TiberiumDeathToVisceroid=no
-FreeRadar=no
-InitTime=10000
-
-[VariableNames]
-0=Einsteins Gift FLG,0
-1=Einstein Audio1,0
-2=Einstein Audio2,0
-3=Einstein Audio3,0
-4=SpySat Audio Played,0
-5=Polar Bears Gone,0
-6=Woman in Car,0
-7=Spawn Crate,0
-8=Spawn Crate2,0
-9=Spawn Crate3,0
-10=Spawn Crate4,0
-11=Spawn Crate5,0
-12=Spawn Crate6,0
-13=Spawn Crate7,0
-14=Purifier Exists,0
-
-[Lighting]
-Ambient=1.000000
-Red=0.850000
-Green=0.850000
-Blue=1.000000
-Ground=0.050000
-Level=0.008000
-IonAmbient=0.870000
-IonRed=0.300000
-IonGreen=0.400000
-IonBlue=0.750000
-IonGround=0.000000
-IonLevel=0.000000
-
-[Houses]
-0=Player House
-1=BadGuy1 House
-2=BadGuy2 House
-3=German1 House
-4=Civilian House
-5=Einstein House
-6=BadGuy3 House
-7=German2 House
-8=German3 House
-9=Temp House
-
-[Player House]
-Country=Player
-TechLevel=9
-Credits=100
-IQ=0
-Edge=South
-PlayerControl=yes
-Color=DarkBlue
-Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House
-PercentBuilt=0
-NodeCount=0
 
 [BadGuy1 House]
-Country=BadGuy1
-TechLevel=10
-Credits=400
 IQ=5
-Edge=North
-PlayerControl=no
-Color=LightGold
-Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
-PercentBuilt=0
-NodeCount=25
 000=NAPOWR,74,63
 001=NAPOWR,84,63
 002=NAREFN,84,47
@@ -412,18 +3260,28 @@ NodeCount=25
 022=NAFLAK,68,56
 023=NAFLAK,81,42
 024=NAFLAK,91,62
+Edge=North
+Color=LightGold
+Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
+Country=BadGuy1
+Credits=400
+NodeCount=25
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[BadGuy2]
+Name=BadGuy2
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians
 
 [BadGuy2 House]
-Country=BadGuy2
-TechLevel=10
-Credits=400
 IQ=5
-Edge=North
-PlayerControl=no
-Color=DarkRed
-Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
-PercentBuilt=0
-NodeCount=24
 000=NAPOWR,101,41
 001=NAPOWR,101,38
 002=NAHAND,105,43
@@ -448,54 +3306,28 @@ NodeCount=24
 021=NAFLAK,112,26
 022=NAFLAK,101,30
 023=TESLA,108,25
-
-[German1 House]
-Country=Germany1
+Edge=North
+Color=DarkRed
+Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
+Country=BadGuy2
+Credits=400
+NodeCount=24
 TechLevel=10
-Credits=0
-IQ=3
-Edge=South
-PlayerControl=no
-Color=LightBlue
-Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House,Temp House
 PercentBuilt=0
-NodeCount=0
+PlayerControl=no
 
-[Civilian House]
-Country=Neutral
-TechLevel=1
-Credits=0
-IQ=0
-Edge=South
-PlayerControl=no
-Color=Grey
-Allies=Civilian House,Temp House
-PercentBuilt=0
-NodeCount=0
-
-[Einstein House]
-Country=Einstein
-TechLevel=10
-Credits=0
-IQ=5
-Edge=South
-PlayerControl=no
-Color=Green
-Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House
-PercentBuilt=0
-NodeCount=0
+[BadGuy3]
+Name=BadGuy3
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians
 
 [BadGuy3 House]
-Country=BadGuy3
-TechLevel=10
-Credits=400
 IQ=5
-Edge=North
-PlayerControl=no
-Color=Red
-Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
-PercentBuilt=0
-NodeCount=26
 000=NAPOWR,150,76
 001=NAPOWR,154,76
 002=NAREFN,148,66
@@ -522,115 +3354,98 @@ NodeCount=26
 023=TESLA,134,75
 024=TESLA,158,79
 025=TESLA,165,75
-
-[German2 House]
-Country=Germany2
+Edge=North
+Color=Red
+Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
+Country=BadGuy3
+Credits=400
+NodeCount=26
 TechLevel=10
-Credits=0
-IQ=3
-Edge=South
-PlayerControl=no
-Color=LightBlue
-Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House,Temp House
 PercentBuilt=0
-NodeCount=0
-
-[German3 House]
-Country=Germany3
-TechLevel=10
-Credits=0
-IQ=3
-Edge=South
 PlayerControl=no
-Color=LightBlue
-Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House,Temp House
-PercentBuilt=0
-NodeCount=0
 
-[Temp House]
-Country=Temp
-TechLevel=10
-Credits=0
-IQ=3
-Edge=South
-PlayerControl=no
-Color=LightGrey
-Allies=Civilian House,Temp House
-PercentBuilt=0
-NodeCount=0
+[Basic]
+Win=<none>
+Lose=<none>
+Name=
+Brief=A10_f00e
+Intro=<none>
+Theme=200Meters
+Action=<none>
+Player=Player House
+Percent=0
+Briefing=Brief:ALL10
+GameMode=standard
+HomeCell=98
+InitTime=10000
+Official=yes
+EndOfGame=no
+FillSilos=no
+FreeRadar=no
+MaxPlayer=8
+MinPlayer=2
+PostScore=<none>
+SkipScore=no
+TrainCrate=no
+TruckCrate=no
+AltHomeCell=98
+OneTimeOnly=no
+CarryOverCap=0
+NewINIFormat=4
+NextScenario=GDI2A.map
+PreMapSelect=<none>
+TimerInherit=no
+SkipMapSelect=no
+CarryOverMoney=0.000000
+AltNextScenario=GDI9C.MAP
+MultiplayerOnly=0
+IceGrowthEnabled=yes
+StartingDropships=0
+VeinGrowthEnabled=no
+TiberiumGrowthEnabled=no
+IgnoreGlobalAITriggers=yes
+TiberiumDeathToVisceroid=no
 
-[Map]
-Theater=SNOW
-Size=0,0,105,105
-LocalSize=5,5,95,94
+[Briefing]
+1=The Soviets have launched a surprise invasion across the German border.
+2=This aggression must be rolled back to insure safety of the European
+3=allies. Drive the Soviets off of Allied soil. You are the front line. Do
+4=NOT let any Soviet forces get past your position.@@ Objective One:
+5=Destroy all Soviet forces.@@ Objective Two: Defend Professor Einstein's
+6=laboratory.
 
-[Waypoints]
-0=172098
-1=58080
-2=40111
-3=72145
-4=175107
-5=169117
-6=167115
-7=180111
-8=32080
-9=13111
-10=71169
-11=66080
-12=50110
-13=87147
-14=74080
-15=71111
-16=114147
-17=95096
-18=119114
-19=110080
-20=85109
-21=103133
-22=123123
-23=126139
-24=125103
-25=75151
-26=69152
-27=19111
-28=55090
-29=42120
-30=60148
-31=35107
-32=58072
-33=57088
-34=50080
-35=40103
-36=32111
-37=62144
-38=71135
-39=82147
-40=71155
-41=110168
-42=95060
-43=148147
-44=170116
-45=99036
-46=78047
-47=102171
-48=132170
-49=74059
-50=151118
-51=114019
-52=115023
-53=118030
-54=131038
-55=129042
-56=130051
-57=135052
-58=136055
-59=145064
-60=153063
-61=156060
-62=114020
-63=126181
-64=148054
-98=128114
+[CALAB]
+Name=RA2 Einstein's Lab
+Primary=none
+Secondary=none
+TechLevel=-1
+CanBeOccupied=no
+Insignificant=no
+RadarInvisible=no
+ClickRepairable=yes
+DistributedFire=no
+MaxNumberOccupants=0
+
+[CAMISC01]
+Name=RA2 Barrels
+Insignificant=no
+RadarInvisible=no
+
+[CAMISC02]
+Name=RA2 Barrel
+Insignificant=no
+RadarInvisible=no
+
+[CLEG]
+TechLevel=12
+
+[CMIN]
+Storage=10
+
+[CTECH]
+Name=Technician
+ThreatPosed=10
+Insignificant=no
 
 [CellTags]
 16107=0A46C6B0
@@ -835,6 +3650,333 @@ LocalSize=5,5,95,94
 181110=0BF20CF0
 181111=0BF20CF0
 181112=0BF20CF0
+
+[ChronoSphereSpecial]
+ShowTimer=no
+RechargeTime=120
+
+[Civilian House]
+IQ=0
+Edge=South
+Color=Grey
+Allies=Civilian House,Temp House
+Country=Neutral
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Colors]
+NeoRed=0,140,205
+
+[Countries]
+0=Einstein
+1=Player
+2=BadGuy1
+3=BadGuy2
+4=BadGuy3
+5=Germany1
+6=Germany2
+7=Germany3
+8=Temp
+
+[CrateRules]
+UnitCrateType=CMIN
+SoloCrateMoney=1500
+
+[Cruentus]
+Value=100
+
+[DESO]
+RequiredHouses=Russians,BadGuy1,BadGuy2,BadGuy3
+
+[DOG]
+TechLevel=10
+
+[Einstein]
+Name=Einstein
+Side=GDI
+Color=NeonBlue
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans
+
+[Einstein House]
+IQ=5
+Edge=South
+Color=Green
+Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House
+Country=Einstein
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[Events]
+03D64400=1,36,0,4
+03D7C6B0=3,11,0,20,11,0,19,11,0,18
+03D8B8D0=1,47,0,6
+03D8CE20=1,13,0,25
+0881557C=1,8,0,0
+08933B30=1,19,0,15
+0893A890=1,19,0,15
+0893AE50=1,19,0,15
+0895A960=1,1,0,17
+0895AD70=1,1,0,16
+0895B320=1,1,0,15
+0895BA00=2,36,0,2,36,0,3
+08962F40=1,47,0,600
+089C46E0=1,32,0,8
+08B3CF3C=1,8,0,0
+08DB0BD0=1,6,0,0
+08DB3810=1,11,0,18
+08DB49A0=1,11,0,20
+08DB4F60=1,11,0,19
+08DC0BA0=1,47,0,5
+08DC9190=1,13,0,12
+08DC95C0=1,13,0,15
+08DCA960=1,13,0,15
+08FB1E5C=1,13,0,5
+08FB473C=1,13,0,5
+08FB68BC=1,13,0,5
+0912CA20=1,8,0,0
+0924E6D0=1,13,0,2
+0924EB00=3,11,0,15,11,0,16,11,0,17
+09250A70=1,13,0,2
+0925E080=1,13,0,2
+092A3410=1,13,0,120
+0931E070=1,6,0,0
+0931E830=1,6,0,0
+09D79700=1,47,0,900
+09EE4770=1,51,0,6
+09EE63A0=1,51,0,8
+09EE67B0=1,51,0,8
+09F7978C=1,13,0,5
+09F864EC=1,13,0,5
+09FA7F40=1,32,0,8
+0A0F1D9C=1,4,0,0
+0A37DCE0=1,32,0,8
+0A468320=1,19,0,62
+0A4685D0=1,32,0,25
+0A468930=1,32,0,25
+0A46CAF0=1,1,0,16
+0A46D390=1,32,0,25
+0AAE8DCC=1,1,0,14
+0AB2E52C=1,33,0,0
+0AC0044C=1,13,0,30
+0AC00A8C=1,17,0,0
+0AC0257C=1,17,0,0
+0AC0326C=1,13,0,30
+0AC0456C=1,8,0,0
+0AC065EC=1,17,0,0
+0AC09D2C=1,13,0,30
+0AD3822C=1,47,0,360
+0AD3E9AC=1,47,0,360
+0AD3EBBC=1,47,0,360
+0AE4646C=1,1,0,16
+0AE71F3C=1,36,0,13
+0AE73F3C=1,13,0,3
+0AE79EDC=1,36,0,5
+0AE7B46C=1,36,0,12
+0AE7B75C=1,36,0,11
+0AE7BA4C=1,36,0,10
+0AE7BD3C=1,36,0,9
+0AE7D2BC=1,36,0,8
+0AE7D53C=1,36,0,7
+0AE7DEBC=1,36,0,6
+0B02E3EC=1,32,0,25
+0B02F81C=1,32,0,25
+0B02FCAC=1,32,0,25
+0B0CC050=1,11,0,14
+0B0CF040=1,48,0,0
+0B155310=1,1,0,15
+0B17B1F0=1,19,0,6
+0B17C1F0=3,37,0,14,52,0,2000,13,0,30
+0B5B32F0=1,13,0,20
+0B5BD66C=1,6,0,0
+0BF20F60=1,1,0,13
+0BF2B960=1,36,0,0
+0BFBA880=2,36,0,1,47,0,900
+0BFBBEB0=1,1,0,17
+0BFBC420=1,1,0,16
+0BFBC710=2,36,0,2,47,0,1200
+0C701BBC=1,8,0,0
+0CF6E22C=1,19,0,73
+
+[FA2spVersionControl]
+Version=5
+
+[GACSPH]
+Name=Chrono Sphere
+TechLevel=12
+
+[GAGAP]
+Name=Gap Generator
+TechLevel=12
+
+[GAOREP]
+Name=Allied Ore Processor
+TechLevel=9
+
+[GAWEAT]
+TechLevel=12
+
+[GAYARD]
+TechLevel=12
+
+[GHOST]
+Name=SEAL
+TechLevel=3
+
+[General]
+TeamDelays=500,750,1500
+AISafeDistance=20
+TotalAITeamCap=30,30,30
+SpyMoneyStealPercent=.05
+DefaultMirageDisguises=TREE26,TREE27,TREE28,TREE25
+
+[German1 House]
+IQ=3
+Edge=South
+Color=LightBlue
+Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House,Temp House
+Country=Germany1
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[German2 House]
+IQ=3
+Edge=South
+Color=LightBlue
+Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House,Temp House
+Country=Germany2
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[German3 House]
+IQ=3
+Edge=South
+Color=LightBlue
+Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House,Temp House
+Country=Germany3
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[Germany1]
+Name=Germany1
+Side=GDI
+Color=DarkGreen
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans
+
+[Germany2]
+Name=Germany2
+Side=GDI
+Color=DarkGreen
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans
+
+[Germany3]
+Name=Germany3
+Side=GDI
+Color=DarkGreen
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans
+
+[HARV]
+Storage=20
+
+[Houses]
+0=Player House
+1=BadGuy1 House
+2=BadGuy2 House
+3=German1 House
+4=Civilian House
+5=Einstein House
+6=BadGuy3 House
+7=German2 House
+8=German3 House
+9=Temp House
+
+[INPURPLAMP]
+Name=Invisible Purple Light Post
+LightRedTint=0.4000
+LightBlueTint=0.4000
+LightGreenTint=0.0000
+LightIntensity=0.01
+LightVisibility=4000
+
+[INYELWLAMP]
+Name=Invisible Yellow Light Post
+LightRedTint=0.2
+LightBlueTint=-0.1
+LightGreenTint=0.2
+LightIntensity=0.01
+LightVisibility=4000
+
+[Infantry]
+0=Player House,E1,256,113,121,4,Guard,224,None,0,-1,0,1,1
+1=Player House,E1,256,113,120,3,Guard,160,None,0,-1,0,1,1
+2=Player House,E1,256,113,120,4,Guard,160,None,0,-1,0,1,1
+3=Player House,E1,256,113,121,3,Guard,160,None,0,-1,0,1,1
+4=Player House,E1,256,115,120,4,Guard,160,None,0,-1,0,1,1
+5=Player House,E1,256,115,121,3,Guard,192,None,0,-1,0,1,1
+6=Player House,E1,256,115,121,4,Guard,160,None,0,-1,0,1,1
+7=Player House,E1,256,115,120,3,Guard,160,None,0,-1,0,1,1
+8=Player House,E1,256,115,139,3,Guard,160,None,0,-1,0,1,1
+9=Player House,E1,256,114,139,3,Guard,160,None,0,-1,0,1,1
+10=Player House,E1,256,114,139,2,Guard,160,None,0,-1,0,1,1
+11=Player House,E1,256,114,140,2,Guard,96,None,0,-1,0,1,1
+12=Player House,ENGINEER,256,111,125,3,Guard,160,None,0,-1,0,1,1
+13=Player House,ENGINEER,256,118,127,3,Guard,160,None,0,-1,0,1,1
+14=Player House,JUMPJET,256,116,118,4,Guard,160,None,0,-1,0,1,1
+15=Player House,JUMPJET,256,112,118,4,Guard,64,None,0,-1,0,1,1
+16=German1 House,ENGINEER,256,76,59,2,Guard,160,None,0,0,0,1,1
+17=German1 House,ENGINEER,256,85,60,3,Guard,64,None,0,0,0,1,1
+18=German2 House,ENGINEER,256,106,39,2,Guard,128,None,0,1,0,1,1
+19=German2 House,ENGINEER,256,112,40,2,Guard,224,None,0,1,0,1,1
+20=German3 House,ENGINEER,256,142,75,3,Guard,224,None,0,-1,0,1,1
+21=German3 House,ENGINEER,256,146,69,4,Guard,35,None,0,2,0,1,1
+22=BadGuy1 House,E2,256,80,30,3,Guard,160,08DC9680,0,-1,0,1,1
+23=BadGuy2 House,E2,256,111,12,2,Guard,192,08DCAA20,0,-1,0,1,1
+24=BadGuy3 House,E2,256,170,71,4,Guard,160,08DCA5D0,0,-1,0,1,1
+25=German1 House,E1,256,79,52,3,Guard,0,08DB0570,0,0,0,1,1
+26=German1 House,E1,256,81,52,3,Guard,0,08DB0570,0,0,0,1,1
+27=German1 House,E1,256,78,63,4,Guard,128,None,0,0,0,1,1
+28=German1 House,E1,256,82,63,3,Guard,128,None,0,0,0,1,1
+29=German1 House,CTECH,256,76,59,3,Guard,0,None,0,0,0,1,1
+30=German1 House,CTECH,256,83,57,3,Guard,0,None,0,0,0,1,1
+31=German2 House,E1,256,110,45,2,Guard,128,None,0,1,0,1,1
+32=German2 House,E1,256,112,36,3,Guard,0,0931E250,0,1,0,1,1
+33=German2 House,E1,256,111,45,2,Guard,128,None,0,1,0,1,1
+34=German2 House,E1,256,109,36,4,Guard,0,0931E250,0,1,0,1,1
+35=German2 House,CTECH,256,113,42,3,Guard,96,None,0,1,0,1,1
+36=German2 House,CTECH,256,108,40,2,Guard,192,None,0,1,0,1,1
+37=German3 House,E1,256,148,76,3,Guard,128,None,0,2,0,1,1
+38=German3 House,E1,256,141,70,3,Guard,192,None,0,2,0,1,1
+39=German3 House,E1,256,150,72,2,Guard,64,09319BA0,0,2,0,1,1
+40=German3 House,E1,256,150,70,4,Guard,64,09319BA0,0,2,0,1,1
+41=German3 House,CTECH,256,143,76,4,Guard,0,None,0,2,0,1,1
+42=German3 House,CTECH,256,142,69,2,Guard,64,None,0,2,0,1,1
 
 [IsoMapPack5]
 1=BxAAIAAFaQABADsBAAABAgBoAAIAOwEAAAICAGnIAQEDAgBqSQE6VAJYAAFnAAMAaAFVAm
@@ -3145,7 +6287,7 @@ LocalSize=5,5,95,94
 2306=fVBXlUAtU5eigpAHsoKQB8KCkAfUgBgA8CBQBXAL8knDUiXS2/KLEGv7Q5fG0iuDRcDSLw
 2307=JCcpAFxYBk0CAFU5XSgpAF4oKQBfKCkAYCgpAGEoKQBiKCkAYygpAGQoKQBlKCkAZigpAG
 2308=coKQBoKCkAaUgBJ7AG0BRwNScpAGxABJwVcDUnVQBuKFUAbygpAHAoKQBxKCkAcigpAHMo
-2309=KQB0SAGAD3A13ApwNQe/AAAAAAAABgB3EQAAaAb3DgEAvwAAYwAGAHhKAf//TwEGAHkoKQ
+2309=KQB0SAGAD3A13ApwNQe/AAAAAAAABgB3EQAAawbzDgEAvwAAYwAGAHhKAf//TwEGAHkoKQ
 2310=B6KCkAeygpAHwoKAADWADAAL4BWwYHAFlIAYcICABaKCkAW0gBWAMCAAAIAFwoKQBdKCkA
 2311=XigpAF8oKQBgKCkAYSgpAGIoKQBjKCkAZCgpAGUoKQBmKCkAZygpAGgoKQBpSQHEqRdqSA
 2312=GTFAcAaygpAGwoKQBtKCkAbigpAG8oKQBwKCkAcSgpAHIoKQBzKCkAdEkBJnsNBgB1SQEi
@@ -3176,492 +6318,293 @@ LocalSize=5,5,95,94
 2337=AG8oKQBwKCsAZADM5RNlKCkAZigpAGdIAcUTaCgpAGkoKQBqKCkAaygpAGxIAc0QbSgpAG
 2338=4oKQBvKCsAZQDN7RBmKCkAZygpAGhIAc0QaSgpAGooKQBrKCkAbCgpAG1IAc0QbigrAGYA
 2339=zvUNZygpAGgoKQBpSAHVDWooKQBrKCkAbEgB3QptKCsAZwDP/QpoKCkAaUgBJzEBz4QBTX
-2340=5rVALFCGwoKwBoANDlCGkoKQBqKCkAaygrAGkA0e0FaigoAAEAAAAAEQAA
+2340=5rVALFCGwoKwBoANDlCGkoKQBqKCkAaygrAGkA0ewFCGoA0QD//wAAAAgAEQAA
 
-[Terrain]
-84050=TIBTRE01
-120124=TIBTRE02
-48105=TIBTRE02
-53091=TIBTRE03
-63140=TIBTRE01
-160069=TIBTRE03
-133172=TIBTRE01
-71076=TIBTRE01
-52114=TIBTRE01
-60146=TIBTRE02
-131103=TIBTRE03
-146134=TREE20
-142134=TREE21
-141135=TREE22
-141136=TREE23
-139135=TREE24
-140136=TREE25
-127137=TREE25
-128134=TREE24
-128132=TREE23
-130133=TREE22
-122135=TREE21
-122134=TREE20
-130144=TREE20
-130143=TREE17
-126145=TREE20
-126126=TREE21
-128127=TREE23
-125128=TREE24
-124129=TREE25
-123130=TREE25
-124130=TREE24
-125129=TREE23
-122131=TREE22
-107176=TREE22
-109173=TREE21
-80173=TREE20
-90169=TREE21
-88169=TREE22
-88168=TREE23
-87170=TREE23
-86172=TREE24
-85171=TREE25
-85170=TREE20
-99168=TREE21
-99167=TREE22
-98167=TREE23
-92165=TREE23
-90167=TREE24
-91166=TREE25
-91165=TREE24
-90166=TREE23
-88166=TREE21
-152133=TREE21
-152131=TREE22
-153137=TREE20
-152139=TREE17
-144137=TREE17
-143140=TREE19
-145144=TREE19
-149142=TREE20
-148142=TREE21
-150141=TREE22
-149141=TREE23
-139141=TREE24
-142143=TREE25
-140145=TREE25
-136144=TREE25
-136143=TREE24
-137143=TREE23
-135142=TREE22
-134144=TREE21
-134143=TREE20
-133144=TREE17
-102151=TREE16
-97149=TREE17
-112150=TREE19
-118155=TREE20
-123155=TREE23
-121160=TREE24
-118160=TREE25
-117161=TREE25
-116160=TREE24
-117160=TREE22
-112163=TREE22
-127155=TREE21
-126155=TREE20
-126154=TREE17
-128155=TREE16
-127154=TREE20
-125160=TREE20
-124162=TREE21
-115162=TREE23
-110165=TREE23
-107163=TREE24
-108165=TREE24
-104161=TREE25
-103156=TREE24
-100156=TREE24
-100153=TREE23
-99153=TREE22
-100154=TREE21
-91155=TREE21
-92156=TREE20
-92155=TREE19
-93158=TREE21
-93160=TREE22
-92159=TREE23
-93159=TREE24
-94158=TREE25
-77171=TREE25
-79171=TREE25
-78171=TREE24
-79170=TREE23
-78170=TREE22
-80169=TREE21
-80170=TREE20
-79169=TREE19
-81170=TREE20
-81171=TREE21
-81172=TREE22
-83171=TREE23
-83170=TREE24
-82168=TREE25
-85167=TREE25
-85168=TREE24
-86167=TREE23
-86168=TREE22
-85169=TREE22
-92166=TREE21
-88163=TREE20
-91163=TREE19
-93162=TREE18
-94163=TREE17
-93163=TREE16
-92149=TREE20
-93150=TREE21
-108154=TREE21
-107153=TREE22
-108153=TREE23
-108106=TREE19
-108107=TREE20
-111107=TREE21
-93116=TREE22
-92113=TREE23
-90112=TREE24
-90111=TREE25
-89111=TREE23
-89110=TREE22
-88109=TREE21
-102118=TREE21
-103116=TREE20
-106112=TREE19
-104111=TREE17
-102111=TREE16
-106113=TREE20
-105111=TREE21
-107109=TREE23
-106110=TREE24
-106111=TREE25
-107111=TREE25
-104110=TREE24
-105112=TREE23
-110109=TREE23
-115104=TREE23
-109101=TREE22
-112104=TREE21
-113105=TREE20
-99120=TREE20
-99119=TREE21
-98119=TREE23
-84112=TREE23
-81110=TREE24
-93082=TREE24
-109083=TREE25
-108085=TREE25
-108091=TREE25
-108095=TREE24
-109095=TREE23
-108096=TREE22
-107095=TREE21
-107094=TREE20
-109085=TREE19
-103082=TREE17
-104082=TREE20
-105083=TREE21
-106083=TREE22
-108087=TREE23
-109087=TREE24
-109086=TREE25
-109089=TREE25
-109088=TREE24
-105085=TREE24
-77109=TREE24
-76109=TREE25
-74109=TREE24
-74108=TREE23
-73109=TREE22
-74106=TREE21
-75108=TREE20
-76108=TREE19
-75107=TREE17
-110116=TREE20
-109117=TREE21
-103121=TREE22
-112119=TREE23
-111118=TREE24
-111119=TREE25
-109118=TREE25
-110119=TREE24
-109119=TREE23
-108118=TREE22
-108111=TREE22
-102128=TREE20
-97129=TREE19
-100131=TREE21
-99132=TREE22
-99131=TREE23
-90122=TREE23
-90118=TREE24
-73114=TREE25
-73118=TREE25
-73121=TREE24
-74122=TREE23
-74118=TREE23
-74119=TREE22
-112129=TREE22
-115134=TREE23
-116131=TREE24
-117130=TREE25
-117129=TREE24
-118130=TREE23
-114125=TREE23
-112121=TREE22
-111121=TREE21
-112122=TREE20
-111122=TREE19
-112123=TREE21
-111124=TREE23
-112124=TREE24
-113124=TREE25
-115131=TREE25
-115139=TREE25
-114139=TREE24
-119140=TREE24
-122144=TREE25
-123145=TREE24
-121144=TREE25
-120143=TREE25
-120141=TREE24
-121141=TREE23
-121140=TREE22
-82120=TREE19
-81114=TREE20
-79114=TREE21
-77113=TREE22
-78113=TREE23
-85116=TREE24
-83120=TREE25
-79119=TIBTRE02
-95103=TREE21
-98103=TREE22
-100104=TREE23
-99105=TREE24
-100105=TREE25
-98106=TREE25
-97101=TREE24
-84082=TREE24
-85083=TREE25
-76088=TREE25
-77087=TREE24
-77086=TREE23
-74083=TREE22
-76085=TREE21
-76086=TREE20
-74087=TREE20
-79082=TREE19
-81083=TREE17
-79083=TREE20
-78082=TREE21
-78084=TREE22
-78083=TREE23
-109073=TREE25
-109072=TREE24
-108072=TREE23
-105078=TREE22
-96076=TREE22
-112077=TREE21
-112076=TREE20
-113077=TREE19
-114078=TREE18
-110078=TREE17
-114077=TREE21
-117077=TREE21
-116076=TREE20
-118075=TREE20
-119075=TREE21
-120073=TREE22
-114069=TREE23
-113067=TREE24
-103072=TREE25
-106067=TREE24
-102069=TREE23
-101069=TREE22
-101064=TREE20
-97069=TREE17
-96068=TREE20
-94069=TREE21
-94068=TREE22
-93068=TREE23
-92069=TREE24
-96072=TREE25
-86077=TREE25
-86078=TREE24
-81078=TREE22
-79069=TREE22
-112071=TREE21
-111070=TREE20
-111071=TREE19
-111072=TREE21
-109069=TREE22
-120097=TREE25
-120098=TREE24
-115098=TREE23
-116091=TREE22
-116090=TREE21
-122088=TREE20
-124083=TREE19
-120087=TREE18
-123088=TREE17
-123089=TREE20
-117091=TREE23
-125092=TREE23
-128091=TREE24
-128090=TREE25
-132089=TREE24
-130086=TREE23
-129086=TREE22
-128086=TREE21
-129087=TREE20
-144100=TREE20
-142098=TREE19
-139095=TREE18
-140095=TREE20
-138095=TREE21
-133098=TREE22
-128097=TREE22
-126096=TREE23
-130096=TREE24
-98024=TREE20
-97024=TREE21
-96022=TREE22
-92025=TREE23
-93025=TREE24
-94027=TREE25
-98027=TREE25
-97030=TREE24
-95031=TREE23
-92029=TREE22
-92031=TREE22
-97032=TREE21
-100027=TREE20
-103049=TREE20
-104051=TREE21
-106050=TREE22
-104050=TREE23
-102055=TREE24
-102054=TREE25
-104056=TREE25
-100049=TREE24
-99049=TREE23
-102047=TREE22
-102046=TREE21
-101046=TREE20
-100043=TREE20
-99043=TREE19
-104047=TREE19
-108044=TREE16
-90043=TREE20
-89041=TREE21
-91046=TREE22
-88041=TREE23
-88040=TREE24
-106039=TREE24
-111035=TREE25
-103034=TREE24
-102030=TREE23
-81052=TREE23
-79051=TREE24
-79052=TREE25
-80050=TREE22
-167115=TREE26
-155133=TREE20
-155132=TREE21
-157130=TREE22
-157129=TREE23
-156128=TREE24
-155129=TREE25
-155128=TREE26
-155130=TREE27
-154126=TREE27
-154127=TREE19
-154128=TREE18
-162095=TREE20
-165098=TREE20
-164099=TREE21
-127050=TREE18
-122049=TREE19
-124047=TREE20
-126048=TREE20
-129056=TREE21
-127053=TREE22
-125055=TREE23
-122052=TREE24
-123051=TREE25
-124049=TREE26
-123053=TREE27
-123050=TREE28
-122050=TREE18
-123052=TREE16
-164090=TIBTRE02
-69062=TIBTRE03
-92144=TIBTRE03
-27118=TIBTRE01
+[Lighting]
+Red=0.850000
+Blue=1.000000
+Green=0.850000
+Level=0.008000
+Ground=0.050000
+IonRed=0.300000
+Ambient=1.000000
+IonBlue=0.750000
+IonGreen=0.400000
+IonLevel=0.000000
+IonGround=0.000000
+IonAmbient=0.870000
 
-[Units]
-0=Player House,AMCV,256,117,130,160,Guard,None,0,-1,0,-1,1,1
-1=Player House,MTNK,256,118,119,0,Guard,None,0,-1,0,-1,1,1
-2=Player House,MTNK,256,110,119,0,Guard,None,0,-1,0,-1,1,1
-3=Player House,MTNK,256,105,120,0,Guard,None,0,-1,0,-1,1,1
-4=Player House,MTNK,256,123,120,0,Guard,None,0,-1,0,-1,1,1
-5=German3 House,TNKD,256,143,68,128,Guard,None,0,-1,0,-1,1,1
-6=German3 House,TNKD,256,144,68,128,Guard,None,0,-1,0,-1,1,1
-7=German3 House,TNKD,256,145,68,128,Guard,None,0,-1,0,-1,1,1
-8=Civilian House,CONA,256,178,123,128,Sleep,None,0,-1,0,-1,1,1
-9=Civilian House,EUROC,256,38,131,0,Sleep,None,0,-1,0,-1,1,1
+[Map]
+Size=0,0,105,105
+Theater=SNOW
+LocalSize=5,5,95,94
 
-[Infantry]
-0=Player House,E1,256,113,121,4,Guard,224,None,0,-1,0,1,1
-1=Player House,E1,256,113,120,3,Guard,160,None,0,-1,0,1,1
-2=Player House,E1,256,113,120,4,Guard,160,None,0,-1,0,1,1
-3=Player House,E1,256,113,121,3,Guard,160,None,0,-1,0,1,1
-4=Player House,E1,256,115,120,4,Guard,160,None,0,-1,0,1,1
-5=Player House,E1,256,115,121,3,Guard,192,None,0,-1,0,1,1
-6=Player House,E1,256,115,121,4,Guard,160,None,0,-1,0,1,1
-7=Player House,E1,256,115,120,3,Guard,160,None,0,-1,0,1,1
-8=Player House,E1,256,115,139,3,Guard,160,None,0,-1,0,1,1
-9=Player House,E1,256,114,139,3,Guard,160,None,0,-1,0,1,1
-10=Player House,E1,256,114,139,2,Guard,160,None,0,-1,0,1,1
-11=Player House,E1,256,114,140,2,Guard,96,None,0,-1,0,1,1
-12=Player House,ENGINEER,256,111,125,3,Guard,160,None,0,-1,0,1,1
-13=Player House,ENGINEER,256,118,127,3,Guard,160,None,0,-1,0,1,1
-14=Player House,JUMPJET,256,116,118,4,Guard,160,None,0,-1,0,1,1
-15=Player House,JUMPJET,256,112,118,4,Guard,64,None,0,-1,0,1,1
-16=German1 House,ENGINEER,256,76,59,2,Guard,160,None,0,0,0,1,1
-17=German1 House,ENGINEER,256,85,60,3,Guard,64,None,0,0,0,1,1
-18=German2 House,ENGINEER,256,106,39,2,Guard,128,None,0,1,0,1,1
-19=German2 House,ENGINEER,256,112,40,2,Guard,224,None,0,1,0,1,1
-20=German3 House,ENGINEER,256,142,75,3,Guard,224,None,0,-1,0,1,1
-21=German3 House,ENGINEER,256,146,69,4,Guard,35,None,0,2,0,1,1
-22=BadGuy1 House,E2,256,80,30,3,Guard,160,08DC9680,0,-1,0,1,1
-23=BadGuy2 House,E2,256,111,12,2,Guard,192,08DCAA20,0,-1,0,1,1
-24=BadGuy3 House,E2,256,170,71,4,Guard,160,08DCA5D0,0,-1,0,1,1
-25=German1 House,E1,256,79,52,3,Guard,0,08DB0570,0,0,0,1,1
-26=German1 House,E1,256,81,52,3,Guard,0,08DB0570,0,0,0,1,1
-27=German1 House,E1,256,78,63,4,Guard,128,None,0,0,0,1,1
-28=German1 House,E1,256,82,63,3,Guard,128,None,0,0,0,1,1
-29=German1 House,CTECH,256,76,59,3,Guard,0,None,0,0,0,1,1
-30=German1 House,CTECH,256,83,57,3,Guard,0,None,0,0,0,1,1
-31=German2 House,E1,256,110,45,2,Guard,128,None,0,1,0,1,1
-32=German2 House,E1,256,112,36,3,Guard,0,0931E250,0,1,0,1,1
-33=German2 House,E1,256,111,45,2,Guard,128,None,0,1,0,1,1
-34=German2 House,E1,256,109,36,4,Guard,0,0931E250,0,1,0,1,1
-35=German2 House,CTECH,256,113,42,3,Guard,96,None,0,1,0,1,1
-36=German2 House,CTECH,256,108,40,2,Guard,192,None,0,1,0,1,1
-37=German3 House,E1,256,148,76,3,Guard,128,None,0,2,0,1,1
-38=German3 House,E1,256,141,70,3,Guard,192,None,0,2,0,1,1
-39=German3 House,E1,256,150,72,2,Guard,64,09319BA0,0,2,0,1,1
-40=German3 House,E1,256,150,70,4,Guard,64,09319BA0,0,2,0,1,1
-41=German3 House,CTECH,256,143,76,4,Guard,0,None,0,2,0,1,1
-42=German3 House,CTECH,256,142,69,2,Guard,64,None,0,2,0,1,1
+[NACLON]
+TechLevel=12
+
+[NAIRON]
+TechLevel=12
+
+[NAMISL]
+TechLevel=12
+
+[NAPSIS]
+TechLevel=12
+
+[NAYARD]
+TechLevel=12
+
+[NEGLAMP]
+Name=Negative Light Post
+Image=GALITE
+LightRedTint=0.03
+LightBlueTint=0.04
+LightGreenTint=0.04
+LightIntensity=-0.15
+LightVisibility=4000
+
+[OilExplosionWH]
+Wall=Yes
+
+[OverlayDataPack]
+1=BwAAIIEA/v8fAIBiAAAggQD+cw4AggYG/v0BAIMDBwf//gF1DoMACAD//QF2EIUGBwgHB/
+2=77AQCFBggACgr//QF4FIQHBwgI//sBdxKHBgEABAAGBP75AQCFBwYEBAP/+QF6GIIDBwX8
+3=gQT/hwF6GoAxAQAggQD+cwAAggYGAASBB/7gAQCBAdpYAIQHAAYD/tkBAIEBIfzYWgKEBA
+4=AICAQF/u4BAIEEcAeDAwYH/94BeQAR5cpbBIQGCgoNMAqDBwoMyGcG/tYBAIEDGePKewKB
+5=BQAQhwoKAAAKCgkQDNxYAv7CAQCCBAbLeQgh9NBhDP7aAQCBA8p4CspoDP/fAXkK0VECym
+6=gO/9oBewLWSBDLaBD/6AF1Dkv8zmUOggQD/+oBdRCBAS/symgUhAQGAwT/3QF5CM1pAoEG
+7=MgAB9BH3hgUABgQHBv/sAXYSggcED/3CaQiBBwAHgQkCAMFXCsxaCP/aAXoEgwQBBgAEgg
+8=EEAfCBAcBWCoEEB/8CAYEByngUAhn/1wF5BogDBgQBBwgGBgAEyIYaBgnJfRrBdgb/dAF6
+9=AoCMAQAggQD+WAAAhAQAAAEwCosDAAAHBwYAAQgKBv7qAQCGAwYGBAABUgISDQAFAgr+5Q
+10=EAEfCCAAdkAcpNAIEHBAz/2AFtAhH3IAaBBgXvAAQwEMpiBoMHCggGDP7VAQCDBgoNQeOD
+11=DAAGA+WCBAfSXQb+1wEAhQYKCQADEd0gCIMMBgQF/dB0BgIZggQE/8sBdQRhy4EFyjMMEA
+12=6CAwTQXQiDAwEBAhbQXQT+tgEAI+fRRAyGAQAEAwMB0F0MyD4M/sIBAIEDe8vNSQyEBAEG
+13=BA4Dz18Q1nYM/7QBcw6BA2fMzkkMgQcOAeqLEDYv/64BixCBAdVAEIEBHgTtEBIATdJdEP
+14=6cAQDWQQ7RXArcJBaFBAYHBwHTXBD+mQEAUa3OSRLrkxaCAwQB+YcAAQoIAAAI/6wBdAaB
+15=AVQBzUkYggYGFc/pYRKGBgcBBwoKwFkI/rUBAIUDCgoKDgO+gwACDgAKgQkRxuyREoYDBg
+16=gKCwsQQ/64AQA0C/V2DIEGwG8IgwsLCsBcCMc/Dv5hAQCAyAEAIIEA8gAAgQH+UgAAjgMH
+17=CAcDBgcICggABAYG/1MANgD+TAEAgQQBpAAGgQT+TAAAggcIAFODAQEGIFWBA/+dAZcAhQ
+18=cHAAcKAAQBsf5KAACDAwYKUAGBDP6eAQAVq4gECAcHAQcAADOv/0UAMACBBdCCBv6XAQCK
+19=CAcGAQcDBwcHBsk8BIEE+0sG/6kBiwaBAwf/Af2HAQgKAAgBAVICgwEGBgIC908KgwILCG
+20=BhgQoKBv6aAQCBAxAFK6uGCAYGBAcHUfZwCv7lAQCDBwoIGAKBAFYCggQAEA7+6wEAhQcG
+21=BAMGBfZrwSQZ/t4BAIEByU0IgQYB8+88BIEBAEIQBM17CoEOZ/QOCv+XAZgKB+HIeBIH8Q
+22=oM/kgAAP+jAYsIgQbJTQ6DAQQHwJIA4RMKy1UWgwMBAxABgQHNTRD/oQGLFIEDwZMAggQE
+23=yDIU3TwCwkwIwDcIzSIU0kYQ/6ABixYz/elCEsGUAIIGCM2YEnH2yzEaMfYSHv+WAZUYgQ
+24=QjsOhNEAHLgQfAOgyCCgfLMRwADhP7gQMAA8p8GMCVCgABgQ3/nwGSCOhOCIEEwEAGhQYB
+25=CgsKziMegQYAAsM0DNIgHv9rAZgCgG4BACCBAOUAAIIEAwAEgQTmAAAgAYkGAAADBwgLCg
+26=fNTQCCAwYATogAAQEAAwMAAf6lAQCBBAHMggAGEAXr/AGFBgEKCggh7tlEAP6jAQCCBAAB
+27=xe2DAoYDAAYICggQOtNJBIEDBAqCBwbsLgD+cQEAI/eBAxX+hQQGBAQD64IAgQYD/tFlBI
+28=EDEEgSUwBd/54BggCCAwYVwAesMbAECu4vANIWBNFkBNJkBv59AQDNhQaBAe2PCNAyChJC
+29=EFgKVABPIGIUWgAX/5IBgwKCAQYj//5MAACBAxxME/9QWAIChgYHAwMIB+8sAv5hAQCEAQ
+30=QHA/9TAJAMgQFCBQwiPgOIAwMEBwcGAAf/kgGEBIMBBAH/WQCRDoEByY4MgQgCBP9aACUQ
+31=/jsBAO0tAPftB4EG/5UBkBDBewD+ZAAABgKBCv+WAYMC/2gAhQaBCP+XAZAU/mcAAIEEDA
+32=L+/QEAwGEG/v4BAMCMDP79AQD/cAGPDIBdAAAggQD+kAAAgQT+/wEAgQH+NQ4AgQP/AAKR
+33=AIIGA/79AQCBAf/7AckSwZECgQMAAv74AQCFAwEBAAP/+wHHEIEDA/2DAwYB//kByBKFAw
+34=EABAT/+wHGFgX+/zoBkACA6AAAIIEA/sUAAIED/q4FAIQEBgAB/vwBAIQEBwcA/0gAdwaC
+35=AQH/sQHGAIcBAwEHBgAG/kQAAIUBBAQGBP6yAQCFBAAHBwbswwjQeggB/oIEA/+uAcMKEa
+36=6CBAABtYEEBbr/QgCYAIEHIFH+pQEAggYKEAGBDRG1IAqFDAMAAwPpfA7RwQ6BBP+qAcIM
+37=gQVlxjH1gwUAB+rAEIED0KsO/6wBeAYyAMhgFIED/7QBwgr/SwAwFOq8EoEE63wS/pMBAM
+38=9qFum+EoIGCP/SAaoW7UQO/rkBACPp//oBahoruoEB+moc0aoS/kUBAIA6AQAggQD+YwAA
+39=hwQEAwAAAwXMVQCBBQAV7n0AgQH+tQEAgwQDBNBoAIIEBPEyAv60AQCFAQcHBgD/QwBqAA
+40=P+FEv+sAEAgQQB/oEE0GkE77EEBkqCAwP/sAGwBAGxgwYAA1IAgQRVw4IFBO2vAIIBARIA
+41=AFH+rwEAhAQGBgYBtoEKIAGDDQAHMAmCCQPurwASR/+xAbMIAbIFtBe9LAiBASAJgQYwC+
+42=o4DIIGByQ6/7MBrwCBASfrhAYHAQEICgHKggEGA8vueQ6CBwf/tgGvACHyF76BBgP4gQYT
+43=+IIBA++vAoEDBD4CNf+3Aa0OEgDIsgoGA+x4DgBBhAcIBgb/tQGwAtOYCu54DoIHCghJ/r
+44=0BAMqzBu6zBoIGCBY9/roBAMFmAvs8FP+/Aa8S8HgO/s0BAP+/Aa4U/tUBAIBUAAAggQD+
+45=QxQAhAEAAwP++gEAhgEAAAYDBv74AQAB/oYEBAEGBgT++AEAgwYEAQAE//kBRhaBAwP5hA
+46=MEBAjMSBr/7AFHFIEBAgCBB8tIHIEB/6kBRhSAxAAAIIEA/kMAAIUBAAQDBso3AIQDBAQD
+47=/uoBAIMEBwfMWACEAQgHA//qAVkAggQGA/DKNwSDBwoIBBT/6wFZAIEBykcCiAMHCgoHAQ
+48=MHy0gA/usBAIgEBggHAAYHBv/rAVwEzEoAhgEHBgEEBv/5AV0GhwMHBwEBAAbLSAT+7AEA
+49=gQYJ/4EB/v0BAP/5AV4KWgQ1/YIGChABgQz+8gEAO/yCBgkwDf/zAWcSyFwU//kBZRSBBd
+50=BWGP7sAQB8A//+AVwO/pkDAIB4AAAggQD+XgAAgQTQVgD+7AEAgQXQVgL+7AEAggMMQAmC
+51=Bgn+9gEAQgH/+AFoBAIBgQoQAf/5AWgG/v0LAIEB/gACAIEEw2kAgwMDBP/3AV0WgQYR+Y
+52=QGBwMG//gBXRaJBAMAAAgKCggG/vgBAIcBBggKCwsK/5gBaByAWAAAIIEA/mEAAIYGCgsL
+53=Cwr++wEAgQcCAYIIBP77AQCHBgcICAMGBv78AQCEBAQHCP/9AWoEhAADCAf+/QEAgQH//w
+54=FqCIEE//8BagqCAAf//gFrBggC/pQPAIAHAAAggQD+/x8AgAcAACCBAP7/HwCABwAAIIEA
+55=/v8fAIAHAAAggQD+/x8AgAcAACCBAP7/HwCABwAAIIEA/v8fAIAHAAAggQD+/x8AgAcAAC
+56=CBAP7/HwCABwAAIIEA/v8fAIAHAAAggQD+/x8AgAcAACCBAP7/HwCABwAAIIEA/v8fAIAH
+57=AAAggQD+/x8AgAcAACCBAP7/HwCABwAAIIEA/v8fAIAHAAAggQD+/x8AgAcAACCBAP7/Hw
+58=CABwAAIIEA/v8fAIAHAAAggQD+/x8AgA==
+
+[OverlayPack]
+1=BwAAIIH//v8f/4BoAAAggf/+ZwD/ga/+BAL/ga3+Bgr//wACaACCZmb+/QH/gWYAAf7+Af
+2=+BZgAC/voB/4GsFAH//AF3EgH9/wACdhT//gF1FIJmGxgD//oBehiFZmYbGxv/6QF7GsJ0
+3=DIGuzGkQgRv/hwF6GoASAQAggf/+VwD/gRvYPQCCZmYwBP7eAf/ZWAAR/wADgq2v/tYB/4
+4=EbIfxiAYGqz2YCAf40AYKsq/7TAf+BsdJABoEAcAcB/v/eAXkAE/zKWgKBAAABYAo0A/7b
+5=Af+BGxYCy1sIQfkQBf/iAXQIQgKBrc5hBs5jDP7aAf+BG8paCspoDP/hAXkAz1MC//UBaA
+6=5AAYF/zmUQEBL+5QH/wn4C0GQSw1UE/uUB/4F/AAGC/2bKaBSDf38b/+IBeADKWBaBGyIA
+7=HgAQB4Qbf39m/+oBdRIiAsFoCMRsCgAHEf8GAsp5Fv/bAXcUhH8bf2YR8xIAFg8D/yAFzE
+8=wM/9cBixoV/zH2FfMB+iH4AAzJfBwR//90AYscgEIBACCB//5YAP+BfyADUAqEf3//GxAF
+9=/ukB/wHtAfOBG1ANgv9tAf+BG//oAW0AI+l0AcljBIFmIAH+1wH/gQBQBjXv1lwE/tYB/4
+10=IAAEIAAAgF/tNqAAH9RhX+zwH/EfYiASAIgQACAAQD/+IBXgRjzTP8yEEMgWnTWwiFGxtm
+11=G///yQF1CgHO00IMB/2CGxvTbALUdgz/tAFzCHH/zkgMKADRXg7WdgwEGP6xAf8Fz9VCDB
+12=H96W0CgRs4F/+uAW0Cc7TMSRKBG8NUBOsSFMJjAP6vAf/UQQ7TWgrcIwwWMoJubf+uAXQK
+13=1EEW7Y4UgmZmwVkGwWkCwW8I/qoB/4FmUgHOSRAMAOtcGMNYCIF//6YBkxiBrjAHga/JQA
+14=rDSwgwCRP+7IwQgWwR/sJYCv64Af/GTQbyVR6BbCgAHjUSBf5nAf+AYgEAIIH/8gAAgRv+
+15=UgD/hmZma2ZmfxABgf8ABP9TADYA/kwB/4EbAa8Rs/5MAP+BZhBPghsbAgAAATAG/pgB/4
+16=EbEgCBZv9QADsCgQBwAf6eAf+BGwABAgCCZhvMOQL8PQRx9v+fAZUEQgIiBMtABvpMBv+p
+17=AYsGBf8R/AAEgv9mFAp3wPlOCMiTBP+fAZIEK50z/co8CMo/CP7iAf8kA4KwsRgG/0QARw
+18=j+sgH/JgMT9IGtIA+DbG1u/uAB/4GvBfwF/oGuUgEsCe3+ER/c0JcC/6UBigoB/ciXAE4E
+19=/kcA//+jAYsIC/rKMxThSw7KLhYgN8KOAIJ/f81AFv+hAYsUBfwgAXQD3UESwDYEwjQIy2
+20=UW1EUM/6ABixYxx3HMOfbcGggYI80tENRDBjH2EAb/mAGVGBHK6JcAGC1EMsxnGsQ4BMt7
+21=GMePBP+hAZgK5wUcRAHKLxbDSQ4h+88/GP9vAZEcgFkBACCB/+UAAIJ/fzAE6TAAhRv//2
+22=YbEAHNTQCDZmZmIAYQA85lANaSAIGw/nsB/yH77S0Agf8B+9NgAMxRAP6jAf+BfwACEAPs
+23=MAAh/YFs1EcEE/7dYwL+gwH/IaECABADAAGBa+0xAoFrzTMGNf0CTQAJEF3/ngGEBDOiVA
+24=CBfyG+6DYIgWbThQYARtAuBCgY0pMIga7+dwH/zWMIg39ras8PCoGo3QkGzRsENAQEUlX/
+25=ChIR/N0zCIGv/nEB/4F/04EE+akIBkRoUmwoCig8EP6PAf8CAIF//1MAhQYYSWZdEGCBZg
+26=H//5UBjAwCAv9UACQOfCHIWQgOLv+SAZEO0mAK/lMA/wP//5cBjhAEA/5lAP9KBf6TAf/t
+27=LgT17hHVjxQL+IGx/ooB/4Gs/kwA/8k1GBoB/rUB//ivCoGrz2oA/u4B/8o4DP+VAZAayY
+28=IY/18Arwr/cAGQHIDmAAAggf/iAACBrzAHgar+QgD/ga7dUACBZv6bAf+Bq9IYAoGp6gAC
+29=gbD/ngFyAIGx/mAA/0RL/sMD/4Gt1x4C53EEgaj+pwH/3nAA9QEK/0MALQD+UAH//0MAKA
+30=rzEATNOwj+IgL//1sBgQr/cgBxBPcUDIKvZv+EAZEA/2EAEATYWgL/cgHHEM+MEP9NAI0M
+31=gazqYQyCZhv+ZwH//5MAjQwT+oEbAAL+UwH//3gATBLrlhaEG2axG/9pAccU/pIA/wH7gW
+32=YCBIEb//QByRgWj4MbZv8B/P9XAccW1RYC/4sAvw7/PQHHHIAoAQAggf/RAACBrf6wAP+B
+33=G/7PAf+Br/6aAf+BqGAKgaz+XgD/gbHdegSBrv6CAf/0lgKFf3//f2bRYQb/XwA7BP47Af
+34=+Bq/5MAP+BfwIBght//kUA/4OvG2b/VAHGAPiWAt+7BIYbGxt/f2b5eghkKIRmZmYb/7IB
+35=xgCBZgH+FATrSAzPGQgCSf9WAcEIYAGBsP9QANoJgQIgBIh/fxt/G2gbb/p9DD35/1kBwg
+36=z/UAC7BIECMAFwCoFtE8D9gA7/fwHDCtgXCs0VABH6VAAgCoN/ZnHqfw7QqxD/gAHDCuka
+37=EDH2yGAUCbz+7AH/zmoU6rwS/5QBexTrFQDPahbqfxD/wQF8FNBqFvyAEP6pAf8j6dlqGt
+38=8XCv+8AagawsEMgWb6ahr/WQGpGIA8AQAggf/+YwD/g2ZmGwAFgQLMVQCBAgAV630Ag63/
+39=/+57AP6FAf+DZhtm0WgA768Agar/tgGuAIUbZmZo//9CAGoAEf3wewL+gQH/hWZmZv9wz2
+40=kEgn9/zKAA2YsGgawyAQJKEE7+rQH/B/+DZhtnUgCBAmAJgX/tsQSBawH+FAD/rwG0BiO2
+41=AfBAAWAJ7nsIgv9tEfv/sgGxBAP/AbiDf/9/FfIUAAAJEAvKfAbgQgiCbmtIBf6VAf+Br9
+42=tLAgHvg38bGyf0gn8bAAL0MgD+tgH/EgAR/UP4gxt/Zu57CoEbBkYcAP62Af8Bt8l7BhYM
+43=8H8EAAH+yQH/7HgSg2b/qBpH/74BrxLKeRTteBImAv6VAf/YSg7LYRbxdw7KoBb+vgH/+W
+44=4Ygan+oQH/ga7egAbuehb+7QH/gav+dQH/gG8AACCB//6KAP+Br/4OAv//DwKLAP6sCf//
+45=7wWaAoRm/xsb0y4Ugaz+4wH/gWYAA4Fm1EcU/uIB/zH+gWbVRhT+4gH/E/wSAYP//7HOMB
+46=rPSxr+0QH/gWYEAYEbAgTMSBj/7AFIGBH+zEccgX//qQFHGIDBAAAggf/+QwD/hRv/ZmYb
+47=yjcAhH9mZn9AC4Gq/uIB/4FnAf/PSABCAYGrcBaBqf7XAf8B/4JmZsw3BIFmAARUA/7jAf
+48=9CAYGvYf8B/mQD/vEB/4EbBgCFZv9/f3/LSAT+4AH/ga5n/xH7FAL/7gFeCMtLBAoT//kB
+49=XQqBrhn+/+8BXQjLSRCCsP//+AFdBgABga04BSAMgQIwAf7sAf8+BlH/yVsU/vEB/2H4UA
+50=mBqP7uAf9z9//2AWgU/wACXxj+oQP/gGYAACCB//5eAP+BAtBWAP7kAf+BrP/9AVgAgapx
+51=9lH3YAn+7wH/QfjVaARUKP7aAf+BAjAB/vUN/4Fm/gAC/4FmIgKFZhtmZhv+9gH/IfmCGx
+52=sCAv73Af8yAAAB/vgB/4FmIf7/mQFnHIBIAAAggf/+YQD/gRsgAYFm/voB/zIB/vsB/yQA
+53=gWb/+wFoABID//8BaASB/wIB/v0B//8AAmkI/wACaQYCAf7/Af//AAJrDv6VDf+ABwAAII
+54=H//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcA
+55=ACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4
+56=AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/
+57=H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4A=
+
+[Player]
+Name=Player
+Side=GDI
+Color=DarkGreen
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans
+
+[Player House]
+IQ=0
+Edge=South
+Color=DarkBlue
+Allies=Player House,German1 House,Civilian House,Einstein House,German2 House,German3 House
+Country=Player
+Credits=100
+NodeCount=0
+TechLevel=9
+PercentBuilt=0
+PlayerControl=yes
+
+[Ranking]
+ParTimeEasy=02:00:00
+ParTimeHard=00:20:00
+OverParTitle=GUI:ParTitleALL10
+ParTimeMedium=01:00:00
+UnderParTitle=GUI:ParTitleALL11
+OverParMessage=GUI:OverParMsgALL10
+UnderParMessage=GUI:UnderParMsgALL10
+
+[Riparius]
+Value=50
+
+[SENGINEER]
+TechLevel=10
+
+[ScriptTypes]
+0=0E65590C
+1=09D52BB0
+2=09D459D0
+3=08DF6AB0
+4=09D50DC0
+5=09D61290
+6=09D448E0
+7=09D5C280
+8=09D5BCB0
+9=09D5B840
+10=0AF9645C
+11=0AF95DBC
+12=0AFBC0BC
+13=08DB2680
+14=08DB1550
+15=08DB1030
+16=0A256DC0
+17=09E7A270
+18=09D58DC0
+19=0ACC85C0
+20=09D587F0
+21=09E79370
+22=0ACD7DE0
+23=09E78B60
+24=09D67940
+25=09E397F0
+26=09F42DBC
+27=09E4FDC0
+28=09E4F950
+29=09E4F4E0
+30=0ACD3370
+31=09E4E950
+32=09F40DBC
+33=09F4090C
+34=09F4045C
+35=09F4FDBC
+36=09F4F90C
+37=09F4F45C
+38=0D01945C
+39=0D6AADBC
+40=09F4E45C
+41=0D01A45C
+42=0D01BDBC
+43=0D01B90C
+44=0D01B45C
+45=0D01CDBC
+46=0D01C90C
+47=07B70534
+48=0D01DDBC
+49=09EC2950
+50=09EC24E0
+51=09EC2070
+52=0D01E90C
+53=0D01E56C
+54=0D01FDBC
+55=0D01FA1C
+56=09F48DBC
+57=09F48A1C
+58=09F4856C
+59=0ADF5DBC
+60=0AE7CA6C
+61=0AE7C36C
+62=0B47CCAC
+63=0B02D59C
+
+[SpecialFlags]
+Inert=no
+FogOfWar=no
+IonStorms=no
+MCVDeploy=no
+Meteorites=no
+Visceroids=no
+FixedAlliance=no
+TiberiumGrows=no
+InitialVeteran=no
+HarvesterImmune=no
+TiberiumSpreads=yes
+TiberiumExplosive=no
+DestroyableBridges=yes
 
 [Structures]
+0=Player House,GACNST,256,113,124,0,None,1,0,1,0,0,None,None,None,0,0
 1035691=Einstein House,GAPOWR,256,96,176,0,0B5BD58C,1,0,1,0,0,None,None,None,0,0
 1035694=Einstein House,GAPOWR,256,103,176,0,0B5BD58C,1,0,1,0,0,None,None,None,0,0
 1035697=Einstein House,CAMISC02,256,99,170,0,None,0,0,1,0,0,None,None,None,0,0
@@ -3674,7 +6617,6 @@ LocalSize=5,5,95,94
 1035704=Einstein House,CAMISC03,256,104,172,0,None,0,0,1,0,0,None,None,None,0,0
 1035705=Einstein House,GAPILL,256,106,172,64,0B5BD58C,1,0,1,0,0,None,None,None,0,0
 1035706=Einstein House,GAPILL,256,106,177,64,0B5BD58C,1,0,1,0,0,None,None,None,0,0
-1035707=Player House,GACNST,256,113,124,0,None,1,0,1,0,0,None,None,None,0,0
 1035710=Player House,GAPOWR,256,107,121,0,None,1,0,1,0,0,None,None,None,0,0
 1035713=Player House,GAPOWR,256,120,121,0,None,1,0,1,0,0,None,None,None,0,0
 1035716=Player House,GAPILE,256,119,126,0,None,1,0,1,0,0,None,None,None,0,0
@@ -3803,670 +6745,87 @@ LocalSize=5,5,95,94
 1035884=Einstein House,GACSPH,256,98,177,0,None,0,0,1,0,0,None,None,None,1,0
 1035886=Einstein House,CALAB,256,99,173,0,0B0CF980,0,0,1,0,0,None,None,None,0,0
 
-[OverlayPack]
-1=CQAAIIH//v4f/4H/gGgAACCB//5nAP+Br/4EAv+Brf4GCv//AAJoAIJmZv79Af+BZgAB/v
-2=4B/4FmAAL++gH/gawUAf/8AXcSAf3/AAJ2FP/+AXUUgmYbGAP/+gF6GIVmZhsbG//pAXsa
-3=wnQMga7MaRCBG/+HAXoagBIBACCB//5XAP+BG9g9AIJmZjAE/t4B/9lYABH/AAOCra/+1g
-4=H/gRsh/GIBgarPZgIB/jQBgqyr/tMB/4Gx0kAGgQBwBwH+/94BeQAT/MpaAoEAAAFgCjQD
-5=/tsB/4EbFgLLWwhB+RAF/+IBdAhCAoGtzmEGzmMM/toB/4EbyloKymgM/+EBeQDPUwL/9Q
-6=FoDkABgX/OZRAQEv7lAf/CfgLQZBLDVQT+5QH/gX8AAYL/ZspoFIN/fxv/4gF4AMpYFoEb
-7=IgAeABAHhBt/f2b/6gF1EiICwWgIxGwKAAcR/wYCynkW/9sBdxSEfxt/ZhHzEgAWDwP/IA
-8=XMTAz/1wGLGhX/MfYV8wH6IfgADMl8HBH//3QBixyARAEAIIH//lgA/4F/IANQCoR/f/8b
-9=EAX+6QH/Ae0B84EbUA2C/20B/4Eb/+gBbQAj6XQByWMEgWYgAf7XAf+BAFAGNe/WXAT+1g
-10=H/ggAAQgAACAX+02oAAf1GFf7PAf8R9iIBIAiBAAIABAP/4gFeBGPNM/zIQQyBadNbCIUb
-11=G2Yb///JAXUKAc7TQgwH/YIbG9NsAtR2DP+0AXMIcf/OSAwoANFeDtZ2DAQY/rEB/wXP1U
-12=IMEf3pbQKBGzgX/64BbQJztMxJEoEbw1QE6xIUwmMA/q8B/9RBDtNaCtwjDBYygm5t/64B
-13=dArUQRbtjhSCZmbBWQbBaQLBbwj+qgH/gWZSAc5JEAwA61wYw1gIgX//pgGTGIGuMAeBr8
-14=lACsNLCDAJE/7sjBCBbBH+wlgK/rgB/8ZNBvJVHoFsKAAeNRIF/mYB/4H/gGIBACCB//IA
-15=AIEb/lIA/4ZmZmtmZn8QAYH/AAT/UwA2AP5MAf+BGwGvEbP+TAD/gWYQT4IbGwIAAAEwBv
-16=6YAf+BGxIAgWb/UAA7AoEAcAH+ngH/gRsAAQIAgmYbzDkC/D0Ecfb/nwGVBEICIgTLQAb6
-17=TAb/qQGLBgX/EfwABIL/ZhQKd8D5TgjIkwT/nwGSBCudM/3KPAjKPwj+4gH/JAOCsLEYBv
-18=9EAEcI/rIB/yYDE/SBrSAPg2xtbv7gAf+BrwX8Bf6BrlIBLAnt/hEf3NCXAv+lAYoKAf3I
-19=lwBOBP5HAP//owGLCAv6yjMU4UsOyi4WIDfCjgCCf3/NQBb/oQGLFAX8IAF0A91BEsA2BM
-20=I0CMtlFtRFDP+gAYsWMcdxzDn23BoIGCPNLRDUQwYx9hAG/5gBlRgRyuiXABgtRDLMZxrE
-21=OATLexjHjwT/oQGYCucFHEQByi8Ww0kOIfvPPxj/bwGRHIBZAQAggf/lAACCf38wBOkwAI
-22=Ub//9mGxABzU0Ag2ZmZiAGEAPOZQDWkgCBsP57Af8h++0tAIH/AfvTYADMUQD+owH/gX8A
-23=AhAD7DAAIf2BbNRHBBP+3WMC/oMB/yGhAgAQAwABgWvtMQKBa80zBjX9Ak0ACRBd/54BhA
-24=QzolQAgX8hvug2CIFm04UGAEbQLgQoGNKTCIGu/ncB/81jCIN/a2rPDwqBqN0JBs0bBDQE
-25=BFJV/woSEfzdMwiBr/5xAf+Bf9OBBPmpCAZEaFJsKAooPBD+jwH/AgCBf/9TAIUGGElmXR
-26=BggWYB//+VAYwMAgL/VAAkDnwhyFkIDi7/kgGRDtJgCv5TAP8D//+XAY4QBAP+ZQD/SgX+
-27=kwH/7S4E9e4R1Y8UC/iBsf6KAf+BrP5MAP/JNRgaAf61Af/4rwqBq89qAP7uAf/KOAz/lQ
-28=GQGsmCGP9fAK8K/3ABkByA5gAAIIH/4gAAga8wB4Gq/kIA/4Gu3VAAgWb+mwH/gavSGAKB
-29=qeoAAoGw/54BcgCBsf5gAP9ES/7DA/+BrdceAudxBIGo/qcB/95wAPUBCv9DAC0A/lAB//
-30=9DACgK8xAEzTsI/iIC//9bAYEK/3IAcQT3FAyCr2b/hAGRAP9hABAE2FoC/3IBxxDPjBD/
-31=TQCNDIGs6mEMgmYb/mcB//+TAI0ME/qBGwAC/lMB//94AEwS65YWhBtmsRv/aQHHFP6SAP
-32=8B+4FmAgSBG//0AckYFo+DG2b/Afz/VwHHFtUWAv+LAL8O/z0BxxyAKAEAIIH/0QAAga3+
-33=sAD/gRv+zwH/ga/+mgH/gahgCoGs/l4A/4Gx3XoEga7+ggH/9JYChX9//39m0WEG/18AOw
-34=T+OwH/gav+TAD/gX8CAYIbf/5FAP+Drxtm/1QBxgD4lgLfuwSGGxsbf39m+XoIZCiEZmZm
-35=G/+yAcYAgWYB/hQE60gMzxkIAkn/VgHBCGABgbD/UADaCYECIASIf38bfxtoG2/6fQw9+f
-36=9ZAcIM/1AAuwSBAjABcAqBbRPA/YAO/38BwwrYFwrNFQAR+lQAIAqDf2Zx6n8O0KsQ/4AB
-37=wwrpGhAx9shgFAm8/uwB/85qFOq8Ev+UAXsU6xUAz2oW6n8Q/8EBfBTQahb8gBD+qQH/I+
-38=nZahrfFwr/vAGoGsLBDIFm+moa/1kBqRiAPgEAIIH//mMA/4NmZhsABYECzFUAgQIAFet9
-39=AIOt///uewD+hQH/g2YbZtFoAO+vAIGq/7YBrgCFG2ZmaP//QgBqABH98HsC/oEB/4VmZm
-40=b/cM9pBIJ/f8ygANmLBoGsMgECShBO/q0B/wf/g2YbZ1IAgQJgCYF/7bEEgWsB/hQA/68B
-41=tAYjtgHwQAFgCe57CIL/bRH7/7IBsQQD/wG4g3//fxXyFAAACRALynwG4EIIgm5rSAX+lQ
-42=H/ga/bSwIB74N/Gxsn9IJ/GwAC9DIA/rYB/xIAEf1D+IMbf2buewqBGwZGHAD+tgH/AbfJ
-43=ewYWDPB/BAAB/skB/+x4EoNm/6gaR/++Aa8SynkU7XgSJgL+lQH/2EoOy2EW8XcOyqAW/r
-44=4B//luGIGp/qEB/4Gu3oAG7noW/u0B/4Gr/nQB/4H/gG8AACCB//6KAP+Br/4OAv//DwKL
-45=AP6sCf//7wWaAoRm/xsb0y4Ugaz+4wH/gWYAA4Fm1EcU/uIB/zH+gWbVRhT+4gH/E/wSAY
-46=P//7HOMBrPSxr+0QH/gWYEAYEbAgTMSBj/7AFIGBH+zEccgX//qQFHGIDDAAAggf/+QwD/
-47=hRv/ZmYbyjcAhH9mZn9AC4Gq/uIB/4FnAf/PSABCAYGrcBaBqf7XAf8B/4JmZsw3BIFmAA
-48=RUA/7jAf9CAYGvYf8B/mQD/vEB/4EbBgCFZv9/f3/LSAT+4AH/ga5n/xH7FAL/7gFeCMtL
-49=BAoT//kBXQqBrhn+/+8BXQjLSRCCsP//+AFdBgABga04BSAMgQIwAf7sAf8+BlH/yVsU/v
-50=EB/2H4UAmBqP7uAf9z9//2AWgU/wACXxj+oAP/gf+AZgAAIIH//l4A/4EC0FYA/uQB/4Gs
-51=//0BWACBqnH2UfdgCf7vAf9B+NVoBFQo/toB/4ECMAH+9Q3/gWb+AAL/gWYiAoVmG2ZmG/
-52=72Af8h+YIbGwIC/vcB/zIAAAH++AH/gWYh/v+ZAWccgEoAACCB//5hAP+BGyABgWb++gH/
-53=MgH++wH/JACBZv/7AWgAEgP//wFoBIH/AgH+/QH//wACaQj/AAJpBgIB/v8B//8AAmsO/p
-54=QN/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+
-55=H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h
-56=//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f
-57=/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/
-58=+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4A=
-
-[OverlayDataPack]
-1=CQAAIIEA/v4fAIEAgGIAACCBAP5zDgCCBgb+/QEAgwMHB//+AXUOgwAIAP/9AXYQhQYHCA
-2=cH/vsBAIUGCAAKCv/9AXgUhAcHCAj/+wF3EocGAQAEAAYE/vkBAIUHBgQEA//5AXoYggMH
-3=BfyBBP+HAXoagDEBACCBAP5zAACCBgYABIEH/uABAIEB2lgAhAcABgP+2QEAgQEh/NhaAo
-4=QEAAgIBAX+7gEAgQRwB4MDBgf/3gF5ABHlylsEhAYKCg0wCoMHCgzIZwb+1gEAgQMZ48p7
-5=AoEFABCHCgoAAAoKCRAM3FgC/sIBAIIEBst5CCH00GEM/toBAIEDyngKymgM/98BeQrRUQ
-6=LKaA7/2gF7AtZIEMtoEP/oAXUOS/zOZQ6CBAP/6gF1EIEBL+zKaBSEBAYDBP/dAXkIzWkC
-7=gQYyAAH0EfeGBQAGBAcG/+wBdhKCBwQP/cJpCIEHAAeBCQIAwVcKzFoI/9oBegSDBAEGAA
-8=SCAQQB8IEBwFYKgQQH/wIBgQHKeBQCGf/XAXkGiAMGBAEHCAYGAATIhhoGCcl9GsF2Bv90
-9=AXoCgI4BACCBAP5YAACEBAAAATAKiwMAAAcHBgABCAoG/uoBAIYDBgYEAAFSAhINAAUCCv
-10=7lAQAR8IIAB2QByk0AgQcEDP/YAW0CEfcgBoEGBe8ABDAQymIGgwcKCAYM/tUBAIMGCg1B
-11=44MMAAYD5YIEB9JdBv7XAQCFBgoJAAMR3SAIgwwGBAX90HQGAhmCBAT/ywF1BGHLgQXKMw
-12=wQDoIDBNBdCIMDAQECFtBdBP62AQAj59FEDIYBAAQDAwHQXQzIPgz+wgEAgQN7y81JDIQE
-13=AQYEDgPPXxDWdgz/tAFzDoEDZ8zOSQyBBw4B6osQNi//rgGLEIEB1UAQgQEeBO0QEgBN0l
-14=0Q/pwBANZBDtFcCtwkFoUEBgcHAdNcEP6ZAQBRrc5JEuuTFoIDBAH5hwABCggAAAj/rAF0
-15=BoEBVAHNSRiCBgYVz+lhEoYGBwEHCgrAWQj+tQEAhQMKCgoOA76DAAIOAAqBCRHG7JEShg
-16=MGCAoLCxBD/rgBADQL9XYMgQbAbwiDCwsKwFwIxz8O/mABAIEAgMgBACCBAPIAAIEB/lIA
-17=AI4DBwgHAwYHCAoIAAQGBv9TADYA/kwBAIEEAaQABoEE/kwAAIIHCABTgwEBBiBVgQP/nQ
-18=GXAIUHBwAHCgAEAbH+SgAAgwMGClABgQz+ngEAFauIBAgHBwEHAAAzr/9FADAAgQXQggb+
-19=lwEAiggHBgEHAwcHBwbJPASBBPtLBv+pAYsGgQMH/wH9hwEICgAIAQFSAoMBBgYCAvdPCo
-20=MCCwhgYYEKCgb+mgEAgQMQBSurhggGBgQHB1H2cAr+5QEAgwcKCBgCgQBWAoIEABAO/usB
-21=AIUHBgQDBgX2a8EkGf7eAQCBAclNCIEGAfPvPASBAQBCEATNewqBDmf0Dgr/lwGYCgfhyH
-22=gSB/EKDP5IAAD/owGLCIEGyU0OgwEEB8CSAOETCstVFoMDAQMQAYEBzU0Q/6EBixSBA8GT
-23=AIIEBMgyFN08AsJMCMA3CM0iFNJGEP+gAYsWM/3pQhLBlACCBgjNmBJx9ssxGjH2Eh7/lg
-24=GVGIEEI7DoTRABy4EHwDoMggoHyzEcAA4T+4EDAAPKfBjAlQoAAYEN/58BkgjoTgiBBMBA
-25=BoUGAQoLCs4jHoEGAALDNAzSIB7/awGYAoBuAQAggQDlAACCBAMABIEE5gAAIAGJBgAAAw
-26=cICwoHzU0AggMGAE6IAAEBAAMDAAH+pQEAgQQBzIIABhAF6/wBhQYBCgoIIe7ZRAD+owEA
-27=ggQAAcXtgwKGAwAGCAoIEDrTSQSBAwQKggcG7C4A/nEBACP3gQMV/oUEBgQEA+uCAIEGA/
-28=7RZQSBAxBIElMAXf+eAYIAggMGFcAHrDGwBAruLwDSFgTRZATSZAb+fQEAzYUGgQHtjwjQ
-29=MgoSQhBYClQATyBiFFoAF/+SAYMCggEGI//+TAAAgQMcTBP/UFgCAoYGBwMDCAfvLAL+YQ
-30=EAhAEEBwP/UwCQDIEBQgUMIj4DiAMDBAcHBgAH/5IBhASDAQQB/1kAkQ6BAcmODIEIAgT/
-31=WgAlEP47AQDtLQD37QeBBv+VAZAQwXsA/mQAAAYCgQr/lgGDAv9oAIUGgQj/lwGQFP5nAA
-32=CBBAwC/v0BAMBhBv7+AQDAjAz+/QEA/3ABjwyAXQAAIIEA/pAAAIEE/v8BAIEB/jUOAIED
-33=/wACkQCCBgP+/QEAgQH/+wHJEsGRAoEDAAL++AEAhQMBAQAD//sBxxCBAwP9gwMGAf/5Ac
-34=gShQMBAAQE//sBxhYF/v86AZAAgOoAACCBAP7FAACBA/6uBQCEBAYAAf78AQCEBAcHAP9I
-35=AHcGggEB/7EBxgCHAQMBBwYABv5EAACFAQQEBgT+sgEAhQQABwcG7MMI0HoIAf6CBAP/rg
-36=HDChGuggQAAbWBBAW6/0IAmACBByBR/qUBAIIGChABgQ0RtSAKhQwDAAMD6XwO0cEOgQT/
-37=qgHCDIEFZcYx9YMFAAfqwBCBA9CrDv+sAXgGMgDIYBSBA/+0AcIK/0sAMBTqvBKBBOt8Ev
-38=6TAQDPahbpvhKCBgj/0gGqFu1EDv65AQAj6f/6AWoaK7qBAfpqHNGqEv5EAQCBAIA8AQAg
-39=gQD+YwAAhwQEAwAAAwXMVQCBBQAV7n0AgQH+tQEAgwQDBNBoAIIEBPEyAv60AQCFAQcHBg
-40=D/QwBqAAP+FEv+sAEAgQQB/oEE0GkE77EEBkqCAwP/sAGwBAGxgwYAA1IAgQRVw4IFBO2v
-41=AIIBARIAAFH+rwEAhAQGBgYBtoEKIAGDDQAHMAmCCQPurwASR/+xAbMIAbIFtBe9LAiBAS
-42=AJgQYwC+o4DIIGByQ6/7MBrwCBASfrhAYHAQEICgHKggEGA8vueQ6CBwf/tgGvACHyF76B
-43=BgP4gQYT+IIBA++vAoEDBD4CNf+3Aa0OEgDIsgoGA+x4DgBBhAcIBgb/tQGwAtOYCu54Do
-44=IHCghJ/r0BAMqzBu6zBoIGCBY9/roBAMFmAvs8FP+/Aa8S8HgO/s0BAP+/Aa4U/tQBAIEA
-45=gFQAACCBAP5DFACEAQADA/76AQCGAQAABgMG/vgBAAH+hgQEAQYGBP74AQCDBgQBAAT/+Q
-46=FGFoEDA/mEAwQECMxIGv/sAUcUgQECAIEHy0gcgQH/qQFGFIDGAAAggQD+QwAAhQEABAMG
-47=yjcAhAMEBAP+6gEAgwQHB8xYAIQBCAcD/+oBWQCCBAYD8Mo3BIMHCggEFP/rAVkAgQHKRw
-48=KIAwcKCgcBAwfLSAD+6wEAiAQGCAcABgcG/+sBXATMSgCGAQcGAQQG//kBXQaHAwcHAQEA
-49=BstIBP7sAQCBBgn/gQH+/QEA//kBXgpaBDX9ggYKEAGBDP7yAQA7/IIGCTAN//MBZxLIXB
-50=T/+QFlFIEF0FYY/uwBAHwD//4BXA7+mAMAgQCAeAAAIIEA/l4AAIEE0FYA/uwBAIEF0FYC
-51=/uwBAIIDDEAJggYJ/vYBAEIB//gBaAQCAYEKEAH/+QFoBv79CwCBAf4AAgCBBMNpAIMDAw
-52=T/9wFdFoEGEfmEBgcDBv/4AV0WiQQDAAAICgoIBv74AQCHAQYICgsLCv+YAWgcgFoAACCB
-53=AP5hAACGBgoLCwsK/vsBAIEHAgGCCAT++wEAhwYHCAgDBgb+/AEAhAQEBwj//QFqBIQAAw
-54=gH/v0BAIEB//8BagiBBP//AWoKggAH//4BawYIAv6TDwCBAIAJAAAggQD+/h8AgQCACQAA
-55=IIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAAC
-56=CBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAg
-57=gQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAII
-58=EA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCB
-59=AP7+HwCBAIAJAAAggQD+/h8AgQCA
-
-[ScriptTypes]
-0=0E65590C
-1=09D52BB0
-2=09D459D0
-3=08DF6AB0
-4=09D50DC0
-5=09D61290
-6=09D448E0
-7=09D5C280
-8=09D5BCB0
-9=09D5B840
-10=0AF9645C
-11=0AF95DBC
-12=0AFBC0BC
-13=08DB2680
-14=08DB1550
-15=08DB1030
-16=0A256DC0
-17=09E7A270
-18=09D58DC0
-19=0ACC85C0
-20=09D587F0
-21=09E79370
-22=0ACD7DE0
-23=09E78B60
-24=09D67940
-25=09E397F0
-26=09F42DBC
-27=09E4FDC0
-28=09E4F950
-29=09E4F4E0
-30=0ACD3370
-31=09E4E950
-32=09F40DBC
-33=09F4090C
-34=09F4045C
-35=09F4FDBC
-36=09F4F90C
-37=09F4F45C
-38=0D01945C
-39=0D6AADBC
-40=09F4E45C
-41=0D01A45C
-42=0D01BDBC
-43=0D01B90C
-44=0D01B45C
-45=0D01CDBC
-46=0D01C90C
-47=07B70534
-48=0D01DDBC
-49=09EC2950
-50=09EC24E0
-51=09EC2070
-52=0D01E90C
-53=0D01E56C
-54=0D01FDBC
-55=0D01FA1C
-56=09F48DBC
-57=09F48A1C
-58=09F4856C
-59=0ADF5DBC
-60=0AE7CA6C
-61=0AE7C36C
-62=0B47CCAC
-63=0B02D59C
-
-[0E65590C]
-Name=Einsteins Gift SCR
-0=3,7
-1=3,5
-2=39,0
-3=49,0
-4=5,20
-5=20,14
-
-[09D52BB0]
-Name=BG1 Invasion 1 SCR
-0=16,1
-1=5,30
-2=16,11
-3=11,11
-
-[09D459D0]
-Name=BG2 Invasion 1 SCR
-0=16,2
-1=5,30
-2=16,12
-3=11,11
-
-[08DF6AB0]
-Name=BG3 Invasion 1 SCR
-0=16,3
-1=5,30
-2=16,13
-3=11,11
-
-[09D50DC0]
-Name=BG1 Invasion 2 SCR
-0=16,1
-1=0,7
-2=0,1
-
-[09D61290]
-Name=BG2 Invasion 2 SCR
-0=16,2
-1=0,7
-2=0,1
-
-[09D448E0]
-Name=BG3 Invasion 2 SCR
-0=16,3
-1=0,7
-2=0,1
-
-[09D5C280]
-Name=German1 Guards SCR
-0=19,0
-1=0,4
-2=0,5
-
-[09D5BCB0]
-Name=German2 Guards SCR
-0=19,0
-1=0,4
-2=0,5
-
-[09D5B840]
-Name=German3 Guards SCR
-0=19,0
-1=0,4
-2=0,5
-
-[0AF9645C]
-Name=BG1 Invasion 3 SCR
-0=16,14
-1=11,11
-
-[0AF95DBC]
-Name=BG2 Invasion 3 SCR
-0=16,15
-1=11,11
-
-[0AFBC0BC]
-Name=BG3 Invasion 3 SCR
-0=16,16
-1=11,11
-
-[08DB2680]
-Name=BG1 MCV SCR
-0=3,1
-1=9,0
-
-[08DB1550]
-Name=BG2 MCV SCR
-0=3,2
-1=9,0
-
-[08DB1030]
-Name=BG3 MCV SCR
-0=3,3
-1=9,0
-
-[0A256DC0]
-Name=BG1 Invasion 1a SCR
-0=16,17
-1=16,18
-2=0,4
-3=0,1
-
-[09E7A270]
-Name=BG1 Invasion 2a SCR
-0=16,14
-1=5,30
-2=46,131072
-3=46,65721
-4=0,9
-5=0,5
-6=0,1
-
-[09D58DC0]
-Name=BG1 Invasion 3a SCR
-0=16,19
-1=46,131072
-2=0,9
-3=0,1
-
-[0ACC85C0]
-Name=BG2 Invasion 1a SCR
-0=16,15
-1=5,20
-2=16,18
-3=0,4
-4=0,7
-5=0,1
-
-[09D587F0]
-Name=BG2 Invasion 2a SCR
-0=16,15
-1=5,120
-2=46,131295
-3=46,131075
-4=0,5
-5=0,2
-6=0,1
-
-[09E79370]
-Name=BG2 Invasion 3a SCR
-0=16,20
-1=5,120
-2=16,18
-3=0,9
-4=0,3
-5=0,1
-
-[0ACD7DE0]
-Name=BG3 Invasion 1a SCR
-0=16,21
-1=16,22
-2=0,3
-3=0,5
-4=0,1
-
-[09E78B60]
-Name=BG3 Invasion 2a SCR
-0=3,13
-1=16,16
-2=5,60
-3=16,22
-4=0,6
-5=0,1
-
-[09D67940]
-Name=BG3 Invasion 3a SCR
-0=16,23
-1=5,30
-2=46,131295
-3=46,196793
-4=0,5
-5=0,1
-
-[09E397F0]
-Name=Spy Defenders SCR
-0=11,11
-1=49,0
-
-[09F42DBC]
-Name=Armor Defenders SCR
-0=11,11
-1=49,0
-
-[09E4FDC0]
-Name=Infantry Defenders SCR
-0=11,11
-1=49,0
-
-[09E4F950]
-Name=Rocketeer Defenders SCR
-0=11,11
-1=49,0
-
-[09E4F4E0]
-Name=Harrier Defenders SCR
-0=11,11
-1=49,0
-
-[0ACD3370]
-Name=Solar Refractor Defenders SCR
-0=11,11
-1=49,0
-
-[09E4E950]
-Name=Hard Ass Defenders SCR
-0=11,11
-1=49,0
-
-[09F40DBC]
-Name=Assault Team 01 SCR
-0=0,4
-1=49,0
-2=0,1
-
-[09F4090C]
-Name=Assault Team 02 SCR
-0=0,3
-1=49,0
-2=0,5
-3=0,1
-
-[09F4045C]
-Name=Assault Team 03 SCR
-0=16,18
-1=0,7
-2=49,0
-3=0,8
-4=0,9
-5=0,1
-
-[09F4FDBC]
-Name=Assault Team 04 SCR
-0=0,5
-1=49,0
-2=0,4
-3=0,1
-
-[09F4F90C]
-Name=Assault Team 05 SCR
-0=46,131079
-1=49,0
-2=0,6
-3=0,2
-4=0,1
-
-[09F4F45C]
-Name=Assault Team 06 SCR
-0=46,131074
-1=49,0
-2=0,9
-3=0,2
-4=0,1
-
-[0D01945C]
-Name=Assault Team 07 SCR
-0=16,50
-1=46,131080
-2=49,0
-3=46,131073
-4=0,7
-5=0,5
-6=0,2
-7=0,1
-
-[0D6AADBC]
-Name=Assault Team 08 SCR
-0=46,196610
-1=49,0
-2=46,131080
-3=0,7
-4=0,2
-5=0,1
-
-[09F4E45C]
-Name=Assault Team 09 SCR
-0=16,22
-1=46,131127
-2=0,7
-3=49,0
-4=0,5
-5=0,1
-
-[0D01A45C]
-Name=Assault Team 10 SCR
-0=16,4
-1=46,131080
-2=49,0
-3=0,4
-4=0,7
-5=0,1
-
-[0D01BDBC]
-Name=Assault Team 11 SCR
-0=16,7
-1=46,131080
-2=49,0
-3=0,2
-4=0,1
-
-[0D01B90C]
-Name=Assault Team 12 SCR
-0=16,5
-1=16,7
-2=46,131080
-3=49,0
-4=0,7
-5=0,9
-6=0,1
-
-[0D01B45C]
-Name=Assault Team 13a SCR
-0=16,41
-1=49,0
-2=46,131080
-3=46,131177
-4=0,2
-
-[0D01CDBC]
-Name=Assault Team 14 SCR
-0=16,5
-1=16,4
-2=49,0
-3=46,131080
-4=0,4
-5=0,1
-
-[0D01C90C]
-Name=Assault Team 15 SCR
-0=14,0
-1=16,5
-2=16,4
-3=49,0
-4=8,0
-5=46,131080
-6=0,2
-
-[07B70534]
-Name=Scout Team 1 SCR
-0=48,0
-1=49,0
-
-[0D01DDBC]
-Name=First Apocalypse Sighting SCR
-0=3,27
-1=16,15
-2=46,131127
-3=0,7
-4=46,131072
-5=0,9
-6=0,5
-7=0,1
-
-[09EC2950]
-Name=BG1 Extra Harvester SCR
-0=3,28
-1=49,0
-
-[09EC24E0]
-Name=BG2 Extra Harvester SCR
-0=3,29
-1=49,0
-
-[09EC2070]
-Name=BG3 Extra Harvester SCR
-0=3,29
-1=49,0
-
-[0D01E90C]
-Name=Assault Team 13b SCR
-0=16,42
-1=49,0
-2=46,131080
-3=0,2
-
-[0D01E56C]
-Name=Einstein Assualt Squad 1 SCR
-0=16,42
-1=49,0
-2=46,131080
-3=0,1
-
-[0D01FDBC]
-Name=Einstein Assualt Squad 2 SCR
-0=16,41
-1=49,0
-2=46,131080
-3=0,5
-4=0,1
-
-[0D01FA1C]
-Name=Einstein Assualt Squad 3 SCR
-0=16,16
-1=16,43
-2=49,0
-3=46,131080
-4=0,2
-5=0,1
-
-[09F48DBC]
-Name=Assault Team 16 SCR
-0=46,196609
-1=49,0
-2=46,196609
-3=0,3
-4=0,1
-
-[09F48A1C]
-Name=Assault Team 17 SCR
-0=0,5
-1=49,0
-2=0,4
-3=0,6
-4=0,1
-
-[09F4856C]
-Name=Assault Team 18 SCR
-0=0,5
-1=49,0
-2=0,3
-3=0,6
-4=0,1
-
-[0ADF5DBC]
-Name=Polar Bears SCR
-0=5,2
-1=3,52
-2=25,421
-3=19,0
-4=3,62
-5=39,5
-6=3,51
-7=37,0
-
-[0AE7CA6C]
-Name=Polar Bear Woman SCR
-0=25,405
-1=3,52
-2=3,53
-3=3,54
-4=39,6
-5=37,0
-
-[0AE7C36C]
-Name=Polar Bear Woman Car SCR
-0=3,55
-1=39,7
-2=3,56
-3=39,8
-4=3,57
-5=39,9
-6=3,58
-7=39,10
-8=3,59
-9=39,11
-10=3,60
-11=39,12
-12=3,61
-13=39,13
-14=37,0
-
-[0B47CCAC]
-Name=Assault Engineers SCR
-0=54,0
-1=47,196610
-2=8,0
-3=46,196610
-4=49,0
-5=0,6
-6=0,2
-
-[0B02D59C]
-Name=Baby Sitters SCR
-0=58,131097
-1=21,0
-2=21,0
-3=11,11
+[TANY]
+TechLevel=12
+
+[Tags]
+03D63F50=0,Objective Statements,03D7C6B0
+03D65040=0,Enable Purifier Audio,03D64400
+03D8B210=0,_2 Move Camera to Einst,03D8B8D0
+03D8CC90=0,_5 Player Start,03D8CE20
+088111DC=0,_0 Lock Input,0881557C
+08932C70=0,BG1 Summon Harvester,08933B30
+0893A690=0,BG2 Summon Harvester,0893A890
+0893A970=0,BG3 Summon Harvester,0893AE50
+0895AF50=0,Einstein Audio 4 Play,0895A960
+0895B400=0,Einstein Audio 4 Enable,0895BA00
+089A0800=0,Einstein Asslt Sqd 1 Go,08962F40
+08B3A1BC=0,Crate at BM,08B3CF3C
+08DB0570=0,German1 Attacked,08DB0BD0
+08DB1BA0=0,German2 KIA,08DB4F60
+08DB3370=0,German1 KIA,08DB3810
+08DB4550=0,German3 KIA,08DB49A0
+08DC09C0=0,_1 Spawn Mirages,08DC0BA0
+08DC9680=0,Kill BG1 Local Guy 1,0AD3822C
+08DCA5D0=0,Kill BG3 Local Guy 1,0AD3E9AC
+08DCAA20=0,Kill BG2 Local Guy 1,0AD3EBBC
+08FB1F4C=0,BG2 All to Hunt,08FB473C
+08FB73EC=0,BG1 All to Hunt,08FB68BC
+08FBB30C=0,BG3 All to Hunt,08FB1E5C
+0912C4D0=0,Reveal Allies,0912CA20
+09250080=0,Win 1,0924EB00
+092520E0=0,BG2 Invaders Reform,0924E6D0
+0925F310=0,BG1 Invaders Reform 1,0925E080
+09273220=0,BG3 Invaders Reform,09250A70
+092A1DB0=0,_6 Begin Sov Invasion,092A3410
+09319BA0=0,German3 Attacked,0931E070
+0931E250=0,German2 Attacked,0931E830
+09EE6210=0,German3 Explode,09EE63A0
+09EE65D0=0,German2 Explode,09EE67B0
+09EE6F70=0,German1 Explode,09EE4770
+09F7933C=0,_Loss (Game Over),09F7978C
+09F8623C=0,_Win (Game Over),09F864EC
+0A0F475C=0,Polar Bears Enable,0AB2E52C
+0A468400=0,BG3 Production Enable,0A4685D0
+0A4686B0=0,BG2 Production Enable 1,0A468930
+0A468DD0=0,BG1 Production Enable,0A46D390
+0A46C6B0=0,Apocalypse Sighted,0AE4646C
+0A46D780=0,Apocalypse Created,09D79700
+0AAEA9EC=0,Reclaimed Refinery,0AAE8DCC
+0AC0053C=0,BG3 Firesale,0AC00A8C
+0AC0266C=0,Play Cold Wind Sounds,0AC0456C
+0AC057BC=0,BG3 Firesale Enabler,0AC0044C
+0AC063AC=0,BG2 Firesale,0AC065EC
+0AC066DC=0,BG1 Firesale,0AC0257C
+0AC09F4C=0,BG2 Firesale Enabler,0AC0326C
+0AC0BA5C=0,BG1 Firesale Enabler,0AC09D2C
+0AE739FC=0,Polar Bears,0AE73F3C
+0AE7591C=0,Bear Crate Spawn 7,0AE71F3C
+0AE77E5C=0,Bear Crate Spawn 6,0AE7B46C
+0AE79B3C=0,Polar Bear Woman,0AE79EDC
+0AE7B55C=0,Bear Crate Spawn 5,0AE7B75C
+0AE7B84C=0,Bear Crate Spawn 4,0AE7BA4C
+0AE7BB3C=0,Bear Crate Spawn 3,0AE7BD3C
+0AE7BE2C=0,Bear Crate Spawn 2,0AE7D2BC
+0AE7D3AC=0,Bear Crate Spawn 1,0AE7D53C
+0AE7DCBC=0,Polar Bear Woman Car,0AE7DEBC
+0B02F44C=0,BG3 Babysitters Spawn,0B02F81C
+0B02F90C=0,BG2 Babysitters Spawn,0B02FCAC
+0B02FD9C=0,BG1 Babysitters Spawn,0B02E3EC
+0B0CF980=0,Loss Captured by BG3 1,0A37DCE0
+0B157D00=0,Einstein Audio 1 Play,0B155310
+0B17C120=0,Bld Purifier Audio Play,0B17C1F0
+0B17C740=0,Build SpySat Audio Play,0B17B1F0
+0B5B5ED0=0,_7 Second Wave,0B5B32F0
+0B5BD58C=0,Einstein Under Attk,0B5BD66C
+0BF20CF0=0,_3 Move Camera to F,0BF20F60
+0BF2B3D0=0,_4 Enable Player Start,0BF2B960
+0BFBA370=0,Einstein Asslt Sqd 2 Go,0BFBA880
+0BFBB700=0,Einstein Audio 2 Play,0BFBBEB0
+0BFBC090=0,Einstein Audio 3 Play,0BFBC420
+0BFBC500=0,Einstein Asslt Sqd 3 Go,0BFBC710
+0C7016DC=0,Chrono Power Off,0C701BBC
+0CF6FD6C=0,Does Purifier Exist,0CF6E22C
 
 [TaskForces]
 0=0E4787FC
@@ -4523,332 +6882,6 @@ Name=Baby Sitters SCR
 51=0ACF734C
 52=0B47CF1C
 53=0B02B14C
-
-[0E4787FC]
-Name=Einsteins Gift TF
-0=3,MGTK
-Group=-1
-
-[09D45D00]
-Name=BG1 Invasion 1 TF
-0=12,E2
-Group=-1
-
-[09EAADB0]
-Name=BG2 Invasion 1 TF
-0=12,E2
-Group=-1
-
-[09F50050]
-Name=BG3 Invasion 1 TF
-0=12,E2
-Group=-1
-
-[09E7DCC0]
-Name=BG1 Invasion 2 TF
-0=2,HTNK
-1=2,V3
-Group=-1
-
-[0B0FC8F0]
-Name=BG2 Invasion 2 TF
-0=4,HTNK
-Group=-1
-
-[09E7D3E0]
-Name=BG3 Invasion 2 TF
-0=2,HTNK
-1=2,V3
-Group=-1
-
-[0AE5934C]
-Name=German1 Guards TF
-0=2,ENGINEER
-1=2,CTECH
-2=4,E1
-Group=0
-
-[0AE58CAC]
-Name=German2 Guards TF
-0=2,CTECH
-1=2,ENGINEER
-2=4,E1
-Group=1
-
-[0AE587FC]
-Name=German3 Guards TF
-0=2,ENGINEER
-1=2,CTECH
-2=4,E1
-Group=2
-
-[09EB8740]
-Name=BG1 Invasion 3 TF
-0=2,HTK
-1=2,HTNK
-Group=-1
-
-[09E7BBB0]
-Name=BG2 Invasion 3 TF
-0=2,V3
-1=2,HTK
-Group=-1
-
-[09D54800]
-Name=BG3 Invasion 3 TF
-0=2,HTK
-1=2,HTNK
-Group=-1
-
-[0A2875F0]
-Name=BG1 MCV TF
-0=1,SMCV
-Group=-1
-
-[08DB20F0]
-Name=BG2 MCV TF
-0=1,SMCV
-Group=-1
-
-[08DB1340]
-Name=BG3 MCV TF
-0=1,SMCV
-Group=-1
-
-[0CABE1CC]
-Name=_Spy Defense
-0=8,DOG
-Group=-1
-
-[0A24590C]
-Name=_Armor Defenders
-0=4,SHK
-1=1,HTNK
-2=2,DRON
-Group=-1
-
-[0A24545C]
-Name=_Infantry Defense
-0=4,E2
-1=1,DESO
-2=1,SHK
-3=2,FLAKT
-Group=-1
-
-[0A24521C]
-Name=_Rocketeer Defenders
-0=1,HTK
-1=3,FLAKT
-Group=-1
-
-[0A24690C]
-Name=_Harrier Defenders
-0=1,APOC
-1=2,HTK
-Group=-1
-
-[0A24645C]
-Name=_Solar Refractor Defenders
-0=2,V3
-1=3,DRON
-Group=-1
-
-[0A24621C]
-Name=_Hard Ass Defenders
-0=2,APOC
-1=1,V3
-2=2,DRON
-Group=-1
-
-[0A24790C]
-Name=Assault Team 01 TF
-0=5,E2
-1=2,DOG
-2=1,SHK
-3=2,FLAKT
-Group=-1
-
-[0AD0621C]
-Name=Assault Team 02 TF
-0=3,SHK
-1=3,DRON
-Group=-1
-
-[0AD00CAC]
-Name=Assault Team 03 TF
-0=3,HTNK
-1=2,V3
-2=1,HTK
-Group=-1
-
-[0AD007FC]
-Name=Assault Team 04 TF
-0=3,SHK
-1=2,DRON
-2=1,HTK
-Group=-1
-
-[0AD0034C]
-Name=Assault Team 05 TF
-0=1,HTK
-1=4,HTNK
-Group=-1
-
-[0AD05CAC]
-Name=Assault Team 06 TF
-0=2,V3
-1=2,DRON
-2=2,HTK
-Group=-1
-
-[0AD057FC]
-Name=Assault Team 07 TF
-0=2,APOC
-1=3,DESO
-Group=-1
-
-[0AD0534C]
-Name=Assault Team 08 TF
-0=2,APOC
-1=1,V3
-2=1,HTK
-Group=-1
-
-[0AD0510C]
-Name=Assault Team 09 TF
-0=4,APOC
-1=2,HTNK
-Group=-1
-
-[0A24A7FC]
-Name=Assault Team 10 TF
-0=8,E2
-1=4,FLAKT
-Group=-1
-
-[0B9DCC10]
-Name=Assault Team 11 TF
-0=1,HTK
-1=2,HTNK
-2=3,SHK
-Group=-1
-
-[0A24BCAC]
-Name=Assault Team 12 TF
-0=4,E2
-1=2,V3
-2=2,FLAKT
-Group=-1
-
-[08D2F1A0]
-Name=Assault Team 13 TF
-0=3,ENGINEER
-Group=-1
-
-[093408A0]
-Name=Assault Team 14 TF
-0=6,E2
-1=2,DOG
-2=4,DESO
-Group=-1
-
-[0AD0DCAC]
-Name=Assault Team 15 TF
-0=1,HTK
-1=5,ENGINEER
-Group=-1
-
-[09342730]
-Name=Scout Team 1 TF
-0=4,E2
-Group=-1
-
-[0A476D90]
-Name=First Apocalypse Sighting TF
-0=3,APOC
-Group=-1
-
-[0A0CF0E0]
-Name=BG1 Extra Harvester TF
-0=1,HARV
-Group=-1
-
-[08938E10]
-Name=BG2 Extra Harvester TF
-0=1,HARV
-Group=-1
-
-[0893D480]
-Name=BG3 Extra Harvester TF
-0=1,HARV
-Group=-1
-
-[09D670BC]
-Name=Einstein Assualt Squad 1 TF
-0=6,E2
-Group=-1
-
-[0BFB8F20]
-Name=Einstein Assualt Squad 2 TF
-0=3,HTNK
-Group=-1
-
-[08D2ABA0]
-Name=Einstein Assualt Squad 3 TF
-0=2,V3
-1=1,HTNK
-2=1,HTK
-Group=-1
-
-[09DE7370]
-Name=Assault Team 16 TF
-0=2,DRON
-1=2,HTNK
-2=8,E2
-Group=-1
-
-[09D72A2C]
-Name=Assault Team 17 TF
-0=8,E2
-1=2,SHK
-2=4,HTNK
-3=2,DRON
-Group=-1
-
-[09D7329C]
-Name=Assault Team 18 TF
-0=5,HTNK
-1=3,DRON
-Group=-1
-
-[0AE737BC]
-Name=Polar Bears TF
-0=2,POLARB
-Group=-1
-
-[0AE788EC]
-Name=Polar Bear Woman TF
-0=1,CIVBF
-Group=-1
-
-[0ACF734C]
-Name=Polar Bear Woman Car TF
-0=1,EUROC
-Group=-1
-
-[0B47CF1C]
-Name=Assault Engineers TF
-0=5,SENGINEER
-1=1,HTK
-Group=-1
-
-[0B02B14C]
-Name=Baby Sitters TF
-0=4,FLAKT
-1=5,E2
-2=2,SHK
-3=2,DOG
-Group=-1
 
 [TeamTypes]
 0=0E5FA71C
@@ -4918,2673 +6951,656 @@ Group=-1
 64=0B02EEFC
 65=0B02EDCC
 
-[0E5FA71C]
-Name=Einsteins Gift
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Einstein
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=E
-Script=0E65590C
-TaskForce=0E4787FC
-
-[0ADAEEFC]
-Name=BG1 Invasion 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=I
-Script=09D52BB0
-TaskForce=09D45D00
-
-[09D45C10]
-Name=BG2 Invasion 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=09D459D0
-TaskForce=09EAADB0
-
-[09EE54D0]
-Name=BG3 Invasion 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=08DF6AB0
-TaskForce=09F50050
-
-[09E7F0C0]
-Name=BG1 Invasion 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=I
-Script=09D50DC0
-TaskForce=09E7DCC0
-
-[0B5A8190]
-Name=BG2 Invasion 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=09D61290
-TaskForce=0B0FC8F0
-
-[09D44B20]
-Name=BG3 Invasion 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=09D448E0
-TaskForce=09E7D3E0
-
-[09DD39D0]
-Name=German1 Guards
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=Germany1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=0
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=09D5C280
-TaskForce=0AE5934C
-
-[09DD3560]
-Name=German2 Guards
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=Germany2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=C
-Script=09D5BCB0
-TaskForce=0AE58CAC
-
-[09DD30F0]
-Name=German3 Guards
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=Germany3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=2
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=D
-Script=09D5B840
-TaskForce=0AE587FC
-
-[0AD31B7C]
-Name=BG1 Invasion 3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=I
-Script=0AF9645C
-TaskForce=09EB8740
-
-[0AD316CC]
-Name=BG2 Invasion 3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=0AF95DBC
-TaskForce=09E7BBB0
-
-[0AD3121C]
-Name=BG3 Invasion 3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=5
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=0AFBC0BC
-TaskForce=09D54800
-
-[0A287950]
-Name=BG1 MCV
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=I
-Script=08DB2680
-TaskForce=0A2875F0
-
-[08DB22A0]
-Name=BG2 MCV
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=08DB1550
-TaskForce=08DB20F0
-
-[08DB1420]
-Name=BG3 MCV
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=08DB1030
-TaskForce=08DB1340
-
-[09D599A0]
-Name=BG1 Invasion 1a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0A256DC0
-TaskForce=09D45D00
-
-[09E7A4D0]
-Name=BG1 Invasion 2a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09E7A270
-TaskForce=09E7DCC0
-
-[09D592C0]
-Name=BG1 Invasion 3a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09D58DC0
-TaskForce=09EB8740
-
-[09D591B0]
-Name=BG2 Invasion 1a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy2
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0ACC85C0
-TaskForce=09EAADB0
-
-[09D58A50]
-Name=BG2 Invasion 2a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09D587F0
-TaskForce=0B0FC8F0
-
-[09E795D0]
-Name=BG2 Invasion 3a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09E79370
-TaskForce=09E7BBB0
-
-[09D58370]
-Name=BG3 Invasion 1a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0ACD7DE0
-TaskForce=09F50050
-
-[09E79150]
-Name=BG3 Invasion 2a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09E78B60
-TaskForce=09E7D3E0
-
-[09D67BA0]
-Name=BG3 Invasion 3a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09D67940
-TaskForce=09D54800
-
-[0CEC8C8C]
-Name=Spy Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=09E397F0
-TaskForce=0CABE1CC
-
-[0CEC87DC]
-Name=Armor Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=09F42DBC
-TaskForce=0A24590C
-
-[0CEC832C]
-Name=Infantry Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=09E4FDC0
-TaskForce=0A24545C
-
-[0CEC9DEC]
-Name=Rocketeer Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=09E4F950
-TaskForce=0A24521C
-
-[0CEC993C]
-Name=Harrier Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=09E4F4E0
-TaskForce=0A24690C
-
-[0CEC948C]
-Name=Solar Refractor Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=0ACD3370
-TaskForce=0A24645C
-
-[0CECADEC]
-Name=Hard Ass Defenders
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=9
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=09E4E950
-TaskForce=0A24621C
-
-[0AD06A4C]
-Name=Assault Team 01
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=8
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F40DBC
-TaskForce=0A24790C
-
-[0AD0659C]
-Name=Assault Team 02
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=6
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4090C
-TaskForce=0AD0621C
-
-[0AD060EC]
-Name=Assault Team 03
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=6
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4045C
-TaskForce=0AD00CAC
-
-[0AD00B7C]
-Name=Assault Team 04
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4FDBC
-TaskForce=0AD007FC
-
-[0AD006CC]
-Name=Assault Team 05
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4F90C
-TaskForce=0AD0034C
-
-[0AD0021C]
-Name=Assault Team 06
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=5
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4F45C
-TaskForce=0AD05CAC
-
-[0D0196CC]
-Name=Assault Team 07
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=11
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01945C
-TaskForce=0AD057FC
-
-[0AD056CC]
-Name=Assault Team 08
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D6AADBC
-TaskForce=0AD0534C
-
-[0AD0521C]
-Name=Assault Team 09
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4E45C
-TaskForce=0AD0510C
-
-[0AD02C8C]
-Name=Assault Team 10
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=11
-Max=6
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01A45C
-TaskForce=0A24A7FC
-
-[0AD027DC]
-Name=Assault Team 11
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=11
-Max=6
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01BDBC
-TaskForce=0B9DCC10
-
-[0AD0232C]
-Name=Assault Team 12
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=11
-Max=5
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01B90C
-TaskForce=0A24BCAC
-
-[0AD03C8C]
-Name=Assault Team 13a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01B45C
-TaskForce=08D2F1A0
-
-[0AD037DC]
-Name=Assault Team 14
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01CDBC
-TaskForce=093408A0
-
-[0AD0332C]
-Name=Assault Team 15
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=yes
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01C90C
-TaskForce=0AD0DCAC
-
-[0AD0DB7C]
-Name=Scout Team 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=yes
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=11
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=07B70534
-TaskForce=09342730
-
-[0AD0D6CC]
-Name=First Apocalypse Sighting
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=14
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=0D01DDBC
-TaskForce=0A476D90
-
-[0A0CA0D0]
-Name=BG1 Extra Harvester
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=I
-Script=09EC2950
-TaskForce=0A0CF0E0
-
-[08938F10]
-Name=BG2 Extra Harvester
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=09EC24E0
-TaskForce=08938E10
-
-[0893D580]
-Name=BG3 Extra Harvester
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=09EC2070
-TaskForce=0893D480
-
-[0AD0B32C]
-Name=Assault Team 13b
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0D01E90C
-TaskForce=08D2F1A0
-
-[09D6743C]
-Name=Einstein Assualt Squad 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=14
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=O
-Script=0D01E56C
-TaskForce=09D670BC
-
-[09D6C96C]
-Name=Einstein Assualt Squad 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy3
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=14
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=N
-Script=0D01FDBC
-TaskForce=0BFB8F20
-
-[09D6CEFC]
-Name=Einstein Assualt Squad 3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=14
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=P
-Script=0D01FA1C
-TaskForce=08D2ABA0
-
-[09EEC840]
-Name=Assault Team 16
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=10
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F48DBC
-TaskForce=09DE7370
-
-[09D72B3C]
-Name=Assault Team 17
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F48A1C
-TaskForce=09D72A2C
-
-[09D733AC]
-Name=Assault Team 18
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09F4856C
-TaskForce=09D7329C
-
-[0AD98B7C]
-Name=Polar Bears
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Neutral
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=30
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BA
-Script=0ADF5DBC
-TaskForce=0AE737BC
-
-[0AE789FC]
-Name=Polar Bear Woman
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Neutral
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=30
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BA
-Script=0AE7CA6C
-TaskForce=0AE788EC
-
-[0ACF76CC]
-Name=Polar Bear Woman Car
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Neutral
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=30
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BC
-Script=0AE7C36C
-TaskForce=0ACF734C
-
-[0B47D15C]
-Name=Assault Engineers
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=12
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0B47CCAC
-TaskForce=0B47CF1C
-
-[0B02B25C]
-Name=BG1 Baby Sitters
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=15
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=I
-Script=0B02D59C
-TaskForce=0B02B14C
-
-[0B02EEFC]
-Name=BG2 Baby Sitters
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=15
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=0B02D59C
-TaskForce=0B02B14C
-
-[0B02EDCC]
-Name=BG3 Baby Sitters
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=15
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=0B02D59C
-TaskForce=0B02B14C
-
-[AITriggerTypes]
-083D430C=Spy Defense,0CEC8C8C,<all>,10,0,SPY,0100000003000000000000000000000000000000000000000000000000000000,70.000000,50.000000,70.000000,0,0,2,0,<none>,1,1,1
-0A275780=Armor Defense,0CEC87DC,<all>,5,0,GAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-0ACD73F0=Infantry Defense,0CEC832C,<all>,8,0,GAPILE,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-0ACD72E0=Rocketeer Defense,0CEC9DEC,<all>,3,0,JUMPJET,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,1,1,1
-0AD22C6C=Harrier Defense,0CEC993C,<all>,7,0,ORCA,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,1,1,1
-0ACD70C0=Solar Refractor Defense,0CEC948C,<all>,4,0,SREF,0200000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,2,0,<none>,1,1,1
-09DF1120=Hard Ass Defense,0CECADEC,<all>,7,1,NATECH,0100000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,60.000000,0,0,2,0,<none>,0,1,1
-099EDAF4=Scout Team 1 AITrig,0AD0DB7C,<all>,1,0,GACNST,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,1,1,1
-0AD2276C=Assault Team 01 AITrig,0AD06A4C,<all>,10,1,TESLA,0100000003000000000000000000000000000000000000000000000000000000,50.000000,30.000000,60.000000,0,0,2,0,<none>,1,1,1
-0CBA13AC=Assault Team 02 AITrig A,0AD0659C,<all>,5,0,GAREFN,0200000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,0,1,1
-0CAB2EEC=Assault Team 03 AITrig,0AD060EC,<all>,3,0,ATESLA,0300000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
-0CAB2DAC=Assault Team 04 AITrig,0AD00B7C,<all>,5,0,GAWEAP,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,2,0,<none>,0,1,1
-0AD2226C=Assault Team 05 AITrig,0AD006CC,<all>,3,0,GATECH,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-0CAB2B2C=Assault Team 06 AITrig,0AD0021C,<all>,4,0,GACNST,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
-0CAB29EC=Assault Team 07 AITrig,0D0196CC,<all>,8,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,0,1,1
-0CAB28AC=Assault Team 08 AITrig,0AD056CC,<all>,7,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,0,1
-0CAB276C=Assault Team 09 AITrig,0AD0521C,<all>,7,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,0,0,1
-0B14BDAC=Assault Team 10 AITrig,0AD02C8C,<all>,1,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,70.000000,0,0,2,0,<none>,1,1,1
-0B14BC6C=Assault Team 11 AITrig,0AD027DC,<all>,5,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-0B14BB2C=Assault Team 12 AITrig,0AD0232C,<all>,3,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,0,1
-0B14B9EC=Assault Team 13a AITrig,0AD03C8C,<all>,10,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,30.000000,60.000000,0,0,2,0,0AD037DC,1,1,1
-0B14B8AC=Assault Team 15 AITrig,0AD0332C,<all>,10,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,0AD037DC,1,1,1
-0B137910=Einstein Asslt Sqd 1 AITrig,09D6743C,<all>,1,0,GASPYSAT,0100000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,2,0,<none>,1,1,1
-0B1377D0=Einstein Asslt Sqd 2 AITrig,09D6C96C,<all>,2,1,NAREFN,0200000003000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,2,0,<none>,0,1,1
-0B1351C0=Einstein Asslt Sqd 3 AITrig,09D6CEFC,<all>,3,1,NALASR,0200000004000000000000000000000000000000000000000000000000000000,60.000000,50.000000,70.000000,0,0,2,0,<none>,0,1,1
-0AD20DAC=Assault Team 16 AITrig,09EEC840,<all>,4,0,GAREFN,0200000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-0B14B26C=Assault Team 13b AITrig,0AD0B32C,<all>,1,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,30.000000,60.000000,0,0,2,0,<none>,1,1,1
-0CAB6EEC=Assault Team 02 AITrig B,0AD0659C,<all>,5,0,CMIN,0200000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
-0B14AEEC=Assault Team 14 AITrig,0AD037DC,<all>,10,1,NAHAND,0100000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-09D7732C=Assault Team 17 AITrig,09D72B3C,<all>,5,0,MGTK,0300000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,1,1,1
-09D76C7C=Assault Team 18 AITrig,09D733AC,<all>,4,0,SREF,0400000004000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,2,0,<none>,0,1,1
-0B47C35C=Assault Engineers AITrig,0B47D15C,<all>,10,0,GACNST,0100000004000000000000000000000000000000000000000000000000000000,40.000000,10.000000,60.000000,0,0,2,0,<none>,0,1,1
-
-[AITriggerTypesEnable]
-0CAD0DCC-G=yes
-0CAD0C7C-G=yes
-0CAD0B2C-G=yes
-0CA6621C-G=yes
-0CDF8EDC-G=yes
-0CDF8D8C-G=yes
-0C0C7AEC-G=yes
-0D62199C-G=yes
-0CDF899C-G=yes
-0D6216FC-G=yes
-0D6215AC-G=yes
-0D62145C-G=yes
-0D0803CC-G=yes
-0C32599C-G=yes
-0CE23AAC-G=yes
-0CA1F84C-G=yes
-0CE26CAC-G=yes
-0CE26B5C-G=yes
-0CAD145C-G=yes
-0CAD130C-G=yes
-0CE2395C-G=yes
-0D084B5C-G=yes
-0D084A0C-G=yes
-0D0848BC-G=yes
-0CAD2AEC-G=yes
-0D08461C-G=yes
-0D0873DC-G=yes
-0C8E2C3C-G=yes
-0CAD25AC-G=yes
-0D087D8C-G=yes
-0C8B81BC-G=yes
-0CADDEDC-G=yes
-0C92C45C-G=yes
-0C9565AC-G=yes
-0C92C1BC-G=yes
-0CADD99C-G=yes
-0C9561BC-G=yes
-0CE2EA2C-G=yes
-0CE2E8DC-G=yes
-0C955C3C-G=yes
-0C955AEC-G=yes
-0C8C71BC-G=yes
-0C8C6EDC-G=yes
-0D052AEC-G=yes
-0CE44D0C-G=yes
-0CA5945C-G=yes
-0CAD2C3C-G=yes
-0D535EDC-G=yes
-0AA846FC-G=yes
-0AA845AC-G=yes
-0C8C645C-G=yes
-0AD2BAEC-G=yes
-0C96F5AC-G=yes
-0C96F45C-G=yes
-0CB2CEDC-G=yes
-0C91D45C-G=yes
-0CAD5AEC-G=yes
-0D2C45DC-G=yes
-0D2C448C-G=yes
-0C8C56FC-G=yes
-0D2C41EC-G=yes
-0CA6AEDC-G=yes
-0C0D251C-G=yes
-0C8C51BC-G=yes
-0CA24D8C-G=yes
-0C8BC5AC-G=yes
-0C8C4C3C-G=yes
-0D53430C-G=yes
-0ECCFCAC-G=yes
-0ECCFA7C-G=yes
-0C8EEEDC-G=yes
-0C0D184C-G=yes
-0ECCF68C-G=yes
-0C8C430C-G=yes
-0C87B99C-G=yes
-0ECCF29C-G=yes
-0ECCF14C-G=yes
-0C8EEAEC-G=yes
-0C87B45C-G=yes
-0ECCBC3C-G=yes
-0C8EE1BC-G=yes
-0ECCB7FC-G=yes
-0C32D84C-G=yes
-0ECCB55C-G=yes
-0ECCB40C-G=yes
-0ECCB2BC-G=yes
-0CA2D99C-G=yes
-0CB29EDC-G=yes
-0C8C2C3C-G=yes
-0C8C2AEC-G=yes
-0A31295C-G=yes
-0C87E5AC-G=yes
-0D022C6C-G=yes
-0D022B1C-G=yes
-0C1246FC-G=yes
-0C1245AC-G=yes
-0D0B3B9C-G=yes
-0CA2A04C-G=yes
-0CA2B06C-G=yes
-0CA2FEDC-G=yes
-0D53130C-G=yes
-0D2769BC-G=yes
-0A452E5C-G=yes
-0A452C6C-G=yes
-0A44F2CC-G=yes
-0A44F17C-G=yes
-0D53099C-G=yes
-083D430C=yes
-0A275780=yes
-0ACD73F0=yes
-0ACD72E0=yes
-0AD22C6C=yes
-0ACD70C0=yes
-09DF1120=yes
-099EDAF4=yes
-0AD2276C=yes
-0CBA13AC=yes
-0CAB2EEC=yes
-0CAB2DAC=yes
-0AD2226C=yes
-0CAB2B2C=yes
-0CAB29EC=yes
-0CAB28AC=yes
-0CAB276C=yes
-0B14BDAC=yes
-0B14BC6C=yes
-0B14BB2C=yes
-0B14B9EC=yes
-0B14B8AC=yes
-0B137910=yes
-0B1377D0=yes
-0B1351C0=yes
-0AD20DAC=yes
-0B14B26C=yes
-0CAB6EEC=yes
-0B14AEEC=yes
-09D7732C=yes
-09D76C7C=yes
-0B47C35C=yes
+[Temp]
+Name=Temp
+Side=GDI
+Color=DarkGreen
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans
+
+[Temp House]
+IQ=3
+Edge=South
+Color=LightGrey
+Allies=Civilian House,Temp House
+Country=Temp
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[Terrain]
+27118=TIBTRE01
+48105=TIBTRE02
+52114=TIBTRE01
+53091=TIBTRE03
+60146=TIBTRE02
+63140=TIBTRE01
+69062=TIBTRE03
+71076=TIBTRE01
+73109=TREE22
+73114=TREE25
+73118=TREE25
+73121=TREE24
+74083=TREE22
+74087=TREE20
+74106=TREE21
+74108=TREE23
+74109=TREE24
+74118=TREE23
+74119=TREE22
+74122=TREE23
+75107=TREE17
+75108=TREE20
+76085=TREE21
+76086=TREE20
+76088=TREE25
+76108=TREE19
+76109=TREE25
+77086=TREE23
+77087=TREE24
+77109=TREE24
+77113=TREE22
+77171=TREE25
+78082=TREE21
+78083=TREE23
+78084=TREE22
+78113=TREE23
+78170=TREE22
+78171=TREE24
+79051=TREE24
+79052=TREE25
+79069=TREE22
+79082=TREE19
+79083=TREE20
+79114=TREE21
+79119=TIBTRE02
+79169=TREE19
+79170=TREE23
+79171=TREE25
+80050=TREE22
+80169=TREE21
+80170=TREE20
+80173=TREE20
+81052=TREE23
+81078=TREE22
+81083=TREE17
+81110=TREE24
+81114=TREE20
+81170=TREE20
+81171=TREE21
+81172=TREE22
+82120=TREE19
+82168=TREE25
+83120=TREE25
+83170=TREE24
+83171=TREE23
+84050=TIBTRE01
+84082=TREE24
+84112=TREE23
+85083=TREE25
+85116=TREE24
+85167=TREE25
+85168=TREE24
+85169=TREE22
+85170=TREE20
+85171=TREE25
+86077=TREE25
+86078=TREE24
+86167=TREE23
+86168=TREE22
+86172=TREE24
+87170=TREE23
+88040=TREE24
+88041=TREE23
+88109=TREE21
+88163=TREE20
+88166=TREE21
+88168=TREE23
+88169=TREE22
+89041=TREE21
+89110=TREE22
+89111=TREE23
+90043=TREE20
+90111=TREE25
+90112=TREE24
+90118=TREE24
+90122=TREE23
+90166=TREE23
+90167=TREE24
+90169=TREE21
+91046=TREE22
+91155=TREE21
+91163=TREE19
+91165=TREE24
+91166=TREE25
+92025=TREE23
+92029=TREE22
+92031=TREE22
+92069=TREE24
+92113=TREE23
+92144=TIBTRE03
+92149=TREE20
+92155=TREE19
+92156=TREE20
+92159=TREE23
+92165=TREE23
+92166=TREE21
+93025=TREE24
+93068=TREE23
+93082=TREE24
+93116=TREE22
+93150=TREE21
+93158=TREE21
+93159=TREE24
+93160=TREE22
+93162=TREE18
+93163=TREE16
+94027=TREE25
+94068=TREE22
+94069=TREE21
+94158=TREE25
+94163=TREE17
+95031=TREE23
+95103=TREE21
+96022=TREE22
+96068=TREE20
+96072=TREE25
+96076=TREE22
+97024=TREE21
+97030=TREE24
+97032=TREE21
+97069=TREE17
+97101=TREE24
+97129=TREE19
+97149=TREE17
+98024=TREE20
+98027=TREE25
+98103=TREE22
+98106=TREE25
+98119=TREE23
+98167=TREE23
+99043=TREE19
+99049=TREE23
+99105=TREE24
+99119=TREE21
+99120=TREE20
+99131=TREE23
+99132=TREE22
+99153=TREE22
+99167=TREE22
+99168=TREE21
+100027=TREE20
+100043=TREE20
+100049=TREE24
+100104=TREE23
+100105=TREE25
+100131=TREE21
+100153=TREE23
+100154=TREE21
+100156=TREE24
+101046=TREE20
+101064=TREE20
+101069=TREE22
+102030=TREE23
+102046=TREE21
+102047=TREE22
+102054=TREE25
+102055=TREE24
+102069=TREE23
+102111=TREE16
+102118=TREE21
+102128=TREE20
+102151=TREE16
+103034=TREE24
+103049=TREE20
+103072=TREE25
+103082=TREE17
+103116=TREE20
+103121=TREE22
+103156=TREE24
+104047=TREE19
+104050=TREE23
+104051=TREE21
+104056=TREE25
+104082=TREE20
+104110=TREE24
+104111=TREE17
+104161=TREE25
+105078=TREE22
+105083=TREE21
+105085=TREE24
+105111=TREE21
+105112=TREE23
+106039=TREE24
+106050=TREE22
+106067=TREE24
+106083=TREE22
+106110=TREE24
+106111=TREE25
+106112=TREE19
+106113=TREE20
+107094=TREE20
+107095=TREE21
+107109=TREE23
+107111=TREE25
+107153=TREE22
+107163=TREE24
+107176=TREE22
+108044=TREE16
+108072=TREE23
+108085=TREE25
+108087=TREE23
+108091=TREE25
+108095=TREE24
+108096=TREE22
+108106=TREE19
+108107=TREE20
+108111=TREE22
+108118=TREE22
+108153=TREE23
+108154=TREE21
+108165=TREE24
+109069=TREE22
+109072=TREE24
+109073=TREE25
+109083=TREE25
+109085=TREE19
+109086=TREE25
+109087=TREE24
+109088=TREE24
+109089=TREE25
+109095=TREE23
+109101=TREE22
+109117=TREE21
+109118=TREE25
+109119=TREE23
+109173=TREE21
+110078=TREE17
+110109=TREE23
+110116=TREE20
+110119=TREE24
+110165=TREE23
+111035=TREE25
+111070=TREE20
+111071=TREE19
+111072=TREE21
+111107=TREE21
+111118=TREE24
+111119=TREE25
+111121=TREE21
+111122=TREE19
+111124=TREE23
+112071=TREE21
+112076=TREE20
+112077=TREE21
+112104=TREE21
+112119=TREE23
+112121=TREE22
+112122=TREE20
+112123=TREE21
+112124=TREE24
+112129=TREE22
+112150=TREE19
+112163=TREE22
+113067=TREE24
+113077=TREE19
+113105=TREE20
+113124=TREE25
+114069=TREE23
+114077=TREE21
+114078=TREE18
+114125=TREE23
+114139=TREE24
+115098=TREE23
+115104=TREE23
+115131=TREE25
+115134=TREE23
+115139=TREE25
+115162=TREE23
+116076=TREE20
+116090=TREE21
+116091=TREE22
+116131=TREE24
+116160=TREE24
+117077=TREE21
+117091=TREE23
+117129=TREE24
+117130=TREE25
+117160=TREE22
+117161=TREE25
+118075=TREE20
+118130=TREE23
+118155=TREE20
+118160=TREE25
+119075=TREE21
+119140=TREE24
+120073=TREE22
+120087=TREE18
+120097=TREE25
+120098=TREE24
+120124=TIBTRE02
+120141=TREE24
+120143=TREE25
+121140=TREE22
+121141=TREE23
+121144=TREE25
+121160=TREE24
+122049=TREE19
+122050=TREE18
+122052=TREE24
+122088=TREE20
+122131=TREE22
+122134=TREE20
+122135=TREE21
+122144=TREE25
+123050=TREE28
+123051=TREE25
+123052=TREE16
+123053=TREE27
+123088=TREE17
+123089=TREE20
+123130=TREE25
+123145=TREE24
+123155=TREE23
+124047=TREE20
+124049=TREE26
+124083=TREE19
+124129=TREE25
+124130=TREE24
+124162=TREE21
+125055=TREE23
+125092=TREE23
+125128=TREE24
+125129=TREE23
+125160=TREE20
+126048=TREE20
+126096=TREE23
+126126=TREE21
+126145=TREE20
+126154=TREE17
+126155=TREE20
+127050=TREE18
+127053=TREE22
+127137=TREE25
+127154=TREE20
+127155=TREE21
+128086=TREE21
+128090=TREE25
+128091=TREE24
+128097=TREE22
+128127=TREE23
+128132=TREE23
+128134=TREE24
+128155=TREE16
+129056=TREE21
+129086=TREE22
+129087=TREE20
+130086=TREE23
+130096=TREE24
+130133=TREE22
+130143=TREE17
+130144=TREE20
+131103=TIBTRE03
+132089=TREE24
+133098=TREE22
+133144=TREE17
+133172=TIBTRE01
+134143=TREE20
+134144=TREE21
+135142=TREE22
+136143=TREE24
+136144=TREE25
+137143=TREE23
+138095=TREE21
+139095=TREE18
+139135=TREE24
+139141=TREE24
+140095=TREE20
+140136=TREE25
+140145=TREE25
+141135=TREE22
+141136=TREE23
+142098=TREE19
+142134=TREE21
+142143=TREE25
+143140=TREE19
+144100=TREE20
+144137=TREE17
+145144=TREE19
+146134=TREE20
+148142=TREE21
+149141=TREE23
+149142=TREE20
+150141=TREE22
+152131=TREE22
+152133=TREE21
+152139=TREE17
+153137=TREE20
+154126=TREE27
+154127=TREE19
+154128=TREE18
+155128=TREE26
+155129=TREE25
+155130=TREE27
+155132=TREE21
+155133=TREE20
+156128=TREE24
+157129=TREE23
+157130=TREE22
+160069=TIBTRE03
+162095=TREE20
+164090=TIBTRE02
+164099=TREE21
+165098=TREE20
+167115=TREE26
+
+[Tiberiums]
+0=Riparius
+1=Cruentus
+2=Vinifera
+3=Aboreus
 
 [Triggers]
-0912CA20=Einstein,<none>,Reveal Allies,0,1,1,1,0
-03D8B8D0=Einstein,<none>,_2 Move Camera to Einstein,0,1,1,1,0
-03D8CE20=Player,<none>,_5 Player Start,1,1,1,1,0
-092A3410=BadGuy1,<none>,_6 Begin Sov Invasion,1,1,1,1,0
-0B5B32F0=BadGuy1,<none>,_7 Second Wave,1,1,1,1,0
-0BF20F60=Einstein,<none>,_3 Move Camera to F,0,1,1,1,0
-0BF2B960=Player,<none>,_4 Enable Player Start,0,1,1,1,0
-08DC0BA0=Einstein,<none>,_1 Spawn Mirages,0,1,1,1,0
-0B0CF040=Player,<none>,Loss Einstein KIA,0,1,1,1,0
-09F7978C=Player,<none>,_Loss (Game Over),1,1,1,1,0
-0B0CC050=Player,0B0CF040,Loss Player KIA,0,1,1,1,0
-08DB0BD0=Germany1,<none>,German1 Attacked,0,1,1,1,0
-09EE4770=Germany1,<none>,German1 Explode,1,1,1,1,0
-0931E830=Germany2,<none>,German2 Attacked,0,1,1,1,0
-09EE67B0=Germany2,<none>,German2 Explode,1,1,1,1,0
-0931E070=Germany3,<none>,German3 Attacked,0,1,1,1,0
-09EE63A0=Germany3,<none>,German3 Explode,1,1,1,1,0
-08DB3810=Germany1,<none>,German1 KIA,0,1,1,1,0
-0925E080=BadGuy1,<none>,BG1 Invaders Reform,1,1,1,1,0
-08DB4F60=Germany2,<none>,German2 KIA,0,1,1,1,0
-0924E6D0=BadGuy2,<none>,BG2 Invaders Reform,1,1,1,1,0
-08DB49A0=Germany3,<none>,German3 KIA,0,1,1,1,0
-09250A70=BadGuy3,<none>,BG3 Invaders Reform,1,1,1,1,0
-08DC9190=BadGuy1,<none>,BG1 Production Start,1,1,1,1,0
-0AC09D2C=BadGuy1,<none>,BG1 Firesale Enabler,1,1,1,1,0
-0AC0257C=BadGuy1,<none>,BG1 Firesale,1,1,1,1,0
-08FB68BC=BadGuy1,<none>,BG1 All to Hunt,1,1,1,1,0
-08DC95C0=BadGuy2,<none>,BG2 Production Start,1,1,1,1,0
-0AC0326C=BadGuy2,<none>,BG2 Firesale Enabler,1,1,1,1,0
-0AC0044C=BadGuy3,<none>,BG3 Firesale Enabler,1,1,1,1,0
-0AC00A8C=BadGuy3,<none>,BG3 Firesale,1,1,1,1,0
-0AC065EC=BadGuy2,<none>,BG2 Firesale,1,1,1,1,0
-08FB1E5C=BadGuy3,<none>,BG3 All to Hunt,1,1,1,1,0
-08FB473C=BadGuy2,<none>,BG2 All to Hunt,1,1,1,1,0
-08DCA960=BadGuy3,<none>,BG3 Production Start,1,1,1,1,0
-0924EB00=Player,<none>,Win,0,1,1,1,0
-09F864EC=Player,<none>,_Win (Game Over),1,1,1,1,0
-0A46D390=BadGuy1,<none>,BG1 Production Start Enable,0,1,1,1,0
-0A468930=BadGuy2,<none>,BG2 Production Enable,0,1,1,1,0
-0A4685D0=BadGuy3,<none>,BG3 Production Enable,0,1,1,1,0
-0A468320=Player,<none>,Apocalypse Created (SpySat),0,1,1,1,0
-0A46CAF0=BadGuy2,<none>,Apoc Sighted (SpySat),1,1,1,1,0
-08933B30=BadGuy1,<none>,BG1 Summon Harvester,0,1,1,1,0
-0893AE50=BadGuy3,<none>,BG3 Summon Harvester,0,1,1,1,0
-0893A890=BadGuy2,<none>,BG2 Summon Harvester,0,1,1,1,0
-09D79700=BadGuy2,0A468320,Apocalypse Created (timed),0,1,1,1,0
-089C46E0=BadGuy1,0B0CC050,Loss Captured by BG1,0,1,1,1,0
-09FA7F40=BadGuy2,089C46E0,Loss Captured by BG2,0,1,1,1,0
-0A37DCE0=BadGuy3,09FA7F40,Loss Captured by BG3,0,1,1,1,0
-0B155310=BadGuy1,<none>,Einstein Audio 1 Play,1,1,1,1,0
-08962F40=BadGuy1,<none>,Einstein Asslt Sqd 1 Go,0,1,1,1,0
-0BFBA880=BadGuy3,<none>,Einstein Asslt Sqd 2 Go,0,1,1,1,0
-0BFBBEB0=Einstein,<none>,Einstein Audio 2 Play,1,1,1,1,0
-0BFBC710=BadGuy2,<none>,Einstein Asslt Sqd 3 Go,0,1,1,1,0
-0BFBC420=BadGuy2,<none>,Einstein Audio 3 Play,1,1,1,1,0
-0895BA00=Einstein,<none>,Einstein Audio 4 Enable,0,1,1,1,0
-0895B320=Einstein,<none>,Entered by BG1,1,1,1,1,0
-0895AD70=Einstein,0895B320,Entered by BG2,1,1,1,1,0
-0895A960=Einstein,0895AD70,Entered by BG3,1,1,1,1,0
-0B17B1F0=Player,<none>,Build SpySat Audio Play,0,1,1,1,0
-0B17C1F0=Player,<none>,Build Purifier Audio Play,1,1,1,1,0
 03D64400=Player,<none>,Enable Purifier Audio,0,1,1,1,0
 03D7C6B0=Player,<none>,Objective Statements,0,1,1,1,0
-0AC0456C=Player,<none>,Play Cold Wind Sounds,0,1,1,1,0
-0B5BD66C=Einstein,<none>,Einstein Under Attk,0,1,1,1,0
-0AE4646C=BadGuy2,0A46CAF0,Apoc Sighted (timed),1,1,1,1,0
+03D8B8D0=Einstein,<none>,_2 Move Camera to Einstein,0,1,1,1,0
+03D8CE20=Player,<none>,_5 Player Start,1,1,1,1,0
 0881557C=Player,<none>,_0 Lock Input,0,1,1,1,0
-0AE73F3C=Neutral,<none>,Polar Bears,1,1,1,1,0
-0AE79EDC=Neutral,<none>,Polar Bear Woman,0,1,1,1,0
-0AE7DEBC=Neutral,<none>,Polar Bear Woman Car,0,1,1,1,0
-0AE7D53C=Player,<none>,Bear Crate Spawn 1,0,1,1,1,0
-0AE7D2BC=Player,<none>,Bear Crate Spawn 2,0,1,1,1,0
-0AE7BD3C=Player,<none>,Bear Crate Spawn 3,0,1,1,1,0
-0AE7BA4C=Player,<none>,Bear Crate Spawn 4,0,1,1,1,0
-0AE7B75C=Player,<none>,Bear Crate Spawn 5,0,1,1,1,0
-0AE7B46C=Player,<none>,Bear Crate Spawn 6,0,1,1,1,0
-0AE71F3C=Player,<none>,Bear Crate Spawn 7,0,1,1,1,0
+08933B30=BadGuy1,<none>,BG1 Summon Harvester,0,1,1,1,0
+0893A890=BadGuy2,<none>,BG2 Summon Harvester,0,1,1,1,0
+0893AE50=BadGuy3,<none>,BG3 Summon Harvester,0,1,1,1,0
+0895A960=Einstein,0895AD70,Entered by BG3,1,1,1,1,0
+0895AD70=Einstein,0895B320,Entered by BG2,1,1,1,1,0
+0895B320=Einstein,<none>,Entered by BG1,1,1,1,1,0
+0895BA00=Einstein,<none>,Einstein Audio 4 Enable,0,1,1,1,0
+08962F40=BadGuy1,<none>,Einstein Asslt Sqd 1 Go,0,1,1,1,0
+089C46E0=BadGuy1,0B0CC050,Loss Captured by BG1,0,1,1,1,0
+08B3CF3C=Player,<none>,Crate at BM,0,1,1,1,0
+08DB0BD0=Germany1,<none>,German1 Attacked,0,1,1,1,0
+08DB3810=Germany1,<none>,German1 KIA,0,1,1,1,0
+08DB49A0=Germany3,<none>,German3 KIA,0,1,1,1,0
+08DB4F60=Germany2,<none>,German2 KIA,0,1,1,1,0
+08DC0BA0=Einstein,<none>,_1 Spawn Mirages,0,1,1,1,0
+08DC9190=BadGuy1,<none>,BG1 Production Start,1,1,1,1,0
+08DC95C0=BadGuy2,<none>,BG2 Production Start,1,1,1,1,0
+08DCA960=BadGuy3,<none>,BG3 Production Start,1,1,1,1,0
+08FB1E5C=BadGuy3,<none>,BG3 All to Hunt,1,1,1,1,0
+08FB473C=BadGuy2,<none>,BG2 All to Hunt,1,1,1,1,0
+08FB68BC=BadGuy1,<none>,BG1 All to Hunt,1,1,1,1,0
+0912CA20=Einstein,<none>,Reveal Allies,0,1,1,1,0
+0924E6D0=BadGuy2,<none>,BG2 Invaders Reform,1,1,1,1,0
+0924EB00=Player,<none>,Win,0,1,1,1,0
+09250A70=BadGuy3,<none>,BG3 Invaders Reform,1,1,1,1,0
+0925E080=BadGuy1,<none>,BG1 Invaders Reform,1,1,1,1,0
+092A3410=BadGuy1,<none>,_6 Begin Sov Invasion,1,1,1,1,0
+0931E070=Germany3,<none>,German3 Attacked,0,1,1,1,0
+0931E830=Germany2,<none>,German2 Attacked,0,1,1,1,0
+09D79700=BadGuy2,0A468320,Apocalypse Created (timed),0,1,1,1,0
+09EE4770=Germany1,<none>,German1 Explode,1,1,1,1,0
+09EE63A0=Germany3,<none>,German3 Explode,1,1,1,1,0
+09EE67B0=Germany2,<none>,German2 Explode,1,1,1,1,0
+09F7978C=Player,<none>,_Loss (Game Over),1,1,1,1,0
+09F864EC=Player,<none>,_Win (Game Over),1,1,1,1,0
+09FA7F40=BadGuy2,089C46E0,Loss Captured by BG2,0,1,1,1,0
 0A0F1D9C=Neutral,<none>,Polar Bears Enable I,0,1,1,1,0
+0A37DCE0=BadGuy3,09FA7F40,Loss Captured by BG3,0,1,1,1,0
+0A468320=Player,<none>,Apocalypse Created (SpySat),0,1,1,1,0
+0A4685D0=BadGuy3,<none>,BG3 Production Enable,0,1,1,1,0
+0A468930=BadGuy2,<none>,BG2 Production Enable,0,1,1,1,0
+0A46CAF0=BadGuy2,<none>,Apoc Sighted (SpySat),1,1,1,1,0
+0A46D390=BadGuy1,<none>,BG1 Production Start Enable,0,1,1,1,0
 0AAE8DCC=Neutral,<none>,Reclaimed Refinery,0,1,1,1,0
 0AB2E52C=Neutral,0A0F1D9C,Polar Bears Enable II,0,1,1,1,0
-0C701BBC=Einstein,<none>,Chrono Power Off,0,1,1,1,0
-08B3CF3C=Player,<none>,Crate at BM,0,1,1,1,0
-0B02E3EC=BadGuy1,<none>,BG1 Babysitters Spawn,0,0,1,1,0
-0B02FCAC=BadGuy2,<none>,BG2 Babysitters Spawn,0,0,1,1,0
-0B02F81C=BadGuy3,<none>,BG3 Babysitters Spawn,0,0,1,1,0
-0CF6E22C=Player,<none>,Does Purifier Exist,0,1,1,1,0
+0AC0044C=BadGuy3,<none>,BG3 Firesale Enabler,1,1,1,1,0
+0AC00A8C=BadGuy3,<none>,BG3 Firesale,1,1,1,1,0
+0AC0257C=BadGuy1,<none>,BG1 Firesale,1,1,1,1,0
+0AC0326C=BadGuy2,<none>,BG2 Firesale Enabler,1,1,1,1,0
+0AC0456C=Player,<none>,Play Cold Wind Sounds,0,1,1,1,0
+0AC065EC=BadGuy2,<none>,BG2 Firesale,1,1,1,1,0
+0AC09D2C=BadGuy1,<none>,BG1 Firesale Enabler,1,1,1,1,0
 0AD3822C=BadGuy1,08DC9190,Kill BG1 Local Guy,0,1,1,1,0
-0AD3EBBC=BadGuy2,08DC95C0,Kill BG2 Local Guy,0,1,1,1,0
 0AD3E9AC=BadGuy3,08DCA960,Kill BG3 Local Guy,0,1,1,1,0
+0AD3EBBC=BadGuy2,08DC95C0,Kill BG2 Local Guy,0,1,1,1,0
+0AE4646C=BadGuy2,0A46CAF0,Apoc Sighted (timed),1,1,1,1,0
+0AE71F3C=Player,<none>,Bear Crate Spawn 7,0,1,1,1,0
+0AE73F3C=Neutral,<none>,Polar Bears,1,1,1,1,0
+0AE79EDC=Neutral,<none>,Polar Bear Woman,0,1,1,1,0
+0AE7B46C=Player,<none>,Bear Crate Spawn 6,0,1,1,1,0
+0AE7B75C=Player,<none>,Bear Crate Spawn 5,0,1,1,1,0
+0AE7BA4C=Player,<none>,Bear Crate Spawn 4,0,1,1,1,0
+0AE7BD3C=Player,<none>,Bear Crate Spawn 3,0,1,1,1,0
+0AE7D2BC=Player,<none>,Bear Crate Spawn 2,0,1,1,1,0
+0AE7D53C=Player,<none>,Bear Crate Spawn 1,0,1,1,1,0
+0AE7DEBC=Neutral,<none>,Polar Bear Woman Car,0,1,1,1,0
+0B02E3EC=BadGuy1,<none>,BG1 Babysitters Spawn,0,0,1,1,0
+0B02F81C=BadGuy3,<none>,BG3 Babysitters Spawn,0,0,1,1,0
+0B02FCAC=BadGuy2,<none>,BG2 Babysitters Spawn,0,0,1,1,0
+0B0CC050=Player,0B0CF040,Loss Player KIA,0,1,1,1,0
+0B0CF040=Player,<none>,Loss Einstein KIA,0,1,1,1,0
+0B155310=BadGuy1,<none>,Einstein Audio 1 Play,1,1,1,1,0
+0B17B1F0=Player,<none>,Build SpySat Audio Play,0,1,1,1,0
+0B17C1F0=Player,<none>,Build Purifier Audio Play,1,1,1,1,0
+0B5B32F0=BadGuy1,<none>,_7 Second Wave,1,1,1,1,0
+0B5BD66C=Einstein,<none>,Einstein Under Attk,0,1,1,1,0
+0BF20F60=Einstein,<none>,_3 Move Camera to F,0,1,1,1,0
+0BF2B960=Player,<none>,_4 Enable Player Start,0,1,1,1,0
+0BFBA880=BadGuy3,<none>,Einstein Asslt Sqd 2 Go,0,1,1,1,0
+0BFBBEB0=Einstein,<none>,Einstein Audio 2 Play,1,1,1,1,0
+0BFBC420=BadGuy2,<none>,Einstein Audio 3 Play,1,1,1,1,0
+0BFBC710=BadGuy2,<none>,Einstein Asslt Sqd 3 Go,0,1,1,1,0
+0C701BBC=Einstein,<none>,Chrono Power Off,0,1,1,1,0
+0CF6E22C=Player,<none>,Does Purifier Exist,0,1,1,1,0
 
-[Events]
-0912CA20=1,8,0,0
-03D8B8D0=1,47,0,6
-03D8CE20=1,13,0,25
-092A3410=1,13,0,120
-0B5B32F0=1,13,0,20
-0BF20F60=1,1,0,13
-0BF2B960=1,36,0,0
-08DC0BA0=1,47,0,5
-0B0CF040=1,48,0,0
-09F7978C=1,13,0,5
-0B0CC050=1,11,0,14
-08DB0BD0=1,6,0,0
-09EE4770=1,51,0,6
-0931E830=1,6,0,0
-09EE67B0=1,51,0,8
-0931E070=1,6,0,0
-09EE63A0=1,51,0,8
-08DB3810=1,11,0,18
-0925E080=1,13,0,2
-08DB4F60=1,11,0,19
-0924E6D0=1,13,0,2
-08DB49A0=1,11,0,20
-09250A70=1,13,0,2
-08DC9190=1,13,0,12
-0AC09D2C=1,13,0,30
-0AC0257C=1,17,0,0
-08FB68BC=1,13,0,5
-08DC95C0=1,13,0,15
-0AC0326C=1,13,0,30
-0AC0044C=1,13,0,30
-0AC00A8C=1,17,0,0
-0AC065EC=1,17,0,0
-08FB1E5C=1,13,0,5
-08FB473C=1,13,0,5
-08DCA960=1,13,0,15
-0924EB00=3,11,0,15,11,0,16,11,0,17
-09F864EC=1,13,0,5
-0A46D390=1,32,0,25
-0A468930=1,32,0,25
-0A4685D0=1,32,0,25
-0A468320=1,19,0,62
-0A46CAF0=1,1,0,16
-08933B30=1,19,0,15
-0893AE50=1,19,0,15
-0893A890=1,19,0,15
-09D79700=1,47,0,900
-089C46E0=1,32,0,8
-09FA7F40=1,32,0,8
-0A37DCE0=1,32,0,8
-0B155310=1,1,0,15
-08962F40=1,47,0,600
-0BFBA880=2,36,0,1,47,0,900
-0BFBBEB0=1,1,0,17
-0BFBC710=2,36,0,2,47,0,1200
-0BFBC420=1,1,0,16
-0895BA00=2,36,0,2,36,0,3
-0895B320=1,1,0,15
-0895AD70=1,1,0,16
-0895A960=1,1,0,17
-0B17B1F0=1,19,0,6
-0B17C1F0=3,37,0,14,52,0,2000,13,0,30
-03D64400=1,36,0,4
-03D7C6B0=3,11,0,20,11,0,19,11,0,18
-0AC0456C=1,8,0,0
-0B5BD66C=1,6,0,0
-0AE4646C=1,1,0,16
-0881557C=1,8,0,0
-0AE73F3C=1,13,0,3
-0AE79EDC=1,36,0,5
-0AE7DEBC=1,36,0,6
-0AE7D53C=1,36,0,7
-0AE7D2BC=1,36,0,8
-0AE7BD3C=1,36,0,9
-0AE7BA4C=1,36,0,10
-0AE7B75C=1,36,0,11
-0AE7B46C=1,36,0,12
-0AE71F3C=1,36,0,13
-0A0F1D9C=1,4,0,0
-0AAE8DCC=1,1,0,14
-0AB2E52C=1,33,0,0
-0C701BBC=1,8,0,0
-08B3CF3C=1,8,0,0
-0B02E3EC=1,32,0,25
-0B02FCAC=1,32,0,25
-0B02F81C=1,32,0,25
-0CF6E22C=1,19,0,73
-0AD3822C=1,47,0,240
-0AD3EBBC=1,47,0,240
-0AD3E9AC=1,47,0,240
+[Units]
+0=Player House,AMCV,256,117,130,160,Guard,None,0,-1,0,-1,1,1
+1=Player House,MTNK,256,118,119,0,Guard,None,0,-1,0,-1,1,1
+2=Player House,MTNK,256,110,119,0,Guard,None,0,-1,0,-1,1,1
+3=Player House,MTNK,256,105,120,0,Guard,None,0,-1,0,-1,1,1
+4=Player House,MTNK,256,123,120,0,Guard,None,0,-1,0,-1,1,1
+5=German3 House,TNKD,256,143,68,128,Guard,None,0,-1,0,-1,1,1
+6=German3 House,TNKD,256,144,68,128,Guard,None,0,-1,0,-1,1,1
+7=German3 House,TNKD,256,145,68,128,Guard,None,0,-1,0,-1,1,1
+8=Civilian House,CONA,256,178,123,128,Sleep,None,0,-1,0,-1,1,1
+9=Civilian House,EUROC,256,38,131,0,Sleep,None,0,-1,0,-1,1,1
 
-[Actions]
-0912CA20=4,17,0,0,0,0,0,0,A,17,0,1,0,0,0,0,B,17,0,2,0,0,0,0,C,17,0,3,0,0,0,0,D
-03D8B8D0=2,48,0,4,0,0,0,0,E,55,0,1,0,0,0,0,E
-03D8CE20=5,47,0,0,0,0,0,0,A,5,1,0E5FA71C,0,0,0,0,A,53,2,092A3410,0,0,0,0,A,11,4,MISSION:ALL01q,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A
-092A3410=5,7,1,09E7F0C0,0,0,0,0,I,7,1,0B5A8190,0,0,0,0,J,7,1,09D44B20,0,0,0,0,K,53,2,0B5B32F0,0,0,0,0,A,11,4,MISSION:All10b1,0,0,0,0,A
-0B5B32F0=3,7,1,0ADAEEFC,0,0,0,0,I,7,1,09D45C10,0,0,0,0,J,7,1,09EE54D0,0,0,0,0,K
-0BF20F60=1,48,0,1,0,0,0,0,F
-0BF2B960=4,53,2,03D8CE20,0,0,0,0,A,11,4,MISSION:All10a1,0,0,0,0,A,11,4,MISSION:All10a2,0,0,0,0,A,11,4,MISSION:All10a3,0,0,0,0,A
-08DC0BA0=5,7,1,0E5FA71C,0,0,0,0,E,38,0,15,0,0,0,0,A,38,0,16,0,0,0,0,A,38,0,17,0,0,0,0,A,100,0,111,0,0,0,0,A
-0B0CF040=3,112,0,0,0,0,0,0,A,53,2,09F7978C,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
-09F7978C=1,2,0,14,0,0,0,0,A
-0B0CC050=1,53,2,09F7978C,0,0,0,0,A
-08DB0BD0=3,4,1,09DD39D0,0,0,0,0,A,55,0,0,0,0,0,0,B,53,2,09EE4770,0,0,0,0,A
-09EE4770=2,32,0,0,0,0,0,0,A,7,1,0AD31B7C,0,0,0,0,I
-0931E830=4,4,1,09DD3560,0,0,0,0,A,55,0,0,0,0,0,0,C,53,2,09EE67B0,0,0,0,0,A,42,0,35,0,0,0,0,AF
-09EE67B0=2,32,0,0,0,0,0,0,A,7,1,0AD316CC,0,0,0,0,J
-0931E070=3,55,0,0,0,0,0,0,D,4,1,09DD30F0,0,0,0,0,A,53,2,09EE63A0,0,0,0,0,A
-09EE63A0=4,32,0,0,0,0,0,0,A,7,1,0AD3121C,0,0,0,0,K,42,0,35,0,0,0,0,AA,42,0,35,0,0,0,0,Z
-08DB3810=10,7,1,0A287950,0,0,0,0,I,101,0,1,0,0,0,0,B,5,1,0ADAEEFC,0,0,0,0,A,5,1,09E7F0C0,0,0,0,0,A,5,1,0AD31B7C,0,0,0,0,A,53,2,0925E080,0,0,0,0,A,101,0,11,0,0,0,0,L,101,0,32,0,0,0,0,AG,101,0,33,0,0,0,0,AH,101,0,34,0,0,0,0,AI
-0925E080=5,4,1,09D599A0,0,0,0,0,A,4,1,09E7A4D0,0,0,0,0,A,4,1,09D592C0,0,0,0,0,A,38,0,13,0,0,0,0,A,38,0,14,0,0,0,0,A
-08DB4F60=10,7,1,08DB22A0,0,0,0,0,J,101,0,2,0,0,0,0,C,5,1,09D45C10,0,0,0,0,A,5,1,0B5A8190,0,0,0,0,A,5,1,0AD316CC,0,0,0,0,A,53,2,0924E6D0,0,0,0,0,A,101,0,35,0,0,0,0,AJ,101,0,12,0,0,0,0,M,101,0,36,0,0,0,0,AK,101,0,29,0,0,0,0,AD
-0924E6D0=5,4,1,09D591B0,0,0,0,0,A,4,1,09D58A50,0,0,0,0,A,4,1,09E795D0,0,0,0,0,A,38,0,13,0,0,0,0,A,38,0,14,0,0,0,0,A
-08DB49A0=10,7,1,08DB1420,0,0,0,0,K,101,0,3,0,0,0,0,D,5,1,09EE54D0,0,0,0,0,A,5,1,09D44B20,0,0,0,0,A,5,1,0AD3121C,0,0,0,0,A,53,2,09250A70,0,0,0,0,A,101,0,37,0,0,0,0,AL,101,0,38,0,0,0,0,AM,101,0,39,0,0,0,0,AN,101,0,40,0,0,0,0,AO
-09250A70=5,4,1,09D58370,0,0,0,0,A,4,1,09E79150,0,0,0,0,A,4,1,09D67BA0,0,0,0,0,A,38,0,13,0,0,0,0,A,38,0,14,0,0,0,0,A
-08DC9190=4,3,0,15,0,0,0,0,A,74,0,15,0,0,0,0,A,32,0,0,0,0,0,0,A,53,2,0AC09D2C,0,0,0,0,A
-0AC09D2C=1,53,2,0AC0257C,0,0,0,0,A
-0AC0257C=2,9,0,15,0,0,0,0,A,53,2,08FB68BC,0,0,0,0,A
-08FB68BC=1,6,0,15,0,0,0,0,A
-08DC95C0=4,3,0,16,0,0,0,0,A,74,0,16,0,0,0,0,A,32,0,0,0,0,0,0,A,53,2,0AC0326C,0,0,0,0,A
-0AC0326C=1,53,2,0AC065EC,0,0,0,0,A
-0AC0044C=1,53,2,0AC00A8C,0,0,0,0,A
-0AC00A8C=2,9,0,17,0,0,0,0,A,53,2,08FB1E5C,0,0,0,0,A
-0AC065EC=2,9,0,16,0,0,0,0,A,53,2,08FB473C,0,0,0,0,A
-08FB1E5C=1,6,0,17,0,0,0,0,A
-08FB473C=1,6,0,16,0,0,0,0,A
-08DCA960=4,3,0,17,0,0,0,0,A,74,0,17,0,0,0,0,A,32,0,0,0,0,0,0,A,53,2,0AC0044C,0,0,0,0,A
-0924EB00=3,53,2,09F864EC,0,0,0,0,A,113,0,14,0,0,0,0,A,113,0,13,0,0,0,0,A
-09F864EC=1,1,0,14,0,0,0,0,A
-0A46D390=1,53,2,08DC9190,0,0,0,0,A
-0A468930=1,53,2,08DC95C0,0,0,0,0,A
-0A4685D0=1,53,2,08DCA960,0,0,0,0,A
-0A468320=2,7,1,0AD0D6CC,0,0,0,0,J,53,2,0A46CAF0,0,0,0,0,A
-0A46CAF0=4,100,0,102,0,0,0,0,A,17,0,27,0,0,0,0,AB,112,0,27,0,0,0,0,AB,104,5,0AD0D6CC,0,0,0,0,30
-08933B30=1,80,1,0A0CA0D0,0,0,0,0,I
-0893AE50=1,80,1,0893D580,0,0,0,0,K
-0893A890=1,80,1,08938F10,0,0,0,0,J
-09D79700=2,7,1,0AD0D6CC,0,0,0,0,J,53,2,09D79700,0,0,0,0,A
-089C46E0=3,53,2,09F7978C,0,0,0,0,A,112,0,0,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
-09FA7F40=3,53,2,09F7978C,0,0,0,0,A,112,0,0,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
-0A37DCE0=3,53,2,09F7978C,0,0,0,0,A,112,0,0,0,0,0,0,A,21,6,EVA_CriticalStrucureLost,0,0,0,0,A
-0B155310=4,21,6,Mis_A10_Einstein1,0,0,0,0,A,17,0,42,0,0,0,0,AQ,55,0,5,0,0,0,0,AQ,56,0,1,0,0,0,0,A
-08962F40=2,4,1,09D6743C,0,0,0,0,A,53,2,0B155310,0,0,0,0,A
-0BFBA880=2,4,1,09D6C96C,0,0,0,0,A,53,2,0BFBBEB0,0,0,0,0,A
-0BFBBEB0=4,21,6,Mis_A10_Einstein2,0,0,0,0,A,17,0,41,0,0,0,0,AP,55,0,5,0,0,0,0,AP,56,0,2,0,0,0,0,A
-0BFBC710=2,4,1,09D6CEFC,0,0,0,0,A,53,2,0BFBC420,0,0,0,0,A
-0BFBC420=4,21,6,Mis_A10_Einstein3,0,0,0,0,A,55,0,5,0,0,0,0,AR,17,0,43,0,0,0,0,AR,56,0,3,0,0,0,0,A
-0895BA00=3,53,2,0895B320,0,0,0,0,A,53,2,0895AD70,0,0,0,0,A,53,2,0895A960,0,0,0,0,A
-0895B320=3,21,6,Mis_A10_Einstein4,0,0,0,0,A,55,0,5,0,0,0,0,F,17,0,5,0,0,0,0,F
-0895AD70=3,21,6,Mis_A10_Einstein4,0,0,0,0,A,55,0,5,0,0,0,0,F,17,0,5,0,0,0,0,F
-0895A960=3,21,6,Mis_A10_Einstein4,0,0,0,0,A,55,0,5,0,0,0,0,F,17,0,5,0,0,0,0,F
-0B17B1F0=2,21,6,Mis_A10_EvaSpySat,0,0,0,0,A,56,0,4,0,0,0,0,A
-0B17C1F0=1,21,6,Mis_A10_EvaOrePurifier,0,0,0,0,A
-03D64400=1,53,2,0B17C1F0,0,0,0,0,A
-03D7C6B0=4,11,4,MISSION:All10d1,0,0,0,0,A,11,4,MISSION:All10d2,0,0,0,0,A,11,4,MISSION:All10e,0,0,0,0,A,21,6,EVA_NewObjectiveReceived,0,0,0,0,A
-0AC0456C=7,99,7,_Amb_WindCold,0,0,0,0,R,99,7,_Amb_WindCold,0,0,0,0,AT,99,7,_Amb_WindCold,0,0,0,0,AU,99,7,_Amb_WindCold,0,0,0,0,AV,99,7,_Amb_WindCold,0,0,0,0,AW,99,7,_Amb_WindCold,0,0,0,0,CU,99,7,_Amb_WindCold,0,0,0,0,AX
-0B5BD66C=1,11,4,MISSION:All10c,0,0,0,0,A
-0AE4646C=4,112,0,27,0,0,0,0,AB,55,0,5,0,0,0,0,AB,104,5,0AD0D6CC,0,0,0,0,30,21,6,Unit_Eva_Apocalypse,0,0,0,0,A
-0881557C=2,46,0,0,0,0,0,0,A,21,6,EVA_EstablishBattlefieldControl,0,0,0,0,A
-0AE73F3C=2,4,1,0AD98B7C,0,0,0,0,A,99,7,BearSelect,0,0,0,0,BA
-0AE79EDC=1,4,1,0AE789FC,0,0,0,0,A
-0AE7DEBC=1,4,1,0ACF76CC,0,0,0,0,A
-0AE7D53C=2,108,0,0,0,0,0,0,BC,99,7,Bonus,0,0,0,0,BC
-0AE7D2BC=2,108,0,0,0,0,0,0,BD,99,7,Bonus,0,0,0,0,BD
-0AE7BD3C=2,108,0,0,0,0,0,0,BE,99,7,Bonus,0,0,0,0,BE
-0AE7BA4C=2,108,0,0,0,0,0,0,BF,99,7,Bonus,0,0,0,0,BF
-0AE7B75C=2,108,0,0,0,0,0,0,BG,99,7,Bonus,0,0,0,0,BG
-0AE7B46C=2,108,0,0,0,0,0,0,BH,99,7,Bonus,0,0,0,0,BH
-0AE71F3C=2,108,0,0,0,0,0,0,BI,99,7,Bonus,0,0,0,0,BI
-0A0F1D9C=2,53,2,0AE73F3C,0,0,0,0,A,99,7,BearSelect,0,0,0,0,BA
-0AAE8DCC=3,14,0,14,0,0,0,0,A,108,0,1,0,0,0,0,BL,99,7,Bonus,0,0,0,0,BL
-0AB2E52C=2,53,2,0AE73F3C,0,0,0,0,A,99,7,BearSelect,0,0,0,0,BA
-0C701BBC=1,61,0,0,0,0,0,0,A
-08B3CF3C=1,108,0,0,0,0,0,0,BM
-0B02E3EC=1,7,1,0B02B25C,0,0,0,0,A
-0B02FCAC=1,7,1,0B02EEFC,0,0,0,0,A
-0B02F81C=1,7,1,0B02EDCC,0,0,0,0,A
-0CF6E22C=1,56,0,14,0,0,0,0,A
-0AD3822C=2,32,0,0,0,0,0,0,A,53,2,0AC09D2C,0,0,0,0,A
-0AD3EBBC=2,32,0,0,0,0,0,0,A,53,2,0AC0326C,0,0,0,0,A
-0AD3E9AC=2,32,0,0,0,0,0,0,A,53,2,0AC0044C,0,0,0,0,A
+[VariableNames]
+0=Einsteins Gift FLG,0
+1=Einstein Audio1,0
+2=Einstein Audio2,0
+3=Einstein Audio3,0
+4=SpySat Audio Played,0
+5=Polar Bears Gone,0
+6=Woman in Car,0
+7=Spawn Crate,0
+8=Spawn Crate2,0
+9=Spawn Crate3,0
+10=Spawn Crate4,0
+11=Spawn Crate5,0
+12=Spawn Crate6,0
+13=Spawn Crate7,0
+14=Purifier Exists,0
 
-[Tags]
-0912C4D0=0,Reveal Allies,0912CA20
-03D8B210=0,_2 Move Camera to Einst,03D8B8D0
-03D8CC90=0,_5 Player Start,03D8CE20
-0BF20CF0=0,_3 Move Camera to F,0BF20F60
-0BF2B3D0=0,_4 Enable Player Start,0BF2B960
-08DC09C0=0,_1 Spawn Mirages,08DC0BA0
-092A1DB0=0,_6 Begin Sov Invasion,092A3410
-0B0CF980=0,_Loss (Occurs),0A37DCE0
-0B5B5ED0=0,_7 Second Wave,0B5B32F0
-08DB0570=0,German1 Attacked,08DB0BD0
-0931E250=0,German2 Attacked,0931E830
-09319BA0=0,German3 Attacked,0931E070
-09EE6F70=0,German1 Explode,09EE4770
-09EE65D0=0,German2 Explode,09EE67B0
-09EE6210=0,German3 Explode,09EE63A0
-08DB3370=0,German1 KIA,08DB3810
-08DB1BA0=0,German2 KIA,08DB4F60
-08DB4550=0,German3 KIA,08DB49A0
-08DC9680=0,BG1 Production Start,0AD3822C
-08DCAA20=0,BG2 Production Start,0AD3EBBC
-08DCA5D0=0,BG3 Production Start,0AD3E9AC
-09250080=0,_Win (Occurs),0924EB00
-0925F310=0,BG1 Invaders Reform,0925E080
-092520E0=0,BG2 Invaders Reform,0924E6D0
-09273220=0,BG3 Invaders Reform,09250A70
-0A468DD0=0,BG1 Production Enable,0A46D390
-0A4686B0=0,BG2 Production Enable,0A468930
-0A468400=0,BG3 Production Enable,0A4685D0
-0A46D780=0,Apocalypse Created,09D79700
-0A46C6B0=0,Apocalypse Sighted,0AE4646C
-08932C70=0,BG1 Summon Harvester,08933B30
-0893A970=0,BG3 Summon Harvester,0893AE50
-0893A690=0,BG2 Summon Harvester,0893A890
-0B157D00=0,Einstein Audio 1 Play,0B155310
-089A0800=0,Einstein Asslt Sqd 1 Go,08962F40
-0BFBA370=0,Einstein Asslt Sqd 2 Go,0BFBA880
-0BFBB700=0,Einstein Audio 2 Play,0BFBBEB0
-0BFBC500=0,Einstein Asslt Sqd 3 Go,0BFBC710
-0BFBC090=0,Einstein Audio 3 Play,0BFBC420
-0895B400=0,Einstein Audio 4 Enable,0895BA00
-0895AF50=0,Einstein Audio 4 Play,0895A960
-0B17C740=0,Build SpySat Audio Play,0B17B1F0
-0B17C120=0,Bld Purifier Audio Play,0B17C1F0
-03D65040=0,Enable Purifier Audio,03D64400
-03D63F50=0,Objective Statements,03D7C6B0
-0AC0266C=0,Play Cold Wind Sounds,0AC0456C
-0AC066DC=0,BG1 Firesale,0AC0257C
-0AC063AC=0,BG2 Firesale,0AC065EC
-0AC0053C=0,BG3 Firesale,0AC00A8C
-0AC057BC=0,BG3 Firesale Enabler,0AC0044C
-0AC09F4C=0,BG2 Firesale Enabler,0AC0326C
-0AC0BA5C=0,BG1 Firesale Enabler,0AC09D2C
-0B5BD58C=0,Einstein Under Attk,0B5BD66C
-09F7933C=0,_Loss (Game Over),09F7978C
-09F8623C=0,_Win (Game Over),09F864EC
-088111DC=0,_0 Lock Input,0881557C
-0AE739FC=0,Polar Bears,0AE73F3C
-0AE79B3C=0,Polar Bear Woman,0AE79EDC
-0AE7DCBC=0,Polar Bear Woman Car,0AE7DEBC
-0AE7D3AC=0,Bear Crate Spawn 1,0AE7D53C
-0AE7BE2C=0,Bear Crate Spawn 2,0AE7D2BC
-0AE7BB3C=0,Bear Crate Spawn 3,0AE7BD3C
-0AE7B84C=0,Bear Crate Spawn 4,0AE7BA4C
-0AE7B55C=0,Bear Crate Spawn 5,0AE7B75C
-0AE77E5C=0,Bear Crate Spawn 6,0AE7B46C
-0AE7591C=0,Bear Crate Spawn 7,0AE71F3C
-0A0F475C=0,Polar Bears Enable,0AB2E52C
-0AAEA9EC=0,Reclaimed Refinery,0AAE8DCC
-0C7016DC=0,Chrono Power Off,0C701BBC
-08B3A1BC=0,Crate at BM,08B3CF3C
-0B02FD9C=0,BG1 Babysitters Spawn,0B02E3EC
-0B02F90C=0,BG2 Babysitters Spawn,0B02FCAC
-0B02F44C=0,BG3 Babysitters Spawn,0B02F81C
-08FB73EC=0,BG1 All to Hunt,08FB68BC
-08FB1F4C=0,BG2 All to Hunt,08FB473C
-08FBB30C=0,BG3 All to Hunt,08FB1E5C
-0CF6FD6C=0,Does Purifier Exist,0CF6E22C
+[Vinifera]
+Value=50
+
+[Waypoints]
+0=172098
+1=58080
+2=40111
+3=72145
+4=175107
+5=169117
+6=167115
+7=180111
+8=32080
+9=13111
+10=71169
+11=66080
+12=50110
+13=87147
+14=74080
+15=71111
+16=114147
+17=95096
+18=119114
+19=110080
+20=85109
+21=103133
+22=123123
+23=126139
+24=125103
+25=75151
+26=69152
+27=19111
+28=55090
+29=42120
+30=60148
+31=35107
+32=58072
+33=57088
+34=50080
+35=40103
+36=32111
+37=62144
+38=71135
+39=82147
+40=71155
+41=110168
+42=95060
+43=148147
+44=170116
+45=99036
+46=78047
+47=102171
+48=132170
+49=74059
+50=151118
+51=114019
+52=115023
+53=118030
+54=131038
+55=129042
+56=130051
+57=135052
+58=136055
+59=145064
+60=153063
+61=156060
+62=114020
+63=126181
+64=148054
+98=128114
+
+[YURI]
+TechLevel=12
+
+[ZEP]
+TechLevel=12
 
 [Digest]
-1=2lDXLRdlJwMukNDtNKCXvCESz1k=
+1=If71MCfp1P5qXseUZQUquFht8ao=
