@@ -21,3 +21,9 @@ Allied 5:
 		- Modified Nuke Silos to no longer be spyable since doing so was pointless and never affected the mission outcome in any meaningful way.
 - Added an extra reveal when the player discovers the crash-landed units to make them easier to spot
 	- This repositions and uses waypoint 25, which wasn't used for anything else before this
+	
+Allied 8:
+- Added triggers to properly sell Psychic Beacon when captured by player-built Engineers
+- Added Elite abilities to Engineer so that it now benefits from Elite veterancy (faster, self-healing)
+- The player can now build the American version of the Air Force Headquarters, as intended. This also fixes AITriggers that depend on the player owning an American Air Force Headquarters
+- End-of-game fire sale now also fire sale BadGuy2's buildings, in addition to BadGuy1
