@@ -1997,6 +1997,107 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01000244]
+0=1,ORCA
+Name=[BTR] 1 Harrier TF
+Group=-1
+
+[01000245]
+Max=3
+Full=no
+Name=[BTR] !Harriers (5) - Refinery 02
+Group=-1
+House=BadGuy1
+Script=01000024
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000244
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[01000246]
+Max=2
+Full=no
+Name=[BTR] !Harriers (6) - Battle Lab 02
+Group=-1
+House=BadGuy1
+Script=01000032
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000244
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[01000249]
+Max=5
+Full=no
+Name=[BTR] !Harriers (4) - Power 02
+Group=-1
+House=BadGuy1
+Script=01000036
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000244
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
 [ADOG]
 TechLevel=-1
 
@@ -2133,15 +2234,15 @@ Value=50
 01000147=4,80,1,01000087,0,0,0,0,AL,107,1,01000088,0,0,0,0,AK,107,1,01000110,0,0,0,0,AJ,107,1,01000125,0,0,0,0,AA
 01000148=1,21,6,Unit_Sofia_PrismTank,0,0,0,0,A
 01000149=3,80,1,01000100,0,0,0,0,P,80,1,01000090,0,0,0,0,AX,80,1,01000111,0,0,0,0,R
-01000150=6,107,1,01000101,0,0,0,0,L,80,1,01000116,0,0,0,0,P,80,1,01000100,0,0,0,0,AX,80,1,01000100,0,0,0,0,R,11,4,MISSION:Sov07e,0,0,0,0,A,21,6,Mis_S7_SofiaChrono2,0,0,0,0,A
+01000150=9,107,1,01000101,0,0,0,0,L,80,1,01000100,0,0,0,0,AX,80,1,01000100,0,0,0,0,R,11,4,MISSION:Sov07e,0,0,0,0,A,21,6,Mis_S7_SofiaChrono2,0,0,0,0,A,80,1,01000249,0,0,0,0,P,80,1,01000249,0,0,0,0,P,80,1,01000249,0,0,0,0,P,80,1,01000249,0,0,0,0,P
 01000151=7,107,1,01000128,0,0,0,0,BP,80,1,01000091,0,0,0,0,AC,107,1,01000105,0,0,0,0,AD,107,1,01000105,0,0,0,0,AE,107,1,01000118,0,0,0,0,AK,11,4,MISSION:Sov07e,0,0,0,0,A,21,6,Mis_S7_SofiaChrono2,0,0,0,0,A
-01000152=2,107,1,01000128,0,0,0,0,AZ,80,1,01000103,0,0,0,0,P
+01000152=6,107,1,01000128,0,0,0,0,AZ,80,1,01000245,0,0,0,0,P,80,1,01000245,0,0,0,0,P,80,1,01000245,0,0,0,0,P,80,1,01000245,0,0,0,0,P,80,1,01000245,0,0,0,0,P
 01000153=4,80,1,01000086,0,0,0,0,AA,80,1,01000086,0,0,0,0,AK,11,4,MISSION:Sov07e,0,0,0,0,A,21,6,Mis_S7_SofiaChrono2,0,0,0,0,A
 01000154=6,80,1,01000106,0,0,0,0,AT,80,1,01000108,0,0,0,0,AX,107,1,01000105,0,0,0,0,AL,107,1,01000105,0,0,0,0,BX,107,1,01000105,0,0,0,0,AJ,107,1,01000105,0,0,0,0,AK
 01000155=4,80,1,01000109,0,0,0,0,AJ,107,1,01000120,0,0,0,0,AJ,107,1,01000120,0,0,0,0,AA,107,1,01000121,0,0,0,0,CI
 01000156=5,107,1,01000113,0,0,0,0,AL,107,1,01000118,0,0,0,0,AD,107,1,01000105,0,0,0,0,BX,107,1,01000088,0,0,0,0,AE,107,1,01000101,0,0,0,0,AG
 01000157=6,80,1,01000093,0,0,0,0,AJ,80,1,01000093,0,0,0,0,AL,80,1,01000093,0,0,0,0,AA,80,1,01000093,0,0,0,0,CI,11,4,MISSION:Sov07f,0,0,0,0,A,21,6,Mis_S7_SofiaChrono3,0,0,0,0,A
-01000158=7,80,1,01000111,0,0,0,0,AX,80,1,01000112,0,0,0,0,P,53,2,01000138,0,0,0,0,A,107,1,01000110,0,0,0,0,AK,107,1,01000113,0,0,0,0,BX,107,1,01000101,0,0,0,0,AL,107,1,01000118,0,0,0,0,AG
+01000158=7,80,1,01000111,0,0,0,0,AX,53,2,01000138,0,0,0,0,A,107,1,01000110,0,0,0,0,AK,107,1,01000113,0,0,0,0,BX,107,1,01000101,0,0,0,0,AL,107,1,01000118,0,0,0,0,AG,53,2,01000247,0,0,0,0,A
 01000159=2,80,1,01000114,0,0,0,0,S,99,7,MCVMoveStart,0,0,0,0,BA
 01000160=1,80,1,01000115,0,0,0,0,BZ
 01000161=2,80,1,01000093,0,0,0,0,AA,53,2,01000162,0,0,0,0,A
@@ -2159,7 +2260,7 @@ Value=50
 01000173=2,108,0,0,0,0,0,0,CD,99,7,Bonus,0,0,0,0,CD
 01000174=3,21,6,Unit_Sofia_Apocalypse,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,302,0,0,0,0,150
 01000175=1,53,2,01000174,0,0,0,0,A
-01000176=3,80,1,01000116,0,0,0,0,R,107,1,01000118,0,0,0,0,AB,107,1,01000124,0,0,0,0,A
+01000176=6,107,1,01000118,0,0,0,0,AB,107,1,01000124,0,0,0,0,A,80,1,01000249,0,0,0,0,R,80,1,01000249,0,0,0,0,R,80,1,01000249,0,0,0,0,R,80,1,01000249,0,0,0,0,R
 01000177=2,80,1,01000091,0,0,0,0,AA,107,1,01000118,0,0,0,0,AT
 01000178=2,108,0,0,0,0,0,0,BT,99,7,Bonus,0,0,0,0,BT
 01000179=2,108,0,0,0,0,0,0,BU,99,7,Bonus,0,0,0,0,BU
@@ -2175,6 +2276,7 @@ Value=50
 01000189=3,80,1,01000099,0,0,0,0,AJ,80,1,01000093,0,0,0,0,AA,80,1,01000093,0,0,0,0,CI
 01000190=1,38,0,13,0,0,0,0,A
 01000191=1,38,0,13,0,0,0,0,A
+01000247=6,80,1,01000246,0,0,0,0,P,80,1,01000246,0,0,0,0,P,80,1,01000246,0,0,0,0,P,80,1,01000246,0,0,0,0,P,80,1,01000246,0,0,0,0,P,80,1,01000246,0,0,0,0,P
 
 [BadGuy1]
 Name=BadGuy1
@@ -2434,9 +2536,10 @@ TechLevel=-1
 01000189=1,47,0,2050
 01000190=1,47,0,5
 01000191=1,47,0,6
+01000247=1,8,0,0
 
 [FA2spVersionControl]
-Version=4
+Version=9
 LastPreviewOption=2
 
 [General]
@@ -4219,6 +4322,7 @@ CarriesCrate=yes
 01000241=0,5th Wave B2-2050,01000189
 01000242=0,!MakeBG1HatePlayer,01000190
 01000243=0,!MakeBG2HatePlayer,01000191
+01000248=0,[BTR] Massive Last Attempt 2 1,01000247
 
 [TaskForces]
 0=01000049
@@ -4256,6 +4360,7 @@ CarriesCrate=yes
 32=01000081
 33=01000082
 34=01000083
+35=01000244
 
 [TeamTypes]
 0=01000084
@@ -4303,6 +4408,9 @@ CarriesCrate=yes
 42=01000126
 43=01000127
 44=01000128
+45=01000245
+46=01000246
+47=01000249
 
 [Terrain]
 14091=TREE21
@@ -5411,6 +5519,7 @@ CarriesCrate=yes
 01000189=BadGuy2,<none>,Spies,0,1,1,1,0
 01000190=BadGuy1,<none>,MakeBG1Hate,0,1,1,1,0
 01000191=BadGuy2,<none>,MakeBG2Hate,0,1,1,1,0
+01000247=Neutral,<none>,[BTR] Massive Last Attempt 2,1,1,1,1,0
 
 [Units]
 0=Other1 House,PROPA,256,138,76,128,Guard,01000000,0,-1,0,-1,1,1
@@ -5518,4 +5627,4 @@ Value=50
 TechLevel=-1
 
 [Digest]
-1=deHt7dhqfkCYadhXaxo3HNgWTqM=
+1=Gi9GvRVgZKM9faUxm6VJSAlk0YA=
