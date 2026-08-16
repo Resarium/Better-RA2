@@ -27,3 +27,10 @@ Allied 8:
 - Added Elite abilities to Engineer so that it now benefits from Elite veterancy (faster, self-healing)
 - The player can now build the American version of the Air Force Headquarters, as intended. This also fixes AITriggers that depend on the player owning an American Air Force Headquarters
 - End-of-game fire sale now also fire sale BadGuy2's buildings, in addition to BadGuy1
+
+Allied 11:
+- Reworked bridge fixer Engineer teams so that it no longer infinitely spawns from Seals blowing up nothing
+	- Side effect 1: a 60 in-game seconds delay is added to the enemy Engineer team that spawns in
+- Fixed misaligned and nonsensical basenodes for BayGuy2
+- Re-oriented facings of defenses to make them appear more natural
+- Re-implemented the Spy hint trigger, which now takes place 20 in-game seconds after Romanov's speech finishes
