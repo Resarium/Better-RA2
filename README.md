@@ -1,6 +1,9 @@
 # Better-RA2
 WIP
 
+General Changes:
+TeamDelays are fixed in all applicable missions so that it isn't reversed. Hard is hard and easy is easy!
+
 Allied 2:
 - Adjusted celltag positions for Tanya's swim hint trigger to minimize chance of it not triggering properly
 - Added 5 in-game seconds of delay to the mission loss screen when triggered by Tanya's death so that the EVA voicelines don't get jumbled together
