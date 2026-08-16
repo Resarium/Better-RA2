@@ -15,7 +15,7 @@ Allied 5:
 - Reworked Spy reinforcement loop logic so that the player can now use them to infiltrate War Factories, Barracks and Refineries for their respective bonuses
 	- Side effect 1: if the Spies are killed for whatever reason immediately after they get off the Night Hawk (i.e. before they begin flashing), then the trigger loop breaks and no more Spy reinforcements are delivered. However given that this should never happen unless the Player kills their own Spies, this is considered acceptable behaviour.
 	- Side effect 2: the Night Hawk has been modified to be Unselectable and provide no vision to accommodate for the trigger. Given that the player never gets them in this mission however, this is considered acceptable.
-	- Side effect 3: this complicates the trigger setups related to Battle Lab and Nuke Silos. The corresponding trigger logics have been reworked to accomodate the change with additional QoL. (see below)
+	- Side effect 3: this complicates the trigger setups related to Battle Lab and Nuke Silos. The corresponding trigger logics have been reworked to accommodate the change with additional QoL. (see below)
 		- Changed the Battle Lab objective to allow the player to capture it to progress the mission, unlike in Vanilla where capturing it fails you the mission despite EVA's follow-up voiceline not making any sense.
 		- Added 1 in-game second delay to Nuke 1 Destroyed, Nuke 2 Destroyed, Nuke 1 Captured, Nuke 2 Captured, to accommodate reworked Spy setup
 		- Modified Nuke Silos to no longer be spyable since doing so was pointless and never affected the mission outcome in any meaningful way.
@@ -34,3 +34,9 @@ Allied 11:
 - Fixed misaligned and nonsensical basenodes for BayGuy2
 - Re-oriented facings of defenses to make them appear more natural
 - Re-implemented the Spy hint trigger, which now takes place 20 in-game seconds after Romanov's speech finishes
+
+Soviet 2:
+- Added a single Grand Cannon in the Allied base on Hard difficulty; There was leftover ini modifications suggesting that this building would've appeared in this mission.
+- Reworked and re-implemented Vladimir's return after his initial escape. He will run away again everytime he is attacked by an enemy. However, if the player supports Vlad and keeps him unharmed, he will help destroy the Pillboxes and the Grand Cannon inside the main Allied base.
+	- Re-added related text strings that went unused
+- Re-implemented the unused hint trigger to construct a Naval Shipyard
