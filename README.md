@@ -45,3 +45,8 @@ Soviet 5:
 - Removed the ability to "charge" the Eiffel Tower with the 2 Conscripts from the top-right Flak Track team
 	- The Conscripts now simply spawn alongside the Flak Track instead of being inside it
 - Re-implemented text trigger for the Ivan CarBomb hint
+
+Soviet 8:
+- Re-implemented the text trigger to hint at the cash bonues from destroying monuments
+- Fixed the trigger to free the mind-controlled American soldiers after the Psychic Beacon is destroyed
+- Re-implemented the unused harassment trigger which sends a team of flak tracks filled with infantry to attack the player on Hard difficulty
