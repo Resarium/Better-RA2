@@ -58,6 +58,136 @@ AreTeamMembersRecruitable=no
 Name=1Flak, 2 Shock, 2 Dog, 5 Conscpt 02
 Group=-1
 
+[01000008]
+Max=5
+Full=no
+Name=Desolator Team
+Group=-1
+House=Other3
+Script=01000010
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000009
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000009]
+0=1,DESO
+Name=TF 1 Desolator
+Group=-1
+
+[01000010]
+0=20,13
+1=50,90
+Name=SCR Flash Desolator Team
+
+[01000015]
+0=1,VLADIMIR
+Name=TF 1 Vladimir
+Group=-1
+
+[01000016]
+Max=5
+Full=no
+Name=Vladimir Himself
+Group=-1
+House=Vlad2
+Script=01000017
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=BL
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000015
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000017]
+0=50,105
+1=3,62
+2=37,0
+Name=SCR Vladimir Enter White House
+
+[01000026]
+Max=5
+Full=no
+Name=Desolator Team Special Boi
+Group=-1
+House=Other3
+Script=01000027
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000009
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000027]
+0=20,13
+1=50,90
+2=5,3
+3=9,9
+Name=SCR Flash Desolator Team Deploy
+
 [03F7425C]
 0=5,DOG
 1=5,E2
@@ -2332,6 +2462,13 @@ Value=50
 Drones=1,4,1,0A11AA4C,0,0,0,0,A
 01000000=12,11,4,mission:sov08b,0,0,0,0,A,41,0,471,0,0,0,0,BD,41,0,471,0,0,0,0,BE,41,0,471,0,0,0,0,BF,41,0,471,0,0,0,0,BG,41,0,471,0,0,0,0,BH,54,2,01000000,0,0,0,0,A,53,2,07E0F3CC,0,0,0,0,A,53,2,0858555C,0,0,0,0,A,53,2,0B086E1C,0,0,0,0,A,53,2,0B084D8C,0,0,0,0,A,53,2,08678DBC,0,0,0,0,A
 01000002=2,7,1,0A0CEA4C,0,0,0,0,A,7,1,01000004,0,0,0,0,A
+01000006=8,4,1,01000008,0,0,0,0,A,4,1,01000026,0,0,0,0,A,4,1,01000008,0,0,0,0,A,4,1,01000026,0,0,0,0,A,21,6,Unit_Sofia_Desolator,0,0,0,0,A,17,0,61,0,0,0,0,A,48,0,4,0,0,0,0,BJ,53,2,01000022,0,0,0,0,A
+01000011=3,46,0,0,0,0,0,0,A,21,6,EVA_EstablishBattlefieldControl,0,0,0,0,A,53,2,01000013,0,0,0,0,A
+01000013=5,48,0,4,0,0,0,0,V,4,1,01000016,0,0,0,0,A,53,2,01000018,0,0,0,0,A,53,2,01000020,0,0,0,0,A,41,0,471,0,0,0,0,BM
+01000018=1,41,0,471,0,0,0,0,BM
+01000020=2,12,2,01000018,0,0,0,0,A,53,2,01000006,0,0,0,0,A
+01000022=2,6,0,19,0,0,0,0,A,53,2,01000024,0,0,0,0,A
+01000024=3,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,48,0,4,0,0,0,0,CU
 07DB14FC=4,11,4,MISSION:Sov08a,0,0,0,0,A,53,2,0856B86C,0,0,0,0,A,17,0,21,0,0,0,0,V,55,0,5,0,0,0,0,V
 07E0F3CC=2,108,0,0,0,0,0,0,D,54,2,07E0F3CC,0,0,0,0,A
 07F40F3C=3,80,1,0B60354C,0,0,0,0,H,80,1,0FBCEDEC,0,0,0,0,N,80,1,0FBCD32C,0,0,0,0,AD
@@ -2358,7 +2495,7 @@ Drones=1,4,1,0A11AA4C,0,0,0,0,A
 0B312F3C=3,38,0,13,0,0,0,0,A,3,0,15,0,0,0,0,A,74,0,15,0,0,0,0,A
 0B538DFC=1,113,0,13,0,0,0,0,A
 0B63A3BC=12,99,7,_Amb_BirdsPark,0,0,0,0,AH,99,7,_Amb_BirdsTemperate1,0,0,0,0,AI,99,7,_Amb_BirdsPark,0,0,0,0,AJ,99,7,_Amb_BirdsTemperate1,0,0,0,0,AK,99,7,_Amb_BirdsPark,0,0,0,0,AL,99,7,_Amb_BirdsTemperate1,0,0,0,0,AM,99,7,_Amb_BirdsPark,0,0,0,0,AN,99,7,_Amb_BirdsTemperate1,0,0,0,0,AO,99,7,_Amb_BirdsPark,0,0,0,0,AP,99,7,_Amb_BirdsTemperate1,0,0,0,0,AQ,99,7,_Amb_BirdsPark,0,0,0,0,AR,99,7,_Amb_BirdsBeach,0,0,0,0,BB
-0B657F3C=13,99,7,_Amb_WavesLake,0,0,0,0,U,99,7,_Amb_WavesLake,0,0,0,0,X,99,7,_Amb_WavesLake,0,0,0,0,Y,99,7,_Amb_WavesLake,0,0,0,0,AZ,99,7,_Amb_UrbanMurmur1,0,0,0,0,AS,99,7,_Amb_UrbanMurmur2,0,0,0,0,BA,99,7,_Amb_OceanLight,0,0,0,0,AT,99,7,_Amb_OceanLight,0,0,0,0,AU,99,7,_Amb_OceanLight,0,0,0,0,AV,99,7,_Amb_OceanLight,0,0,0,0,AW,99,7,_Amb_OceanLight,0,0,0,0,AX,99,7,_Amb_BirdsBeach,0,0,0,0,AY,47,0,0,0,0,0,0,A
+0B657F3C=12,99,7,_Amb_WavesLake,0,0,0,0,U,99,7,_Amb_WavesLake,0,0,0,0,X,99,7,_Amb_WavesLake,0,0,0,0,Y,99,7,_Amb_WavesLake,0,0,0,0,AZ,99,7,_Amb_UrbanMurmur1,0,0,0,0,AS,99,7,_Amb_UrbanMurmur2,0,0,0,0,BA,99,7,_Amb_OceanLight,0,0,0,0,AT,99,7,_Amb_OceanLight,0,0,0,0,AU,99,7,_Amb_OceanLight,0,0,0,0,AV,99,7,_Amb_OceanLight,0,0,0,0,AW,99,7,_Amb_OceanLight,0,0,0,0,AX,99,7,_Amb_BirdsBeach,0,0,0,0,AY
 0B83E7A0=1,4,1,0A11C93C,0,0,0,0,A
 0C214B00=5,53,2,08012920,0,0,0,0,A,17,0,21,0,0,0,0,V,54,2,0856B86C,0,0,0,0,A,113,0,13,0,0,0,0,A,53,2,0B538DFC,0,0,0,0,A
 0C2152A0=1,2,0,13,0,0,0,0,A
@@ -2508,6 +2645,8 @@ PlayerControl=no
 5=Other1
 6=Other2
 7=Other3
+8=Deso
+9=InitialAllied
 
 [CrateRules]
 SoloCrateMoney=8000
@@ -2519,6 +2658,16 @@ Value=100
 Owner=Russians,Confederation,Africans,Arabs
 RequiredHouses=Player,Vlad1,Vlad2
 
+[Deso]
+Name=Deso
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians
+
 [ENGINEER]
 TechLevel=-1
 
@@ -2526,7 +2675,14 @@ TechLevel=-1
 Drones=1,13,0,800
 01000000=1,33,0,0
 01000002=1,13,0,200
-07DB14FC=1,47,0,5
+01000006=1,13,0,3
+01000011=1,13,0,0
+01000013=1,13,0,8
+01000018=1,13,0,3
+01000020=1,13,0,8
+01000022=1,13,0,0
+01000024=1,13,0,17
+07DB14FC=1,47,0,8
 07E0F3CC=1,48,0,0
 07F40F3C=1,47,0,2
 07FB8F40=1,15,0,18
@@ -2562,7 +2718,7 @@ Drones=1,13,0,800
 0E177CD0=1,47,0,1
 
 [FA2spVersionControl]
-Version=40
+Version=114
 LastPreviewOption=2
 
 [General]
@@ -2609,7 +2765,7 @@ LightVisibility=3300
 8=Vlad2 House,E1,256,108,69,3,Guard,0,0E0F2D10,0,-1,0,1,1
 9=Vlad2 House,E1,256,109,68,3,Guard,32,0E0F2D10,0,-1,0,1,1
 10=Vlad2 House,E1,256,104,71,3,Guard,224,0E0F2D10,0,-1,0,1,1
-11=Player House,DESO,256,60,100,3,Guard,0,None,0,-1,0,1,1
+11=Other3 House,DESO,256,59,93,1,Guard,0,01000007,0,-1,0,1,1
 12=Vlad2 House,E1,256,127,75,2,Guard,128,0E0F2D10,0,-1,0,1,1
 13=Vlad2 House,E1,256,133,71,3,Guard,160,0E0F2D10,0,-1,0,1,1
 14=Vlad2 House,E1,256,132,74,2,Guard,192,0E0F2D10,0,-1,0,1,1
@@ -2642,9 +2798,9 @@ LightVisibility=3300
 41=Civilian1 House,CTECH,256,87,83,2,Guard,64,0E02A300,0,-1,0,1,1
 42=Civilian1 House,CIV1,256,72,70,2,Guard,64,0E02A300,0,-1,0,1,1
 43=Civilian1 House,CIV2,256,87,84,4,Guard,64,0E02A300,0,-1,0,1,1
-44=Player House,DESO,256,62,100,3,Guard,0,None,0,-1,0,1,1
-45=Player House,DESO,256,59,100,3,Guard,0,None,0,-1,0,1,1
-46=Player House,DESO,256,61,100,3,Guard,0,None,0,-1,0,1,1
+44=Other3 House,DESO,256,62,94,1,Guard,0,01000007,0,-1,0,1,1
+45=Other3 House,DESO,256,57,94,1,Guard,224,01000007,0,-1,0,1,1
+46=Other3 House,DESO,256,60,93,4,Guard,0,01000007,0,-1,0,1,1
 47=Player House,E2,256,63,106,2,Guard,0,None,0,-1,0,1,1
 48=Player House,E2,256,63,105,2,Guard,0,None,0,-1,0,1,1
 49=Player House,E2,256,59,105,2,Guard,0,None,0,-1,0,1,1
@@ -2654,6 +2810,43 @@ LightVisibility=3300
 53=Player House,E2,256,58,106,2,Guard,0,None,0,-1,0,1,1
 54=Player House,E2,256,59,106,2,Guard,0,None,0,-1,0,1,1
 55=Vlad1 House,SHK,256,106,102,3,Guard,192,None,0,-1,0,0,0
+56=Other2 House,E1,256,57,85,3,Sleep,96,01000023,0,-1,0,1,1
+57=Other2 House,E1,256,50,84,1,Sleep,96,01000023,0,-1,0,1,1
+58=Other2 House,E1,256,52,85,3,Sleep,96,01000023,0,-1,0,1,1
+59=Other2 House,E1,256,54,86,1,Sleep,128,01000023,0,-1,0,1,1
+60=Other2 House,E1,256,61,85,1,Sleep,128,01000023,0,-1,0,1,1
+61=Other2 House,E1,256,63,86,4,Sleep,160,01000023,0,-1,0,1,1
+62=Other2 House,E1,256,66,86,3,Sleep,128,01000023,0,-1,0,1,1
+63=Vlad2 House,VLADIMIR,256,99,22,4,Guard,64,None,0,-1,0,1,1
+64=Other2 House,E1,256,55,82,2,Sleep,96,01000023,0,-1,0,1,1
+65=Other2 House,E1,256,54,81,1,Sleep,96,01000023,0,-1,0,1,1
+66=Other2 House,E1,256,51,82,3,Sleep,128,01000023,0,-1,0,1,1
+67=Other2 House,E1,256,50,86,2,Sleep,96,01000023,0,-1,0,1,1
+68=Other2 House,E1,256,62,82,1,Sleep,160,01000023,0,-1,0,1,1
+69=Other2 House,E1,256,67,83,3,Sleep,160,01000023,0,-1,0,1,1
+70=Other2 House,E2,256,56,83,4,Sleep,128,None,0,-1,0,0,0
+71=Other2 House,E2,256,61,80,1,Sleep,128,None,0,-1,0,0,0
+72=Other2 House,E2,256,60,80,4,Sleep,128,None,0,-1,0,0,0
+73=Other2 House,E2,256,60,80,2,Sleep,128,None,0,-1,0,0,0
+74=Other2 House,E2,256,55,84,3,Sleep,128,None,0,-1,0,0,0
+75=Other2 House,E2,256,49,83,4,Sleep,128,None,0,-1,0,0,0
+76=Other2 House,E2,256,49,83,3,Sleep,128,None,0,-1,0,0,0
+77=Vlad2 House,E1,256,107,51,3,Guard,96,0E0F2D10,0,-1,0,1,1
+78=Vlad2 House,E1,256,107,50,4,Guard,128,0E0F2D10,0,-1,0,1,1
+79=Vlad2 House,E1,256,108,51,2,Guard,128,0E0F2D10,0,-1,0,1,1
+80=Vlad2 House,E1,256,83,47,1,Guard,128,0E0F2D10,0,-1,0,1,1
+81=Vlad2 House,E1,256,85,48,2,Guard,128,0E0F2D10,0,-1,0,1,1
+82=Vlad2 House,E1,256,86,49,2,Guard,160,0E0F2D10,0,-1,0,1,1
+
+[InitialAllied]
+Name=InitialAllied
+Side=GDI
+Color=DarkBlue
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans
 
 [IsoMapPack5]
 1=EQ4AIAQBAF8AOgEAYAACAgBeAJZAAQkCAAACAGAAOgEAAANoAaAElQFfgQQFYwNhAEJIAl
@@ -4232,7 +4425,7 @@ ParentCountry=Americans
 [Other2 House]
 IQ=0
 Edge=South
-Color=Gold
+Color=Purple
 Allies=Other2 House
 Country=Other2
 Credits=20
@@ -4253,7 +4446,7 @@ ParentCountry=Americans
 [Other3 House]
 IQ=0
 Edge=South
-Color=Gold
+Color=DarkRed
 Allies=Other3 House
 Country=Other3
 Credits=20
@@ -4380,6 +4573,9 @@ UnderParMessage=GUI:UnderParMsgSov08
 [Riparius]
 Value=50
 
+[SMCV]
+ImmuneToRadiation=yes
+
 [SQD]
 TechLevel=-1
 
@@ -4427,6 +4623,9 @@ TechLevel=-1
 40=0796A91C
 41=0797291C
 42=0922C7CC
+43=01000010
+44=01000017
+45=01000027
 
 [Smudge]
 0=BURNT08,99,43,0
@@ -4444,6 +4643,10 @@ TechLevel=-1
 12=BURNT06,67,99,0
 13=CRATER08,70,99,0
 14=BURNT09,113,125,0
+15=CRATER01,57,88,0
+16=CRATER04,64,88,0
+17=CRATER07,61,92,0
+18=BURNT02,60,88,0
 
 [SpecialFlags]
 Inert=no
@@ -4467,6 +4670,16 @@ DestroyableBridges=yes
 3=Civilian1 House,CAWSH12,256,107,72,0,07E09C4C,0,0,1,0,0,None,None,None,0,0
 4=Civilian1 House,CAWASH14,256,98,128,0,0B084CAC,0,0,1,0,0,None,None,None,0,0
 5=Civilian1 House,CAWASH15,256,40,72,0,0B086D3C,0,0,1,0,0,None,None,None,0,0
+6=Civilian1 House,CAWASH01,256,98,14,0,0C214930,0,0,1,0,0,None,None,None,0,0
+7=Vlad2 House,NALASR,256,87,59,128,None,1,0,1,0,0,None,None,None,1,0
+8=Vlad2 House,NALASR,256,78,46,160,None,1,0,1,0,0,None,None,None,1,0
+9=Vlad2 House,NAFLAK,256,105,42,128,None,1,0,1,0,0,None,None,None,0,0
+10=Vlad2 House,NAFLAK,256,90,40,128,None,1,0,1,0,0,None,None,None,0,0
+11=Vlad2 House,NAFLAK,256,94,28,128,None,0,0,1,0,0,None,None,None,1,0
+12=Vlad2 House,NAFLAK,256,106,28,128,None,0,0,1,0,0,None,None,None,1,0
+13=Vlad2 House,NALASR,256,102,20,128,None,0,0,1,0,0,None,None,None,1,0
+14=Vlad2 House,NALASR,256,98,20,128,None,0,0,1,0,0,None,None,None,1,0
+15=Vlad2 House,NALASR,256,118,50,96,None,1,0,1,0,0,None,None,None,1,0
 1029645=Civilian1 House,CAWASH07,256,88,20,0,None,0,0,1,0,0,None,None,None,0,0
 1029646=Civilian1 House,CAWASH11,128,74,35,0,None,0,0,1,0,0,None,None,None,0,0
 1029647=Civilian1 House,CAWASH11,256,74,41,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4474,9 +4687,6 @@ DestroyableBridges=yes
 1029649=Civilian1 House,CAWASH05,256,135,103,0,None,0,0,1,0,0,None,None,None,0,0
 1029650=Civilian1 House,CAWASH10,256,125,53,0,None,0,0,1,0,0,None,None,None,0,0
 1029651=Civilian1 House,CAWASH11,256,125,87,0,None,0,0,1,0,0,None,None,None,0,0
-1029652=Vlad2 House,NAFLAK,256,94,28,0,None,0,0,1,0,0,None,None,None,1,0
-1029653=Vlad2 House,NAFLAK,256,106,28,0,None,0,0,1,0,0,None,None,None,1,0
-1029654=Civilian1 House,CAWASH01,256,98,14,0,0C214930,0,0,1,0,0,None,None,None,0,0
 1029655=Civilian1 House,INYELWLAMP,256,101,22,0,None,0,0,1,0,0,None,None,None,0,0
 1029656=Civilian1 House,INYELWLAMP,256,129,105,0,None,0,0,1,0,0,None,None,None,0,0
 1029657=Civilian1 House,INYELWLAMP,256,43,74,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4486,8 +4696,6 @@ DestroyableBridges=yes
 1029661=Civilian1 House,CAMISC04,256,76,46,0,None,0,0,1,0,0,None,None,None,0,0
 1029662=Vlad2 House,TESLA,256,97,28,0,None,0,0,1,0,0,None,None,None,1,0
 1029665=Vlad2 House,TESLA,256,103,28,0,None,0,0,1,0,0,None,None,None,1,0
-1029668=Vlad2 House,NALASR,256,102,20,0,None,0,0,1,0,0,None,None,None,1,0
-1029669=Vlad2 House,NALASR,256,98,20,0,None,0,0,1,0,0,None,None,None,1,0
 1029670=Vlad2 House,TESLA,256,94,23,0,None,0,0,1,0,0,None,None,None,1,0
 1029673=Vlad2 House,TESLA,256,106,23,0,None,0,0,1,0,0,None,None,None,1,0
 1029683=Civilian1 House,CAWASH04,256,124,39,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4496,7 +4704,6 @@ DestroyableBridges=yes
 1029688=Vlad2 House,NAPOWR,256,93,36,0,None,1,0,1,0,0,None,None,None,0,0
 1029691=Vlad2 House,NAPOWR,256,93,39,0,None,1,0,1,0,0,None,None,None,0,0
 1029694=Vlad2 House,NACNST,256,98,37,0,None,1,0,1,0,0,None,None,None,1,0
-1029699=Vlad2 House,NALASR,256,78,46,0,None,1,0,1,0,0,None,None,None,1,0
 1029700=Civilian1 House,CAMSC01,256,89,84,0,None,0,0,1,0,0,None,None,None,0,0
 1029701=Civilian1 House,CAARMY04,256,87,39,0,None,0,0,1,0,0,None,None,None,0,0
 1029702=Civilian1 House,CARUS02B,256,82,29,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4505,21 +4712,17 @@ DestroyableBridges=yes
 1029705=Civilian1 House,CARUS02A,256,97,46,0,None,0,0,1,0,0,None,None,None,0,0
 1029706=Civilian1 House,CARUS02B,256,118,29,0,None,0,0,1,0,0,None,None,None,0,0
 1029707=Civilian1 House,CARUS02B,256,118,32,0,None,0,0,1,0,0,None,None,None,0,0
-1029708=Vlad2 House,NALASR,256,118,50,0,None,1,0,1,0,0,None,None,None,1,0
 1029709=Vlad2 House,NAPOWR,256,113,36,0,None,1,0,1,0,0,None,None,None,0,0
 1029712=Vlad2 House,NAPOWR,256,113,39,0,None,1,0,1,0,0,None,None,None,0,0
 1029715=Vlad2 House,NAREFN,256,87,55,0,None,1,0,1,0,0,None,None,None,0,0
 1029721=Civilian1 House,CARUS02B,256,118,46,0,None,0,0,1,0,0,None,None,None,0,0
 1029722=Civilian1 House,CARUS02B,256,82,46,0,None,0,0,1,0,0,None,None,None,0,0
-1029723=Vlad2 House,NALASR,256,87,59,0,None,1,0,1,0,0,None,None,None,1,0
 1029724=Civilian1 House,INYELWLAMP,256,114,79,0,None,0,0,1,0,0,None,None,None,0,0
 1029725=Civilian1 House,INYELWLAMP,256,101,62,0,None,0,0,1,0,0,None,None,None,0,0
 1029726=Civilian1 House,CAARMY01,256,96,56,0,None,0,0,1,0,0,None,None,None,0,0
 1029727=Civilian1 House,CAARMY02,256,94,58,0,None,0,0,1,0,0,None,None,None,0,0
 1029728=Civilian1 House,CAARMY03,256,96,59,0,None,0,0,1,0,0,None,None,None,0,0
 1029729=Vlad2 House,NARADR,256,93,52,0,None,1,0,1,0,0,None,None,None,0,0
-1029732=Vlad2 House,NAFLAK,256,90,40,0,None,1,0,1,0,0,None,None,None,0,0
-1029733=Vlad2 House,NAFLAK,256,105,42,0,None,1,0,1,0,0,None,None,None,0,0
 1029734=Civilian1 House,CAARMY03,256,85,41,0,None,0,0,1,0,0,None,None,None,0,0
 1029735=Civilian1 House,CAARMY01,256,35,83,0,None,0,0,1,0,0,None,None,None,0,0
 1029736=Civilian1 House,CAARMY02,256,34,81,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4580,6 +4783,13 @@ DestroyableBridges=yes
 [Tags]
 01000001=0,BTR Hint Destroy Monument 1,01000000
 01000003=0,BTR Harassment 1,01000002
+01000007=0,BTR Intro 4 Hint Desolator 1,01000006
+01000012=0,BTR Intro 1 1,01000011
+01000014=0,BTR Intro 2 1,01000013
+01000019=2,BTR Intro 2 Mark Loop 1,01000018
+01000021=0,BTR Intro 3 1,01000020
+01000023=0,BTR Intro 4 Hint Desolator 2 1,01000022
+01000025=0,BTR Intro 5 1,01000024
 07DB11BC=0,!!DeliverObjective,07DB14FC
 07E09C4C=2,MonWashDestroyed,07E0F3CC
 07F409FC=0,!GarrisonTroops,07F40F3C
@@ -4659,6 +4869,8 @@ DestroyableBridges=yes
 42=03F7425C
 43=092021EC
 44=01000005
+45=01000009
+46=01000015
 
 [TeamTypes]
 0=0BF1CB5C
@@ -4698,6 +4910,9 @@ DestroyableBridges=yes
 34=08837EFC
 35=087D21EC
 36=01000004
+37=01000008
+38=01000016
+39=01000026
 
 [Terrain]
 9095=TREE08
@@ -5188,6 +5403,13 @@ DestroyableBridges=yes
 Drones=Vlad1,<none>,SendTanks-Deso,0,1,1,1,0
 01000000=Civilian1,<none>,BTR Hint Destroy Monument,0,1,1,1,0
 01000002=Vlad1,<none>,BTR Harassment,0,0,0,1,0
+01000006=Other3,<none>,BTR Intro 4 Hint Desolator,1,1,1,1,0
+01000011=Player,<none>,BTR Intro 1,0,1,1,1,0
+01000013=Neutral,<none>,BTR Intro 2,1,1,1,1,0
+01000018=Neutral,<none>,BTR Intro 2 Mark Loop,1,1,1,1,0
+01000020=Neutral,<none>,BTR Intro 3,1,1,1,1,0
+01000022=Other2,<none>,BTR Intro 4 Hint Desolator 2,1,1,1,1,0
+01000024=Other2,<none>,BTR Intro 5,1,1,1,1,0
 07DB14FC=Player,<none>,!!DeliverObjective,0,1,1,1,0
 07E0F3CC=Player,01000000,WashDestroyed,0,1,1,1,0
 07F40F3C=Vlad1,<none>,GarrisonTroops,0,1,1,1,0
@@ -5249,6 +5471,13 @@ Drones=Vlad1,<none>,SendTanks-Deso,0,1,1,1,0
 22=Vlad1 House,TRUCKB,256,105,127,64,Guard,None,0,-1,0,-1,1,1
 23=Vlad1 House,APOC,256,108,127,64,Guard,None,0,-1,0,-1,0,0
 24=Vlad1 House,HTK,256,108,129,64,Guard,None,0,-1,0,-1,0,0
+25=Other2 House,MTNK,52,59,85,128,Sleep,01000023,0,-1,0,-1,0,0
+26=Other2 House,MTNK,25,53,83,96,Sleep,01000023,0,-1,0,-1,0,0
+27=Other2 House,MTNK,25,64,80,128,Sleep,01000023,0,-1,0,-1,0,0
+28=Other2 House,MTNK,52,106,50,128,Guard,0E0F2D10,0,-1,0,-1,0,0
+29=Other2 House,MTNK,52,84,48,160,Guard,0E0F2D10,0,-1,0,-1,0,0
+30=Other2 House,MTNK,52,87,48,128,Guard,0E0F2D10,0,-1,0,-1,0,0
+31=Other2 House,MTNK,52,109,50,96,Guard,0E0F2D10,0,-1,0,-1,0,0
 
 [VariableNames]
 0=Bridge1Open,0
@@ -5303,7 +5532,7 @@ IQ=5
 007=NAPOWR,113,33
 Edge=North
 Color=Purple
-Allies=Vlad1 House,Vlad2 House,CivilianArmy House,Civilian1 House
+Allies=Vlad1 House,CivilianArmy House,Civilian1 House
 Country=Vlad2
 Credits=200
 NodeCount=8
@@ -5373,6 +5602,10 @@ PlayerControl=no
 58=128098
 59=71106
 60=94161
+61=91059
+62=18099
+63=22099
+64=15098
 78=30080
 79=48080
 80=48120
@@ -5383,4 +5616,4 @@ PlayerControl=no
 TechLevel=-1
 
 [Digest]
-1=NktpMFLUXfrrVRSnMUTj8A4qnfQ=
+1=xxugcQbh6D8auq3J59Sw4z9PF8E=

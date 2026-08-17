@@ -3445,7 +3445,7 @@ SoloCrateMoney=10000
 Value=100
 
 [DESO]
-RequiredHouses=Russians,BadGuy1
+RequiredHouses=Russians,BadGuy1,Player
 
 [DOG]
 TechLevel=-1
@@ -3620,7 +3620,7 @@ PercentBuilt=0
 PlayerControl=no
 
 [FA2spVersionControl]
-Version=40
+Version=41
 LastPreviewOption=2
 
 [GAAIRC]
@@ -6078,4 +6078,4 @@ Name=Kirov Airship
 TechLevel=12
 
 [Digest]
-1=GdIzcEnsR932PQOsv4zuUyM9QWg=
+1=8wUZedV/Yzu2Na6s5j5F1IPbSXY=

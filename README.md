@@ -50,6 +50,10 @@ Soviet 8:
 - Re-implemented the text trigger to hint at the cash bonues from destroying monuments
 - Fixed the trigger to free the mind-controlled American soldiers after the Psychic Beacon is destroyed
 - Re-implemented the unused harassment trigger which sends a team of flak tracks filled with infantry to attack the player on Hard difficulty
+- Added a proper intro to the mission, highlighting Vladimir entering the White House and re-implementing the unused Desolator introduction voiceline by Zofia
+- Added a few more groups of mind-controlled Allied soldiers to Vladimir's base to incentivize the destruction of the Psychic Beacon by the player
+- Changed facings of defenses on the map to make them appear more natural
+- Made the MCV immune to radiation
 
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
