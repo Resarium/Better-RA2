@@ -40,3 +40,8 @@ Soviet 2:
 - Reworked and re-implemented Vladimir's return after his initial escape. He will run away again everytime he is attacked by an enemy. However, if the player supports Vlad and keeps him unharmed, he will help destroy the Pillboxes and the Grand Cannon inside the main Allied base.
 	- Re-added related text strings that went unused
 - Re-implemented the unused hint trigger to construct a Naval Shipyard
+
+Soviet 5:
+- Removed the ability to "charge" the Eiffel Tower with the 2 Conscripts from the top-right Flak Track team
+	- The Conscripts now simply spawn alongside the Flak Track instead of being inside it
+- Re-implemented text trigger for the Ivan CarBomb hint
