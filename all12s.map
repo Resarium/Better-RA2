@@ -2025,6 +2025,9 @@ Value=50
 0D9E803C=1,53,2,0D9F203C,0,0,0,0,A
 0D9F203C=1,19,7,TanyaCreated,0,0,0,0,A
 
+[AudioVisual]
+LineTrailColorOverride=80,80,90
+
 [BadGuy1]
 Name=BadGuy1
 Side=Nod
@@ -2339,7 +2342,7 @@ TechLevel=-1
 0D9F203C=1,13,0,2
 
 [FA2spVersionControl]
-Version=63
+Version=67
 LastPreviewOption=2
 
 [GHOST]
@@ -2347,7 +2350,6 @@ TechLevel=5
 
 [General]
 TeamDelays=500,750,1000
-LineTrailColor=80,80,90
 TotalAITeamCap=60,40,30
 ChronoReinfDelay=60
 ParachuteMaxFallRate=-10
@@ -4915,6 +4917,7 @@ RequiredHouses=BadGuy1,BadGuy2,Russians,Player
 38=BadGuy1 House,HTNK,256,80,37,192,Area Guard,None,0,-1,0,-1,1,0
 39=BadGuy1 House,HTNK,256,96,91,0,Guard,None,0,-1,0,-1,1,0
 40=BadGuy1 House,HTNK,256,92,95,192,Guard,None,0,-1,0,-1,1,0
+41=Other2 House,FV,256,61,59,64,Guard,None,0,-1,0,-1,0,0
 
 [VariableNames]
 0=Play Final Movie,0
@@ -4998,4 +5001,4 @@ Value=50
 99=61062
 
 [Digest]
-1=BR+taJaIngk4Y89VVsmNQ4xhBuY=
+1=/WWka2uywBvKxRlF9MTPwlJHLTk=
