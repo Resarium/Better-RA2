@@ -50,3 +50,12 @@ Soviet 8:
 - Re-implemented the text trigger to hint at the cash bonues from destroying monuments
 - Fixed the trigger to free the mind-controlled American soldiers after the Psychic Beacon is destroyed
 - Re-implemented the unused harassment trigger which sends a team of flak tracks filled with infantry to attack the player on Hard difficulty
+
+Soviet 11:
+- Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
+- Adjusted facings of enemy defense structures so they look more natural
+- Reworked Nuke Silo Kirov attack teams. Now, they will still continuously respawn if the Nuke Silo persists, but it doesn't happen until the previous wave is completely destroyed. Additionally, selling and rebuilding the Nuke Silo rapidly will no longer trigger repeated Kirov spawns.
+	- Delayed Zofia's related Alert and Flak Cannon voicelines by 3 in-game seconds each to account for the faster speed of modern PCs (so that the voiceline doesn't get cut off)
+	- Re-implemented related unused text triggers.
+- Re-implemented the Yuri taunt movie.
+	- A team of 3 PsiCorps Troopers will now be paradroped in front of the Orange AI base 50 in-game seconds after game initialization. When they enter combat, the Yuri taunt movie plays.
