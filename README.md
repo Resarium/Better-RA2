@@ -54,6 +54,7 @@ Soviet 8:
 - Added a few more groups of mind-controlled Allied soldiers to Vladimir's base to incentivize the destruction of the Psychic Beacon by the player
 - Changed facings of defenses on the map to make them appear more natural
 - Made the MCV immune to radiation
+- Added red lighting to the Psychic Beacon for consistency
 
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road

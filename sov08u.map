@@ -2469,6 +2469,7 @@ Drones=1,4,1,0A11AA4C,0,0,0,0,A
 01000020=2,12,2,01000018,0,0,0,0,A,53,2,01000006,0,0,0,0,A
 01000022=2,6,0,19,0,0,0,0,A,53,2,01000024,0,0,0,0,A
 01000024=3,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,48,0,4,0,0,0,0,CU
+01000028=1,16,0,0,0,0,0,0,A
 07DB14FC=4,11,4,MISSION:Sov08a,0,0,0,0,A,53,2,0856B86C,0,0,0,0,A,17,0,21,0,0,0,0,V,55,0,5,0,0,0,0,V
 07E0F3CC=2,108,0,0,0,0,0,0,D,54,2,07E0F3CC,0,0,0,0,A
 07F40F3C=3,80,1,0B60354C,0,0,0,0,H,80,1,0FBCEDEC,0,0,0,0,N,80,1,0FBCD32C,0,0,0,0,AD
@@ -2682,6 +2683,7 @@ Drones=1,13,0,800
 01000020=1,13,0,8
 01000022=1,13,0,0
 01000024=1,13,0,17
+01000028=1,13,0,0
 07DB14FC=1,47,0,8
 07E0F3CC=1,48,0,0
 07F40F3C=1,47,0,2
@@ -2718,7 +2720,7 @@ Drones=1,13,0,800
 0E177CD0=1,47,0,1
 
 [FA2spVersionControl]
-Version=114
+Version=118
 LastPreviewOption=2
 
 [General]
@@ -4387,6 +4389,11 @@ TechLevel=-1
 [NAPSYB]
 Name=RA2 Psychic Beacon
 Capturable=false
+LightRedTint=1.0
+LightBlueTint=0.20
+LightGreenTint=0.40
+LightIntensity=0.02
+LightVisibility=2400
 
 [NAYARD]
 Name=Soviet Shipyard
@@ -4690,7 +4697,6 @@ DestroyableBridges=yes
 1029655=Civilian1 House,INYELWLAMP,256,101,22,0,None,0,0,1,0,0,None,None,None,0,0
 1029656=Civilian1 House,INYELWLAMP,256,129,105,0,None,0,0,1,0,0,None,None,None,0,0
 1029657=Civilian1 House,INYELWLAMP,256,43,74,0,None,0,0,1,0,0,None,None,None,0,0
-1029658=Civilian1 House,INYELWLAMP,256,131,70,0,None,0,0,1,0,0,None,None,None,0,0
 1029659=Civilian1 House,NEGLAMP,256,117,41,0,None,0,0,1,0,0,None,None,None,0,0
 1029660=Civilian1 House,CAMISC04,256,117,96,0,None,0,0,1,0,0,None,None,None,0,0
 1029661=Civilian1 House,CAMISC04,256,76,46,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4790,6 +4796,7 @@ DestroyableBridges=yes
 01000021=0,BTR Intro 3 1,01000020
 01000023=0,BTR Intro 4 Hint Desolator 2 1,01000022
 01000025=0,BTR Intro 5 1,01000024
+01000029=0,[DEBUG] Reveal Map 1,01000028
 07DB11BC=0,!!DeliverObjective,07DB14FC
 07E09C4C=2,MonWashDestroyed,07E0F3CC
 07F409FC=0,!GarrisonTroops,07F40F3C
@@ -5410,6 +5417,7 @@ Drones=Vlad1,<none>,SendTanks-Deso,0,1,1,1,0
 01000020=Neutral,<none>,BTR Intro 3,1,1,1,1,0
 01000022=Other2,<none>,BTR Intro 4 Hint Desolator 2,1,1,1,1,0
 01000024=Other2,<none>,BTR Intro 5,1,1,1,1,0
+01000028=Neutral,<none>,[DEBUG] Reveal Map,0,1,1,1,0
 07DB14FC=Player,<none>,!!DeliverObjective,0,1,1,1,0
 07E0F3CC=Player,01000000,WashDestroyed,0,1,1,1,0
 07F40F3C=Vlad1,<none>,GarrisonTroops,0,1,1,1,0
@@ -5474,10 +5482,10 @@ Drones=Vlad1,<none>,SendTanks-Deso,0,1,1,1,0
 25=Other2 House,MTNK,52,59,85,128,Sleep,01000023,0,-1,0,-1,0,0
 26=Other2 House,MTNK,25,53,83,96,Sleep,01000023,0,-1,0,-1,0,0
 27=Other2 House,MTNK,25,64,80,128,Sleep,01000023,0,-1,0,-1,0,0
-28=Other2 House,MTNK,52,106,50,128,Guard,0E0F2D10,0,-1,0,-1,0,0
-29=Other2 House,MTNK,52,84,48,160,Guard,0E0F2D10,0,-1,0,-1,0,0
-30=Other2 House,MTNK,52,87,48,128,Guard,0E0F2D10,0,-1,0,-1,0,0
-31=Other2 House,MTNK,52,109,50,96,Guard,0E0F2D10,0,-1,0,-1,0,0
+28=Vlad2 House,MTNK,52,106,50,128,Guard,0E0F2D10,0,-1,0,-1,0,0
+29=Vlad2 House,MTNK,52,84,48,160,Guard,0E0F2D10,0,-1,0,-1,0,0
+30=Vlad2 House,MTNK,52,87,48,128,Guard,0E0F2D10,0,-1,0,-1,0,0
+31=Vlad2 House,MTNK,52,109,50,96,Guard,0E0F2D10,0,-1,0,-1,0,0
 
 [VariableNames]
 0=Bridge1Open,0
@@ -5616,4 +5624,4 @@ PlayerControl=no
 TechLevel=-1
 
 [Digest]
-1=xxugcQbh6D8auq3J59Sw4z9PF8E=
+1=EDT/kT0EUjuuupBKbdr0SyNjlBE=
