@@ -64,3 +64,4 @@ Soviet 11:
 	- Re-implemented related unused text triggers.
 - Re-implemented the Yuri taunt movie.
 	- A team of 3 PsiCorps Troopers will now be paradroped in front of the Orange AI base 50 in-game seconds after game initialization. When they enter combat, the Yuri taunt movie plays.
+- Added an unused TeamType for the Orange enemy AI as an AITrigger. This TeamType rushes down the player with 4 Engineers inside a Flak Track
