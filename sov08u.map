@@ -2720,7 +2720,7 @@ Drones=1,13,0,800
 0E177CD0=1,47,0,1
 
 [FA2spVersionControl]
-Version=118
+Version=119
 LastPreviewOption=2
 
 [General]
@@ -5417,7 +5417,7 @@ Drones=Vlad1,<none>,SendTanks-Deso,0,1,1,1,0
 01000020=Neutral,<none>,BTR Intro 3,1,1,1,1,0
 01000022=Other2,<none>,BTR Intro 4 Hint Desolator 2,1,1,1,1,0
 01000024=Other2,<none>,BTR Intro 5,1,1,1,1,0
-01000028=Neutral,<none>,[DEBUG] Reveal Map,0,1,1,1,0
+01000028=Neutral,<none>,[DEBUG] Reveal Map,1,1,1,1,0
 07DB14FC=Player,<none>,!!DeliverObjective,0,1,1,1,0
 07E0F3CC=Player,01000000,WashDestroyed,0,1,1,1,0
 07F40F3C=Vlad1,<none>,GarrisonTroops,0,1,1,1,0
@@ -5624,4 +5624,4 @@ PlayerControl=no
 TechLevel=-1
 
 [Digest]
-1=EDT/kT0EUjuuupBKbdr0SyNjlBE=
+1=HG0cAsnjE0FUjaUq6ayGYde8GZE=
