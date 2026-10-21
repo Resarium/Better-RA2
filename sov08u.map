@@ -186,6 +186,8 @@ AreTeamMembersRecruitable=no
 1=50,90
 2=5,3
 3=9,9
+4=5,15
+5=9,0
 Name=SCR Flash Desolator Team Deploy
 
 [03F7425C]
@@ -2720,7 +2722,7 @@ Drones=1,13,0,800
 0E177CD0=1,47,0,1
 
 [FA2spVersionControl]
-Version=119
+Version=121
 LastPreviewOption=2
 
 [General]
@@ -5624,4 +5626,4 @@ PlayerControl=no
 TechLevel=-1
 
 [Digest]
-1=HG0cAsnjE0FUjaUq6ayGYde8GZE=
+1=x1Wt5JGk1qiVLY5X8p0A2iimKI0=
