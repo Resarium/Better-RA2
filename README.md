@@ -46,6 +46,15 @@ Soviet 5:
 	- The Conscripts now simply spawn alongside the Flak Track instead of being inside it
 - Re-implemented text trigger for the Ivan CarBomb hint
 
+Soviet 6:
+- Properly enables BadGuy1's production after the Korean fleet arrives
+- Removed TeamDelays changes so that enemy production properly scales with difficulty levels
+- Re-added secondary text string for the Dreadnought reinforcement
+- Re-enabled several AITriggers for base defense and harrier harrass
+- Changed the Carrier's CanPassiveAquire ini flag to yes; this allows them to automatically target the player's ground units and buildings
+- The Korean Fleet now spawns from multiple off-map waypoints instead of a single on-map waypoint so that their entrance appears more cinematic and less bizarre
+- Increased Stray from 2.0 to 4.0 so that GI + transport AITeams won't have a chance to get stuck due to having too large of a taskforce.
+
 Soviet 8:
 - Re-implemented the text trigger to hint at the cash bonues from destroying monuments
 - Fixed the trigger to free the mind-controlled American soldiers after the Psychic Beacon is destroyed
