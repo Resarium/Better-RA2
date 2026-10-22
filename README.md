@@ -94,3 +94,12 @@ Soviet 12:
 	- The (1 Carrier) taskforce had no units in it at all. Fixing this now causes the enemy to properly spawn a carrier when the player spots the initial beach
 	- The first enemy base, BadGuy1, will now also produce Carrier AITeams properly
 - Added a limited number of basenodes to enemy bases so that they will actually rebuild up to a certain degree
+
+YR Soviet 2:
+- Added a 5 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
+	- This eliminates the visual bug caused by changing the Chronosphere's house right as it fires its superweapon
+- Made the Chronosphere unsellable to remove the rare possibility of the AI selling the Chronosphere and hand the player the victory
+- Fixed several AITriggers that had erroneous conditions
+	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now create several Mirage tank ambush teams
+	- Affected triggers: Amb_MirageBR AITrig, Amb_MirageBS AITrig, Amb_MirageBT AITrig, Amb_MirageBU AITrig, Amb_MirageBV AITrig, Amb_MirageBW AITrig
+- Added a trigger to brief the player on the Battle Bunker once they deploy the Soviet ConYard; uses a related un-used Zofia voiceline
