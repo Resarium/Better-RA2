@@ -2722,11 +2722,11 @@ Drones=1,13,0,800
 0E177CD0=1,47,0,1
 
 [FA2spVersionControl]
-Version=121
+Version=122
 LastPreviewOption=2
 
 [General]
-TeamDelays=2000,1750,1500
+TeamDelays=1500,1750,2000
 CampaignMoneyDeltaEasy=5000
 CampaignMoneyDeltaHard=-5000
 
@@ -5626,4 +5626,4 @@ PlayerControl=no
 TechLevel=-1
 
 [Digest]
-1=x1Wt5JGk1qiVLY5X8p0A2iimKI0=
+1=iW4ykryz+maoCYU4r6g4z1nAn98=

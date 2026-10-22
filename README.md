@@ -103,3 +103,6 @@ YR Soviet 2:
 	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now create several Mirage tank ambush teams
 	- Affected triggers: Amb_MirageBR AITrig, Amb_MirageBS AITrig, Amb_MirageBT AITrig, Amb_MirageBU AITrig, Amb_MirageBV AITrig, Amb_MirageBW AITrig
 - Added a trigger to brief the player on the Battle Bunker once they deploy the Soviet ConYard; uses a related un-used Zofia voiceline
+
+YR Soviet 4:
+- Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are destroyed
