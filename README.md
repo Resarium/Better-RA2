@@ -65,6 +65,13 @@ Soviet 8:
 - Made the MCV immune to radiation
 - Added red lighting to the Psychic Beacon for consistency
 
+Soviet 9:
+- Reverted the IFV's attack paradigm changes as it's a legacy change that is no longer necessary
+- The Blackhawk's elite weapon damage is raised to 75 to match the increase in its base weapon damage
+- The cyan Tech Airport and Allied Power Plant are now properly transferred to the player when captured using a mind-controlled Engineer
+- Replaced the Soviet attack dogs with the Allied variant
+- Replaced dummy stop sign buildings with the proper terrain object version
+
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
 - Adjusted facings of enemy defense structures so they look more natural
