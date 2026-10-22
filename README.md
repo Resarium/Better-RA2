@@ -81,3 +81,16 @@ Soviet 11:
 - Re-implemented the Yuri taunt movie.
 	- A team of 3 PsiCorps Troopers will now be paradroped in front of the Orange AI base 50 in-game seconds after game initialization. When they enter combat, the Yuri taunt movie plays.
 - Added an unused TeamType for the Orange enemy AI as an AITrigger. This TeamType rushes down the player with 4 Engineers inside a Flak Track
+
+Soviet 12:
+- Fixed triggers so that the repeating chrono reinforcement Prism tanks don't spawn until you reach the third ore field on the mainland
+- Added a new trigger that allows the player to still obtain the Kirovs near the Tech Aiport if they build a SpySat before discovering them
+- Added a text trigger that indicates when the enemy spots the player and begins AI production (since Zofia says "they will not be expecting us" in the transmission)
+- Re-enabled a trigger that recruits 2 additional destroyers to attack the player when they are spotted, but changed it to be only on hard difficulty
+- Reworked an obsolete AITeam to instead produce attack teams consisting of 1 or 2 Prism tanks.
+	- The original name of the AITrigger was "Solar Tank", which either referred to a cut unit or the Prism tank. It asked the AI to build Tesla tanks despite them not being able to do so
+- Added a repeating trigger that reminds the player to destroy the Chronosphere after they capture the Kirovs; This type of repeating reminder is commonly present in most other missions.
+- Fixed a bug that caused carrier teams to not actually spawn
+	- The (1 Carrier) taskforce had no units in it at all. Fixing this now causes the enemy to properly spawn a carrier when the player spots the initial beach
+	- The first enemy base, BadGuy1, will now also produce Carrier AITeams properly
+- Added a limited number of basenodes to enemy bases so that they will actually rebuild up to a certain degree
