@@ -106,3 +106,4 @@ YR Soviet 2:
 
 YR Soviet 4:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are destroyed
+- Added an un-used text string to the player reinforcements that can occur on Easy and Medium difficulty
