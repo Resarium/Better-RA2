@@ -114,6 +114,14 @@ YR Allied 1:
 	- Reveal trigger was likely cut for being too close to introductory Power Plants
 	- Moved the trigger's tags to a reasonably appropriate nearby location
 	- Added triggers to display an arrow pointing to the building, complimenting similar existing triggers for other Gattling Cannons
+	
+YR Allied 7:
+- Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
+	- This uses an un-used EVA voiceline to introduce the Magnetron
+- Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
+- Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
+- Limited the MCV Chrono reinforcements to happen once at most
+	- This cheese is far too overpowered in its original state, changing it brings it more in line with similar triggers in other missions, like in Escape Velocity
 
 YR Soviet 2:
 - Added a 5 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
@@ -132,11 +140,3 @@ YR Soviet 6:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
 	- This trigger uses an un-used text string
-	
-YR Allied 7:
-- Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
-	- This uses an un-used EVA voiceline to introduce the Magnetron
-- Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
-- Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
-- Limited the MCV Chrono reinforcements to happen once at most
-	- This cheese is far too overpowered in its original state, changing it brings it more in line with similar triggers in other missions, like in Escape Velocity
