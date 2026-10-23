@@ -95,6 +95,26 @@ Soviet 12:
 	- The first enemy base, BadGuy1, will now also produce Carrier AITeams properly
 - Added a limited number of basenodes to enemy bases so that they will actually rebuild up to a certain degree
 
+YR Allied 1:
+- Removed unused trigger that changes units to the player's house
+- Removed obsolete duplicate triggers for Harrier intro sequence, restoring Grand Cannons, and checking if the Partially-Built Psychic Dominator is destroyed
+- Removed obsolete trigger that stopped a timer if the player's power goes down
+	- Probably leftover from an earlier version of the map design that had the player defend their power at some point
+- Reenabled a trigger playing an EVA voiceline introducing the Psychic Dominator when selected
+- Reenabled a 3 unused garrison triggers
+	- Tweaked actions to spawn Initiates instead of recruiting existing ones
+	- Moved 1 garrison that was doubled up on the existing garrison to a building south of the introductory set of Power Plants
+	- Added an eviction trigger for the existing garrison, as it was previously using the unused duplicate's eviction trigger
+- Removed unused triggers creating a chain pinging different power plants across the map
+	- Possibly was part of the introduction before being cut
+- Fixed many triggers detecting the ownership and existence of power plants across the map
+	- Not currently used for anything but would be a pain to remove from tag chains and annoying to reimplement if you wanted to extend this mission with more mechanics later on
+	- Probably leftover from an earlier iteration of the map
+- Added a fourth Gattling Cannon to the map linked to an unused reveal trigger
+	- Reveal trigger was likely cut for being too close to introductory Power Plants
+	- Moved the trigger's tags to a reasonably appropriate nearby location
+	- Added triggers to display an arrow pointing to the building, complimenting similar existing triggers for other Gattling Cannons
+
 YR Soviet 2:
 - Added a 5 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
 	- This eliminates the visual bug caused by changing the Chronosphere's house right as it fires its superweapon
