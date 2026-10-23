@@ -114,6 +114,8 @@ YR Soviet 6:
 	- This trigger uses an un-used text string
 	
 YR Allied 7:
+- Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
+	- This uses an un-used EVA voiceline to introduce the Magnetron
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
 - Limited the MCV Chrono reinforcements to happen once at most
