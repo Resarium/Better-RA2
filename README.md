@@ -105,5 +105,10 @@ YR Soviet 2:
 - Added a trigger to brief the player on the Battle Bunker once they deploy the Soviet ConYard; uses a related un-used Zofia voiceline
 
 YR Soviet 4:
-- Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are destroyed
+- Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added an un-used text string to the player reinforcements that can occur on Easy and Medium difficulty
+
+YR Soviet 6:
+- Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
+- Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
+	- This trigger uses an un-used text string
