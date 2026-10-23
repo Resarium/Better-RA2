@@ -5901,7 +5901,7 @@ PlayerControl=no
 01000551=2,36,0,23,13,0,30
 
 [FA2spVersionControl]
-Version=34
+Version=35
 LastPreviewOption=2
 
 [French]
@@ -10526,14 +10526,6 @@ TechLevel=12
 51=YuriCountry,MIND,256,210,144,0,Area Guard,None,0,-1,0,-1,1,1
 52=YuriCountry,LTNK,256,206,142,0,Area Guard,None,0,-1,0,-1,1,1
 53=Yuri2,TELE,256,122,178,128,Guard,None,0,-1,0,-1,1,1
-54=Americans,SREF,256,88,121,64,Guard,None,0,-1,0,-1,0,0
-55=Americans,SREF,256,88,122,64,Guard,None,0,-1,0,-1,0,0
-56=Americans,SREF,256,88,123,64,Guard,None,0,-1,0,-1,0,0
-57=Americans,SREF,256,88,124,64,Guard,None,0,-1,0,-1,0,0
-58=Americans,SREF,256,89,121,64,Guard,None,0,-1,0,-1,0,0
-59=Americans,SREF,256,89,122,64,Guard,None,0,-1,0,-1,0,0
-60=Americans,SREF,256,89,123,64,Guard,None,0,-1,0,-1,0,0
-61=Americans,SREF,256,89,124,64,Guard,None,0,-1,0,-1,0,0
 
 [VariableNames]
 0=Has_Soviet_Barrack,0
@@ -10733,4 +10725,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=7Hxm1WflHjWZCs3VPjkgaPo/gvo=
+1=U/mGzeYforXm2MQ/ZMGQU04qjrY=
