@@ -100,7 +100,7 @@ YR Soviet 2:
 	- This eliminates the visual bug caused by changing the Chronosphere's house right as it fires its superweapon
 - Made the Chronosphere unsellable to remove the rare possibility of the AI selling the Chronosphere and hand the player the victory
 - Fixed several AITriggers that had erroneous conditions
-	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now create several Mirage tank ambush teams
+	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now properly create Mirage tank ambush teams
 	- Affected triggers: Amb_MirageBR AITrig, Amb_MirageBS AITrig, Amb_MirageBT AITrig, Amb_MirageBU AITrig, Amb_MirageBV AITrig, Amb_MirageBW AITrig
 - Added a trigger to brief the player on the Battle Bunker once they deploy the Soviet ConYard; uses a related un-used Zofia voiceline
 
@@ -112,3 +112,9 @@ YR Soviet 6:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
 	- This trigger uses an un-used text string
+	
+YR Allied 7:
+- Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
+- Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
+- Limited the MCV Chrono reinforcements to happen once at most
+	- This cheese is far too overpowered in its original state, changing it brings it more in line with similar triggers in other missions, like in Escape Velocity
