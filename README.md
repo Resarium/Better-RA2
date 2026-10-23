@@ -48,7 +48,7 @@ Soviet 5:
 
 Soviet 6:
 - Properly enables BadGuy1's production after the Korean fleet arrives
-- Removed TeamDelays changes so that enemy production properly scales with difficulty levels
+- Fixed TeamDelays changes so that enemy production properly scales with difficulty levels
 - Re-added secondary text string for the Dreadnought reinforcement
 - Re-enabled several AITriggers for base defense and harrier harrass
 - Changed the Carrier's CanPassiveAquire ini flag to yes; this allows them to automatically target the player's ground units and buildings
@@ -114,6 +114,20 @@ YR Allied 1:
 	- Reveal trigger was likely cut for being too close to introductory Power Plants
 	- Moved the trigger's tags to a reasonably appropriate nearby location
 	- Added triggers to display an arrow pointing to the building, complimenting similar existing triggers for other Gattling Cannons
+	
+YR Allied 2:
+- Restored the original name and voicelines of the three Hollywood stars
+- Added a group of rescuable Allied infantry near one of the Grinders
+	- Rescuing them plays either an un-used voicelines or a generic GGI select voiceline, depending on whether the player did so BEFORE or AFTER they destroyed all Grinders on the map respectively
+- Added a fourth hero unit that uses the modified Texan civilian's stats as an easter egg
+	- This unit can be found in the mind-controlled civilian pen in the bottom right corner of the map. Clicking on him will activate the easter egg trigger
+	- Added an extra ini change to make the hero immune to mind control
+- Fixed a bug where a hegdehog barricade was mistakenly assigned under the player's ownership
+- Reworked the Flak Cannon method of providing the player with extra funds on Easy difficulty to instead just use CampaignMoneyDeltaEasy
+- Made several Yuri units and structures that shouldn't be buildable by the player unbuildable
+	- Affected technotypes: Virus, Magnetron, Mastermind, Chaos Drone, Psychic Dominator, Genetic Mutator and Yuri Prime
+	- It's a clear oversight that the player is capable of constructing these things at this point of the story, especially since they all get introduced later on
+- Added 3 in-game seconds of delay to Return_Control so that Eva's voicelines don't cut each other off
 	
 YR Allied 7:
 - Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
