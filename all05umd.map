@@ -387,7 +387,8 @@ Name=Defend!
 Name=Attack Shipyard
 
 [01000070]
-0=3,118
+0=5,5
+1=3,118
 Name=Move
 
 [01000071]
@@ -5180,6 +5181,47 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01000537]
+0=16,140
+1=0,5
+2=0,0
+Name=[BTR] SCR Brute Intro
+
+[01000538]
+Max=5
+Tag=01000540
+Full=no
+Name=[BTR] Brute Intro Team
+Group=-1
+House=BadGuy1
+Script=01000537
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000141
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [AITriggerTypes]
 01000279=_A05_5 Yuri Clones,01000163,BadGuy1,10,0,GGI,0200000003000000000000000000000000000000000000000000000000000000,40.000000,10.000000,70.000000,0,0,0,0,<none>,0,1,1
 01000280=_A05_Lasher League,01000164,BadGuy1,11,0,GAREFN,0100000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,0,0,1
@@ -5402,7 +5444,7 @@ AreTeamMembersRecruitable=no
 
 [Actions]
 01000304=5,46,0,0,0,0,0,0,A,114,0,0,0,0,0,0,ZY,21,6,EVA_EstablishBattlefieldControl,0,0,0,0,A,100,0,20,0,0,0,0,A,53,2,01000305,0,0,0,0,A
-01000305=13,47,0,0,0,0,0,0,A,7,1,01000153,0,0,0,0,A,7,1,01000154,0,0,0,0,A,7,1,01000155,0,0,0,0,A,7,1,01000156,0,0,0,0,A,7,1,01000157,0,0,0,0,A,7,1,01000161,0,0,0,0,A,7,1,01000162,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,01000306,0,0,0,0,A,53,2,01000307,0,0,0,0,A,4,1,01000224,0,0,0,0,A,53,2,01000308,0,0,0,0,A
+01000305=14,47,0,0,0,0,0,0,A,7,1,01000153,0,0,0,0,A,7,1,01000154,0,0,0,0,A,7,1,01000155,0,0,0,0,A,7,1,01000156,0,0,0,0,A,7,1,01000157,0,0,0,0,A,7,1,01000161,0,0,0,0,A,7,1,01000162,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,01000306,0,0,0,0,A,53,2,01000307,0,0,0,0,A,4,1,01000224,0,0,0,0,A,53,2,01000308,0,0,0,0,A,53,2,01000535,0,0,0,0,A
 01000306=3,7,1,01000211,0,0,0,0,A,7,1,01000212,0,0,0,0,A,7,1,01000213,0,0,0,0,A
 01000307=2,7,1,01000209,0,0,0,0,A,7,1,01000210,0,0,0,0,A
 01000308=1,7,1,01000267,0,0,0,0,A
@@ -5520,6 +5562,11 @@ AreTeamMembersRecruitable=no
 01000529=3,53,2,01000533,0,0,0,0,A,54,2,01000531,0,0,0,0,A,54,2,01000518,0,0,0,0,A
 01000531=3,53,2,01000533,0,0,0,0,A,54,2,01000529,0,0,0,0,A,54,2,01000518,0,0,0,0,A
 01000533=6,53,2,01000375,0,0,0,0,A,53,2,01000376,0,0,0,0,A,48,0,4,0,0,0,0,EL,17,0,141,0,0,0,0,A,21,6,Unit_Eva_SubPen,0,0,0,0,A,131,9,YAYARD,0,0,0,0,120
+01000535=1,80,1,01000538,0,0,0,0,CM
+01000539=3,104,5,01000538,0,0,0,0,90,21,6,Mis_xA5_EvaBruteIntro,0,0,0,0,A,54,2,01000541,0,0,0,0,A
+01000541=3,104,5,01000538,0,0,0,0,90,21,6,Unit_Eva_Brute,0,0,0,0,A,54,2,01000539,0,0,0,0,A
+01000542=2,56,0,19,0,0,0,0,A,54,2,01000544,0,0,0,0,A
+01000544=2,57,0,19,0,0,0,0,A,54,2,01000542,0,0,0,0,A
 
 [BEAG]
 TechLevel=11
@@ -5772,7 +5819,7 @@ PlayerControl=no
 
 [Events]
 01000304=1,13,0,0
-01000305=1,13,0,119
+01000305=1,13,0,120
 01000306=1,13,0,50
 01000307=1,13,0,50
 01000308=1,13,0,4
@@ -5890,9 +5937,14 @@ PlayerControl=no
 01000529=1,13,0,7
 01000531=1,13,0,9
 01000533=1,13,0,10
+01000535=1,13,0,4
+01000539=2,4,0,0,36,0,19
+01000541=2,4,0,0,37,0,19
+01000542=1,51,0,30
+01000544=1,51,0,30
 
 [FA2spVersionControl]
-Version=41
+Version=53
 LastPreviewOption=2
 
 [FV]
@@ -7781,6 +7833,7 @@ BuildTimeMultiplier=1.0
 93=01000105
 94=01000510
 95=01000523
+96=01000537
 
 [SpecialFlags]
 Inert=no
@@ -8102,6 +8155,10 @@ TechLevel=11
 01000530=0,[BTR] Cam Move Boomers (M) 1,01000529
 01000532=0,[BTR] Cam Move Boomers (E) 1,01000531
 01000534=0,[BTR] Cam Move SubPen Intro 1,01000533
+01000536=0,[BTR] Brute Intro 1,01000535
+01000540=0,[BTR] Brutes Seen Random 1 1,01000539
+01000543=0,[BTR] Roll Brute 1 1,01000542
+01000545=0,[BTR] Roll Brute 2 1,01000544
 
 [TaskForces]
 0=01000106
@@ -8282,6 +8339,7 @@ TechLevel=11
 124=01000277
 125=01000511
 126=01000524
+127=01000538
 
 [Temp]
 Name=Temp
@@ -9037,6 +9095,11 @@ PlayerControl=no
 01000529=Player,<none>,[BTR] Cam Move Boomers (M),1,0,1,0,0
 01000531=Player,<none>,[BTR] Cam Move Boomers (E),1,1,0,0,0
 01000533=BadGuy2,<none>,[BTR] Cam Move SubPen Intro,1,1,1,1,0
+01000535=Player,<none>,[BTR] Brute Intro,1,1,1,1,0
+01000539=BadGuy1,01000541,[BTR] Brutes Seen Random 1,0,1,1,1,0
+01000541=BadGuy1,<none>,[BTR] Brutes Seen Random 2,0,1,1,1,0
+01000542=Neutral,<none>,[BTR] Roll Brute 1,0,1,1,1,0
+01000544=Neutral,<none>,[BTR] Roll Brute 2,0,1,1,1,0
 
 [Units]
 0=BadGuy1 House,SMIN,256,154,138,0,Area Guard,None,0,-1,0,-1,1,1
@@ -9119,6 +9182,7 @@ PlayerControl=no
 16=Chaos Revealed?,0
 17=Obj 1 Complete,0
 18=ReinfArrived,0
+19=BruteRandom,0
 
 [Waypoints]
 0=121075
@@ -9284,4 +9348,4 @@ BuildTimeMultiplier=1.0
 TechLevel=11
 
 [Digest]
-1=8ITRwVoMfqACEwD9E7lNZfxvGmg=
+1=BtpY6RBwCQvYnypyvGEYtjCU4AA=

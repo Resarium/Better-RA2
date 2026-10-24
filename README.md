@@ -134,6 +134,9 @@ YR Allied 5:
 - Added triggers that introduce the Tech Hospital and Tech Machine Shop if the player hasn't encountered them up until this point
 - Extended the intro sequence to add in the un-used Eva voicelines introducing the Cloning Vat and the Yuri Submarine Pen to the player
 	- This extended sequence also spawns additional Initiates at the Cloning Vats, scaling in quantity with the difficulty level, for a better demonstration of the Cloning Vat's abilities
+- Added triggers that introduce the Brute to the player
+	- There are two related un-used voicelines for the Brute. Therefore one of them is randomly selected each time you play the mission
+- Added 5 extra in-game seconds of guard time to the Dolphin + Destroyer team attacking the initial Boomer Sub to eliminate the rare possibility of them retreating before taking down the Boomer Sub
 - Fixed AITriggers that are conditional on the player owning an American Allied Airforce HQ, despite them only being able to build the generic Allied Airforce HQ in this mission
 	- Affected triggers: (_A05_Chaos Drone), (_A05_Initiates on Airforce)
 - Fixed an AITrigger that is conditional on the player owning a Soviet Barracks, despite them not being able to get one in this mission
