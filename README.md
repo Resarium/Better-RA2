@@ -244,6 +244,7 @@ YR Allied 2:
 - Extended the intro sequence to add in the un-used Eva voicelines introducing the Slave Miner and Slaves to the player
 	- There are two un-used voicelines in the files, one for the Slave Miner and one for the Slaves. Due to overlap, one of them is randomly selected each time you play the mission
 	- Slightly increased the amount of ore in the starting patch to compensate for the amount consumed by the Slave Miner intro
+- Added several cut voicelines to buildings in Yuri's base when the player clicks on them
 - Fixed a bug where a hegdehog barricade was mistakenly assigned under the player's ownership
 - Reworked the Flak Cannon method of providing the player with extra funds on Easy difficulty to instead just use CampaignMoneyDeltaEasy
 - Made several Yuri units and structures that shouldn't be buildable by the player unbuildable
@@ -269,7 +270,8 @@ YR Allied 5:
 YR Allied 7:
 - Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
 	- This uses an un-used EVA voiceline to introduce the Magnetron
-- Added triggers that use cut voicelines to introduce the Genetic Mutator and Psychic Dominator when the player gets close to them
+- Added triggers that use cut voicelines to introduce the Genetic Mutator when the player gets close to them
+	- The Psychic Dominator voiceline is added in YR Allied 1 already
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
 - Limited the MCV Chrono reinforcements to happen once at most
@@ -277,13 +279,15 @@ YR Allied 7:
 - Removed the singular tree on Antarctic ice
 
 YR Soviet 2:
-- Added a 5 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
+- Added a cut voiceline that introduces the German Tank Destroyers when they move out to attack the player
+- Added a cut voiceline that introduces the Battle Bunker once the player deploys their MCV
+- Added a cut voiceline that introduces the Spy Plane once the player constructs a Radar Dish
+- Added an 8 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
 	- This eliminates the visual bug caused by changing the Chronosphere's house right as it fires its superweapon
 - Made the Chronosphere unsellable to remove the rare possibility of the AI selling the Chronosphere and hand the player the victory
 - Fixed several AITriggers that had erroneous conditions
 	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now properly create Mirage tank ambush teams
 	- Affected triggers: (Amb_MirageBR AITrig), (Amb_MirageBS AITrig), (Amb_MirageBT AITrig), (Amb_MirageBU AITrig), (Amb_MirageBV AITrig), (Amb_MirageBW AITrig)
-- Added a trigger to brief the player on the Battle Bunker once they deploy the Soviet ConYard; uses a related un-used Zofia voiceline
 
 YR Soviet 4:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off

@@ -5981,7 +5981,7 @@ PlayerControl=no
 01000561=1,59,0,0
 
 [FA2spVersionControl]
-Version=40
+Version=41
 LastPreviewOption=2
 
 [French]
@@ -10552,7 +10552,7 @@ TechLevel=12
 01000475=Americans,<none>,Create_Crates,0,1,1,0,0
 01000551=Neutral,<none>,[BTR] Magnetron Introduction,0,1,1,1,0
 01000559=YuriCountry,<none>,[BTR] Genetic Mutator Intro,0,1,1,1,0
-01000561=YuriCountry,<none>,[BTR] Psychic Dominator Intro,0,1,1,1,0
+01000561=YuriCountry,<none>,[BTR] Psychic Dominator Intro,1,1,1,1,0
 
 [Units]
 0=Yuri3,BSUB,256,126,127,96,Area Guard,None,0,-1,0,-1,1,1
@@ -10808,4 +10808,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=ii43F9PUm8g7IC00mRtPDzbTvbo=
+1=8SwOOTrqGeTKFefoLpuJmSFFDsY=

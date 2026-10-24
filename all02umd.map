@@ -8840,6 +8840,10 @@ VoiceSpecialAttack=ArnoldMove
 01000944=3,21,6,Unit_Eva_SlaveMiner,0,0,0,0,A,54,2,01000946,0,0,0,0,A,53,2,01000601,0,0,0,0,A
 01000946=3,21,6,Unit_Eva_Slave,0,0,0,0,A,54,2,01000944,0,0,0,0,A,53,2,01000601,0,0,0,0,A
 01000952=3,7,1,01000949,0,0,0,0,A,7,1,01000950,0,0,0,0,A,7,1,01000951,0,0,0,0,A
+01000954=2,21,6,Unit_Eva_PsychicSensor,0,0,0,0,A,131,9,NAPSIS,0,0,0,0,120
+01000956=2,21,6,Unit_Eva_BarracksYuri,0,0,0,0,A,131,9,YABRCK,0,0,0,0,120
+01000958=2,21,6,Unit_Eva_YuriWar,0,0,0,0,A,131,9,YAWEAP,0,0,0,0,120
+01000960=2,21,6,Unit_Eva_BioRiactor,0,0,0,0,A,131,9,YAPOWR,0,0,0,0,120
 
 [Africans]
 IQ=0
@@ -9433,9 +9437,13 @@ PlayerControl=no
 01000944=1,36,0,65
 01000946=1,37,0,65
 01000952=1,13,0,9
+01000954=1,33,0,0
+01000956=1,33,0,0
+01000958=1,33,0,0
+01000960=1,33,0,0
 
 [FA2spVersionControl]
-Version=89
+Version=95
 LastPreviewOption=2
 
 [French]
@@ -12198,6 +12206,19 @@ DestroyableBridges=yes
 
 [Structures]
 0=Neutral,CABARR02,256,137,103,0,None,0,0,1,0,0,None,None,None,0,0
+1=YuriCountry,NAPSIS,256,82,83,0,01000955,1,0,1,0,0,None,None,None,0,0
+2=YuriCountry,YAWEAP,256,72,83,0,01000959,1,0,1,0,0,None,None,None,0,0
+3=YuriCountry,YABRCK,256,81,75,0,01000957,1,0,1,0,0,None,None,None,0,0
+4=YuriCountry,YAPOWR,256,73,89,0,01000961,1,0,1,0,0,None,None,None,0,0
+5=YuriCountry,YAPOWR,256,67,84,0,01000961,1,0,1,0,0,None,None,None,0,0
+6=YuriCountry,YAPOWR,256,61,83,0,01000961,1,0,1,0,0,None,None,None,0,0
+7=YuriCountry,YAPOWR,256,68,79,0,01000961,1,0,1,0,0,None,None,None,0,0
+8=YuriCountry,YAPOWR,256,71,72,0,01000961,1,0,1,0,0,None,None,None,0,0
+9=YuriCountry,YAPOWR,256,75,70,0,01000961,1,0,1,0,0,None,None,None,0,0
+10=YuriCountry,YAPOWR,256,80,70,0,01000961,1,0,1,0,0,None,None,None,0,0
+11=YuriCountry,YAPOWR,256,80,64,0,01000961,1,0,1,0,0,None,None,None,0,0
+12=YuriCountry,YAPOWR,256,85,61,0,01000961,1,0,1,0,0,None,None,None,0,0
+13=Yuri2,YAPOWR,256,196,100,0,01000961,1,0,1,0,0,None,None,None,0,0
 1038980=Special,CALA05,256,114,178,0,01000036,0,0,1,0,0,None,None,None,0,0
 1038981=Neutral,CALA04,256,96,113,0,None,0,0,1,0,0,None,None,None,0,0
 1038982=Neutral,CAPARK01,256,101,131,0,None,0,0,1,0,0,None,None,None,0,0
@@ -12445,7 +12466,6 @@ DestroyableBridges=yes
 1039297=Neutral,CALA07,256,134,115,0,None,0,0,1,0,0,None,None,None,0,0
 1039298=Yuri2,YAPOWR,256,104,133,0,01000061,1,0,1,0,0,None,None,None,0,0
 1039305=Yuri2,YAPOWR,256,164,78,0,01000006,1,0,1,0,0,None,None,None,0,0
-1039312=Yuri2,YAPOWR,256,196,100,0,None,1,0,1,0,0,None,None,None,0,0
 1039319=Yuri2,YAPOWR,256,18,116,0,01000061,1,0,1,0,0,None,None,None,0,0
 1039326=YuriCountry,YAGGUN,256,117,182,96,None,1,0,1,0,0,None,None,None,0,0
 1039327=YuriCountry,YAGGUN,256,114,182,160,None,1,0,1,0,0,None,None,None,0,0
@@ -12494,9 +12514,6 @@ DestroyableBridges=yes
 1039390=Neutral,CABARR01,256,136,105,0,None,0,0,1,0,0,None,None,None,0,0
 1039391=Neutral,CABARR02,256,137,105,0,None,0,0,1,0,0,None,None,None,0,0
 1039393=Neutral,CABARR01,256,137,104,0,None,0,0,1,0,0,None,None,None,0,0
-1039394=YuriCountry,YABRCK,256,81,75,0,None,1,0,1,0,0,None,None,None,0,0
-1039397=YuriCountry,YAWEAP,256,72,83,0,None,1,0,1,0,0,None,None,None,0,0
-1039400=YuriCountry,NAPSIS,256,82,83,0,None,1,0,1,0,0,None,None,None,0,0
 1039403=YuriCountry,YAGGUN,256,74,93,0,None,1,0,1,0,0,None,None,None,0,0
 1039404=YuriCountry,YAGGUN,256,69,90,0,None,1,0,1,0,0,None,None,None,0,0
 1039405=YuriCountry,YAGGUN,256,91,71,0,None,1,0,1,0,0,None,None,None,0,0
@@ -12506,15 +12523,6 @@ DestroyableBridges=yes
 1039409=YuriCountry,YAGGUN,256,81,90,0,None,1,0,1,0,0,None,None,None,0,0
 1039410=YuriCountry,YAGGUN,256,65,93,0,None,1,0,1,0,0,None,None,None,0,0
 1039411=YuriCountry,YAGGUN,256,55,89,0,None,1,0,1,0,0,None,None,None,0,0
-1039412=YuriCountry,YAPOWR,256,68,79,0,None,1,0,1,0,0,None,None,None,0,0
-1039419=YuriCountry,YAPOWR,256,67,84,0,None,1,0,1,0,0,None,None,None,0,0
-1039426=YuriCountry,YAPOWR,256,73,89,0,None,1,0,1,0,0,None,None,None,0,0
-1039433=YuriCountry,YAPOWR,256,61,83,0,None,1,0,1,0,0,None,None,None,0,0
-1039440=YuriCountry,YAPOWR,256,75,70,0,None,1,0,1,0,0,None,None,None,0,0
-1039447=YuriCountry,YAPOWR,256,80,70,0,None,1,0,1,0,0,None,None,None,0,0
-1039454=YuriCountry,YAPOWR,256,80,64,0,None,1,0,1,0,0,None,None,None,0,0
-1039461=YuriCountry,YAPOWR,256,71,72,0,None,1,0,1,0,0,None,None,None,0,0
-1039468=YuriCountry,YAPOWR,256,85,61,0,None,1,0,1,0,0,None,None,None,0,0
 1039475=Special,CAMACH,256,171,91,0,01000068,0,0,1,0,0,None,None,None,0,0
 1039478=Neutral,CALA09,256,135,39,0,None,0,0,1,0,0,None,None,None,0,0
 1039479=Neutral,CASTL05G,0,151,73,0,None,0,0,1,0,0,None,None,None,0,0
@@ -12796,6 +12804,10 @@ Warhead=SA
 01000945=0,[BTR] Briefing_Slave_Miner 3a 1,01000944
 01000947=0,[BTR] Briefing_Slave_Miner 3b 1,01000946
 01000953=0,[BTR] Briefing_Slave_Miner Delayed Harriers 1,01000952
+01000955=0,[BTR] Psychic Radar Intro 1,01000954
+01000957=0,[BTR] Yuri Barracks Intro 1,01000956
+01000959=0,[BTR] Yuri WarFac Intro 1,01000958
+01000961=0,[BTR] Yuri Bio Reactor Intro 1,01000960
 
 [TaskForces]
 0=01000192
@@ -14657,6 +14669,10 @@ Warhead=SA
 01000944=Americans,<none>,[BTR] Briefing_Slave_Miner 3a,1,1,1,1,0
 01000946=Americans,<none>,[BTR] Briefing_Slave_Miner 3b,1,1,1,1,0
 01000952=Americans,<none>,[BTR] Briefing_Slave_Miner Delayed Harriers,1,1,1,1,0
+01000954=Neutral,<none>,[BTR] Psychic Radar Intro,0,1,1,1,0
+01000956=Neutral,<none>,[BTR] Yuri Barracks Intro,0,1,1,1,0
+01000958=Neutral,<none>,[BTR] Yuri WarFac Intro,0,1,1,1,0
+01000960=Neutral,<none>,[BTR] Yuri Bio Reactor Intro,0,1,1,1,0
 
 [Units]
 0=Confederation,LTNK,256,115,183,64,Guard,None,0,-1,0,-1,1,1
@@ -15264,4 +15280,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=V9hpcNE6eyvDv6GG5iUc5/y6J60=
+1=sLkm2rbITrrJbT1XOSHfMuFaahQ=

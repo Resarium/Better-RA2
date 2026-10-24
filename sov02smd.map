@@ -79,9 +79,11 @@ Name=Player Starters 3Armor SCR
 Name=Player Starters 3Troops SCR
 
 [01000021]
-0=0,5
-1=49,0
-2=11,11
+0=50,120
+1=39,17
+2=0,5
+3=49,0
+4=11,11
 Name=German3 Tank Destroyers SCR
 
 [01000022]
@@ -5063,7 +5065,11 @@ Value=50
 01000434=1,5,1,01000177,0,0,0,0,A
 01000435=1,38,0,15,0,0,0,0,A
 01000436=1,38,0,15,0,0,0,0,A
-01000493=3,114,0,1,0,0,0,0,A,115,9,NABNKR,0,0,0,0,120,21,6,Unit_Sofia_BattleBunker,0,0,0,0,A
+01000493=1,53,2,01000497,0,0,0,0,A
+01000495=1,21,6,Unit_Sofia_TankDestroyer,0,0,0,0,A
+01000497=3,114,0,1,0,0,0,0,A,115,9,NABNKR,0,0,0,0,120,21,6,Unit_Sofia_BattleBunker,0,0,0,0,A
+01000499=1,53,2,01000501,0,0,0,0,A
+01000501=2,114,0,1,0,0,0,0,A,21,6,Unit_Sofia_SpyPlane,0,0,0,0,A
 
 [BORIS]
 TechLevel=12
@@ -5424,7 +5430,7 @@ PlayerControl=no
 01000403=1,13,0,20
 01000404=3,11,0,21,11,0,20,11,0,19
 01000405=3,11,0,21,11,0,20,11,0,19
-01000406=2,36,0,6,13,0,5
+01000406=2,36,0,6,13,0,8
 01000407=1,57,0,27
 01000408=1,8,0,0
 01000409=1,48,0,0
@@ -5455,10 +5461,14 @@ PlayerControl=no
 01000434=1,36,0,16
 01000435=1,13,0,5
 01000436=1,13,0,5
-01000493=2,32,0,25,13,0,15
+01000493=1,32,0,25
+01000495=1,36,0,17
+01000497=1,13,0,2
+01000499=1,32,0,13
+01000501=1,13,0,2
 
 [FA2spVersionControl]
-Version=18
+Version=29
 LastPreviewOption=2
 
 [GACSPH]
@@ -8294,6 +8304,10 @@ TechLevel=12
 01000491=0,_BG1_Hates_Player,01000435
 01000492=0,_BG2_Hates_Player,01000436
 01000494=0,[BTR] Battle_Bunker_Brief 1,01000493
+01000496=0,[BTR] Tank Destroyers Active 1,01000495
+01000498=0,[BTR] Battle_Bunker_Brief Delay 1,01000497
+01000500=0,[BTR] Spy Plane Brief 1,01000499
+01000502=0,[BTR] Spy Plane Brief Delay 1,01000501
 
 [TaskForces]
 0=01000095
@@ -9096,6 +9110,10 @@ PlayerControl=no
 01000435=BadGuy1,<none>,_BG1_Hates_Player,0,1,1,1,0
 01000436=BadGuy2,<none>,_BG2_Hates_Player,0,1,1,1,0
 01000493=Player,<none>,[BTR] Battle_Bunker_Brief,0,1,1,1,0
+01000495=Neutral,<none>,[BTR] Tank Destroyers Active,0,1,1,1,0
+01000497=Player,<none>,[BTR] Battle_Bunker_Brief Delay,1,1,1,1,0
+01000499=Player,<none>,[BTR] Spy Plane Brief,0,1,1,1,0
+01000501=Player,<none>,[BTR] Spy Plane Brief Delay,1,1,1,1,0
 
 [Units]
 0=Civilian House,CONA,256,178,123,128,Sleep,None,0,-1,0,-1,1,1
@@ -9149,6 +9167,7 @@ PlayerControl=no
 14=Troops2_Arrived,0
 15=Troops1_Arrived,0
 16=Troops3_Arrived,0
+17=TankDestroyersActive,0
 
 [Vinifera]
 Value=50
@@ -9258,4 +9277,4 @@ TechLevel=12
 TechLevel=9
 
 [Digest]
-1=ngCGbhMBJAIhTdyyxfIqg2asIQs=
+1=MzXcdWwERtJXnstN1SwBJts/uck=
