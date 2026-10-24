@@ -8156,6 +8156,162 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01000932]
+0=1,ORCA2
+Name=[BTR] TF ORCA2 x1
+Group=-1
+
+[01000937]
+0=1,SMIN
+Name=[BTR] TF 1 SMIN
+Group=-1
+
+[01000942]
+0=9,0
+Name=[BTR] SCR Slave Miner Brief
+
+[01000943]
+Max=5
+Full=no
+Name=[BTR] Slave Miner Brief Team
+Group=-1
+House=YuriCountry
+Script=01000930
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=C
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000937
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000948]
+0=1,2
+1=3,301
+2=37,0
+Name=[BTR] SCR Harrier Intro
+
+[01000949]
+Max=5
+Full=no
+Name=[BTR] Grizzly Intro Team 1
+Group=-1
+House=Americans
+Script=01000948
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=E
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000932
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000950]
+Max=5
+Full=no
+Name=[BTR] Grizzly Intro Team 2
+Group=-1
+House=Americans
+Script=01000948
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=G
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000932
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000951]
+Max=5
+Full=no
+Name=[BTR] Grizzly Intro Team 3
+Group=-1
+House=Americans
+Script=01000948
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=F
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000932
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [AITriggerTypes]
 01000502=Yuri_BD_3 Lasher,01000314,YuriCountry,4,0,GAPOWR,0100000003000000000000000000000000000000000000000000000000000000,30.000000,30.000000,30.000000,0,0,0,0,<none>,1,1,1
 01000503=Yuri_BD_3 Gatt,01000312,YuriCountry,4,0,GACNST,0100000003000000000000000000000000000000000000000000000000000000,20.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
@@ -8482,7 +8638,7 @@ VoiceSpecialAttack=ArnoldMove
 01000597=4,100,0,8,0,0,0,0,A,53,2,01000598,0,0,0,0,A,53,2,01000599,0,0,0,0,A,54,2,01000597,0,0,0,0,A
 01000598=3,48,0,4,0,0,0,0,GV,4,1,01000497,0,0,0,0,A,53,2,01000600,0,0,0,0,A
 01000599=3,81,0,0,0,0,0,0,A,14,0,15,0,0,0,0,A,4,1,01000372,0,0,0,0,A
-01000600=2,21,6,Unit_Eva_YuriClone,0,0,0,0,A,53,2,01000601,0,0,0,0,A
+01000600=2,21,6,Unit_Eva_YuriClone,0,0,0,0,A,53,2,01000938,0,0,0,0,A
 01000601=3,48,0,3,0,0,0,0,I,53,2,01000602,0,0,0,0,A,54,2,01000601,0,0,0,0,A
 01000602=8,47,0,0,0,0,0,0,A,3,0,9,0,0,0,0,A,74,0,9,0,0,0,0,A,38,0,0,0,0,0,0,A,53,2,01000603,0,0,0,0,A,53,2,01000604,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,54,2,01000602,0,0,0,0,A
 01000603=3,7,1,01000337,0,0,0,0,A,53,2,01000605,0,0,0,0,A,54,2,01000603,0,0,0,0,A
@@ -8677,6 +8833,13 @@ VoiceSpecialAttack=ArnoldMove
 01000921=5,4,1,01000925,0,0,0,0,A,55,0,1,0,0,0,0,ID,11,4,mission:topsecret,0,0,0,0,A,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A
 01000926=7,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,21,6,Mis_xA2_GGIThankYou,0,0,0,0,A,12,2,01000928,0,0,0,0,A,4,1,01000931,0,0,0,0,A
 01000928=7,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,19,7,GuardianGISelect,0,0,0,0,A,12,2,01000926,0,0,0,0,A,4,1,01000931,0,0,0,0,A
+01000933=2,56,0,65,0,0,0,0,A,54,2,01000935,0,0,0,0,A
+01000935=2,57,0,65,0,0,0,0,A,54,2,01000933,0,0,0,0,A
+01000938=3,48,0,3,0,0,0,0,B,53,2,01000952,0,0,0,0,A,53,2,01000940,0,0,0,0,A
+01000940=6,131,9,YAREFN,0,0,0,0,120,17,0,36,0,0,0,0,A,48,0,3,0,0,0,0,AK,53,2,01000944,0,0,0,0,A,53,2,01000946,0,0,0,0,A,53,2,01000950,0,0,0,0,A
+01000944=3,21,6,Unit_Eva_SlaveMiner,0,0,0,0,A,54,2,01000946,0,0,0,0,A,53,2,01000601,0,0,0,0,A
+01000946=3,21,6,Unit_Eva_Slave,0,0,0,0,A,54,2,01000944,0,0,0,0,A,53,2,01000601,0,0,0,0,A
+01000952=3,7,1,01000949,0,0,0,0,A,7,1,01000950,0,0,0,0,A,7,1,01000951,0,0,0,0,A
 
 [Africans]
 IQ=0
@@ -8690,10 +8853,13 @@ TechLevel=1
 PercentBuilt=0
 PlayerControl=no
 
+[AircraftTypes]
+1=ORCA2
+
 [Alliance]
 IQ=0
 Edge=North
-Color=Grey
+Color=DarkBlue
 Allies=Americans,Alliance
 Country=Alliance
 Credits=0
@@ -8726,6 +8892,16 @@ TechLevel=1
 PercentBuilt=0
 PlayerControl=no
 
+[BTRMaverick]
+ROF=10
+Burst=1
+Range=6
+Speed=70
+Damage=700
+Report=IntruderAttack
+Warhead=ORCAAP
+Projectile=AirToGroundMissile
+
 [Basic]
 Win=<none>
 Lose=<none>
@@ -8743,7 +8919,7 @@ Official=yes
 EndOfGame=no
 FillSilos=no
 FreeRadar=no
-MaxPlayer=2
+MaxPlayer=7
 MinPlayer=2
 PostScore=<none>
 SkipScore=no
@@ -9056,7 +9232,7 @@ PlayerControl=no
 01000598=1,13,0,43
 01000599=1,13,0,2
 01000600=1,13,0,2
-01000601=1,13,0,12
+01000601=1,13,0,20
 01000602=1,13,0,5
 01000603=2,37,0,13,13,0,240
 01000604=1,13,0,0
@@ -9250,9 +9426,16 @@ PlayerControl=no
 01000921=1,33,0,0
 01000926=2,37,0,1,1,0,0
 01000928=2,36,0,1,1,0,0
+01000933=1,51,0,30
+01000935=1,51,0,30
+01000938=1,13,0,10
+01000940=1,13,0,6
+01000944=1,36,0,65
+01000946=1,37,0,65
+01000952=1,13,0,9
 
 [FA2spVersionControl]
-Version=47
+Version=89
 LastPreviewOption=2
 
 [French]
@@ -11691,6 +11874,62 @@ TechLevel=4
 PercentBuilt=0
 PlayerControl=no
 
+[ORCA2]
+ROT=3
+Ammo=1
+Cost=1200
+Dock=GAAIRC,AMRADR
+Name=Intruder
+Armor=light
+Image=FALC
+Owner=British,French,Germans,Americans
+Sight=0
+Speed=20
+Crewed=yes
+Points=20
+UIName=Name:ORCA
+Fighter=yes
+Primary=BTRMaverick
+Category=AirPower
+DieSound=
+Landable=yes
+OmniFire=yes
+PipScale=Ammo
+Strength=150
+AuxSound1=IntruderTakeOff
+AuxSound2=IntruderLanding
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582746-9839-11d1-B709-00A024DDAFD1}
+MaxDebris=3
+MoveSound=IntruderMoveLoop
+TechLevel=3
+VoiceMove=IntruderMove
+GuardRange=30
+PitchAngle=0
+PitchSpeed=1.1
+ThreatPosed=20
+VoiceAttack=IntruderAttackCommand
+VoiceSelect=IntruderSelect
+AirportBound=yes
+CanRetaliate=no
+MoveToShroud=yes
+MovementZone=Fly
+Prerequisite=RADAR
+CrashingSound=IntruderDie
+VoiceCrashing=IntruderVoiceDie
+EliteAbilities=STRONGER,FIREPOWER,ROF
+RadarInvisible=no
+ForbiddenHouses=Alliance
+ImpactLandSound=GenAircraftCrash
+CanPassiveAquire=no
+ImmuneToPsionics=yes
+VeteranAbilities=STRONGER,FIREPOWER,SIGHT,FASTER
+PreventAttackMove=yes
+ConsideredAircraft=yes
+DamageParticleSystems=SparkSys,SmallGreySSys
+IsSelectableCombatant=yes
+AllowedToStartInMultiplayer=no
+
 [OverlayDataPack]
 1=BwAAIIEA/v8fAIBRAAAggQD+cRAAgQP+/gEAhAYABwb++wEAggYIEAH/+gF0EogGCgoACg
 2=sIBP75AQCGBwgKCgsK/vsBAIMHCgv//AF1FhIBggoH/v0BAIEG/4sBdhSATgAAIIEA/ooK
@@ -11711,10 +11950,10 @@ PlayerControl=no
 17=AQA5VP95ALUKwE4CyrgWIftT4oEH/2MBtQwCANoxAv5hAACBBsofFMqpGIEA/2QBtArQsx
 18=L+ewAAgQMUjmXigQP+ZAEAzpgW/tMBAIBIAQAggQDZAACDBgcG/kgAAIQGCgoM/lQAAIIC
 19=Cv9XAGkA/k8BAIEFIAP+UQAAgQRAXP6hAQD/VwBoAiBU/8kBxALvHQD/zQG/BAgkgQjLjw
-20=YV39qNBoEB/5ABwAYZkAABgQjQrwghrNxwCIMACAfJkwiJBwgHCAoLCggH2o4G/4sBxAgp
-21=kMpLDOo8AIIGBgHyyIIMgggLAAECTwAFgQfSVwz/kAG/AmGL9sQMggcHyKsMgQciAIEAAg
-22=ACBsyPCP+VAboGYYveawrfNgw2EkQAEgLQrA6BAxZtgQn+igEA/08AxA6BBgP7F/4gAf9J
-23=AB8A/lsBANlPEgPN7cIAgwQICgf5/qsBANlPFPG/DsuQDP6iAQD/UABPFvNXDP56AQBh39
+20=YV39qNBoEB/5ABwAYZkAABgQjQrwghrNxwCIMACAfJkwiLBwgHCAoLCggLCwvdpAb+hgEA
+21=KZDKSwzqPACCBgYB8siCDBH5gQsCTxAH0qcK/5ABvwJhi/bEDIIHB8hYDIEHIgCBAEIA0K
+22=QI/5ABvwZhi95rCt82DDYSdACBCtCsDoEDFm2BCf6KAQD/TwDEDoEGA/uDCggHMAH/SQAf
+23=AP5bAQDZTxIDze3CAIQECAoKyZIM/qEBANlPFPG/DsuQDP6iAQD/UABPFvNXDP56AQBh39
 24=CgGP+pAb8G/1MAFA4X/IELwFcKggIN/t4BAG33zFgQ/0IATw7+VwEAgNYAACCBAP5PAACC
 25=AgogAYEIzEEAgQXOXwDLeACCBgT+3gEAYfeBAdNyAIIKB/7eAQDUcABQAYIHC81XAP7PAQ
 26=DeZwSCCgb+3QEA3GcGgwQICMqJBoIEB//PAYkGYgDViADLcAqCBgr/kQGHAoMEBwf4lwjd
@@ -11744,21 +11983,21 @@ PlayerControl=no
 13=ga7+zwH/YeAH5OIhCIGxzhwC/0IA8Qf+lwH//2UAswr/hAFPBP9zAFkCg8vLywAEyiwEcA
 14=GB8TAB/ssB/4IbG82aDlAF0S4CMfr/bwHMDs1iCv5MAP+BGwAB0JsQ1CoG/1cBxRD/ewCz
 15=DBIAzZkQYgX/ZwG0Ev99ALIMzpcUZgDRGRQX/P9QAcoO/38ATQTZmRb/ZQGyCt0uAv5hAP
-16=/YmxjHMAr+WwH//44ATgQOAB4DUJz+ZAH//+ABTwQQAYDmAAAggf/ZAACDZmZm/kgA/4HM
+16=/YmxjHMAr+WwH//44ATgQOAB4DUJz+ZAH//+ABTwQQAYDnAAAggf/ZAACDZmZm/kgA/4HM
 17=AAH+VAD/gcsQAf6jAf8B/f9UAGsAIfv/dwPEAIGw/1EAPATvHQD/zQG/AgH/zI4GEA7ajQ
-18=b/kQG/BoHwQAH0WAgABM2BCEAB3aQG/oYB/2H4zlcK4WgMzqMKyp0K0agK/5ABvwj7TwzO
-19=iQZR+taiCv/SAb8MyqoMyZ4M06oO/48BwAD3WBDUfRDknQr+iAH/2U8SgfMgAe9gDP6sAf
-20=/aTxRgBfRnDv6jAf//UABPFtKqDP6bAf/ZTxDyaxj+rwH/1U8aV/zsbxT+sQH/1k8czl8e
-21=/ocB/4CYAAAggf/+TwD/gfBAAcxBAIHzzl8Ay3gAghsb/t4B/9xnAIEb/+kBhwDVcQD/AQ
-22=KIAv/eAYgE7GcG/9EBhwbdZwCB/8uYCP+TAYYGgWYQAf9aAC4K/6EBdwYiAPYtDO1nDP6R
-23=Af8x//cuDgH4gfMgAf64Af/7KRD+wwH//3YAKxL/4AGHBOB3DP79Af//4QGGBv8iAoEY/l
-24=0D/4AeAAAggf/+aAz/gRjLaQzYXQzUbAzOcwz+rgn//5cJaQyANQAAIIH//oUE/4EbMAH+
-25=+QH//wAGhgT+4wP///0Bigr//gGHCv8BAoYK/wECiAr/3wWKCv67Af+ABwAAIIH//v8f/4
-26=AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/
-27=H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf
-28=/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAA
-29=IIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gA
-30=cAACCB//7/H/+A
+18=b/kQG/BoHwQAH0WAgABM2BCEAB3aQG/oYB/2H4zlcK4WgMzqMKyZ0KgXDRqAr/kAG/CPtP
+19=DM6JBkIR16EK/9IBvwwn9NGWDNOqDv+PAcAA91gQ1H0Q5J0K/ogB/9lPEoHzIAHvYAz+rA
+20=H/2k8UYAX0Zw7+owH//1AATxbKkRD+owH/2U8Q8msY/q8B/9VPGlf87G8U/rEB/9ZPHM5f
+21=Hv6HAf+AmAAAIIH//k8A/4HwQAHMQQCB885fAMt4AIIbG/7eAf/cZwCBG//pAYcA1XEA/w
+22=ECiAL/3gGIBOxnBv/RAYcG3WcAgf/LmAj/kwGGBoFmEAH/WgAuCv+hAXcGIgD2LQztZwz+
+23=kQH/Mf/3Lg4B+IHzIAH+uAH/+ykQ/sMB//92ACsS/+ABhwTgdwz+/QH//+EBhgb/IgKBGP
+24=5dA/+AHgAAIIH//mgM/4EYy2kM2F0M1GwMznMM/q4J//+XCWkMgDUAACCB//6FBP+BGzAB
+25=/vkB//8ABoYE/uMD///9AYoK//4Bhwr/AQKGCv8BAogK/98Figr+uwH/gAcAACCB//7/H/
+26=+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+
+27=/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAII
+28=H//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcA
+29=ACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4
+30=AHAAAggf/+/x//gA==
 
 [PCV]
 TechLevel=12
@@ -11927,6 +12166,8 @@ VoiceSpecialAttack=SlyMove
 120=01000191
 121=01000924
 122=01000930
+123=01000942
+124=01000948
 
 [Special]
 IQ=0
@@ -12548,6 +12789,13 @@ Warhead=SA
 01000920=0,[DEBUG] Map Reveal 1,01000919
 01000922=0,[BTR] 4th Hero Found 1,01000921
 01000927=0,[BTR] GGI Rescued_Grinders_Alive 1,01000926
+01000934=0,[BTR] Roll SM VO 1 1,01000933
+01000936=0,[BTR] Roll SM VO 2 1,01000935
+01000939=0,[BTR] Briefing_Slave_Miner 1 1,01000938
+01000941=0,[BTR] Briefing_Slave_Miner 2 1,01000940
+01000945=0,[BTR] Briefing_Slave_Miner 3a 1,01000944
+01000947=0,[BTR] Briefing_Slave_Miner 3b 1,01000946
+01000953=0,[BTR] Briefing_Slave_Miner Delayed Harriers 1,01000952
 
 [TaskForces]
 0=01000192
@@ -12659,6 +12907,8 @@ Warhead=SA
 106=01000298
 107=01000923
 108=01000929
+109=01000932
+110=01000937
 
 [TeamTypes]
 0=01000299
@@ -12862,6 +13112,10 @@ Warhead=SA
 198=01000497
 199=01000925
 200=01000931
+201=01000943
+202=01000949
+203=01000950
+204=01000951
 
 [Terrain]
 16116=TREE12
@@ -14396,6 +14650,13 @@ Warhead=SA
 01000921=Neutral,<none>,[BTR] 4th Hero Found,0,1,1,1,0
 01000926=Americans,01000928,[BTR] GGI Rescued_Grinders_Alive,0,1,1,1,0
 01000928=Americans,<none>,[BTR] GGI Rescued_Grinders_Gone,0,1,1,1,0
+01000933=Neutral,<none>,[BTR] Roll SM VO 1,0,1,1,1,0
+01000935=Neutral,<none>,[BTR] Roll SM VO 2,0,1,1,1,0
+01000938=Americans,<none>,[BTR] Briefing_Slave_Miner 1,1,1,1,1,0
+01000940=YuriCountry,<none>,[BTR] Briefing_Slave_Miner 2,1,1,1,1,0
+01000944=Americans,<none>,[BTR] Briefing_Slave_Miner 3a,1,1,1,1,0
+01000946=Americans,<none>,[BTR] Briefing_Slave_Miner 3b,1,1,1,1,0
+01000952=Americans,<none>,[BTR] Briefing_Slave_Miner Delayed Harriers,1,1,1,1,0
 
 [Units]
 0=Confederation,LTNK,256,115,183,64,Guard,None,0,-1,0,-1,1,1
@@ -14529,12 +14790,7 @@ Warhead=SA
 128=Neutral,TAXI,256,145,57,192,Sleep,None,0,-1,0,-1,1,1
 129=YuriCountry,LTNK,256,181,114,224,Guard,None,0,-1,0,-1,1,1
 130=YuriCountry,YTNK,256,139,74,64,Guard,None,0,-1,0,-1,1,1
-131=Americans,SREF,256,164,128,64,Guard,None,200,-1,0,-1,0,0
-132=Americans,SREF,256,164,127,64,Guard,None,200,-1,0,-1,0,0
-133=Americans,SREF,256,164,126,64,Guard,None,200,-1,0,-1,0,0
-134=Americans,SREF,256,163,126,64,Guard,None,200,-1,0,-1,0,0
-135=Americans,SREF,256,163,127,64,Guard,None,200,-1,0,-1,0,0
-136=Americans,SREF,256,163,128,64,Guard,None,200,-1,0,-1,0,0
+131=YuriCountry,SMIN,138,168,115,64,Unload,None,0,-1,0,-1,1,1
 
 [VIRUS]
 TechLevel=12
@@ -14605,9 +14861,16 @@ TechLevel=12
 62=JH_Building_Gone,0
 63=JI_Building_Gone,0
 64=Flint_Found,0
+65=SlaveMinerVO,0
 
 [Waypoints]
 0=72136
+1=126172
+2=115168
+3=118168
+4=141187
+5=140189
+6=143186
 8=128167
 9=78157
 10=74159
@@ -15001,4 +15264,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=44hOtMpChuRgScFbz0oIc6hNu0g=
+1=V9hpcNE6eyvDv6GG5iUc5/y6J60=

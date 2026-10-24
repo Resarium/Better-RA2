@@ -122,6 +122,9 @@ YR Allied 2:
 - Added a fourth hero unit that uses the modified Texan civilian's stats as an easter egg
 	- This unit can be found in the mind-controlled civilian pen in the bottom right corner of the map. Clicking on him will activate the easter egg trigger
 	- Added an extra ini change to make the hero immune to mind control
+- Extended the intro sequence to add in the un-used Eva voicelines introducing the Slave Miner and Slaves to the player
+	- There are two un-used voicelines in the files, one for the Slave Miner and one for the Slaves. Due to overlap, one of them is randomly selected each time you play the mission
+	- Slightly increased the amount of ore in the starting patch to compensate for the amount consumed by the Slave Miner intro
 - Fixed a bug where a hegdehog barricade was mistakenly assigned under the player's ownership
 - Reworked the Flak Cannon method of providing the player with extra funds on Easy difficulty to instead just use CampaignMoneyDeltaEasy
 - Made several Yuri units and structures that shouldn't be buildable by the player unbuildable
@@ -134,8 +137,8 @@ YR Allied 5:
 - Added triggers that introduce the Tech Hospital and Tech Machine Shop if the player hasn't encountered them up until this point
 - Extended the intro sequence to add in the un-used Eva voicelines introducing the Cloning Vat and the Yuri Submarine Pen to the player
 	- This extended sequence also spawns additional Initiates at the Cloning Vats, scaling in quantity with the difficulty level, for a better demonstration of the Cloning Vat's abilities
-- Added triggers that introduce the Brute to the player
-	- There are two related un-used voicelines for the Brute. Therefore one of them is randomly selected each time you play the mission
+- Added triggers that introduce the Brute to the player using cut voicelines
+	- There are two un-used voicelines in the files that both introduce the Brute. Due to overlap, one of them is randomly selected each time you play the mission
 - Added 5 extra in-game seconds of guard time to the Dolphin + Destroyer team attacking the initial Boomer Sub to eliminate the rare possibility of them retreating before taking down the Boomer Sub
 - Fixed AITriggers that are conditional on the player owning an American Allied Airforce HQ, despite them only being able to build the generic Allied Airforce HQ in this mission
 	- Affected triggers: (_A05_Chaos Drone), (_A05_Initiates on Airforce)
