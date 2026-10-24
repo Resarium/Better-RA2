@@ -4,10 +4,42 @@ WIP
 General Changes:
 TeamDelays are fixed in all applicable missions so that it isn't reversed. Hard is hard and easy is easy!
 
+Allied 1:
+- fixed the shallow pavement bridge
+- fixed the incomplete road intersection at 44,38
+- reoriented Patriot Missiles
+- fixed the cliff ramp near the Statue of Liberty
+- fixed some non-homogenous bridge celltags
+- added the cut Kirov airship
+- switched player-owned lamp posts to Civie1 house
+- added a cut low power text warning for the player
+- reordered IDs across the map
+- re-tiled all water surfaces
+- statue of liberty GIs are now LightBlue colored
+- implementation fixes
+
 Allied 2:
 - Adjusted celltag positions for Tanya's swim hint trigger to minimize chance of it not triggering properly
 - Added 5 in-game seconds of delay to the mission loss screen when triggered by Tanya's death so that the EVA voicelines don't get jumbled together
 - Changed lightposts owned by the player's house (Americans) to Civilian/Neutral so that Tanya won't die when the player orders her to area-guards on top of the lightposts
+
+Allied 3:
+- Fixed TeamDelays.
+- Gave Pistola's to CIVSF, CIVSFM, CIVSTM.
+- Removed the Lightpost in front of the beacon and instead made the beacon emanate the red light itself. 
+- A CAWASH05 left of the Tech Hospital is now damaged, discovering it will fire the building repair hint.
+- Added abandoned tanks inbetween the Smithsonian Castle and Smithsonian National History Museum, discovering these vehicles will play the unused "You have salvaged units abandoned after the Soviet invasion." string
+
+Allied 4:
+- fixed intro EVA interruption by input unlock
+- slight adjustment to team delays (buffed enemy)
+- re-add cut V3 EVA warning
+- fixed offmap soviet conyard from being visible
+- adjusted intro destroyers formation
+- re-oriented some defenses
+- remapped water tiles
+- reordered IDs across the map
+- improvements to CIVBFM dummy
 
 Allied 5:
 - Replaced Russian Flags with Polish Flags to fit the narrative that this mission takes place at the German-Polish border
@@ -22,11 +54,43 @@ Allied 5:
 - Added an extra reveal when the player discovers the crash-landed units to make them easier to spot
 	- This repositions and uses waypoint 25, which wasn't used for anything else before this
 	
+Allied 6:
+- Changed defense building orientations so they don't all face the 0° direction.
+- Changed the Tech Hospital's colour to grey to reflect other missions.
+- Changed Attk_V3_2 AITrig's Comparison Object from AMRADR to GAAIRC, the AI should build it now.
+- Made all the Civilian Panic celltags contiguous, you cannot enter the panic zone without triggering the civilian panic sequence now.
+- The enemy will now attack the Pentagon, losing the Pentagon will fail the mission. 
+- Losing the base around the Pentagon BEFORE completing Objective 1 will fail the mission.
+
+Allied 7:
+- removed the exploitable sentry gun and turned it into a basenode
+- changed the win condition so that it requires the soviet MCV to deploy before everything else is accounted for
+- changed Civie1 house color to Grey
+- re-oriented some defenses
+- remapped water tiles
+- reordered IDs across the map
+	
 Allied 8:
 - Added triggers to properly sell Psychic Beacon when captured by player-built Engineers
 - Added Elite abilities to Engineer so that it now benefits from Elite veterancy (faster, self-healing)
 - The player can now build the American version of the Air Force Headquarters, as intended. This also fixes AITriggers that depend on the player owning an American Air Force Headquarters
 - End-of-game fire sale now also fire sale BadGuy2's buildings, in addition to BadGuy1
+
+Allied 9:
+- Made Paratroopers fall down much quicker, making the beginning cutscene drastically shorter.
+- Added the unused EVA Seal introduction to the beginning cutscene. 
+- Fixed the buggy Flak Track spawning scripts.
+- Changed Mayanprism to MayanPrism, the Mayan Prism Cannon thusly gets an 18 range buff.
+
+Allied 10:
+- changed the win condition so that it requires the soviet MCVs to deploy before everything else is accounted for
+- added a win condition that's enabled after 360s have passed
+- readded the polar bear easter egg
+- retiled some excessively snowy areas, high altitude areas remain the same
+- made some celltags slightly more robust
+- fixed a broken cliff and fixed broken road tiles
+- remapped water tiles
+- reordered IDs across the map
 
 Allied 11:
 - Reworked bridge fixer Engineer teams so that it no longer infinitely spawns from Seals blowing up nothing
@@ -35,11 +99,39 @@ Allied 11:
 - Re-oriented facings of defenses to make them appear more natural
 - Re-implemented the Spy hint trigger, which now takes place 20 in-game seconds after Romanov's speech finishes
 
+Allied 12:
+- Repurposed BadGuy2 as a new Soviet AI, all of BG2's units and tesla coils and power plants at the start of the mission now belong to Other3 which now shares the same colour as BG2. BG2 owns the base to the west, and was given a Radar Tower and a Battle Lab as well as one of the Nuclear Reactors in the east.
+- Added more AIT's, all of these use unused Soviet teamtypes.
+- Added a "Soviet supply depot detected" string once you approach the only Tech Outpost on the map.
+- Players can now build Tesla Tanks if they capture the Soviet bases.
+- Added some unused voicelines meant to play after the units teleport.
+- Added the unused EVA Kirov introduction speech.
+- 700 seconds into the basebuilding part of the mission Soviet reinforcements will arrive and an unused EVA speech will remark on that, 200 seconds after the first wave another will arrive only on medium and hard.
+- Fixed the water tiles on the map, now it does not all look uniformly the same.
+- Once Tanya enters the Kremlin, an unused "Romanov captured." voiceline will play.
+- Implemented LineTrailColorOverride properly, all missiles will now properly render as black in this mission.
+- Drastically improved the Chrono countdown timing at the start, units will now appear the moment EVA after says "One."
+
+Soviet 1:
+- fixed a trigger that was referencing nothing
+- made some celltags slightly more robust including the pentagon reinforcements
+- removed a tree from the road
+- trees from the pentagon parking lot are now standing on grass tiles rather than pavement
+- remapped water tiles
+- reordered IDs across the map
+
 Soviet 2:
 - Added a single Grand Cannon in the Allied base on Hard difficulty; There was leftover ini modifications suggesting that this building would've appeared in this mission.
 - Reworked and re-implemented Vladimir's return after his initial escape. He will run away again everytime he is attacked by an enemy. However, if the player supports Vlad and keeps him unharmed, he will help destroy the Pillboxes and the Grand Cannon inside the main Allied base.
 	- Re-added related text strings that went unused
 - Re-implemented the unused hint trigger to construct a Naval Shipyard
+
+Soviet 4:
+- changed the color of Civilian house to Grey
+- changed a player owned lamp post on the map to civilian house
+- fixed a broken road
+- remapped water tiles
+- reordered IDs across the map
 
 Soviet 5:
 - Removed the ability to "charge" the Eiffel Tower with the 2 Conscripts from the top-right Flak Track team
@@ -54,6 +146,14 @@ Soviet 6:
 - Changed the Carrier's CanPassiveAquire ini flag to yes; this allows them to automatically target the player's ground units and buildings
 - The Korean Fleet now spawns from multiple off-map waypoints instead of a single on-map waypoint so that their entrance appears more cinematic and less bizarre
 - Increased Stray from 2.0 to 4.0 so that GI + transport AITeams won't have a chance to get stuck due to having too large of a taskforce.
+
+Soviet 7:
+- reoriented some player defenses
+- changed the color of Other3 house to Grey
+- fixed a broken road
+- remapped water tiles
+- reordered IDs across the map
+- fixed enemy aircraft crashing on their exit waypoint
 
 Soviet 8:
 - Re-implemented the text trigger to hint at the cash bonues from destroying monuments
@@ -71,6 +171,18 @@ Soviet 9:
 - The cyan Tech Airport and Allied Power Plant are now properly transferred to the player when captured using a mind-controlled Engineer
 - Replaced the Soviet attack dogs with the Allied variant
 - Replaced dummy stop sign buildings with the proper terrain object version
+
+Soviet 10:
+- reverted the Weather Controller nerf from wood to concrete armor and HP from 200 to 1000
+- fixed BadGuy1's basenodes
+- reoriented some defenses and units
+- fixed a broken road
+- remapped water tiles
+- reordered IDs across the map
+- fix ending softlock
+- fix all broken cliffs
+- remove duplicate and redundant triggers
+- fix softlock lose condition
 
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
