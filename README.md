@@ -128,6 +128,11 @@ Soviet 2:
 	- Re-added related text strings that went unused
 - Re-implemented the unused hint trigger to construct a Naval Shipyard
 
+Soviet 3:
+- Re-implemented several unused AI Triggers and made them Hard difficulty only.
+- The final defense phase has been changed and is now based on several snippets of cut content. After mind-controlling the main enemy force the player will have to fight another wave. Only after destroying this wave will the mission be won.
+- All enemy units in the defense phase will now come from off-map instead of miraculously appearing out of thin air on the map itself.
+
 Soviet 4:
 - changed the color of Civilian house to Grey
 - changed a player owned lamp post on the map to civilian house
@@ -264,10 +269,12 @@ YR Allied 5:
 YR Allied 7:
 - Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
 	- This uses an un-used EVA voiceline to introduce the Magnetron
+- Added triggers that use cut voicelines to introduce the Genetic Mutator and Psychic Dominator when the player gets close to them
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
 - Limited the MCV Chrono reinforcements to happen once at most
 	- This cheese is far too overpowered in its original state, changing it brings it more in line with similar triggers in other missions, like in Escape Velocity
+- Removed the singular tree on Antarctic ice
 
 YR Soviet 2:
 - Added a 5 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
