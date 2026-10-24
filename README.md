@@ -128,6 +128,18 @@ YR Allied 2:
 	- Affected technotypes: Virus, Magnetron, Mastermind, Chaos Drone, Psychic Dominator, Genetic Mutator and Yuri Prime
 	- It's a clear oversight that the player is capable of constructing these things at this point of the story, especially since they all get introduced later on
 - Added 3 in-game seconds of delay to Return_Control so that Eva's voicelines don't cut each other off
+
+YR Allied 5:
+- Restored the Lasher tank's TechLevel to its default value so that both the player and the AI can build it again
+- Added triggers that introduce the Tech Hospital and Tech Machine Shop if the player hasn't encountered them up until this point
+- Extended the intro sequence to add in the un-used Eva voicelines introducing the Cloning Vat and the Yuri Submarine Pen to the player
+	- This extended sequence also spawns additional Initiates at the Cloning Vats, scaling in quantity with the difficulty level, for a better demonstration of the Cloning Vat's abilities
+- Fixed AITriggers that are conditional on the player owning an American Allied Airforce HQ, despite them only being able to build the generic Allied Airforce HQ in this mission
+	- Affected triggers: (_A05_Chaos Drone), (_A05_Initiates on Airforce)
+- Fixed an AITrigger that is conditional on the player owning a Soviet Barracks, despite them not being able to get one in this mission
+	- Affected triggers: (_A05_Brutes (1))
+- Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
+	- This trigger uses an un-used text string
 	
 YR Allied 7:
 - Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
@@ -143,7 +155,7 @@ YR Soviet 2:
 - Made the Chronosphere unsellable to remove the rare possibility of the AI selling the Chronosphere and hand the player the victory
 - Fixed several AITriggers that had erroneous conditions
 	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now properly create Mirage tank ambush teams
-	- Affected triggers: Amb_MirageBR AITrig, Amb_MirageBS AITrig, Amb_MirageBT AITrig, Amb_MirageBU AITrig, Amb_MirageBV AITrig, Amb_MirageBW AITrig
+	- Affected triggers: (Amb_MirageBR AITrig), (Amb_MirageBS AITrig), (Amb_MirageBT AITrig), (Amb_MirageBU AITrig), (Amb_MirageBV AITrig), (Amb_MirageBW AITrig)
 - Added a trigger to brief the player on the Battle Bunker once they deploy the Soviet ConYard; uses a related un-used Zofia voiceline
 
 YR Soviet 4:
