@@ -290,6 +290,8 @@ YR Soviet 2:
 	- Affected triggers: (Amb_MirageBR AITrig), (Amb_MirageBS AITrig), (Amb_MirageBT AITrig), (Amb_MirageBU AITrig), (Amb_MirageBV AITrig), (Amb_MirageBW AITrig)
 
 YR Soviet 4:
+- Added a flashing effect on the Tech Airport when the camera pans to it in the intro
+- Extended the intro sequence by 19 in-game seconds to add a cut voiceline that introduces the Yuri Clone to the player
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added an un-used text string to the player reinforcements that can occur on Easy and Medium difficulty
 
