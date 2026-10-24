@@ -1772,6 +1772,125 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
 
+[01000372]
+0=3,E1
+Name=[BTR] TF GI x3
+Group=-1
+
+[01000373]
+0=1,84
+Name=[BTR] SCR Garrison 84
+
+[01000374]
+Max=5
+Full=no
+Name=[BTR] Garrison GIs 84
+Group=-1
+House=BadGuy1
+Script=01000373
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=CM
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000372
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000375]
+0=1,85
+Name=[BTR] SCR Garrison 85
+
+[01000376]
+0=1,98
+Name=[BTR] SCR Garrison 98
+
+[01000377]
+Max=5
+Full=no
+Name=[BTR] Garrison GIs 85
+Group=-1
+House=BadGuy1
+Script=01000375
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=BZ
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000372
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000378]
+Max=5
+Full=no
+Name=[BTR] Garrison GIs 98
+Group=-1
+House=BadGuy1
+Script=01000376
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=CR
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000372
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [ADOG]
 TechLevel=-1
 
@@ -2030,6 +2149,9 @@ Value=50
 01000237=2,19,7,MessageText,0,0,0,0,A,11,4,MISSION:Sov11f,0,0,0,0,A
 01000238=3,19,7,HealCrate,0,0,0,0,A,11,4,MISSION:Sov11k,0,0,0,0,A,53,2,01000237,0,0,0,0,A
 01000239=1,56,0,6,0,0,0,0,A
+01000379=3,7,1,01000374,0,0,0,0,A,7,1,01000377,0,0,0,0,A,7,1,01000378,0,0,0,0,A
+01000381=1,16,0,0,0,0,0,0,A
+01000383=1,112,0,0,0,0,0,0,CV
 
 [BadGuy1]
 Name=BadGuy1
@@ -2674,9 +2796,12 @@ Insignificant=no
 01000237=1,13,0,2
 01000238=1,1,0,13
 01000239=1,4,0,0
+01000379=1,13,0,0
+01000381=1,8,0,0
+01000383=1,8,0,0
 
 [FA2spVersionControl]
-Version=13
+Version=18
 LastPreviewOption=2
 
 [FLAKT]
@@ -4078,6 +4203,9 @@ Insignificant=no
 28=01000040
 29=01000038
 30=01000068
+31=01000373
+32=01000375
+33=01000376
 
 [SovietOccupyW]
 Range=8
@@ -4106,6 +4234,10 @@ DestroyableBridges=no
 5=BadGuy1 House,NASAM,256,68,83,128,None,1,0,1,0,0,None,None,None,0,0
 6=BadGuy1 House,NASAM,256,94,92,128,None,1,0,1,0,0,None,None,None,0,0
 7=BadGuy1 House,NASAM,256,104,92,128,None,1,0,1,0,0,None,None,None,0,0
+8=Civie1 House,CAARMY03,256,53,27,0,None,0,0,1,0,0,None,None,None,1,0
+9=Civie1 House,CAARMY04,256,73,37,0,None,0,0,1,0,0,None,None,None,1,0
+10=Civie1 House,CAARMY02,256,47,37,0,None,0,0,1,0,0,None,None,None,1,0
+11=Civie1 House,CAWASH19,256,95,121,0,None,0,0,1,0,0,None,None,None,0,0
 1024239=Civie1 House,CABHUT,256,58,73,0,None,0,0,1,0,0,None,None,None,0,0
 1024240=Civie1 House,CAWASH04,256,75,88,0,01000266,0,0,1,0,0,None,None,None,0,0
 1024241=Civie1 House,CAWASH04,256,75,79,0,01000267,0,0,1,0,0,None,None,None,0,0
@@ -4149,7 +4281,6 @@ DestroyableBridges=no
 1024332=Civie1 House,CAPARS07,256,98,107,0,None,0,0,1,0,0,None,None,None,0,0
 1024333=Civie1 House,CAWASH07,256,110,113,0,01000270,0,0,1,0,0,None,None,None,0,0
 1024334=Civie1 House,CAWASH08,256,115,112,0,None,0,0,1,0,0,None,None,None,0,0
-1024335=Civie1 House,CAWASH19,256,95,121,0,None,0,0,1,0,0,None,None,None,0,0
 1024338=BadGuy1 House,GAPILL,256,71,84,0,None,1,0,1,0,0,None,None,None,0,0
 1024339=Civie1 House,CAWASH04,256,54,57,0,None,0,0,1,0,0,None,None,None,0,0
 1024340=Civie1 House,CAWASH04,256,63,57,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4397,6 +4528,9 @@ Insignificant=no
 01000369=0,Sofia Line,01000234
 01000370=0,b,01000237
 01000371=2,Cheer,01000188
+01000380=0,[BTR] Extra Garrisons 1,01000379
+01000382=0,[DEBUG] Reveal 1,01000381
+01000384=0,[BTR] Starting Camera 1,01000383
 
 [TaskForces]
 0=01000064
@@ -4428,6 +4562,7 @@ Insignificant=no
 26=01000102
 27=01000099
 28=01000069
+29=01000372
 
 [TeamTypes]
 0=01000078
@@ -4474,6 +4609,9 @@ Insignificant=no
 41=01000042
 42=01000101
 43=01000098
+44=01000374
+45=01000377
+46=01000378
 
 [Terrain]
 26046=TREE06
@@ -5361,6 +5499,9 @@ Insignificant=no
 01000237=Player,<none>,b,1,1,1,1,0
 01000238=Player,<none>,a,0,1,1,1,0
 01000239=Player,<none>,Discovered Bridge,0,1,1,1,0
+01000379=Neutral,<none>,[BTR] Extra Garrisons,0,1,1,1,0
+01000381=Neutral,<none>,[DEBUG] Reveal,0,1,1,1,0
+01000383=Neutral,<none>,[BTR] Starting Camera,0,1,1,1,0
 
 [Units]
 0=BadGuy1 House,CAR,256,100,114,0,Sleep,None,0,-1,0,-1,1,1
@@ -5543,8 +5684,8 @@ Range=5
 81=60096
 82=56045
 83=55069
-84=45068
-85=32068
+84=37073
+85=27053
 86=79075
 87=88075
 88=31059
@@ -5557,9 +5698,9 @@ Range=5
 95=40050
 96=53060
 97=49050
-98=122096
+98=37047
 99=122096
 100=30050
 
 [Digest]
-1=Lmxa6MrVZ9dTX82B4iAm7jFhMGQ=
+1=50JDezK2q8ViKuNW2+TL39r6y7o=

@@ -113,6 +113,8 @@ Allied 12:
 - Drastically improved the Chrono countdown timing at the start, units will now appear the moment EVA after says "One."
 
 Soviet 1:
+- Added 3 Army Tents near the Pentagon that enemy GIs will garrison
+	- This makes the loading screen match the actual mission more closely
 - fixed a trigger that was referencing nothing
 - made some celltags slightly more robust including the pentagon reinforcements
 - removed a tree from the road
