@@ -5,6 +5,7 @@ General Changes:
 TeamDelays are fixed in all applicable missions so that it isn't reversed. Hard is hard and easy is easy!
 
 Allied 1:
+- Added the cut Eva voicelines for when the player spots the Soviet supply base and when the supply base is destroyed
 - fixed the shallow pavement bridge
 - fixed the incomplete road intersection at 44,38
 - reoriented Patriot Missiles
