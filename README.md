@@ -43,6 +43,8 @@ Allied 4:
 - improvements to CIVBFM dummy
 
 Allied 5:
+- Added a two cut Soviet soldier voicelines at the start of the mission
+- Added a cut Eva voiceline that plays just before the victory screen
 - Replaced Russian Flags with Polish Flags to fit the narrative that this mission takes place at the German-Polish border
 - Modified Spy reinforcement loop so that every 4th reinforcement is preceded by Tanya cussing the Player out. (Modified related voiceline timings so that the voiceline doesn't get interrupted)
 - Reworked Spy reinforcement loop logic so that the player can now use them to infiltrate War Factories, Barracks and Refineries for their respective bonuses
