@@ -80,6 +80,7 @@ Allied 8:
 - End-of-game fire sale now also fire sale BadGuy2's buildings, in addition to BadGuy1
 
 Allied 9:
+- Added a cut voicelines of SEALs requesting help against the Soviet base defenses
 - Made Paratroopers fall down much quicker, making the beginning cutscene drastically shorter.
 - Added the unused EVA Seal introduction to the beginning cutscene. 
 - Fixed the buggy Flak Track spawning scripts.
