@@ -195,6 +195,8 @@ Soviet 10:
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
 - Adjusted facings of enemy defense structures so they look more natural
+- Added cut Zofia voiceline for Iron Curtain that plays after the IC sidebar movie
+- Added cut Yuri voiceline that taunts the player when they build the Psychic Sensor
 - Reworked Nuke Silo Kirov attack teams. Now, they will still continuously respawn if the Nuke Silo persists, but it doesn't happen until the previous wave is completely destroyed. Additionally, selling and rebuilding the Nuke Silo rapidly will no longer trigger repeated Kirov spawns.
 	- Delayed Zofia's related Alert and Flak Cannon voicelines by 3 in-game seconds each to account for the faster speed of modern PCs (so that the voiceline doesn't get cut off)
 	- Re-implemented related unused text triggers.
@@ -273,12 +275,15 @@ YR Allied 5:
 	- This trigger uses an un-used text string
 	
 YR Allied 7:
+- Added "establishing battlefield control" to the start of the mission
+- Added a sidebar movie for the Genetic Mutator that plays sometime after the player's chrono taskforce arrives
 - Added a Magnetron introduction sequence after the Allied MCV Chronoshifts into the battlefield
 	- This uses an un-used EVA voiceline to introduce the Magnetron
 - Added triggers that use cut voicelines to introduce the Genetic Mutator when the player gets close to them
 	- The Psychic Dominator voiceline is added in YR Allied 1 already
-- Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
+- Delayed input unlock by 5 in-game seconds for better timing
+- Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
 - Limited the MCV Chrono reinforcements to happen once at most
 	- This cheese is far too overpowered in its original state, changing it brings it more in line with similar triggers in other missions, like in Escape Velocity
 - Removed the singular tree on Antarctic ice
