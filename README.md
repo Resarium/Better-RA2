@@ -131,6 +131,7 @@ Soviet 2:
 Soviet 3:
 - Re-implemented several unused AI Triggers and made them Hard difficulty only.
 - The final defense phase has been changed and is now based on several snippets of cut content. After mind-controlling the main enemy force the player will have to fight another wave. Only after destroying this wave will the mission be won.
+	- Developer's Note: For some reason we had to set BadGuy2's IQ from 1 to 0 to make the "Destroyed, All..." event condition work properly
 - All enemy units in the defense phase will now come from off-map instead of miraculously appearing out of thin air on the map itself.
 
 Soviet 4:
@@ -282,6 +283,8 @@ YR Soviet 2:
 - Added a cut voiceline that introduces the German Tank Destroyers when they move out to attack the player
 - Added a cut voiceline that introduces the Battle Bunker once the player deploys their MCV
 - Added a cut voiceline that introduces the Spy Plane once the player constructs a Radar Dish
+- Added a cut voiceline + sidebar movie for this mission when the player deploys their MCV
+- Added "establishing battlefield control" to the start of the mission
 - Added an 8 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
 	- This eliminates the visual bug caused by changing the Chronosphere's house right as it fires its superweapon
 - Made the Chronosphere unsellable to remove the rare possibility of the AI selling the Chronosphere and hand the player the victory
