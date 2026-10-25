@@ -260,7 +260,11 @@ YR Allied 5:
 	- This extended sequence also spawns additional Initiates at the Cloning Vats, scaling in quantity with the difficulty level, for a better demonstration of the Cloning Vat's abilities
 - Added triggers that introduce the Brute to the player using cut voicelines
 	- There are two un-used voicelines in the files that both introduce the Brute. Due to overlap, one of them is randomly selected each time you play the mission
+	- Added 2 extra starting GIs to compensate for the additional enemy forces spawned as a result of this
 - Added 5 extra in-game seconds of guard time to the Dolphin + Destroyer team attacking the initial Boomer Sub to eliminate the rare possibility of them retreating before taking down the Boomer Sub
+- Adjusted timing of multiple triggers at the beginning
+	- Decreased elapsed time of Eva follow-up speech of initial sidebar movie by 4 seconds to line up the timing better
+	- Decreased elapsed time of the camera moving back to the player base by 6 seconds to line up with the input unlock
 - Fixed AITriggers that are conditional on the player owning an American Allied Airforce HQ, despite them only being able to build the generic Allied Airforce HQ in this mission
 	- Affected triggers: (_A05_Chaos Drone), (_A05_Initiates on Airforce)
 - Fixed an AITrigger that is conditional on the player owning a Soviet Barracks, despite them not being able to get one in this mission
