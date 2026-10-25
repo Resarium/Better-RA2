@@ -74,6 +74,7 @@ Allied 7:
 - reordered IDs across the map
 	
 Allied 8:
+- Added a cut Tanya voiceline that plays once the player gets rid of the Psychic Beacon
 - Added triggers to properly sell Psychic Beacon when captured by player-built Engineers
 - Added Elite abilities to Engineer so that it now benefits from Elite veterancy (faster, self-healing)
 - The player can now build the American version of the Air Force Headquarters, as intended. This also fixes AITriggers that depend on the player owning an American Air Force Headquarters
