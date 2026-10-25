@@ -258,8 +258,8 @@ YR Allied 5:
 - Added triggers that introduce the Tech Hospital and Tech Machine Shop if the player hasn't encountered them up until this point
 - Extended the intro sequence to add in the un-used Eva voicelines introducing the Cloning Vat and the Yuri Submarine Pen to the player
 	- This extended sequence also spawns additional Initiates at the Cloning Vats, scaling in quantity with the difficulty level, for a better demonstration of the Cloning Vat's abilities
-- Added triggers that introduce the Brute to the player using cut voicelines
-	- There are two un-used voicelines in the files that both introduce the Brute. Due to overlap, one of them is randomly selected each time you play the mission
+- Added triggers that introduce the Brute to the player using cut voicelines and cut sidebar movie
+	- There are three un-used voicelines in the files that all introduce the Brute. Due to overlap, one of them is randomly selected each time you play the mission (50% chance of the movie addition line playing, 25% chance of the other two lines playing)
 	- Added 2 extra starting GIs to compensate for the additional enemy forces spawned as a result of this
 - Added 5 extra in-game seconds of guard time to the Dolphin + Destroyer team attacking the initial Boomer Sub to eliminate the rare possibility of them retreating before taking down the Boomer Sub
 - Adjusted timing of multiple triggers at the beginning

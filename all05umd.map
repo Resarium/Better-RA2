@@ -5222,6 +5222,50 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
+[01000548]
+0=3,BRUTE
+Name=[BTR] TF BRUTE x3
+Group=-1
+
+[01000549]
+Max=5
+Full=no
+Name=[BTR] Brute Intro Team 02
+Group=-1
+House=BadGuy1
+Script=01000066
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=EM
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000548
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000550]
+0=50,120
+1=13,0
+Name=[BTR] SCR Cheer Anim
+
 [AITriggerTypes]
 01000279=_A05_5 Yuri Clones,01000163,BadGuy1,10,0,GGI,0200000003000000000000000000000000000000000000000000000000000000,40.000000,10.000000,70.000000,0,0,0,0,<none>,0,1,1
 01000280=_A05_Lasher League,01000164,BadGuy1,11,0,GAREFN,0100000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,0,0,1
@@ -5563,11 +5607,15 @@ AreTeamMembersRecruitable=no
 01000531=3,53,2,01000533,0,0,0,0,A,54,2,01000529,0,0,0,0,A,54,2,01000518,0,0,0,0,A
 01000533=6,53,2,01000375,0,0,0,0,A,53,2,01000376,0,0,0,0,A,48,0,4,0,0,0,0,EL,17,0,141,0,0,0,0,A,21,6,Unit_Eva_SubPen,0,0,0,0,A,131,9,YAYARD,0,0,0,0,120
 01000535=1,80,1,01000538,0,0,0,0,CM
-01000539=3,104,5,01000538,0,0,0,0,90,21,6,Mis_xA5_EvaBruteIntro,0,0,0,0,A,54,2,01000541,0,0,0,0,A
-01000541=3,104,5,01000538,0,0,0,0,90,21,6,Unit_Eva_Brute,0,0,0,0,A,54,2,01000539,0,0,0,0,A
+01000539=6,104,5,01000538,0,0,0,0,90,21,6,Mis_xA5_EvaBruteIntro,0,0,0,0,A,54,2,01000541,0,0,0,0,A,54,2,01000555,0,0,0,0,A,54,2,01000556,0,0,0,0,A,11,4,random 1,0,0,0,0,A
+01000541=6,104,5,01000538,0,0,0,0,90,21,6,Unit_Eva_Brute,0,0,0,0,A,54,2,01000539,0,0,0,0,A,54,2,01000555,0,0,0,0,A,54,2,01000556,0,0,0,0,A,11,4,random 2,0,0,0,0,A
 01000542=2,56,0,19,0,0,0,0,A,54,2,01000544,0,0,0,0,A
 01000544=2,57,0,19,0,0,0,0,A,54,2,01000542,0,0,0,0,A
 01000546=2,100,0,21,0,0,0,0,A,53,2,01000535,0,0,0,0,A
+01000551=2,56,0,20,0,0,0,0,A,54,2,01000553,0,0,0,0,A
+01000553=2,57,0,20,0,0,0,0,A,54,2,01000551,0,0,0,0,A
+01000555=6,104,5,01000538,0,0,0,0,90,21,6,A05_p02,0,0,0,0,A,54,2,01000539,0,0,0,0,A,54,2,01000541,0,0,0,0,A,54,2,01000556,0,0,0,0,A,11,4,random 3,0,0,0,0,A
+01000556=6,104,5,01000538,0,0,0,0,90,21,6,A05_p02,0,0,0,0,A,54,2,01000539,0,0,0,0,A,54,2,01000541,0,0,0,0,A,54,2,01000555,0,0,0,0,A,11,4,random 4,0,0,0,0,A
 
 [BEAG]
 TechLevel=11
@@ -5939,21 +5987,22 @@ PlayerControl=no
 01000531=1,13,0,9
 01000533=1,13,0,10
 01000535=1,13,0,0
-01000539=2,4,0,0,36,0,19
-01000541=2,4,0,0,37,0,19
+01000539=3,4,0,0,36,0,19,37,0,20
+01000541=3,4,0,0,37,0,19,37,0,20
 01000542=1,51,0,30
 01000544=1,51,0,30
 01000546=1,13,0,20
+01000551=1,51,0,30
+01000553=1,51,0,30
+01000555=3,4,0,0,36,0,19,36,0,20
+01000556=3,4,0,0,37,0,19,36,0,20
 
 [FA2spVersionControl]
-Version=64
+Version=85
 LastPreviewOption=2
 
 [FV]
 BuildTimeMultiplier=1.0
-
-[GAAIRC]
-Cost=0
 
 [GAWEAT]
 Name=Allied Weather Controller
@@ -7838,6 +7887,7 @@ BuildTimeMultiplier=1.0
 94=01000510
 95=01000523
 96=01000537
+97=01000550
 
 [SpecialFlags]
 Inert=no
@@ -8164,6 +8214,8 @@ TechLevel=11
 01000543=0,[BTR] Roll Brute 1 1,01000542
 01000545=0,[BTR] Roll Brute 2 1,01000544
 01000547=0,[BTR] Brute Movie 1,01000546
+01000552=0,[BTR] Roll Brute 3 1,01000551
+01000554=0,[BTR] Roll Brute 4 1,01000553
 
 [TaskForces]
 0=01000106
@@ -8215,6 +8267,7 @@ TechLevel=11
 46=01000152
 47=01000509
 48=01000522
+49=01000548
 
 [TeamTypes]
 0=01000153
@@ -8345,6 +8398,7 @@ TechLevel=11
 125=01000511
 126=01000524
 127=01000538
+128=01000549
 
 [Temp]
 Name=Temp
@@ -9102,10 +9156,14 @@ PlayerControl=no
 01000533=BadGuy2,<none>,[BTR] Cam Move SubPen Intro,1,1,1,1,0
 01000535=Player,<none>,[BTR] Brute Intro,1,1,1,1,0
 01000539=BadGuy1,01000541,[BTR] Brutes Seen Random 1,0,1,1,1,0
-01000541=BadGuy1,<none>,[BTR] Brutes Seen Random 2,0,1,1,1,0
+01000541=BadGuy1,01000555,[BTR] Brutes Seen Random 2,0,1,1,1,0
 01000542=Neutral,<none>,[BTR] Roll Brute 1,0,1,1,1,0
 01000544=Neutral,<none>,[BTR] Roll Brute 2,0,1,1,1,0
 01000546=Neutral,<none>,[BTR] Brute Movie,1,1,1,1,0
+01000551=Neutral,<none>,[BTR] Roll Brute 3,0,1,1,1,0
+01000553=Neutral,<none>,[BTR] Roll Brute 4,0,1,1,1,0
+01000555=BadGuy1,01000556,[BTR] Brutes Seen Random 3,0,1,1,1,0
+01000556=BadGuy1,<none>,[BTR] Brutes Seen Random 4,0,1,1,1,0
 
 [Units]
 0=BadGuy1 House,SMIN,256,154,138,0,Area Guard,None,0,-1,0,-1,1,1
@@ -9189,6 +9247,7 @@ PlayerControl=no
 17=Obj 1 Complete,0
 18=ReinfArrived,0
 19=BruteRandom,0
+20=BruteMovieAddition,0
 
 [Waypoints]
 0=121075
@@ -9333,6 +9392,7 @@ PlayerControl=no
 139=166119
 140=98070
 141=90124
+142=89072
 699=97073
 700=90055
 
@@ -9354,4 +9414,4 @@ BuildTimeMultiplier=1.0
 TechLevel=11
 
 [Digest]
-1=rfehes7DNuz+K/5kNqUi3Fvv1RA=
+1=ga1vtBV3Z0KfSK7c05LOZIwhnRo=
