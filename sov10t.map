@@ -1584,6 +1584,8 @@ TechLevel=-1
 Value=50
 
 [Actions]
+01000000=11,40,0,0,1,7,84,131,A,17,0,15,0,0,0,0,A,55,0,5,0,0,0,0,P,11,4,MISSION:Objective1,0,0,0,0,A,53,2,01000120,0,0,0,0,A,53,2,01000121,0,0,0,0,A,53,2,01000136,0,0,0,0,A,53,2,01000007,0,0,0,0,A,54,2,01000154,0,0,0,0,A,12,2,01000212,0,0,0,0,A,12,2,01000170,0,0,0,0,A
+01000007=1,32,0,0,0,0,0,0,A
 01000112=2,7,1,01000056,0,0,0,0,G,21,6,EVA_EstablishBattlefieldControl,0,0,0,0,A
 01000113=6,7,1,01000057,0,0,0,0,H,3,0,14,0,0,0,0,A,17,0,36,0,0,0,0,AK,17,0,37,0,0,0,0,AL,17,0,18,0,0,0,0,S,17,0,17,0,0,0,0,R
 01000115=2,46,0,0,0,0,0,0,A,54,2,01000115,0,0,0,0,A
@@ -1622,9 +1624,6 @@ Value=50
 01000148=3,53,2,01000150,0,0,0,0,A,112,0,2,0,0,0,0,C,19,7,CameraSwitch,0,0,0,0,A
 01000149=2,112,0,42,0,0,0,0,AQ,19,7,CameraSwitch,0,0,0,0,A
 01000150=2,112,0,4,0,0,0,0,E,19,7,CameraSwitch,0,0,0,0,A
-01000151=3,11,4,MISSION:Sov10d,0,0,0,0,A,54,2,01000151,0,0,0,0,A,19,7,NukeSiren,0,0,0,0,A
-01000152=4,54,2,01000152,0,0,0,0,A,53,2,01000140,0,0,0,0,A,54,2,01000153,0,0,0,0,A,54,2,01000151,0,0,0,0,A
-01000153=11,55,0,5,0,0,0,0,P,53,2,01000120,0,0,0,0,A,40,0,0,1,7,84,131,A,17,0,15,0,0,0,0,P,54,2,01000153,0,0,0,0,A,54,2,01000152,0,0,0,0,A,54,2,01000151,0,0,0,0,A,54,2,01000154,0,0,0,0,A,11,4,MISSION:Objective1,0,0,0,0,A,53,2,01000121,0,0,0,0,A,53,2,01000136,0,0,0,0,A
 01000154=2,11,4,MISSION:Sov10a,0,0,0,0,A,55,0,5,0,0,0,0,AO
 01000155=3,53,2,01000143,0,0,0,0,A,53,2,01000154,0,0,0,0,A,53,2,01000156,0,0,0,0,A
 01000156=1,11,4,MISSION:Sov10a,0,0,0,0,A
@@ -1641,6 +1640,8 @@ Value=50
 01000167=1,80,1,01000090,0,0,0,0,CR
 01000168=1,108,0,0,0,0,0,0,CS
 01000169=5,14,0,13,0,0,0,0,A,17,0,97,0,0,0,0,CT,55,0,1,0,0,0,0,CT,19,7,Bonus,0,0,0,0,A,21,6,Mis_S10_Yuri,0,0,0,0,A
+01000170=4,53,2,01000140,0,0,0,0,A,53,2,01000007,0,0,0,0,A,12,2,01000212,0,0,0,0,A,12,2,01000000,0,0,0,0,A
+01000212=2,11,4,MISSION:Sov10d,0,0,0,0,A,19,7,WarningAlarm,0,0,0,0,A
 
 [BadGuy1]
 Name=BadGuy1
@@ -1765,6 +1766,45 @@ TiberiumGrowthEnabled=yes
 IgnoreGlobalAITriggers=yes
 TiberiumDeathToVisceroid=no
 
+[CANEWY10]
+Cost=2000
+Name=Allied Battle Lab
+Armor=wood
+Image=GATECH
+Owner=British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs
+Power=0
+Sight=6
+Crewed=yes
+Points=85
+UIName=Name:GATECH
+Nominal=no
+Primary=none
+Spyable=yes
+Adjacent=2
+BuildCat=Tech
+Strength=500
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+MaxDebris=12
+MinDebris=6
+Secondary=none
+TechLevel=8
+BaseNormal=yes
+Capturable=true
+AIBuildThis=yes
+DebrisAnims=DBRIS1LG,DBRIS1SM,DBRIS2LG,DBRIS4SM,DBRIS5LG,DBRIS5SM,DBRIS6SM,DBRS10LG
+LeaveRubble=no
+ThreatPosed=0
+TogglePower=no
+Prerequisite=GAWEAP,RADAR,GACNST
+CanBeOccupied=no
+Insignificant=no
+RadarInvisible=no
+ClickRepairable=yes
+ProtectWithWall=yes
+DamageSmokeOffset=1500,1055,815
+AIBasePlanningSide=0
+MaxNumberOccupants=0
+
 [CMIN]
 Storage=10
 
@@ -1823,6 +1863,8 @@ Name=Engineer
 TechLevel=-1
 
 [Events]
+01000000=1,32,0,161
+01000007=1,8,0,0
 01000112=1,47,0,0
 01000113=1,47,0,0
 01000115=1,13,0,0
@@ -1843,7 +1885,7 @@ TechLevel=-1
 01000130=1,13,0,120
 01000131=1,4,0,0
 01000132=1,48,0,0
-01000133=1,1,0,13
+01000133=1,32,0,29
 01000134=1,36,0,4
 01000135=1,13,0,5
 01000136=1,13,0,100
@@ -1861,9 +1903,6 @@ TechLevel=-1
 01000148=1,13,0,7
 01000149=1,13,0,10
 01000150=1,13,0,17
-01000151=1,6,0,0
-01000152=1,48,0,0
-01000153=1,1,0,13
 01000154=1,13,0,100
 01000155=1,1,0,13
 01000156=1,13,0,2
@@ -1880,17 +1919,21 @@ TechLevel=-1
 01000167=1,32,0,54
 01000168=1,7,0,0
 01000169=1,4,0,0
+01000170=1,57,0,161
+01000212=1,6,0,0
 
 [FA2spVersionControl]
-Version=29
+Version=45
 LastPreviewOption=2
 
 [GATECH]
 Name=Allied Battle Lab
 Power=0
+Crewed=no
 
 [GAWEAT]
 Name=Weather Controller
+Capturable=true
 
 [GHOST]
 Name=SEAL
@@ -4627,6 +4670,8 @@ DestroyableBridges=no
 27=BadGuy1 House,NASAM,256,167,97,128,01000002,1,0,1,0,0,None,None,None,0,0
 28=BadGuy1 House,GAAIRC,256,160,102,0,01000002,1,0,1,0,0,None,None,None,1,0
 29=Civie1 House,CAOUTP,256,192,147,192,None,0,0,1,0,0,None,None,None,0,0
+30=BadGuy1 House,GATECH,256,4,86,0,01000151,1,0,1,0,0,None,None,None,1,0
+31=BadGuy1 House,CANEWY10,256,163,97,0,01000214,0,0,1,0,0,None,None,None,1,0
 1038178=BadGuy2 House,GACNST,256,87,135,0,01000003,1,0,1,0,0,None,None,None,0,0
 1038181=BadGuy2 House,GAPILE,256,96,136,0,01000003,1,0,1,0,0,None,None,None,0,0
 1038184=BadGuy2 House,GAREFN,256,91,144,0,01000003,1,0,1,0,0,None,None,None,0,0
@@ -4742,7 +4787,6 @@ DestroyableBridges=no
 1038530=BadGuy1 House,ATESLA,256,163,101,0,01000002,1,1,1,0,0,None,None,None,1,0
 1038533=BadGuy1 House,ATESLA,256,178,119,0,01000002,1,1,1,0,0,None,None,None,1,0
 1038537=BadGuy1 House,GACNST,256,171,116,0,01000002,1,0,1,0,0,None,None,None,1,0
-1038540=BadGuy1 House,GATECH,256,163,97,0,01000007,1,0,1,0,0,None,None,None,1,0
 1038543=BadGuy1 House,GAPILE,256,172,102,0,01000002,1,0,1,0,0,None,None,None,1,0
 1038546=BadGuy1 House,GAYARD,256,156,127,0,01000002,1,0,1,0,0,None,None,None,1,0
 1038551=BadGuy1 House,GAYARD,256,183,127,0,01000002,1,0,1,0,0,None,None,None,1,0
@@ -4808,10 +4852,12 @@ TechLevel=-1
 01000004=0,Bonus Ship,01000131
 01000005=0,Bonus Psy Corps,01000169
 01000006=2,Weather Control Device,01000132
-01000007=2,Battle Lab,01000153
 01000008=0,Beach Hotel Bonus,01000168
+01000114=0,[BTR] Battle Lab - Captured 1,01000000
+01000151=0,[BTR] Kill Real Lab 1,01000007
 01000171=0,West Trans Arrives,01000112
 01000172=0,East Trans Arrives,01000113
+01000173=0,[BTR] Battle Lab - Destroyed 1,01000170
 01000174=2,Lock Input,01000115
 01000175=0,Player Dead,01000139
 01000176=0,Loser,01000140
@@ -4851,6 +4897,7 @@ TechLevel=-1
 01000210=0,WCD_Enabled_real,01000166
 01000211=0,Kill the Nuke!,01000167
 01000213=2,Cheer,01000137
+01000214=0,[BTR] Battle Lab - Damaged 1,01000212
 
 [TaskForces]
 0=01000033
@@ -5446,6 +5493,8 @@ TechLevel=-1
 3=Aboreus
 
 [Triggers]
+01000000=Player,<none>,[BTR] Battle Lab - Captured,0,1,1,1,0
+01000007=Neutral,<none>,[BTR] Kill Real Lab,1,1,1,1,0
 01000112=Player,<none>,West Trans Arrives,0,1,1,1,0
 01000113=Player,<none>,East Trans Arrives,0,1,1,1,0
 01000115=Americans,<none>,Lock Input,0,1,1,1,0
@@ -5466,7 +5515,7 @@ TechLevel=-1
 01000130=Americans,<none>,4 Intruders,1,0,1,1,0
 01000131=Americans,<none>,Bonus Ship,0,1,1,1,0
 01000132=Americans,01000133,WCD Destroyed,0,1,1,1,0
-01000133=Americans,01000134,WCD Captured,0,1,1,1,0
+01000133=Player,01000134,WCD Captured,0,1,1,1,0
 01000134=Americans,<none>,Turn On,0,1,1,1,0
 01000135=Americans,<none>,Winner,1,1,1,1,0
 01000136=Americans,<none>,Reminder2_Nuke BL,1,1,1,1,0
@@ -5484,9 +5533,6 @@ TechLevel=-1
 01000148=Americans,<none>,Zofia 2 Map,1,1,1,1,0
 01000149=Americans,<none>,Zofia 1 Map Return,1,1,1,1,0
 01000150=Americans,<none>,Zofia 2 Map Return,1,1,1,1,0
-01000151=Americans,<none>,BL Damaged,0,1,1,1,0
-01000152=Americans,01000151,BL Destroyed,0,1,1,1,0
-01000153=Americans,01000152,BL Captured,0,1,1,1,0
 01000154=Americans,<none>,Reminder1_Capture BL,1,1,1,1,0
 01000155=Americans,<none>,Landed,0,1,1,1,0
 01000156=Americans,<none>,Objective 1,1,1,1,1,0
@@ -5503,6 +5549,8 @@ TechLevel=-1
 01000167=Player,<none>,Kill the Nuke!,0,0,1,1,0
 01000168=Americans,<none>,Beach Hotel Bonus,0,1,1,1,0
 01000169=Americans,<none>,Bonus Psy Corps,0,1,1,1,0
+01000170=BadGuy1,<none>,[BTR] Battle Lab - Destroyed,0,1,1,1,0
+01000212=Neutral,<none>,[BTR] Battle Lab - Damaged,0,1,1,1,0
 
 [Units]
 0=BadGuy1 House,AEGIS,256,153,130,128,Guard,01000002,0,-1,0,-1,1,1
@@ -5650,4 +5698,4 @@ TechLevel=-1
 TechLevel=-1
 
 [Digest]
-1=ZEtCfHYRk790zVYyvu8yz1PlMPE=
+1=nxz0p/QTH0zOS5psiAMJHdtNrOw=
