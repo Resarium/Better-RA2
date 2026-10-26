@@ -1195,7 +1195,8 @@ AvoidThreats=no
 LooseRecruit=no
 VeteranLevel=1
 IsBaseDefense=no
-UseTransportOrigin=no
+TransportWaypoint=AY
+UseTransportOrigin=yes
 OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
@@ -1820,8 +1821,8 @@ AreTeamMembersRecruitable=no
 Name=[BTR] SCR Garrison 85
 
 [01000376]
-0=1,98
-Name=[BTR] SCR Garrison 98
+0=1,56
+Name=[BTR] SCR Garrison 56
 
 [01000377]
 Max=5
@@ -1860,7 +1861,7 @@ AreTeamMembersRecruitable=no
 [01000378]
 Max=5
 Full=no
-Name=[BTR] Garrison GIs 98
+Name=[BTR] Garrison GIs 56
 Group=-1
 House=BadGuy1
 Script=01000376
@@ -1876,6 +1877,96 @@ IonImmune=no
 Recruiter=no
 Reinforce=no
 TaskForce=01000372
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000385]
+0=1,HTK
+1=4,E2
+Name=[BTR] TF Halftrack squad
+Group=-1
+
+[01000386]
+0=50,90
+1=3,58
+2=8,0
+3=20,13
+4=50,90
+Name=[BTR] SCR HTK 45-58
+
+[01000387]
+0=50,90
+1=3,52
+2=8,0
+3=20,13
+4=50,90
+Name=[BTR] SCR HTK 50-52
+
+[01000390]
+Max=5
+Full=yes
+Name=[BTR] Flak 45-58
+Group=-1
+House=Other3
+Script=01000386
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=AT
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000385
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000391]
+Max=5
+Full=yes
+Name=[BTR] Flak 50-52
+Group=-1
+House=Other3
+Script=01000387
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=AY
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000385
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -2050,7 +2141,7 @@ Value=50
 01000138=4,11,4,MISSION:Sov1b,0,0,0,0,A,114,0,2,0,0,0,0,A,115,9,388,0,0,0,0,90,53,2,01000116,0,0,0,0,A
 01000139=1,7,1,01000090,0,0,0,0,A
 01000140=10,99,7,_Amb_OceanLight,0,0,0,0,CC,99,7,_Amb_BirdsHarbor,0,0,0,0,BO,99,7,_Amb_BirdsBeach,0,0,0,0,BP,99,7,_Amb_OceanLight,0,0,0,0,BN,99,7,_Amb_UrbanMurmur1,0,0,0,0,BM,99,7,_Amb_UrbanMurmur2,0,0,0,0,AM,99,7,_Amb_BirdsMorning,0,0,0,0,BC,99,7,_Amb_BirdsTemperate1,0,0,0,0,AG,99,7,_Amb_BirdsMorning,0,0,0,0,AO,99,7,_Amb_OceanLight,0,0,0,0,AK
-01000141=10,99,7,_Amb_BirdsBeach,0,0,0,0,BF,99,7,_Amb_OceanLight,0,0,0,0,CL,99,7,_Amb_OceanHeavy,0,0,0,0,BD,99,7,_Amb_BirdsBeach,0,0,0,0,BE,99,7,_Amb_OceanLight,0,0,0,0,N,99,7,_Amb_OceanHeavy,0,0,0,0,BA,99,7,_Amb_BirdsHarbor,0,0,0,0,BG,99,7,_Amb_OceanLight,0,0,0,0,BK,99,7,_Amb_OceanHeavy,0,0,0,0,AZ,99,7,_Amb_BirdsBeach,0,0,0,0,BL
+01000141=4,99,7,_Amb_OceanLight,0,0,0,0,N,99,7,_Amb_OceanLight,0,0,0,0,BK,99,7,_Amb_OceanHeavy,0,0,0,0,AZ,99,7,_Amb_BirdsBeach,0,0,0,0,BL
 01000142=2,4,1,01000031,0,0,0,0,A,21,6,Mis_S1_SofiaCrushPentagon,0,0,0,0,A
 01000143=10,99,7,_Amb_BirdsBeach,0,0,0,0,CB,99,7,_Amb_OceanLight,0,0,0,0,BV,99,7,_Amb_BirdsHarbor,0,0,0,0,BH,99,7,_Amb_OceanHeavy,0,0,0,0,BW,99,7,_Amb_UrbanMurmur2,0,0,0,0,C,99,7,_Amb_BirdsMorning,0,0,0,0,M,99,7,_Amb_BirdsTemperate1,0,0,0,0,AW,99,7,_Amb_BirdsTemperate2,0,0,0,0,AQ,99,7,_Amb_BirdsMorning,0,0,0,0,F,99,7,_Amb_BirdsTemperate1,0,0,0,0,BJ
 01000144=3,55,0,1,0,0,0,0,BR,11,4,MISSION:Sov11g,0,0,0,0,A,19,7,MessageText,0,0,0,0,A
@@ -2077,7 +2168,7 @@ Value=50
 01000165=2,19,7,CivAllFear,0,0,0,0,A,19,7,CivSovFear,0,0,0,0,A
 01000166=1,19,7,CivAllFear,0,0,0,0,A
 01000167=1,41,0,479,0,0,0,0,A
-01000168=2,17,0,53,0,0,0,0,BB,19,7,Bonus,0,0,0,0,A
+01000168=3,17,0,53,0,0,0,0,A,19,7,Bonus,0,0,0,0,A,53,2,01000400,0,0,0,0,A
 01000169=3,19,7,MessageText,0,0,0,0,A,55,0,1,0,0,0,0,AQ,11,4,MISSION:Sov11g,0,0,0,0,A
 01000170=3,55,0,1,0,0,0,0,BQ,19,7,MessageText,0,0,0,0,A,11,4,MISSION:Sov11g,0,0,0,0,A
 01000171=3,55,0,1,0,0,0,0,X,19,7,MessageText,0,0,0,0,A,11,4,MISSION:Sov11g,0,0,0,0,A
@@ -2121,7 +2212,7 @@ Value=50
 01000209=4,54,2,01000210,0,0,0,0,A,17,0,1,0,0,0,0,B,12,2,01000167,0,0,0,0,A,12,2,01000116,0,0,0,0,A
 01000210=9,21,6,Mis_S1_SofiaRepairBridge,0,0,0,0,A,55,0,1,0,0,0,0,A,17,0,1,0,0,0,0,B,53,2,01000211,0,0,0,0,A,53,2,01000135,0,0,0,0,A,53,2,01000138,0,0,0,0,A,19,7,Bonus,0,0,0,0,A,53,2,01000167,0,0,0,0,A,53,2,01000116,0,0,0,0,A
 01000211=1,12,2,01000138,0,0,0,0,A
-01000212=9,47,0,0,0,0,0,0,A,53,2,01000197,0,0,0,0,A,19,7,MessageText,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,11,4,MISSION:All01q,0,0,0,0,A,5,1,01000103,0,0,0,0,A,5,1,01000065,0,0,0,0,A,5,1,01000062,0,0,0,0,A,4,1,01000101,0,0,0,0,A
+01000212=10,47,0,0,0,0,0,0,A,53,2,01000197,0,0,0,0,A,19,7,MessageText,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,11,4,MISSION:All01q,0,0,0,0,A,5,1,01000103,0,0,0,0,A,5,1,01000065,0,0,0,0,A,5,1,01000062,0,0,0,0,A,4,1,01000101,0,0,0,0,A,53,2,01000392,0,0,0,0,A
 01000213=1,88,0,2,0,0,0,0,Y
 01000214=1,53,2,01000215,0,0,0,0,A
 01000215=3,53,2,01000216,0,0,0,0,A,12,2,01000211,0,0,0,0,A,12,2,01000135,0,0,0,0,A
@@ -2152,6 +2243,14 @@ Value=50
 01000379=3,7,1,01000374,0,0,0,0,A,7,1,01000377,0,0,0,0,A,7,1,01000378,0,0,0,0,A
 01000381=1,16,0,0,0,0,0,0,A
 01000383=1,112,0,0,0,0,0,0,CV
+01000388=1,21,6,Mis_S1_SofiaFlakTracks,0,0,0,0,A
+01000392=3,7,1,01000390,0,0,0,0,A,7,1,01000391,0,0,0,0,A,53,2,01000388,0,0,0,0,A
+01000394=5,21,6,Mis_S1_SofiaTechBuilding,0,0,0,0,A,53,2,01000396,0,0,0,0,A,53,2,01000398,0,0,0,0,A,17,0,55,0,0,0,0,A,55,0,1,0,0,0,0,BD
+01000396=2,41,0,479,0,0,0,0,CL,41,0,479,0,0,0,0,BD
+01000398=1,54,2,01000396,0,0,0,0,A
+01000400=3,21,6,Mis_S1_SofiaBarrelWarning,0,0,0,0,A,53,2,01000402,0,0,0,0,A,53,2,01000404,0,0,0,0,A
+01000402=1,41,0,479,0,0,0,0,BB
+01000404=1,54,2,01000402,0,0,0,0,A
 
 [BadGuy1]
 Name=BadGuy1
@@ -2768,7 +2867,7 @@ Insignificant=no
 01000209=1,1,0,13
 01000210=1,1,0,13
 01000211=1,13,0,0
-01000212=1,13,0,4
+01000212=1,13,0,5
 01000213=1,48,0,0
 01000214=1,4,0,0
 01000215=1,32,0,11
@@ -2799,9 +2898,17 @@ Insignificant=no
 01000379=1,13,0,0
 01000381=1,8,0,0
 01000383=1,8,0,0
+01000388=1,13,0,0
+01000392=1,13,0,30
+01000394=1,4,0,0
+01000396=1,13,0,3
+01000398=1,13,0,20
+01000400=1,13,0,0
+01000402=1,13,0,3
+01000404=1,13,0,12
 
 [FA2spVersionControl]
-Version=18
+Version=40
 LastPreviewOption=2
 
 [FLAKT]
@@ -2820,7 +2927,7 @@ UIName=Name:GAWEAP
 TechLevel=-1
 
 [General]
-TeamDelays=1000,750,500
+TeamDelays=500,750,1000
 ParachuteMaxFallRate=-5
 CampaignMoneyDeltaEasy=1500
 CampaignMoneyDeltaHard=-1500
@@ -2935,6 +3042,17 @@ LightVisibility=2500
 57=Civie1 House,CIV3,256,102,84,2,Guard,0,None,0,-1,0,1,1
 58=Civie1 House,CIV3,256,88,96,4,Guard,0,None,0,-1,0,1,1
 59=BadGuy1 House,E1,256,93,87,4,Guard,64,01000265,0,-1,0,1,0
+60=Player House,E2,256,38,37,1,Guard,64,None,0,-1,0,0,0
+61=Player House,E2,256,38,37,2,Guard,64,None,0,-1,0,0,0
+62=Player House,E2,256,38,37,3,Guard,64,None,0,-1,0,0,0
+63=Player House,E2,256,38,38,1,Guard,64,None,0,-1,0,0,0
+64=Player House,E2,256,38,38,2,Guard,64,None,0,-1,0,0,0
+65=Player House,E2,256,38,38,3,Guard,64,None,0,-1,0,0,0
+66=BadGuy1 House,E1,256,98,88,1,Unload,128,None,0,-1,0,1,0
+67=BadGuy1 House,E1,256,99,88,3,Unload,128,None,0,-1,0,1,0
+68=BadGuy1 House,E1,256,99,88,2,Unload,128,None,0,-1,0,1,0
+69=BadGuy1 House,E1,256,100,87,1,Unload,128,None,0,-1,0,1,0
+70=BadGuy1 House,E1,256,97,87,1,Unload,128,None,0,-1,0,1,0
 
 [IsoMapPack5]
 1=PQ4AIAUBADcARAEAAEAAAwIANgA9AUMBAAACVAJpAQJrATgAQrQCAgMAOAA76QE5iAFBBA
@@ -3988,8 +4106,8 @@ UIName=Name:NAYARD
 TechLevel=-1
 
 [OilExplosionWH]
-CellSpread=1.5
-PercentAtMax=.25
+CellSpread=2.5
+PercentAtMax=.5
 
 [Other1]
 Name=Other1
@@ -4206,6 +4324,8 @@ Insignificant=no
 31=01000373
 32=01000375
 33=01000376
+34=01000386
+35=01000387
 
 [SovietOccupyW]
 Range=8
@@ -4238,6 +4358,15 @@ DestroyableBridges=no
 9=Civie1 House,CAARMY04,256,73,37,0,None,0,0,1,0,0,None,None,None,1,0
 10=Civie1 House,CAARMY02,256,47,37,0,None,0,0,1,0,0,None,None,None,1,0
 11=Civie1 House,CAWASH19,256,95,121,0,None,0,0,1,0,0,None,None,None,0,0
+12=Civie1 House,CAOILD,256,28,40,0,01000395,0,0,1,0,0,None,None,None,0,0
+13=Civie1 House,CAOILD,256,28,43,0,01000395,0,0,1,0,0,None,None,None,0,0
+14=Civie1 House,CAMISC02,256,98,90,0,None,0,0,1,0,0,None,None,None,1,0
+15=Civie1 House,CAMISC01,256,99,87,0,None,0,0,1,0,0,None,None,None,1,0
+16=Civie1 House,CAMISC01,256,97,86,0,None,0,0,1,0,0,None,None,None,1,0
+17=Civie1 House,CAMISC02,256,98,91,0,None,0,0,1,0,0,None,None,None,1,0
+18=Civie1 House,CAMISC01,256,100,88,0,None,0,0,1,0,0,None,None,None,1,0
+19=Civie1 House,CAMISC01,256,99,89,0,None,0,0,1,0,0,None,None,None,1,0
+20=Civie1 House,CAMISC02,256,98,87,0,None,0,0,1,0,0,None,None,None,1,0
 1024239=Civie1 House,CABHUT,256,58,73,0,None,0,0,1,0,0,None,None,None,0,0
 1024240=Civie1 House,CAWASH04,256,75,88,0,01000266,0,0,1,0,0,None,None,None,0,0
 1024241=Civie1 House,CAWASH04,256,75,79,0,01000267,0,0,1,0,0,None,None,None,0,0
@@ -4353,8 +4482,6 @@ DestroyableBridges=no
 1024431=Civie1 House,CANEWY21,256,16,50,0,None,0,0,1,0,0,None,None,None,0,0
 1024432=Civie1 House,CANEWY20,256,22,43,0,None,0,0,1,0,0,None,None,None,0,0
 1024433=Civie1 House,CANEWY21,256,26,46,0,None,0,0,1,0,0,None,None,None,0,0
-1024434=Civie1 House,CAOILD,256,28,43,0,None,0,0,1,0,0,None,None,None,0,0
-1024439=Civie1 House,CAOILD,256,28,40,0,None,0,0,1,0,0,None,None,None,0,0
 1024444=Civie1 House,CAMSC11,256,26,44,0,None,0,0,1,0,0,None,None,None,0,0
 1024445=Civie1 House,CAMSC11,256,25,43,0,None,0,0,1,0,0,None,None,None,0,0
 1024446=Civie1 House,CAMISC05,256,26,43,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4531,6 +4658,14 @@ Insignificant=no
 01000380=0,[BTR] Extra Garrisons 1,01000379
 01000382=0,[DEBUG] Reveal 1,01000381
 01000384=0,[BTR] Starting Camera 1,01000383
+01000389=0,[BTR] Flak Reinf Speech 1,01000388
+01000393=0,[BTR] Flak Reinf 1,01000392
+01000395=0,[BTR] Civie Building Zofia Speech 1,01000394
+01000397=2,[BTR] Arrow Repeat 1,01000396
+01000399=0,[BTR] Arrow Anim Disable 1,01000398
+01000401=0,[BTR] Zofia Barrel Warning 1,01000400
+01000403=2,[BTR] Zofia Barrel Anim 1,01000402
+01000405=0,[BTR] Zofia Barrel Anim Disable 1,01000404
 
 [TaskForces]
 0=01000064
@@ -4563,6 +4698,7 @@ Insignificant=no
 27=01000099
 28=01000069
 29=01000372
+30=01000385
 
 [TeamTypes]
 0=01000078
@@ -4612,6 +4748,8 @@ Insignificant=no
 44=01000374
 45=01000377
 46=01000378
+47=01000390
+48=01000391
 
 [Terrain]
 26046=TREE06
@@ -5500,8 +5638,16 @@ Insignificant=no
 01000238=Player,<none>,a,0,1,1,1,0
 01000239=Player,<none>,Discovered Bridge,0,1,1,1,0
 01000379=Neutral,<none>,[BTR] Extra Garrisons,0,1,1,1,0
-01000381=Neutral,<none>,[DEBUG] Reveal,0,1,1,1,0
+01000381=Neutral,<none>,[DEBUG] Reveal,1,1,1,1,0
 01000383=Neutral,<none>,[BTR] Starting Camera,0,1,1,1,0
+01000388=Neutral,<none>,[BTR] Flak Reinf Speech,1,1,1,1,0
+01000392=Player,<none>,[BTR] Flak Reinf,1,1,1,1,0
+01000394=Civilian1,<none>,[BTR] Civie Building Zofia Speech,0,1,1,1,0
+01000396=Civilian1,<none>,[BTR] Arrow Repeat,1,1,1,1,0
+01000398=Civilian1,<none>,[BTR] Arrow Anim Disable,1,1,1,1,0
+01000400=Player,<none>,[BTR] Zofia Barrel Warning,1,1,1,1,0
+01000402=Player,<none>,[BTR] Zofia Barrel Anim,1,1,1,1,0
+01000404=Player,<none>,[BTR] Zofia Barrel Anim Disable,1,1,1,1,0
 
 [Units]
 0=BadGuy1 House,CAR,256,100,114,0,Sleep,None,0,-1,0,-1,1,1
@@ -5645,20 +5791,20 @@ Range=5
 42=94075
 43=103115
 44=93116
-45=103090
+45=118135
 46=120094
 47=40060
 48=75075
 49=37083
-50=90080
+50=117135
 51=83121
-52=69093
+52=117108
 53=88099
 54=119075
-55=66076
-56=66084
+55=41026
+56=37047
 57=66049
-58=69102
+58=118107
 59=57021
 60=14059
 61=50086
@@ -5689,7 +5835,7 @@ Range=5
 86=79075
 87=88075
 88=31059
-89=66066
+89=38026
 90=40070
 91=41058
 92=41061
@@ -5698,9 +5844,9 @@ Range=5
 95=40050
 96=53060
 97=49050
-98=37047
+98=122096
 99=122096
 100=30050
 
 [Digest]
-1=50JDezK2q8ViKuNW2+TL39r6y7o=
+1=UAivJ9UtTVCAHEs+OpMYuK3Jrkg=

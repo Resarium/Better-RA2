@@ -61,7 +61,7 @@ Allied 6:
 - Changed defense building orientations so they don't all face the 0° direction.
 - Changed the Tech Hospital's colour to grey to reflect other missions.
 - Changed Attk_V3_2 AITrig's Comparison Object from AMRADR to GAAIRC, the AI should build it now.
-- Made all the Civilian Panic celltags contiguous, you cannot enter the panic zone without triggering the civilian panic sequence now.
+- Made all the Civilian Panic celltags contiguous; you cannot enter the panic zone without triggering the civilian panic sequence now.
 - The enemy will now attack the Pentagon, losing the Pentagon will fail the mission. 
 - Losing the base around the Pentagon BEFORE completing Objective 1 will fail the mission.
 
@@ -118,8 +118,13 @@ Allied 12:
 - Drastically improved the Chrono countdown timing at the start, units will now appear the moment EVA after says "One."
 
 Soviet 1:
+- Added a reinforcement team + a cut Zofia voiceline that introduces the Flak Tracks
+- Adjusted timing of starting Zofia speech so she doesn't cut herself off
+- Adjusted the transport waypoint of the first paradrop reinforcement so that it doesn't get shot down by AA consistently
+- Removed some far away ambient sounds to reuse the waypoints for other triggers
 - Added 3 Army Tents near the Pentagon that enemy GIs will garrison
 	- This makes the loading screen match the actual mission more closely
+- Fixed TeamDelays
 - fixed a trigger that was referencing nothing
 - made some celltags slightly more robust including the pentagon reinforcements
 - removed a tree from the road
