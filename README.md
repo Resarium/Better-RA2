@@ -20,6 +20,7 @@ Allied 1:
 - implementation fixes
 
 Allied 2:
+- Added alternative condition for the paradrop reinforcement on enemy base: If the Soviets have no Tesla Reactors nor Construction Yards left, the paradrop reinforcements will also spawn
 - Adjusted celltag positions for Tanya's swim hint trigger to minimize chance of it not triggering properly
 - Added 5 in-game seconds of delay to the mission loss screen when triggered by Tanya's death so that the EVA voicelines don't get jumbled together
 - Changed lightposts owned by the player's house (Americans) to Civilian/Neutral so that Tanya won't die when the player orders her to area-guards on top of the lightposts
@@ -54,6 +55,7 @@ Allied 5:
 		- Changed the Battle Lab objective to allow the player to capture it to progress the mission, unlike in Vanilla where capturing it fails you the mission despite EVA's follow-up voiceline not making any sense.
 		- Added 1 in-game second delay to Nuke 1 Destroyed, Nuke 2 Destroyed, Nuke 1 Captured, Nuke 2 Captured, to accommodate reworked Spy setup
 		- Modified Nuke Silos to no longer be spyable since doing so was pointless and never affected the mission outcome in any meaningful way.
+- Increased SpySpyMoneyStealPercent from 0.05 to 0.2 so that there is more incentive to infiltrate enemy Refineries
 - Added an extra reveal when the player discovers the crash-landed units to make them easier to spot
 	- This repositions and uses waypoint 25, which wasn't used for anything else before this
 	

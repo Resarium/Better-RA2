@@ -2559,12 +2559,12 @@ PlayerControl=no
 0BEEBF3C=1,1,0,20
 
 [FA2spVersionControl]
-Version=91
+Version=93
 LastPreviewOption=2
 
 [General]
 RevealTriggerRadius=6
-SpyMoneyStealPercent=.05
+SpyMoneyStealPercent=.2
 
 [HARV]
 Storage=20
@@ -6692,4 +6692,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=w9FUhRDoD4K+CxyBDP1D+tSTf7s=
+1=N2xfVWzpC/NAlh67dVycRC4l4e0=
