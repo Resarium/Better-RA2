@@ -296,8 +296,7 @@ YR Allied 7:
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
 - Delayed input unlock by 5 in-game seconds for better timing
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
-- Limited the MCV Chrono reinforcements to happen once at most
-	- This cheese is far too overpowered in its original state, changing it brings it more in line with similar triggers in other missions, like in Escape Velocity
+- Limited the MCV Chrono reinforcements to happen once at most, bringing it more in line with similar triggers in other missions, like in Escape Velocity
 - Removed the singular tree on Antarctic ice
 
 YR Soviet 2:
