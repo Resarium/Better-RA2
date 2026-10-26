@@ -98,6 +98,8 @@ Allied 10:
 - reordered IDs across the map
 
 Allied 11:
+- Fixed and re-enabled 2 enemy attack teams
+	- Affected triggers: (01000309 BG2 ParaTeam 2), (01000316 BG2 Invader 3a)
 - Reworked bridge fixer Engineer teams so that it no longer infinitely spawns from Seals blowing up nothing
 	- Side effect 1: a 60 in-game seconds delay is added to the enemy Engineer team that spawns in
 - Fixed misaligned and nonsensical basenodes for BayGuy2

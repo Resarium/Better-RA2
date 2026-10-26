@@ -4308,7 +4308,7 @@ Reinforce=no
 TaskForce=01000252
 TechLevel=0
 Aggressive=yes
-Autocreate=no
+Autocreate=yes
 GuardSlower=no
 OnTransOnly=no
 AvoidThreats=no
@@ -5340,7 +5340,7 @@ b=1,36,0,5
 01000497=3,13,0,10,32,0,6,32,0,3
 
 [FA2spVersionControl]
-Version=76
+Version=78
 LastPreviewOption=2
 
 [FLAKT]
@@ -5462,43 +5462,6 @@ LightVisibility=2500
 46=BadGuy2 House,SHK,256,192,207,4,Attack,51,None,0,-1,0,0,0
 47=Civie1 House,CIVBF,256,132,92,3,Guard,0,None,0,-1,0,1,1
 48=Civie1 House,CIVBFM,256,133,83,3,Guard,0,None,0,-1,0,1,1
-49=Seal House,GHOST,256,108,43,3,Guard,64,None,0,-1,0,0,0
-50=Player House,ENGINEER,256,106,41,1,Guard,64,None,0,-1,0,0,0
-51=Player House,ENGINEER,256,106,41,2,Guard,64,None,0,-1,0,0,0
-52=Player House,ENGINEER,256,106,41,3,Guard,64,None,0,-1,0,0,0
-53=Player House,ENGINEER,256,106,40,1,Guard,64,None,0,-1,0,0,0
-54=Player House,ENGINEER,256,106,40,2,Guard,64,None,0,-1,0,0,0
-55=Player House,ENGINEER,256,106,40,3,Guard,64,None,0,-1,0,0,0
-56=Player House,JUMPJET,256,99,94,3,Guard,64,None,200,-1,0,0,0
-57=Player House,JUMPJET,256,99,94,1,Guard,64,None,200,-1,0,0,0
-58=Player House,JUMPJET,256,99,94,2,Guard,64,None,200,-1,0,0,0
-59=Player House,JUMPJET,256,99,95,3,Guard,64,None,200,-1,0,0,0
-60=Player House,JUMPJET,256,99,95,4,Guard,64,None,200,-1,0,0,0
-61=Player House,JUMPJET,256,99,95,2,Guard,64,None,200,-1,0,0,0
-62=Player House,JUMPJET,256,100,93,3,Guard,64,None,200,-1,0,0,0
-63=Player House,JUMPJET,256,100,93,1,Guard,64,None,200,-1,0,0,0
-64=Player House,JUMPJET,256,99,93,4,Guard,64,None,200,-1,0,0,0
-65=Player House,JUMPJET,256,100,93,2,Guard,64,None,200,-1,0,0,0
-66=Player House,JUMPJET,256,99,93,2,Guard,64,None,200,-1,0,0,0
-67=Player House,JUMPJET,256,99,93,3,Guard,64,None,200,-1,0,0,0
-68=Player House,JUMPJET,256,100,94,1,Guard,64,None,200,-1,0,0,0
-69=Player House,JUMPJET,256,100,94,2,Guard,64,None,200,-1,0,0,0
-70=Player House,JUMPJET,256,100,94,3,Guard,64,None,200,-1,0,0,0
-71=Player House,JUMPJET,256,100,95,1,Guard,64,None,200,-1,0,0,0
-72=Player House,JUMPJET,256,100,95,2,Guard,64,None,200,-1,0,0,0
-73=Player House,JUMPJET,256,100,95,3,Guard,64,None,200,-1,0,0,0
-74=Player House,JUMPJET,256,100,92,2,Guard,64,None,200,-1,0,0,0
-75=Player House,JUMPJET,256,100,92,1,Guard,64,None,200,-1,0,0,0
-76=Player House,JUMPJET,256,100,92,3,Guard,64,None,200,-1,0,0,0
-77=Player House,JUMPJET,256,100,91,3,Guard,64,None,200,-1,0,0,0
-78=Player House,JUMPJET,256,100,91,1,Guard,64,None,200,-1,0,0,0
-79=Player House,JUMPJET,256,100,91,2,Guard,64,None,200,-1,0,0,0
-80=Player House,JUMPJET,256,100,90,1,Guard,64,None,200,-1,0,0,0
-81=Player House,JUMPJET,256,100,90,2,Guard,64,None,200,-1,0,0,0
-82=Player House,JUMPJET,256,100,90,3,Guard,64,None,200,-1,0,0,0
-83=Player House,JUMPJET,256,99,90,4,Guard,64,None,200,-1,0,0,0
-84=Player House,JUMPJET,256,99,90,3,Guard,64,None,200,-1,0,0,0
-85=Player House,JUMPJET,256,99,90,2,Guard,64,None,200,-1,0,0,0
 
 [IsoMapPack5]
 1=DA4AIAcBAFoA//8AAAACRAAEWwBZAAAAAWgBAVkA//9MAWgBJ4IAAwCgBEcFAwBcjAUBAg
@@ -8926,6 +8889,8 @@ TechLevel=12
 01000483=2,BTR Player Built Seal 1,01000482
 01000488=2,BTR Change Seal to Seal House 1,01000487
 01000490=2,BTR Base Isle Bridge Repaired By Player 1,01000489
+01000492=0,[BTR] BG2 ParaTeam 2 Fix,01000309
+01000493=0,[BTR] BG2 Invader 3a Fix,01000316
 01000496=2,BTR Mainland Bridge Repaired By Player 1,01000495
 01000498=0,BTR Hint Spy 1,01000497
 
@@ -9409,7 +9374,7 @@ b=BadGuy2,<none>,BG2 Invader 3a Go,0,1,1,1,0
 01000306=BadGuy2,<none>,1st Teams Go,1,1,1,1,0
 01000307=BadGuy2,01000308,BG2 Base Response (H),0,0,0,1,0
 01000308=BadGuy2,01000314,BG2 Base Response (E),0,1,0,0,0
-01000309=BadGuy2,<none>, BG2 ParaTeam 2,1,1,1,1,1
+01000309=BadGuy2,<none>, BG2 ParaTeam 2,0,1,1,1,1
 01000310=BadGuy2,<none>,BG2 Anti-Oil Team a Go,0,1,1,1,0
 01000311=Player,<none>,BG2 Anti-Oil Team Enable 1,0,0,1,1,0
 01000312=BadGuy2,<none>, BG2 Invader 2 Go t=240,0,0,1,1,0
@@ -9537,23 +9502,6 @@ b=BadGuy2,<none>,BG2 Invader 3a Go,0,1,1,1,0
 32=Civie1 House,STANG,256,128,101,32,Sleep,None,0,-1,0,-1,1,1
 33=Civie1 House,TAXI,256,127,99,192,Sleep,None,0,-1,0,-1,1,1
 34=Civie1 House,SUVB,256,127,101,160,Sleep,None,0,-1,0,-1,1,1
-35=Player House,SREF,256,123,110,64,Guard,None,200,-1,0,-1,0,0
-36=Player House,SREF,256,121,109,64,Guard,None,200,-1,0,-1,0,0
-37=Player House,SREF,256,120,109,64,Guard,None,200,-1,0,-1,0,0
-38=Player House,SREF,256,120,108,64,Guard,None,200,-1,0,-1,0,0
-39=Player House,SREF,256,121,108,64,Guard,None,200,-1,0,-1,0,0
-40=Player House,SREF,256,122,108,64,Guard,None,200,-1,0,-1,0,0
-41=Player House,SREF,256,122,110,64,Guard,None,200,-1,0,-1,0,0
-42=Player House,SREF,256,122,111,64,Guard,None,0,-1,0,-1,0,0
-43=Player House,SREF,256,121,111,64,Guard,None,200,-1,0,-1,0,0
-44=Player House,SREF,256,120,110,64,Guard,None,200,-1,0,-1,0,0
-45=Player House,SREF,256,119,109,64,Guard,None,200,-1,0,-1,0,0
-46=Player House,SREF,256,119,108,64,Guard,None,200,-1,0,-1,0,0
-47=Player House,SREF,256,119,107,64,Guard,None,200,-1,0,-1,0,0
-48=Player House,SREF,256,120,107,64,Guard,None,200,-1,0,-1,0,0
-49=Player House,SREF,256,121,107,64,Guard,None,200,-1,0,-1,0,0
-50=Player House,SREF,256,122,107,64,Guard,None,200,-1,0,-1,0,0
-51=Player House,SREF,256,123,108,64,Guard,None,200,-1,0,-1,0,0
 
 [V3]
 DefaultToGuardArea=yes
@@ -9712,4 +9660,4 @@ Name=Kirov Airship
 TechLevel=12
 
 [Digest]
-1=oy/qSwXV2an8XA+3eIUgXr+MK9c=
+1=w0lhbfeIZElEXcW58cWFsNxayDU=
