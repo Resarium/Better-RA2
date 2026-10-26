@@ -1923,7 +1923,7 @@ TechLevel=-1
 01000212=1,6,0,0
 
 [FA2spVersionControl]
-Version=45
+Version=47
 LastPreviewOption=2
 
 [GATECH]
@@ -4322,7 +4322,7 @@ Green=0.930000
 Level=0.035000
 Ground=0.000000
 IonRed=0.300000
-Ambient=1.000000
+Ambient=0.890000
 IonBlue=0.750000
 IonGreen=0.400000
 IonLevel=0.000000
@@ -5698,4 +5698,4 @@ TechLevel=-1
 TechLevel=-1
 
 [Digest]
-1=nxz0p/QTH0zOS5psiAMJHdtNrOw=
+1=fDm2dnwOB0VVED30ZRrvMYUtuU4=
