@@ -2226,7 +2226,7 @@ BuildTimeMultiplier=1.0
 
 [Actions]
 01000150=3,46,0,0,0,0,0,0,A,100,0,52,0,0,0,0,A,53,2,01000151,0,0,0,0,A
-01000151=13,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,4,1,01000097,0,0,0,0,A,4,1,01000098,0,0,0,0,A,74,0,9,0,0,0,0,A,4,1,01000109,0,0,0,0,A,4,1,01000110,0,0,0,0,A,4,1,01000111,0,0,0,0,A,4,1,01000112,0,0,0,0,A,3,0,9,0,0,0,0,A,53,2,01000152,0,0,0,0,A,53,2,01000153,0,0,0,0,A,53,2,01000154,0,0,0,0,A
+01000151=14,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,4,1,01000097,0,0,0,0,A,4,1,01000098,0,0,0,0,A,74,0,9,0,0,0,0,A,4,1,01000109,0,0,0,0,A,4,1,01000110,0,0,0,0,A,4,1,01000111,0,0,0,0,A,4,1,01000112,0,0,0,0,A,3,0,9,0,0,0,0,A,53,2,01000152,0,0,0,0,A,53,2,01000153,0,0,0,0,A,53,2,01000154,0,0,0,0,A,11,4,mission:all01q,0,0,0,0,A
 01000152=1,2,0,8,0,0,0,0,A
 01000153=8,53,2,01000155,0,0,0,0,A,53,2,01000156,0,0,0,0,A,53,2,01000157,0,0,0,0,A,53,2,01000158,0,0,0,0,A,53,2,01000159,0,0,0,0,A,53,2,01000160,0,0,0,0,A,53,2,01000161,0,0,0,0,A,53,2,01000162,0,0,0,0,A
 01000154=1,21,6,Mis_xS6_ZofiaGoToTheEast,0,0,0,0,A
@@ -2663,7 +2663,7 @@ TechLevel=11
 01000304=1,13,0,20
 
 [FA2spVersionControl]
-Version=6
+Version=7
 LastPreviewOption=2
 
 [FLAKT]
@@ -2695,15 +2695,7 @@ PercentBuilt=0
 PlayerControl=no
 
 [General]
-Engineer=LUNR
-ThirdCrew=LUNR
-AlliedCrew=LUNR
-SovietCrew=LUNR
-SoloCrateMoney=10000
-AISlaveMinerNumber=0,0,0
-SpyMoneyStealPercent=0.05
-CampaignMoneyDeltaEasy=15000
-CampaignMoneyDeltaHard=-15000
+ParachuteMaxFallRate=-10
 
 [Germans]
 IQ=0
@@ -4375,4 +4367,4 @@ Name=Kirov Airship
 TechLevel=11
 
 [Digest]
-1=GpjOgFseE976LjFNFm/ip+QsIjs=
+1=cUS3jyNVTKurtqCSg/jmA0qZscc=

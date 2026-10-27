@@ -8,7 +8,7 @@
 
 ; This FA2 uses FA2sp created by secsome, modified by Handama & E1Elite
 ; Get the lastest dll at https://github.com/handama/FA2sp
-; Current version : 1.6.3, HDM Edition 1.4.4
+; Current version : 1.6.3, HDM Edition 1.5.0
 
 [Header]
 Width=130
@@ -5347,7 +5347,7 @@ AreTeamMembersRecruitable=yes
 0E98EABC=3,55,0,5,0,0,0,0,AY,19,7,MessageText,0,0,0,0,A,53,2,0E98E8EC,0,0,0,0,A
 0E98EC8C=3,55,0,5,0,0,0,0,AX,19,7,MessageText,0,0,0,0,A,53,2,0E98EABC,0,0,0,0,A
 0E98EE5C=3,55,0,5,0,0,0,0,AW,19,7,MessageText,0,0,0,0,A,53,2,0E98EC8C,0,0,0,0,A
-0E98F45C=3,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,079AC3AC,0,0,0,0,A
+0E98F45C=4,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,079AC3AC,0,0,0,0,A,11,4,mission:all01q,0,0,0,0,A
 0E98F62C=4,21,6,Mis_xS5_ZofiaBriefing08,0,0,0,0,A,112,0,0,0,0,0,0,ZX,19,7,CameraSwitch,0,0,0,0,A,53,2,0E98F45C,0,0,0,0,A
 0E98F7FC=3,55,0,5,0,0,0,0,BI,19,7,MessageText,0,0,0,0,A,53,2,0E98F62C,0,0,0,0,A
 0E98F9CC=3,55,0,5,0,0,0,0,BH,19,7,MessageText,0,0,0,0,A,53,2,0E98F7FC,0,0,0,0,A
@@ -5691,7 +5691,7 @@ RequiredHouses=Russians
 0EE100BC=1,47,0,0
 
 [FA2spVersionControl]
-Version=16
+Version=17
 LastPreviewOption=2
 
 [French]
@@ -5719,12 +5719,7 @@ PercentBuilt=0
 PlayerControl=no
 
 [General]
-TotalAITeamCap=75,75,75
-TiberiumLongScan=16
-SlaveMinerLongScan=16
-SpyMoneyStealPercent=0.05
-CampaignMoneyDeltaEasy=5000
-CampaignMoneyDeltaHard=-2500
+ParachuteMaxFallRate=-10
 
 [Germans]
 IQ=4
@@ -11196,4 +11191,4 @@ Name=Kirov Airship
 TechLevel=9
 
 [Digest]
-1=bnwthF7WYUem/Ff+PLOwecgPldI=
+1=/q5cFSh582zD3F3Z6zfotxCuNUQ=

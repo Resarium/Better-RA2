@@ -315,6 +315,7 @@ YR Soviet 2:
 - Fixed several AITriggers that had erroneous conditions
 	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now properly create Mirage tank ambush teams
 	- Affected triggers: (Amb_MirageBR AITrig), (Amb_MirageBS AITrig), (Amb_MirageBT AITrig), (Amb_MirageBU AITrig), (Amb_MirageBV AITrig), (Amb_MirageBW AITrig)
+- Added "--Battle Control Online--" text when player input is unlocked
 
 YR Soviet 3:
 - Removed trigger _Amb_AA as it had no tag associated to it and was functionally a duplicate of trigger "_Amb_AA_AB_AC_AF Dead"
@@ -330,14 +331,17 @@ YR Soviet 4:
 - Extended the intro sequence by 19 in-game seconds to add a cut voiceline that introduces the Yuri Clone to the player
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added an un-used text string to the player reinforcements that can occur on Easy and Medium difficulty
+- Added "--Battle Control Online--" text when player input is unlocked
 
 YR Soviet 5:
 - Widened sections of cliff that were one tile wide so units get stuck less often
 - Lowered harvester/slave miner long range ore scan from 40 => 16 so harvesters and slave miners won't suicide into your or the AI's base
 - Reenabled a voice line warning the player of defenses when entering the cliffs from the south
 - Added a voice line introducing the Virus to the mission intro sequence
+- Added "--Battle Control Online--" text when player input is unlocked
 
 YR Soviet 6:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
 	- This trigger uses an un-used text string
+- Added "--Battle Control Online--" text when player input is unlocked
