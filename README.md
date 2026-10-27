@@ -316,6 +316,15 @@ YR Soviet 2:
 	- For example, (Amb_MirageBR AITrig) erroneously checks whether BadGuy1 owns Apocalypse tanks instead of checking whether the player owns Apocalypse tanks. Fixing this means AI can now properly create Mirage tank ambush teams
 	- Affected triggers: (Amb_MirageBR AITrig), (Amb_MirageBS AITrig), (Amb_MirageBT AITrig), (Amb_MirageBU AITrig), (Amb_MirageBV AITrig), (Amb_MirageBW AITrig)
 
+YR Soviet 3:
+- Removed trigger _Amb_AA as it had no tag associated to it and was functionally a duplicate of trigger "_Amb_AA_AB_AC_AF Dead"
+- Adjusted celltags around the Grinder and Psychic Dominator so the voicelines trigger at a more consistent distance from the relevant structure
+- The Seal that blows up the southernmost bridge will leave instead of dying
+	- Side effect: the Seal won't actually enter the bridge hut, instead he walks near, the bridge blows up, he leaves.
+- Sofia will announce Boris's death, and the lines that play when Tanya is rescued are different if Boris is dead
+- Added a voice line that plays when a Gatling Tank is first spotted
+- Added "--Battle Control Online--" text when player input is unlocked
+
 YR Soviet 4:
 - Added a flashing effect on the Tech Airport when the camera pans to it in the intro
 - Extended the intro sequence by 19 in-game seconds to add a cut voiceline that introduces the Yuri Clone to the player
@@ -323,8 +332,8 @@ YR Soviet 4:
 - Added an un-used text string to the player reinforcements that can occur on Easy and Medium difficulty
 
 YR Soviet 5:
-- Widened sections of cliff that were one tile wide so units get stuck less often.
-- Lowered harvester/slave miner long range ore scan from 40 => 16 so harvesters and slave miners won't suicide into your or the AI's base.
+- Widened sections of cliff that were one tile wide so units get stuck less often
+- Lowered harvester/slave miner long range ore scan from 40 => 16 so harvesters and slave miners won't suicide into your or the AI's base
 - Reenabled a voice line warning the player of defenses when entering the cliffs from the south
 - Added a voice line introducing the Virus to the mission intro sequence
 
