@@ -5340,7 +5340,7 @@ b=1,36,0,5
 01000497=3,13,0,10,32,0,6,32,0,3
 
 [FA2spVersionControl]
-Version=78
+Version=79
 LastPreviewOption=2
 
 [FLAKT]
@@ -5367,10 +5367,11 @@ TechLevel=12
 TechLevel=9
 
 [General]
-AISafeDistance=12
+TeamDelays=500,750,1500
+AISafeDistance=20
 TotalAITeamCap=30,30,30
 SpyMoneyStealPercent=.05
-DefaultMirageDisguises=TREE20,TREE21,TREE22,TREE23
+DefaultMirageDisguises=TREE26,TREE27,TREE28,TREE25
 
 [HARV]
 Storage=20
@@ -8643,7 +8644,6 @@ TiberiumExplosive=no
 DestroyableBridges=yes
 
 [Structures]
-0=Player House,GASPYSAT,256,98,91,0,None,0,0,1,0,0,None,None,None,1,0
 1=Civie1 House,CABHUT,256,108,55,0,01000490,0,0,1,0,0,None,None,None,0,0
 2=Civie1 House,CABHUT,256,112,86,0,01000490,0,0,1,0,0,None,None,None,0,0
 3=Civie1 House,CABHUT,256,105,41,0,01000496,0,0,1,0,0,None,None,None,0,0
@@ -9660,4 +9660,4 @@ Name=Kirov Airship
 TechLevel=12
 
 [Digest]
-1=w0lhbfeIZElEXcW58cWFsNxayDU=
+1=4OzC2bHRZEHLrNJlJdGnAHMuQ9U=
