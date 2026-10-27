@@ -2344,7 +2344,7 @@ TechLevel=-1
 087AC2BC=1,13,0,1
 0886803C=1,13,0,35
 08DAF030=1,13,0,29
-08E4D220=1,13,0,15
+08E4D220=1,13,0,27
 08E800F0=1,13,0,10
 090739C4=1,13,0,4
 0907A234=1,32,0,2
@@ -2385,20 +2385,14 @@ TechLevel=-1
 0D9F203C=1,13,0,2
 
 [FA2spVersionControl]
-Version=96
+Version=99
 LastPreviewOption=2
 
 [GHOST]
 TechLevel=5
 
 [General]
-TeamDelays=500,750,1000
-TotalAITeamCap=60,40,30
-ChronoReinfDelay=60
 ParachuteMaxFallRate=-10
-SpyMoneyStealPercent=.03
-CampaignMoneyDeltaEasy=4000
-CampaignMoneyDeltaHard=-4000
 
 [HARV]
 Storage=20
@@ -5053,4 +5047,4 @@ Value=50
 99=61062
 
 [Digest]
-1=qkFTP8i2sj84ZDNy42VmMoMBKQc=
+1=QcgfQ9U0BV1cN48PSF+nsN7IP8I=
