@@ -321,6 +321,12 @@ YR Soviet 4:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added an un-used text string to the player reinforcements that can occur on Easy and Medium difficulty
 
+YR Soviet 5:
+- Widened sections of cliff that were one tile wide so units get stuck less often.
+- Lowered harvester/slave miner long range ore scan from 40 => 16 so harvesters and slave miners won't suicide into your or the AI's base.
+- Reenabled a voice line warning the player of defenses when entering the cliffs from the south
+- Added a voice line introducing the Virus to the mission intro sequence
+
 YR Soviet 6:
 - Changed the Kill Light triggers so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
