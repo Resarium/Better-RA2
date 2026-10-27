@@ -90,6 +90,7 @@ Allied 9:
 - Changed Mayanprism to MayanPrism, the Mayan Prism Cannon thusly gets an 18 range buff.
 
 Allied 10:
+- Fixed the enemy Houses not having access to Desolators which broke AITeams that made them build Desolators
 - changed the win condition so that it requires the soviet MCVs to deploy before everything else is accounted for
 - added a win condition that's enabled after 360s have passed
 - readded the polar bear easter egg
