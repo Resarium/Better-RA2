@@ -1294,6 +1294,7 @@ AreTeamMembersRecruitable=no
 
 [01000188]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriBarracks_1
 Group=-1
@@ -1362,6 +1363,7 @@ AreTeamMembersRecruitable=no
 
 [01000190]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriBarracks_2
 Group=-1
@@ -1430,6 +1432,7 @@ AreTeamMembersRecruitable=no
 
 [01000192]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriBarracks_3
 Group=-1
@@ -1498,6 +1501,7 @@ AreTeamMembersRecruitable=no
 
 [01000194]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriBarracks_4
 Group=-1
@@ -1566,6 +1570,7 @@ AreTeamMembersRecruitable=no
 
 [01000196]
 Max=1
+Tag=01000566
 Full=yes
 Name=TEAM_YuriWarFac1
 Group=-1
@@ -1634,6 +1639,7 @@ AreTeamMembersRecruitable=no
 
 [01000198]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriWarFac2
 Group=-1
@@ -1736,6 +1742,7 @@ AreTeamMembersRecruitable=no
 
 [01000201]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriWarFac3
 Group=-1
@@ -1838,6 +1845,7 @@ AreTeamMembersRecruitable=no
 
 [01000204]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriWarFac4
 Group=-1
@@ -1906,6 +1914,7 @@ AreTeamMembersRecruitable=no
 
 [01000206]
 Max=2
+Tag=01000566
 Full=yes
 Name=TEAM_YuriWarFac5
 Group=-1
@@ -1940,6 +1949,7 @@ AreTeamMembersRecruitable=no
 
 [01000207]
 Max=2
+Tag=01000566
 Full=no
 Name=TEAM_YuriBarracks5
 Group=-1
@@ -5690,6 +5700,7 @@ AreTeamMembersRecruitable=no
 01000559=2,131,9,YAGNTC,0,0,0,0,120,21,6,Unit_Eva_GeneticMut,0,0,0,0,A
 01000561=2,131,9,YAPPET,0,0,0,0,120,21,6,Unit_Eva_PsychicDomin,0,0,0,0,A
 01000563=1,100,0,29,0,0,0,0,A
+01000565=11,21,6,Mis_xA7_EvaProtectSovietBase,0,0,0,0,A,104,5,01000188,0,0,0,0,120,104,5,01000190,0,0,0,0,120,104,5,01000192,0,0,0,0,120,104,5,01000194,0,0,0,0,120,104,5,01000207,0,0,0,0,120,104,5,01000196,0,0,0,0,120,104,5,01000198,0,0,0,0,120,104,5,01000201,0,0,0,0,120,104,5,01000204,0,0,0,0,120,104,5,01000206,0,0,0,0,120
 
 [Africans]
 IQ=4
@@ -5981,9 +5992,10 @@ PlayerControl=no
 01000559=1,59,0,0
 01000561=1,59,0,0
 01000563=1,13,0,60
+01000565=1,4,0,0
 
 [FA2spVersionControl]
-Version=49
+Version=53
 LastPreviewOption=2
 
 [French]
@@ -9936,6 +9948,7 @@ TechLevel=12
 01000560=0,[BTR] Genetic Mutator Intro 1,01000559
 01000562=0,[BTR] Psychic Dominator Intro 1,01000561
 01000564=0,[BTR] Genetic Mutator Movie 1,01000563
+01000566=0,[BTR] Attacked Before Main Event 1,01000565
 
 [TaskForces]
 0=01000078
@@ -10557,6 +10570,7 @@ TechLevel=12
 01000559=YuriCountry,<none>,[BTR] Genetic Mutator Intro,0,1,1,1,0
 01000561=YuriCountry,<none>,[BTR] Psychic Dominator Intro,1,1,1,1,0
 01000563=Americans,<none>,[BTR] Genetic Mutator Movie,1,1,1,1,0
+01000565=Neutral,<none>,[BTR] Attacked Before Main Event,0,1,1,1,0
 
 [Units]
 0=Yuri3,BSUB,256,126,127,96,Area Guard,None,0,-1,0,-1,1,1
@@ -10812,4 +10826,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=abarKYsX1Hjjy3LBP4GpJSzhQqQ=
+1=UBDH+OXOwJuKVnQRN0yek5/WRM4=

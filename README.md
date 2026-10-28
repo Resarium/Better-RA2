@@ -271,6 +271,15 @@ YR Allied 2:
 	- It's a clear oversight that the player is capable of constructing these things at this point of the story, especially since they all get introduced later on
 - Added 3 in-game seconds of delay to Return_Control so that Eva's voicelines don't cut each other off
 
+YR Allied 4:
+- Fix typo on General ini changes (was spelled Gereral)
+- Added a loop to the bridge-fixing Engineer's script so that they will continuously attempt to fix a bridge in the rare event that they try to "disarm" the bridge hut first
+- Restored a Yuri hover attack team that spawns in when the player constructs an Airforce HQ
+	- Previously, this trigger erroneously checked whether the YuriCountry House has the American Airforce HQ instead of checking whether the American House has the Generic Airforce HQ
+	- Additionally, to make sure its TransportsReturnOnUnload TeamType flag functions, added script action 14 (Load Script) as first script action
+	- Affected trigger: (01000312 Yuri Hover Attack) 
+- Added "--Battle Control Online--" text when player input is unlocked
+
 YR Allied 5:
 - Restored the Lasher tank's TechLevel to its default value so that both the player and the AI can build it again
 - Added triggers that introduce the Tech Hospital and Tech Machine Shop if the player hasn't encountered them up until this point
@@ -297,6 +306,8 @@ YR Allied 7:
 	- This uses an un-used EVA voiceline to introduce the Magnetron
 - Added triggers that use cut voicelines to introduce the Genetic Mutator when the player gets close to them
 	- The Psychic Dominator voiceline is added in YR Allied 1 already
+- Added a cut voiceline that plays when the player is attacked by one of the initial Yuri attack teams on Tierra Del Fuego
+	- voiceline used: Mis_xA7_EvaProtectSovietBase
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
 - Delayed input unlock by 5 in-game seconds for better timing
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
