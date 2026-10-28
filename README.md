@@ -366,3 +366,11 @@ YR Soviet 6:
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
 	- This trigger uses an un-used text string
 - Added "--Battle Control Online--" text when player input is unlocked
+
+YR Soviet 7:
+- Added a cut Zofia voiceline that warns the player about the Genetic Mutator after it is constructed and its associated sidebar movie finishes playing
+- Changed the Kill Light triggers for the Crypts so that the player doesn't see a strange explosion when the invisible light posts are turned off
+- Delayed input unlock by 3 in-game seconds so that Zofia's voicelines don't cut each other off
+- Added "--Battle Control Online--" text when player input is unlocked
+- Fixed an oversight where the player faces additional enemy attacks if they deploy their ConYard too late (deployment is considered too late if the player triggers the Yuri weary taunt)
+	- It's clear this was the intention from the way the triggers are set up. The only issue was that the trigger setup wasn't done properly
