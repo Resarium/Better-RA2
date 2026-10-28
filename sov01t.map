@@ -2908,7 +2908,7 @@ Insignificant=no
 01000404=1,13,0,12
 
 [FA2spVersionControl]
-Version=40
+Version=41
 LastPreviewOption=2
 
 [FLAKT]
@@ -3042,17 +3042,11 @@ LightVisibility=2500
 57=Civie1 House,CIV3,256,102,84,2,Guard,0,None,0,-1,0,1,1
 58=Civie1 House,CIV3,256,88,96,4,Guard,0,None,0,-1,0,1,1
 59=BadGuy1 House,E1,256,93,87,4,Guard,64,01000265,0,-1,0,1,0
-60=Player House,E2,256,38,37,1,Guard,64,None,0,-1,0,0,0
-61=Player House,E2,256,38,37,2,Guard,64,None,0,-1,0,0,0
-62=Player House,E2,256,38,37,3,Guard,64,None,0,-1,0,0,0
-63=Player House,E2,256,38,38,1,Guard,64,None,0,-1,0,0,0
-64=Player House,E2,256,38,38,2,Guard,64,None,0,-1,0,0,0
-65=Player House,E2,256,38,38,3,Guard,64,None,0,-1,0,0,0
-66=BadGuy1 House,E1,256,98,88,1,Unload,128,None,0,-1,0,1,0
-67=BadGuy1 House,E1,256,99,88,3,Unload,128,None,0,-1,0,1,0
-68=BadGuy1 House,E1,256,99,88,2,Unload,128,None,0,-1,0,1,0
-69=BadGuy1 House,E1,256,100,87,1,Unload,128,None,0,-1,0,1,0
-70=BadGuy1 House,E1,256,97,87,1,Unload,128,None,0,-1,0,1,0
+60=BadGuy1 House,E1,256,98,88,1,Unload,128,None,0,-1,0,1,0
+61=BadGuy1 House,E1,256,99,88,3,Unload,128,None,0,-1,0,1,0
+62=BadGuy1 House,E1,256,99,88,2,Unload,128,None,0,-1,0,1,0
+63=BadGuy1 House,E1,256,100,87,1,Unload,128,None,0,-1,0,1,0
+64=BadGuy1 House,E1,256,97,87,1,Unload,128,None,0,-1,0,1,0
 
 [IsoMapPack5]
 1=PQ4AIAUBADcARAEAAEAAAwIANgA9AUMBAAACVAJpAQJrATgAQrQCAgMAOAA76QE5iAFBBA
@@ -5849,4 +5843,4 @@ Range=5
 100=30050
 
 [Digest]
-1=UAivJ9UtTVCAHEs+OpMYuK3Jrkg=
+1=FPrto8BotOcn/p1495fz1gLkWMw=

@@ -318,8 +318,8 @@ YR Soviet 1:
 - Added a cut voiceline that introduces the Grand Cannon at the start of the mission
 - Added a cut voiceline that warns the player if they get too close to the Grand Cannons at the start of the mission
 - Fixed the missing shadows and size inconsistency on the McBurgerKong in the NewUrban Theatre (which this mission uses)
-- Removed trigger actions that deal damage to the Tech Power Plants on the map and instead enables off-map buildings based on difficulty to increase drain on player power
-	- The original intention behind these damage actions was likely to decrease the amount of power granted by these Tech Power Plants, increasing the amount of Tech Power Plants the player has to capture from 4 to 5 on Medium and Hard difficulty. This change reworks it to be less confusing to the player while retaining the need for 5 power plants
+- Removed trigger actions that deal damage to the Tech Power Plants on the map and instead enables an invisible building based on difficulty to increase drain on player power
+	- The original intention behind these damage actions was likely to decrease the amount of power granted by these Tech Power Plants. This change reworks it to be less confusing to the player.
 	- Affected triggers: (0B454BBC Reinforce_Cap Group 1), (06A6646C Reinforce_Cap Group 2)
 
 YR Soviet 2:

@@ -5566,7 +5566,7 @@ Damage=100
 01000002=2,21,6,Unit_Sofia_GrandCannon,0,0,0,0,A,131,9,GTGCAN,0,0,0,0,120
 01000004=7,53,2,0B92C6AC,0,0,0,0,A,54,2,0968EE5C,0,0,0,0,A,54,2,0968D20C,0,0,0,0,A,54,2,0966170C,0,0,0,0,A,54,2,0966AC6C,0,0,0,0,A,54,2,094D448C,0,0,0,0,A,53,2,0BBB5C6C,0,0,0,0,A
 01000006=1,54,2,01000000,0,0,0,0,A
-01000008=2,14,0,8,0,0,0,0,A,11,4,powah,0,0,0,0,A
+01000008=1,14,0,8,0,0,0,0,A
 0439013C=1,21,6,Mis_xS1_ZofiaCapTimeMachine,0,0,0,0,A
 0439097C=17,118,0,0,0,0,0,0,A,130,0,0,0,0,0,0,A,130,0,12,0,0,0,0,A,130,0,8,0,0,0,0,A,125,10,NAHAND,0,0,0,0,DE,125,10,NACNST,0,0,0,0,DA,125,10,NAWEAP,0,0,0,0,DB,125,10,NAPOWR,0,0,0,0,DC,125,10,NALASR,0,0,0,0,DD,125,10,NAPOWR,0,0,0,0,DF,125,10,NAPOWR,0,0,0,0,DG,125,10,NALASR,0,0,0,0,DH,125,10,NALASR,0,0,0,0,DI,125,10,NALASR,0,0,0,0,DJ,53,2,06B2A4DC,0,0,0,0,A,125,10,NAREFN,0,0,0,0,EL,125,10,NAYARD,0,0,0,0,RY
 0439C2DC=2,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,47,0,0,0,0,0,0,A
@@ -5979,9 +5979,6 @@ PlayerControl=no
 3=GAPOWRD
 4=GAPOWRE
 5=GAPOWRF
-
-[CAFRFGL]
-Power=-20
 
 [CAPOWR]
 Ammo=5
@@ -6638,7 +6635,7 @@ AllowedToStartInMultiplayer=no
 0E626A2C=1,13,0,5
 
 [FA2spVersionControl]
-Version=23
+Version=47
 LastPreviewOption=2
 
 [French]
@@ -6652,6 +6649,14 @@ NodeCount=0
 TechLevel=2
 PercentBuilt=0
 PlayerControl=no
+
+[GAGAP]
+Power=-100
+Powered=false
+Selectable=no
+GapGenerator=no
+InvisibleInGame=yes
+GapRadiusInCells=0
 
 [GAPOWRA]
 Ammo=5
@@ -8709,8 +8714,7 @@ TiberiumExplosive=no
 DestroyableBridges=yes
 
 [Structures]
-0=Neutral,CAFRFGL,256,77,129,0,01000009,0,0,1,0,0,None,None,None,1,0
-1=Russians,NAPOWR,256,47,92,0,None,0,0,1,0,0,None,None,None,1,0
+0=Neutral,GAGAP,256,35,83,0,01000009,0,0,1,0,0,None,None,None,1,0
 2=Alliance,GTGCAN,256,74,97,224,0B75455C,1,0,1,0,0,None,None,None,1,0
 3=Alliance,GTGCAN,256,70,93,0,0B75455C,1,0,1,0,0,None,None,None,1,0
 4=Neutral,CATEXS07,64,105,105,0,043E010C,0,0,1,0,0,None,None,None,0,0
@@ -10441,4 +10445,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=/ZCttnNnetfa43+oXPrQJjSPIrU=
+1=vhx1k+vwaxf/PpO7OniYkQfMrFc=
