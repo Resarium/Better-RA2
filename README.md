@@ -339,6 +339,8 @@ YR Soviet 2:
 - Added "--Battle Control Online--" text when player input is unlocked
 
 YR Soviet 3:
+- Added two cut voicelines warning the player of nearby enemies and introducing the Lasher tank
+	- This setup uses dummy lashers so they deal basically no damage to the player's units
 - Removed trigger _Amb_AA as it had no tag associated to it and was functionally a duplicate of trigger "_Amb_AA_AB_AC_AF Dead"
 - Adjusted celltags around the Grinder and Psychic Dominator so the voicelines trigger at a more consistent distance from the relevant structure
 - The Seal that blows up the southernmost bridge will leave instead of dying
@@ -355,6 +357,7 @@ YR Soviet 4:
 - Added "--Battle Control Online--" text when player input is unlocked
 
 YR Soviet 5:
+- Added cut voiceline that plays after the initial sidebar movie, revealing the main Yuri base
 - Widened sections of cliff that were one tile wide so units get stuck less often
 - Lowered harvester/slave miner long range ore scan from 40 => 16 so harvesters and slave miners won't suicide into your or the AI's base
 - Reenabled a voice line warning the player of defenses when entering the cliffs from the south

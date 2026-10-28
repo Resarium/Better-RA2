@@ -1,3 +1,4 @@
+; This file is encoded as ANSI/GBK, please open it in this format
 ; If non ASCII characters (such as Chinese) are used
 ; modifying the file with incorrect encoding will result in garbled characters
 
@@ -7,7 +8,7 @@
 
 ; This FA2 uses FA2sp created by secsome, modified by Handama & E1Elite
 ; Get the lastest dll at https://github.com/handama/FA2sp
-; Current version : 1.6.3, HDM Edition 1.4.4
+; Current version : 1.6.3, HDM Edition 1.5.0
 
 [Header]
 Width=55
@@ -341,6 +342,95 @@ IonImmune=no
 Recruiter=no
 Reinforce=no
 TaskForce=01000002
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000035]
+0=2,LTNK_2
+Name=[BTR] TF LTNK x2
+Group=-1
+
+[01000036]
+0=50,120
+1=5,3
+2=39,11
+Name=[BTR] SCR Flash Lashers
+
+[01000037]
+Max=5
+Full=no
+Name=[BTR] Lasher Intro Team
+Group=-1
+House=YuriCountry
+Script=01000036
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000035
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000038]
+0=2,LTNK_2
+1=2,INIT
+Name=[BTR] TF LTNK x2 INIT x2
+Group=-1
+
+[01000039]
+0=0,0
+Name=[BTR] SCR Attack Demo
+
+[01000040]
+Max=5
+Full=no
+Name=[BTR] Lasher Intro Team Atk
+Group=-1
+House=YuriCountry
+Script=01000039
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000038
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -1728,6 +1818,17 @@ TechLevel=12
 Name=Allied Prism Cannon
 TechLevel=12
 
+[ATGUN_2]
+ROF=60
+Anim=GUNFIRE
+Range=5
+Speed=60
+Bright=yes
+Damage=1
+Report=LasherTankAttack
+Warhead=AP
+Projectile=Cannon
+
 [AWP]
 ROF=40
 Range=14
@@ -1745,6 +1846,9 @@ AB=1,116,0,49,0,0,0,0,AX
 01000023=2,21,6,Mis_xS1_ZofiaBorisDeadMourn,0,0,0,0,A,56,0,9,0,0,0,0,A
 01000025=1,53,2,01000027,0,0,0,0,A
 01000027=2,53,2,0F189D9C,0,0,0,0,A,53,2,079D72CC,0,0,0,0,A
+01000031=5,48,0,3,0,0,0,0,A,17,0,0,0,0,0,0,A,21,6,Mis_xS3_ZofiaWarningEnemy,0,0,0,0,A,55,0,0,0,0,0,0,A,53,2,01000033,0,0,0,0,A
+01000033=3,21,6,Unit_Sofia_Lasher,0,0,0,0,A,4,1,01000037,0,0,0,0,A,53,2,0D99DC0C,0,0,0,0,A
+01000041=2,4,1,01000040,0,0,0,0,A,48,0,2,0,0,0,0,C
 043F193C=1,80,1,0B0D61FC,0,0,0,0,AG
 043F1A2C=1,80,1,0B0D61FC,0,0,0,0,AF
 043F1B1C=1,80,1,0B0D61FC,0,0,0,0,AE
@@ -1839,7 +1943,7 @@ AB=1,116,0,49,0,0,0,0,AX
 099E9D1C=3,57,0,0,0,0,0,0,A,53,2,0C5E6AEC,0,0,0,0,A,7,1,091F77BC,0,0,0,0,A
 09A29C5C=14,53,2,0CC3BB5C,0,0,0,0,A,53,2,048BFC1C,0,0,0,0,A,54,2,09BAF07C,0,0,0,0,A,54,2,09AC503C,0,0,0,0,A,54,2,09BAB47C,0,0,0,0,A,21,6,Mis_xS3_YuriAlliesFreed,0,0,0,0,A,54,2,09B95C1C,0,0,0,0,A,54,2,0B2FCF3C,0,0,0,0,A,54,2,0B3BE93C,0,0,0,0,A,54,2,09B978DC,0,0,0,0,A,54,2,0C72C22C,0,0,0,0,A,54,2,08FCD15C,0,0,0,0,A,12,2,086D7C6C,0,0,0,0,A,12,2,086D555C,0,0,0,0,A
 09AC503C=6,19,7,WarningAlarm,0,0,0,0,A,11,4,MISSION:WrnAmbsh,0,0,0,0,A,17,0,15,0,0,0,0,P,55,0,5,0,0,0,0,P,21,6,Mis_xS3_ZofiaAmbushBeReady,0,0,0,0,A,53,2,01000011,0,0,0,0,A
-09AF146C=6,17,0,12,0,0,0,0,M,55,0,5,0,0,0,0,M,53,2,0D44603C,0,0,0,0,A,53,2,0D99DC0C,0,0,0,0,A,48,0,4,0,0,0,0,S,131,9,NAPSYB,0,0,0,0,120
+09AF146C=6,17,0,12,0,0,0,0,M,55,0,5,0,0,0,0,M,53,2,0D44603C,0,0,0,0,A,48,0,4,0,0,0,0,S,131,9,NAPSYB,0,0,0,0,120,53,2,01000031,0,0,0,0,A
 09AF270C=2,21,6,Mis_xS3_ZofiaBriefing01,0,0,0,0,A,53,2,09AF146C,0,0,0,0,A
 09B95C1C=3,19,7,SealSpecialAttack,0,0,0,0,A,17,0,9,0,0,0,0,A,4,1,093AD32C,0,0,0,0,A
 09B978DC=5,17,0,11,0,0,0,0,L,19,7,WarningAlarm,0,0,0,0,A,11,4,MISSION:WarnSnpe,0,0,0,0,A,55,0,5,0,0,0,0,L,21,6,Mis_xS3_ZofiaLookOutForSniper,0,0,0,0,A
@@ -1878,7 +1982,7 @@ AB=1,116,0,49,0,0,0,0,AX
 0D3F1D6C=4,21,6,Mis_xS3_ZofiaTeslaTankReady,0,0,0,0,A,106,9,TTNK,0,0,0,0,1,114,0,3,0,0,0,0,A,115,9,TTNK,0,0,0,0,100
 0D44603C=2,3,0,17,0,0,0,0,A,74,0,17,0,0,0,0,A
 0D982E3C=1,54,2,09B978DC,0,0,0,0,A
-0D99DC0C=6,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,08FCFADC,0,0,0,0,A,112,0,0,0,0,0,0,ZX,19,7,CameraSwitch,0,0,0,0,A,11,4,mission:all01q,0,0,0,0,A
+0D99DC0C=5,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,08FCFADC,0,0,0,0,A,48,0,4,0,0,0,0,ZX,11,4,mission:all01q,0,0,0,0,A
 0DE526AC=2,100,0,42,0,0,0,0,A,53,2,099E997C,0,0,0,0,A
 0F189D9C=5,53,2,0CC121AC,0,0,0,0,A,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,53,2,08FC8A0C,0,0,0,0,A,11,4,mission:all01q,0,0,0,0,A
 0F951BEC=1,21,6,Mis_xS3_YuriTanyaTaunt2,0,0,0,0,A
@@ -1984,7 +2088,7 @@ Official=yes
 EndOfGame=no
 FillSilos=no
 FreeRadar=yes
-MaxPlayer=2
+MaxPlayer=3
 MinPlayer=2
 PostScore=<none>
 SkipScore=no
@@ -2549,6 +2653,9 @@ AB=4,36,0,2,36,0,3,36,0,4,36,0,7
 01000023=1,48,0,0
 01000025=2,13,0,6,36,0,9
 01000027=1,13,0,0
+01000031=1,13,0,13
+01000033=1,13,0,6
+01000041=1,36,0,11
 043F193C=1,13,0,72
 043F1A2C=1,13,0,67
 043F1B1C=1,13,0,76
@@ -2682,13 +2789,13 @@ AB=4,36,0,2,36,0,3,36,0,4,36,0,7
 0D3F1D6C=2,13,0,30,32,0,7
 0D44603C=1,13,0,60
 0D982E3C=1,48,0,0
-0D99DC0C=1,13,0,12
+0D99DC0C=1,13,0,20
 0DE526AC=1,13,0,5
 0F189D9C=1,13,0,8
 0F951BEC=1,13,0,4
 
 [FA2spVersionControl]
-Version=27
+Version=44
 LastPreviewOption=2
 
 [GACNST]
@@ -2868,6 +2975,8 @@ Verses=200%,100%,100%,1%,1%,1%,1%,1%,1%,1%,0%
 42=BadGuy1,GGI,256,67,94,2,Guard,0,None,0,-1,0,1,1
 43=BadGuy1,GGI,256,66,95,3,Guard,0,None,0,-1,0,1,1
 44=BadGuy1,GGI,256,67,95,2,Guard,0,None,0,-1,0,1,1
+45=YuriCountry,INIT,256,88,86,3,Area Guard,64,None,0,-1,0,1,1
+46=YuriCountry,INIT,256,89,84,2,Area Guard,160,None,0,-1,0,1,1
 
 [IsoMapPack5]
 1=GQ4AIAkBADwA//8AAAAIAAIqKAADOwD//wAAlQI96QEDKIMAAwA6KFQAKYEAPihUACcEAQ
@@ -3836,6 +3945,54 @@ Verses=200%,100%,100%,1%,1%,1%,1%,1%,1%,1%,0%
 [LTNK]
 BuildTimeMultiplier=1.0
 
+[LTNK_2]
+ROT=5
+Cost=700
+Name=Lasher Light Tank
+Size=3
+Armor=heavy
+Image=LTNK
+Owner=YuriCountry
+Sight=8
+Speed=7
+Points=25
+Turret=yes
+UIName=Name:Lasher
+Weight=3.5
+Crusher=yes
+Primary=ATGUN_2
+Soylent=700
+Category=AFV
+DieSound=GenVehicleDie
+IsTilter=yes
+Strength=100
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
+Maxdebris=3
+MoveSound=LasherTankMoveStart
+TechLevel=2
+VoiceMove=LasherTankMove
+CrushSound=TankCrush
+Accelerates=false
+CrateGoodie=no
+ThreatPosed=40
+VoiceAttack=LasherTankAttackCommand
+VoiceSelect=LasherTankSelect
+ElitePrimary=ATGUNE
+MovementZone=Destroyer
+Prerequisite=YAWEAP
+ZFudgeColumn=8
+ZFudgeTunnel=13
+VoiceFeedback=
+EliteAbilities=SELF_HEAL,STRONGER,FIREPOWER,ROF
+OpportunityFire=yes
+VeteranAbilities=STRONGER,FIREPOWER,SIGHT,FASTER
+DamageSmokeOffset=100, 100, 275
+BuildTimeMultiplier=1.5
+DamageParticleSystems=SparkSys,SmallGreySSys
+IsSelectableCombatant=yes
+TooBigToFitUnderBridge=true
+
 [Lighting]
 Red=0.850000
 Blue=0.850000
@@ -4072,6 +4229,8 @@ TechLevel=12
 23=09A11C4C
 24=090D8BBC
 25=01000004
+26=01000036
+27=01000039
 
 [Smudge]
 0=CRATER11,49,19,0
@@ -4524,6 +4683,9 @@ RequiredHouses=Russians,SovietsCountry
 01000024=0,Boris_Dead 1,01000023
 01000026=0,SP2.11_VO_TanyaREBoris Dead Boris 1,01000025
 01000028=0,SP2.12_VO_Zofia Sorry Dead Boris 1,01000027
+01000032=0,[BTR] Warning Enemy Nearby 1,01000031
+01000034=0,[BTR] Lasher Intro 1,01000033
+01000042=0,[BTR] Lasher Intro Atk 1,01000041
 043F233C=2,Reinforce_CIV3 @ AA->AG,043F2D5C
 043F2B8C=2,Reinforce_CIVs @ AA->AG,043F3B8C
 043F39BC=0,Destroyed_Building @ AA,043F3A9C
@@ -4638,7 +4800,6 @@ RequiredHouses=Russians,SovietsCountry
 0F957F4C=0,SPTanya 2_VO_Yuri Taunt,0F951BEC
 
 [TaskForces]
-0=0BD665CC
 1=0D6BCF1C
 2=0995575C
 3=0BCE3CFC
@@ -4658,6 +4819,9 @@ RequiredHouses=Russians,SovietsCountry
 17=07DC58CC
 18=086D752C
 19=01000002
+20=01000035
+21=01000038
+lt0=0BD665CC
 
 [TeamTypes]
 0=093AD32C
@@ -4697,6 +4861,8 @@ RequiredHouses=Russians,SovietsCountry
 34=01000018
 35=01000029
 36=01000030
+37=01000037
+38=01000040
 
 [Terrain]
 22048=TREE01
@@ -5547,6 +5713,9 @@ AB=Americans,<none>,_Amb_AA_AB_AC_AF Dead,0,1,1,1,0
 01000023=SovietsCountry,<none>,Boris_Dead,0,1,1,1,0
 01000025=Americans,<none>,SP2.11_VO_TanyaREBoris Dead Boris,1,1,1,1,0
 01000027=Americans,<none>,SP2.12_VO_Zofia Sorry Dead Boris,1,1,1,1,0
+01000031=Neutral,<none>,[BTR] Warning Enemy Nearby,1,1,1,1,0
+01000033=Neutral,<none>,[BTR] Lasher Intro,1,1,1,1,0
+01000041=Neutral,<none>,[BTR] Lasher Intro Atk,0,1,1,1,0
 043F193C=Civie3Country,043F1A2C,Reinforce_CIV2 @ AG,0,1,1,1,0
 043F1A2C=Civie3Country,043F1B1C,Reinforce_CIV2 @ AF,0,1,1,1,0
 043F1B1C=Civie3Country,08F47F3C,Reinforce_CIV2 @ AE,0,1,1,1,0
@@ -5705,6 +5874,8 @@ AB=Americans,<none>,_Amb_AA_AB_AC_AF Dead,0,1,1,1,0
 16=Neutral,CRUISE,256,74,83,192,Guard,None,0,-1,0,-1,1,1
 17=BadGuy1,MTNK,256,71,89,64,Area Guard,0BD09EDC,0,-1,0,-1,1,1
 18=BadGuy1,MTNK,256,71,87,64,Area Guard,0BD09EDC,0,-1,0,-1,1,1
+19=YuriCountry,LTNK_2,256,89,85,128,Guard,None,0,-1,0,-1,1,1
+20=YuriCountry,LTNK_2,256,91,86,160,Guard,None,0,-1,0,-1,1,1
 21=BadGuy1,FV,256,66,107,96,Guard,None,0,-1,0,-1,1,1
 22=BadGuy1,FV,256,58,109,0,Guard,None,0,-1,0,-1,1,1
 23=BadGuy1,FV,256,61,105,0,Guard,None,0,-1,0,-1,1,1
@@ -5768,8 +5939,15 @@ TechLevel=12
 8=@AG Destroyed,0
 9=BorisDead,0
 10=BlowBridge,0
+11=BTR_ReadyToFreak,0
+
+[VehicleTypes]
+1=LTNK_2
 
 [Waypoints]
+0=87091
+1=92102
+2=99090
 8=117069
 9=120069
 10=120068
@@ -5924,4 +6102,4 @@ Name=Kirov Airship
 TechLevel=12
 
 [Digest]
-1=9GjvvKfip6m6U+8KI+YmdFRjKwo=
+1=itm3CBsfMwJ81SoP0WZrBwHpdjM=
