@@ -314,11 +314,21 @@ YR Allied 7:
 - Limited the MCV Chrono reinforcements to happen once at most, bringing it more in line with similar triggers in other missions, like in Escape Velocity
 - Removed the singular tree on Antarctic ice
 
+YR Soviet 1:
+- Added a cut voiceline that introduces the Grand Cannon at the start of the mission
+- Added a cut voiceline that warns the player if they get too close to the Grand Cannons at the start of the mission
+- Fixed the missing shadows and size inconsistency on the McBurgerKong in the NewUrban Theatre (which this mission uses)
+- Removed trigger actions that deal damage to the Tech Power Plants on the map and instead enables off-map buildings based on difficulty to increase drain on player power
+	- The original intention behind these damage actions was likely to decrease the amount of power granted by these Tech Power Plants, increasing the amount of Tech Power Plants the player has to capture from 4 to 5 on Medium and Hard difficulty. This change reworks it to be less confusing to the player while retaining the need for 5 power plants
+	- Affected triggers: (0B454BBC Reinforce_Cap Group 1), (06A6646C Reinforce_Cap Group 2)
+
 YR Soviet 2:
 - Added a cut voiceline that introduces the German Tank Destroyers when they move out to attack the player
 - Added a cut voiceline that introduces the Battle Bunker once the player deploys their MCV
 - Added a cut voiceline that introduces the Spy Plane once the player constructs a Radar Dish
 - Added a cut voiceline + sidebar movie for this mission when the player deploys their MCV
+- Added a cut voiceline that warns the player of enemy Mirage Tank ambushes
+	- This voiceline is triggered whenever an enemy Mirage tank AITeam reaches their ambush position. These AITeams are only built when the player recruits Apocalypse tanks
 - Added "establishing battlefield control" to the start of the mission
 - Added an 8 in-game second delay to the Chronosphere Transfer once its first chronoshift finishes
 	- This eliminates the visual bug caused by changing the Chronosphere's house right as it fires its superweapon

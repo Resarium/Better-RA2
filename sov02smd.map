@@ -303,44 +303,51 @@ Name=Def_Base Defense SCR
 
 [01000040]
 0=16,68
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBQ SCR
 
 [01000041]
 0=16,69
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBR SCR
 
 [01000042]
 0=16,70
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBS SCR
 
 [01000043]
 0=16,71
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBT SCR
 
 [01000044]
 0=16,72
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBU SCR
 
 [01000045]
 0=16,73
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBV SCR
 
 [01000046]
 0=16,74
-1=49,0
-2=11,11
+1=39,18
+2=49,0
+3=11,11
 Name=Amb_MirageBW SCR
 
 [01000047]
@@ -5072,6 +5079,7 @@ Value=50
 01000501=2,114,0,1,0,0,0,0,A,21,6,Unit_Sofia_SpyPlane,0,0,0,0,A
 01000503=2,53,2,01000505,0,0,0,0,A,100,0,38,0,0,0,0,A
 01000505=1,21,6,S02_p01,0,0,0,0,A
+01000507=1,21,6,Mis_xS2_ZofiaMirageWarning,0,0,0,0,A
 
 [BORIS]
 TechLevel=12
@@ -5470,9 +5478,10 @@ PlayerControl=no
 01000501=1,13,0,2
 01000503=1,32,0,25
 01000505=1,13,0,15
+01000507=1,36,0,18
 
 [FA2spVersionControl]
-Version=46
+Version=52
 LastPreviewOption=2
 
 [GACSPH]
@@ -8312,6 +8321,7 @@ TechLevel=12
 01000502=0,[BTR] Spy Plane Brief Delay 1,01000501
 01000504=0,[BTR] Zofia Movie 1,01000503
 01000506=0,[BTR] Zofia Movie Addition 1,01000505
+01000508=0,[BTR] Mirage Ambush Speech 1,01000507
 
 [TaskForces]
 0=01000095
@@ -9120,6 +9130,7 @@ PlayerControl=no
 01000501=Player,<none>,[BTR] Spy Plane Brief Delay,1,1,1,1,0
 01000503=Player,<none>,[BTR] Zofia Movie,1,1,1,1,0
 01000505=Neutral,<none>,[BTR] Zofia Movie Addition,1,1,1,1,0
+01000507=Neutral,<none>,[BTR] Mirage Ambush Speech,0,1,1,1,0
 
 [Units]
 0=Civilian House,CONA,256,178,123,128,Sleep,None,0,-1,0,-1,1,1
@@ -9174,6 +9185,7 @@ PlayerControl=no
 15=Troops1_Arrived,0
 16=Troops3_Arrived,0
 17=TankDestroyersActive,0
+18=MirageAmbReady,0
 
 [Vinifera]
 Value=50
@@ -9283,4 +9295,4 @@ TechLevel=12
 TechLevel=9
 
 [Digest]
-1=K6EvoanX95jRAqbxriCSIGJSzfY=
+1=y7j1Ii+3Eu6fsRqUbOQnl3XsM6M=
