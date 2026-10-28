@@ -2321,6 +2321,7 @@ Value=50
 01000203=3,99,7,_Amb_BirdsJungle2,0,0,0,0,CQ,99,7,_Amb_BirdsTemperate1,0,0,0,0,CR,99,7,_Amb_BirdsJungle1,0,0,0,0,CS
 01000204=1,108,0,14,0,0,0,0,CT
 01000205=1,5,1,01000129,0,0,0,0,A
+01000243=2,54,2,01000188,0,0,0,0,A,53,2,01000187,0,0,0,0,A
 
 [BadGuy1]
 Name=BadGuy1
@@ -2485,9 +2486,10 @@ TechLevel=-1
 01000203=1,47,0,0
 01000204=1,1,0,13
 01000205=1,47,0,4
+01000243=1,47,0,120
 
 [FA2spVersionControl]
-Version=24
+Version=26
 LastPreviewOption=2
 
 [General]
@@ -5129,6 +5131,7 @@ DestroyableBridges=no
 01000240=0,PlayerWin2,01000171
 01000241=2,CheerMore,01000175
 01000242=0,!Start2(DestHarrierTm),01000205
+01000244=0,[BTR] Force Start Timer 1,01000243
 
 [TaskForces]
 0=01000055
@@ -5762,6 +5765,7 @@ DestroyableBridges=no
 01000203=Player,<none>,AmbientSounds3,0,1,1,1,0
 01000204=Player,<none>,WilliamsHouse,0,1,1,1,0
 01000205=BadGuy1,<none>,Start2,0,1,1,1,0
+01000243=Neutral,<none>,[BTR] Force Start Timer,0,1,1,1,0
 
 [Units]
 0=BadGuy1 House,AEGIS,256,84,120,0,Area Guard,None,0,6,0,-1,0,0
@@ -5923,4 +5927,4 @@ Value=50
 98=89201
 
 [Digest]
-1=gTnDHXRBllPIYlLz8ENmyglUM8I=
+1=uEKMC7ZF3hgu78v1sT/pOtggjZc=

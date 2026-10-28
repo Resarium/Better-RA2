@@ -45,6 +45,7 @@ Allied 4:
 
 Allied 5:
 - Added a two cut Soviet soldier voicelines at the start of the mission
+- Added a cut sidebar movie that plays the first time the player loses all 3 spies
 - Added a cut Eva voiceline that plays just before the victory screen
 - Replaced Russian Flags with Polish Flags to fit the narrative that this mission takes place at the German-Polish border
 - Modified Spy reinforcement loop so that every 4th reinforcement is preceded by Tanya cussing the Player out. (Modified related voiceline timings so that the voiceline doesn't get interrupted)
@@ -172,6 +173,7 @@ Soviet 6:
 - Increased Stray from 2.0 to 4.0 so that GI + transport AITeams won't have a chance to get stuck due to having too large of a taskforce.
 
 Soviet 7:
+- Slightly moved the spawn waypoints of crates near the bottom right army tents to fix a bug where their sfx will infinitely play if the tents are garrisoned instead of destroyed
 - reoriented some player defenses
 - changed the color of Other3 house to Grey
 - fixed a broken road

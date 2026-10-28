@@ -1254,7 +1254,7 @@ TechLevel=-1
 0CB2164C=1,13,0,15
 
 [FA2spVersionControl]
-Version=7
+Version=8
 LastPreviewOption=2
 
 [HARV]
@@ -1373,7 +1373,6 @@ Prerequisite=NAHAND
 47=Other3 House,SHK,256,79,77,2,Guard,128,087D3730,0,-1,0,1,1
 48=Player House,SENGINEER,256,78,76,2,Guard,64,None,0,-1,0,1,1
 49=Player House,SENGINEER,256,76,74,4,Guard,96,None,0,-1,0,1,1
-50=Player House,E2,256,38,19,3,Guard,64,None,0,-1,0,0,0
 
 [IsoMapPack5]
 1=QQ4AIAkBACIAJQEAAAIGAAIqKAAEIQAlAQAAAXQCByMA//8AAAAGAAMoggADACeDAAMAII
@@ -2585,4 +2584,4 @@ Value=50
 98=74078
 
 [Digest]
-1=34YEzdVSN3/6K24lRARO6b71DHE=
+1=lYAYqGp0G/uZ3qUqUfYpJkNz1Ro=

@@ -448,7 +448,7 @@ Suicide=yes
 Loadable=no
 Prebuild=no
 Priority=5
-Waypoint=Y
+Waypoint=AQ
 Annoyance=no
 IonImmune=no
 Recruiter=no
@@ -1255,7 +1255,7 @@ AreTeamMembersRecruitable=yes
 01000088=1,4,1,01000057,0,0,0,0,A
 01000089=1,6,0,0,0,0,0,0,A
 01000090=1,2,0,7,0,0,0,0,A
-01000091=1,80,1,01000058,0,0,0,0,Y
+01000091=1,80,1,01000058,0,0,0,0,AQ
 01000092=2,11,4,MISSION:Sov09a,0,0,0,0,A,55,0,5,0,0,0,0,A
 01000093=1,11,4,MISSION:Sov09b,0,0,0,0,A
 01000094=1,16,0,0,0,0,0,0,A
@@ -1591,7 +1591,7 @@ ImmuneToPsionics=yes
 01000176=1,32,0,70
 
 [FA2spVersionControl]
-Version=38
+Version=43
 LastPreviewOption=2
 
 [French]
@@ -3269,7 +3269,7 @@ ImmuneToPsionics=yes
 39=43047
 40=43049
 41=43046
-42=50037
+42=27037
 43=117060
 44=23064
 45=58100
@@ -3314,4 +3314,4 @@ UIName=Name:PTROOP
 Strength=100
 
 [Digest]
-1=TT1W5zLtUDr9pd6sRW9aakwX6nk=
+1=+4sfIve4EWQwstsdoJHXO4kaNBE=

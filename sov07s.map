@@ -2539,7 +2539,7 @@ TechLevel=-1
 01000247=1,8,0,0
 
 [FA2spVersionControl]
-Version=9
+Version=11
 LastPreviewOption=2
 
 [General]
@@ -4209,6 +4209,8 @@ DestroyableBridges=no
 0=Player House,NALASR,256,87,80,96,None,1,0,1,0,0,None,None,None,0,0
 1=Player House,NALASR,256,66,74,160,None,1,0,1,0,0,None,None,None,0,0
 2=Other3 House,CAOUTP,256,112,42,128,01000003,0,0,1,0,0,None,None,None,0,0
+3=Civie1 House,CAARMY01,256,131,65,0,01000002,0,0,1,0,0,None,None,None,0,0
+4=Civie1 House,CAARMY01,256,139,62,0,01000006,0,0,1,0,0,None,None,None,0,0
 1026638=Player House,NACNST,256,70,68,0,None,1,0,1,0,0,None,None,None,0,0
 1026643=Player House,NAPOWR,256,75,70,0,None,1,0,1,0,0,None,None,None,0,0
 1026648=Civie1 House,CAFARM01,256,80,120,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4223,7 +4225,6 @@ DestroyableBridges=no
 1026669=Player House,NALASR,256,83,60,0,None,1,0,1,0,0,None,None,None,0,0
 1026670=Civie1 House,INYELWLAMP,256,68,53,0,None,0,0,1,0,0,None,None,None,0,0
 1026671=Civie1 House,INYELWLAMP,256,78,35,0,None,0,0,1,0,0,None,None,None,0,0
-1026672=Civie1 House,CAARMY01,256,131,65,0,01000002,0,0,1,0,0,None,None,None,0,0
 1026673=Other1 House,CAUSFGL,256,132,74,0,None,0,0,1,0,0,None,None,None,0,0
 1026676=Other2 House,CAMISC02,256,139,69,0,None,0,0,1,0,0,None,None,None,0,0
 1026677=Other2 House,CAMISC01,256,140,69,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4255,7 +4256,6 @@ DestroyableBridges=no
 1026708=Civie1 House,INYELWLAMP,256,74,70,0,None,0,0,1,0,0,None,None,None,0,0
 1026709=Civie1 House,INYELWLAMP,256,109,37,0,None,0,0,1,0,0,None,None,None,0,0
 1026710=Civie1 House,INYELWLAMP,256,24,89,0,None,0,0,1,0,0,None,None,None,0,0
-1026711=Civie1 House,CAARMY01,256,139,62,0,01000006,0,0,1,0,0,None,None,None,0,0
 
 [TRUCKB]
 Name=Truck (loaded)
@@ -5605,8 +5605,8 @@ Value=50
 68=70086
 69=93026
 70=91033
-71=66133
-72=63141
+71=66134
+72=64141
 73=83090
 74=84018
 75=91050
@@ -5627,4 +5627,4 @@ Value=50
 TechLevel=-1
 
 [Digest]
-1=Gi9GvRVgZKM9faUxm6VJSAlk0YA=
+1=C/QzXTfjHg3smSzl7mMpsRIqo9I=
