@@ -363,7 +363,7 @@ YR Soviet 3:
 - Adjusted celltags around the Grinder and Psychic Dominator so the voicelines trigger at a more consistent distance from the relevant structure
 - The Seal that blows up the southernmost bridge will leave instead of dying
 	- Side effect: the Seal won't actually enter the bridge hut, instead he walks near, the bridge blows up, he leaves.
-- Sofia will announce Boris's death, and the lines that play when Tanya is rescued are different if Boris is dead
+- Zofia will announce Boris's death, and the lines that play when Tanya is rescued are different if Boris is dead
 - Added a voice line that plays when a Gatling Tank is first spotted
 - Added "--Battle Control Online--" text when player input is unlocked
 
