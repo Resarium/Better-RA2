@@ -393,5 +393,7 @@ YR Soviet 7:
 - Changed the Kill Light triggers for the Crypts so that the player doesn't see a strange explosion when the invisible light posts are turned off
 - Delayed input unlock by 3 in-game seconds so that Zofia's voicelines don't cut each other off
 - Added "--Battle Control Online--" text when player input is unlocked
+- Added override failsafe if any IFV combo team fails to form
+	- Every time a member of a combined team is recruited to form the final team, the local variable responsible for their part spawns a dummy unit that acts as a counting increment. If any counter dummy persists for more than 100 ingame seconds, it will erase all counter dummies for the respective combined team and send the entirety of the unformed team or their partial survivors on a hunt, then the cycle repeats
 - Fixed an oversight where the player faces additional enemy attacks if they deploy their ConYard too late (deployment is considered too late if the player triggers the Yuri weary taunt)
 	- It's clear this was the intention from the way the triggers are set up. The only issue was that the trigger setup wasn't done properly
