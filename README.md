@@ -300,6 +300,22 @@ YR Allied 5:
 	- Affected triggers: (_A05_Brutes (1))
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
 	- This trigger uses an un-used text string
+
+YR Allied 6
+ - Some neutral buildings near the oil derricks start hostile and immediately switch to the civilian house
+	-  This is so the entire fence near the oil derricks is attackable
+ - A bunch of benches owned by the player were given to the neutral house
+ - Adjusted terrain and structures in the north half of the map to more closely resemble YRS3
+ - Changed many AI trigger conditions from less than or equal to => greater than or equal to
+ - AI trigger 20 initiates now sends 20 initates instead of 13
+ - Adjusted the scripts of the attack waves so they are less likely to go down the wrong bridge
+ - MasterMind intro moves the camera smoothly instead of snapping it
+ - The 30 second warning on medium is no longer enabled earlier than it should be
+ - The Yuri taunt on easy plays 340 ingame seconds before the attack like it does on medium and hard instead of 240 seconds before
+ - The Disc spotted line will randomly be either from Carville or EVA
+ - Added EVA voice line for finding the hospital and machine shop and tied it to global variables
+ 	- Intro disc and Mastermind moved away from Hospital and Machine Shop so the voice lines don't conflict
+ - Increased Stray from 2.0 to 4.0 so some of the larger teams don't get stuck gathering around a waypoint 
 	
 YR Allied 7:
 - Added "establishing battlefield control" to the start of the mission
