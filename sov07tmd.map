@@ -5557,6 +5557,88 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
 
+[01000618]
+0=1,STANG
+Name=Counter_A TF
+Group=-1
+
+[01000619]
+0=1,SUVB
+Name=Counter_B TF
+Group=-1
+
+[01000620]
+0=11,0
+Name=SLEEP
+
+[01000621]
+Max=5
+Full=no
+Name=Counter_A
+Group=-1
+House=Combine_Count_A
+Script=01000620
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=CF
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000618
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[01000622]
+Max=5
+Full=no
+Name=Counter_B
+Group=-1
+House=Combine_Count_B
+Script=01000620
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=5
+Waypoint=CG
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=01000619
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
 [ADOG]
 Name=Allied Attack Dog
 ForbiddenHouses=Russians,Confederation,Africans,Arabs,YuriCountry,Player
@@ -6007,6 +6089,17 @@ ForbiddenHouses=Russians,Confederation,Africans,Arabs,YuriCountry,Player
 01000537=1,54,2,01000454,0,0,0,0,A
 01000538=5,4,1,01000322,0,0,0,0,A,4,1,01000323,0,0,0,0,A,4,1,01000324,0,0,0,0,A,4,1,01000325,0,0,0,0,A,4,1,01000326,0,0,0,0,A
 01000616=1,21,6,Mis_xS7_ZofiaMutatorWarning,0,0,0,0,A
+01000623=2,7,1,01000621,0,0,0,0,A,54,2,01000623,0,0,0,0,A
+01000625=2,7,1,01000621,0,0,0,0,A,54,2,01000625,0,0,0,0,A
+01000627=2,7,1,01000622,0,0,0,0,A,54,2,01000627,0,0,0,0,A
+01000629=2,7,1,01000622,0,0,0,0,A,54,2,01000629,0,0,0,0,A
+01000631=2,7,1,01000622,0,0,0,0,A,54,2,01000631,0,0,0,0,A
+01000633=2,7,1,01000622,0,0,0,0,A,54,2,01000633,0,0,0,0,A
+01000635=2,7,1,01000622,0,0,0,0,A,54,2,01000635,0,0,0,0,A
+01000637=2,53,2,01000641,0,0,0,0,A,54,2,01000637,0,0,0,0,A
+01000639=2,53,2,01000643,0,0,0,0,A,54,2,01000639,0,0,0,0,A
+01000641=8,121,0,23,0,0,0,0,A,57,0,9,0,0,0,0,A,57,0,10,0,0,0,0,A,6,0,22,0,0,0,0,A,53,2,01000623,0,0,0,0,A,53,2,01000625,0,0,0,0,A,53,2,01000637,0,0,0,0,A,54,2,01000641,0,0,0,0,A
+01000643=14,121,0,24,0,0,0,0,A,57,0,15,0,0,0,0,A,57,0,16,0,0,0,0,A,57,0,17,0,0,0,0,A,57,0,18,0,0,0,0,A,57,0,19,0,0,0,0,A,6,0,22,0,0,0,0,A,53,2,01000627,0,0,0,0,A,53,2,01000629,0,0,0,0,A,53,2,01000631,0,0,0,0,A,53,2,01000633,0,0,0,0,A,53,2,01000635,0,0,0,0,A,53,2,01000639,0,0,0,0,A,54,2,01000643,0,0,0,0,A
 
 [Aircraft]
 0=BadGuy3 House,ORCA,256,48,111,0,Area Guard,None,0,-1,1,1
@@ -6315,6 +6408,50 @@ TechLevel=1
 PercentBuilt=0
 PlayerControl=no
 
+[Combine_Count_A]
+Name=Combine_Count_A
+Side=Civilian
+Color=Grey
+Prefix=C
+Suffix=CIV
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Neutral
+
+[Combine_Count_A House]
+IQ=0
+Edge=West
+Color=Grey
+Allies=Combine_Count_A House
+Country=Combine_Count_A
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
+[Combine_Count_B]
+Name=Combine_Count_B
+Side=Civilian
+Color=Grey
+Prefix=C
+Suffix=CIV
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Neutral
+
+[Combine_Count_B House]
+IQ=0
+Edge=West
+Color=Grey
+Allies=Combine_Count_B House
+Country=Combine_Count_B
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
 [Countries]
 0=Einstein
 1=Player
@@ -6325,6 +6462,8 @@ PlayerControl=no
 6=Germany2
 7=Germany3
 8=Temp
+9=Combine_Count_A
+10=Combine_Count_B
 
 [CrateRules]
 SoloCrateMoney=2500
@@ -6493,9 +6632,20 @@ PlayerControl=no
 01000537=1,48,0,0
 01000538=1,47,0,1
 01000616=1,13,0,25
+01000623=1,36,0,9
+01000625=1,36,0,10
+01000627=1,36,0,15
+01000629=1,36,0,16
+01000631=1,36,0,17
+01000633=1,36,0,18
+01000635=1,36,0,19
+01000637=1,60,2,1,STANG
+01000639=1,60,2,1,SUVB
+01000641=2,60,2,1,STANG,13,0,100
+01000643=2,60,2,1,SUVB,13,0,100
 
 [FA2spVersionControl]
-Version=13
+Version=26
 LastPreviewOption=2
 
 [GACSPH]
@@ -6588,6 +6738,8 @@ BuildTimeMultiplier=1.0
 7=German2 House
 8=German3 House
 9=Temp House
+10=Combine_Count_A House
+11=Combine_Count_B House
 
 [INORANLAMP]
 LightRedTint=1.00
@@ -8959,6 +9111,70 @@ UnderParTitle=GUI:ParTitleSov08md
 OverParMessage=GUI:OverParMsgSov07md
 UnderParMessage=GUI:UnderParMsgSov07md
 
+[STANG]
+Size=6
+Armor=special
+Sight=0
+Speed=0
+DieSound=Dummy
+Strength=9999
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
+MaxDebris=0
+MinDebris=0
+SizeLimit=2
+TechLevel=11
+Trainable=no
+VoiceMove=none
+CrushSound=TankCrush
+ThreatPosed=0
+VoiceAttack=none
+VoiceSelect=none
+MovementZone=Normal
+Prerequisite=NAWEAP
+ZFudgeColumn=10
+ZFudgeTunnel=13
+Insignificant=yes
+VoiceFeedback=none
+DebrisMaximums=0
+ImmuneToPsionics=no
+ImmuneToRadiation=no
+SpecialThreatValue=1
+DamageParticleSystems=SparkSys,SmallGreySSys
+IsSelectableCombatant=yes
+
+[SUVB]
+Size=6
+Armor=special
+Sight=0
+Speed=0
+DieSound=Dummy
+Strength=9999
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
+MaxDebris=0
+MinDebris=0
+SizeLimit=2
+TechLevel=11
+Trainable=no
+VoiceMove=none
+CrushSound=TankCrush
+ThreatPosed=0
+VoiceAttack=none
+VoiceSelect=none
+MovementZone=Normal
+Prerequisite=NAWEAP
+ZFudgeColumn=10
+ZFudgeTunnel=13
+Insignificant=yes
+VoiceFeedback=none
+DebrisMaximums=0
+ImmuneToPsionics=no
+ImmuneToRadiation=no
+SpecialThreatValue=1
+DamageParticleSystems=SparkSys,SmallGreySSys
+IsSelectableCombatant=yes
+
 [ScriptTypes]
 0=01000023
 1=01000024
@@ -9043,6 +9259,7 @@ UnderParMessage=GUI:UnderParMsgSov07md
 80=01000103
 81=01000104
 82=01000105
+83=01000620
 
 [Smudge]
 0=BURNT11,144,84,0
@@ -9437,6 +9654,17 @@ RequiredHouses=Player,BadGuy2
 01000614=2,Loop_Cheer for Win,01000428
 01000615=0,Create_BG1_Bio Loaders,01000538
 01000617=0,[BTR] Genetic Mutator Followup Speech 1,01000616
+01000624=2,[BTR] Count - Combine 01 1,01000623
+01000626=2,[BTR] Count - Combine 02 1,01000625
+01000628=2,[BTR] Count - Combine 03a 1,01000627
+01000630=2,[BTR] Count - Combine 03b 1,01000629
+01000632=2,[BTR] Count - Combine 03c 1,01000631
+01000634=2,[BTR] Count - Combine 03d 1,01000633
+01000636=2,[BTR] Count - Combine 03e 1,01000635
+01000638=2,[BTR] Counter A ON 1,01000637
+01000640=2,[BTR] Counter B ON 1,01000639
+01000642=2,[BTR] Counter Reset A 1,01000641
+01000644=2,[BTR] Counter Reset B 1,01000643
 
 [TaskForces]
 0=01000106
@@ -9535,6 +9763,8 @@ RequiredHouses=Player,BadGuy2
 93=01000199
 94=01000200
 95=01000201
+96=01000618
+97=01000619
 
 [TeamTypes]
 0=01000202
@@ -9666,6 +9896,8 @@ RequiredHouses=Player,BadGuy2
 126=01000328
 127=01000329
 128=01000330
+129=01000621
+130=01000622
 
 [Temp]
 Name=Temp
@@ -10628,6 +10860,17 @@ PlayerControl=no
 01000537=Americans,<none>,Detect_O House Dead,0,1,1,1,0
 01000538=Americans,<none>,Create_BG1_Bio Loaders,0,1,1,1,0
 01000616=BadGuy1,<none>,[BTR] Genetic Mutator Followup Speech,1,0,1,1,0
+01000623=Neutral,<none>,[BTR] Count - Combine 01,0,1,1,1,0
+01000625=Neutral,<none>,[BTR] Count - Combine 02,0,1,1,1,0
+01000627=Neutral,<none>,[BTR] Count - Combine 03a,0,1,1,1,0
+01000629=Neutral,<none>,[BTR] Count - Combine 03b,0,1,1,1,0
+01000631=Neutral,<none>,[BTR] Count - Combine 03c,0,1,1,1,0
+01000633=Neutral,<none>,[BTR] Count - Combine 03d,0,1,1,1,0
+01000635=Neutral,<none>,[BTR] Count - Combine 03e,0,1,1,1,0
+01000637=Neutral,<none>,[BTR] Counter A ON,0,1,1,1,0
+01000639=Neutral,<none>,[BTR] Counter B ON,0,1,1,1,0
+01000641=Neutral,<none>,[BTR] Counter Reset A,1,1,1,1,0
+01000643=Neutral,<none>,[BTR] Counter Reset B,1,1,1,1,0
 
 [Units]
 0=BadGuy3 House,CMIN,256,49,134,64,Harvest,None,0,-1,0,-1,1,1
@@ -10778,6 +11021,8 @@ PlayerControl=no
 80=60066
 81=69074
 82=76067
+83=57052
+84=54055
 652=69067
 699=109107
 700=109107
@@ -10797,4 +11042,4 @@ Name=Yuri Prime
 TechLevel=12
 
 [Digest]
-1=FIJmv/xwp29jRqdamY0anc7KhIg=
+1=jtRUd5r0LmQwvxynNiXTKOXd1DM=
