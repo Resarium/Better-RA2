@@ -6094,7 +6094,7 @@ Damage=20
 01000657=1,13,0,1
 
 [FA2spVersionControl]
-Version=1
+Version=2
 LastPreviewOption=2
 
 [French]
@@ -9291,7 +9291,7 @@ DestroyableBridges=yes
 31=101150
 32=101138
 33=111150
-34=139132
+34=139138
 35=102150
 36=98145
 37=29042
@@ -9578,4 +9578,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=gkfuERliChiaMX1R709jov8iqkU=
+1=saztoHZzdjxV+20gd2qmcYNf8vQ=
