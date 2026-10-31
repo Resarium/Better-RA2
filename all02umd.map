@@ -9443,7 +9443,7 @@ PlayerControl=no
 01000960=1,33,0,0
 
 [FA2spVersionControl]
-Version=95
+Version=98
 LastPreviewOption=2
 
 [French]
@@ -14669,10 +14669,10 @@ Warhead=SA
 01000944=Americans,<none>,[BTR] Briefing_Slave_Miner 3a,1,1,1,1,0
 01000946=Americans,<none>,[BTR] Briefing_Slave_Miner 3b,1,1,1,1,0
 01000952=Americans,<none>,[BTR] Briefing_Slave_Miner Delayed Harriers,1,1,1,1,0
-01000954=Neutral,<none>,[BTR] Psychic Radar Intro,0,1,1,1,0
-01000956=Neutral,<none>,[BTR] Yuri Barracks Intro,0,1,1,1,0
-01000958=Neutral,<none>,[BTR] Yuri WarFac Intro,0,1,1,1,0
-01000960=Neutral,<none>,[BTR] Yuri Bio Reactor Intro,0,1,1,1,0
+01000954=YuriCountry,<none>,[BTR] Psychic Radar Intro,0,1,1,1,0
+01000956=YuriCountry,<none>,[BTR] Yuri Barracks Intro,0,1,1,1,0
+01000958=YuriCountry,<none>,[BTR] Yuri WarFac Intro,0,1,1,1,0
+01000960=YuriCountry,<none>,[BTR] Yuri Bio Reactor Intro,0,1,1,1,0
 
 [Units]
 0=Confederation,LTNK,256,115,183,64,Guard,None,0,-1,0,-1,1,1
@@ -15280,4 +15280,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=sLkm2rbITrrJbT1XOSHfMuFaahQ=
+1=wYCgVrSlCNSUV+5zhbWI3Lxph9c=
