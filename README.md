@@ -280,6 +280,9 @@ YR Allied 4:
 	- Previously, this trigger erroneously checked whether the YuriCountry House has the American Airforce HQ instead of checking whether the American House has the Generic Airforce HQ
 	- Additionally, to make sure its TransportsReturnOnUnload TeamType flag functions, added script action 14 (Load Script) as first script action
 	- Affected trigger: (01000312 Yuri Hover Attack) 
+- Fixed a trigger that created an enemy attack team that isn't actually allied to some of the enemy houses
+	- Affected trigger: (01000365 Y Auto Hover 1 Alt)
+	- Developer's Note: TL;DR fixed House alliances for the African Empire House
 - Added "--Battle Control Online--" text when player input is unlocked
 
 YR Allied 5:
