@@ -273,7 +273,9 @@ YR Allied 2:
 	- It's a clear oversight that the player is capable of constructing these things at this point of the story, especially since they all get introduced later on
 - Added 3 in-game seconds of delay to Return_Control so that Eva's voicelines don't cut each other off
 
-YR Allied 3
+YR Allied 3:
+- Added cut Yuri sidebar movie that plays after the player gains battlefield control
+- Added cut Eva sidebar movie that plays the first time the player is depowered
 - Restored Radar depending on controlling the Space Needle (and having power too)
 - Triggers Easy_Enter is only enabled on easy, not easy and medium and Medium_Enter is enabled on medium not hard
 	- This means the whole map is revealed on easy, some of the map is revealed on medium, and no extra terrain is revealed on hard
@@ -319,7 +321,7 @@ YR Allied 5:
 - Added a reinforcement team for the player once they lose a certain amount of units on Easy difficulty
 	- This trigger uses an un-used text string
 
-YR Allied 6
+YR Allied 6:
  - Some neutral buildings near the oil derricks start hostile and immediately switch to the civilian house
 	-  This is so the entire fence near the oil derricks is attackable
  - A bunch of benches owned by the player were given to the neutral house

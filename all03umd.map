@@ -8,7 +8,7 @@
 
 ; This FA2 uses FA2sp created by secsome, modified by Handama & E1Elite
 ; Get the lastest dll at https://github.com/handama/FA2sp
-; Current version : 1.6.3, HDM Edition 1.4.4
+; Current version : 1.6.3, HDM Edition 1.5.0
 
 [Header]
 Width=59
@@ -8918,6 +8918,8 @@ AreTeamMembersRecruitable=yes
 0ECCFCAC-G=yes
 
 [Actions]
+01000031=1,100,0,12,0,0,0,0,A
+01000033=2,21,6,Mis_xA3_EvaNeedPower,0,0,0,0,A,11,4,mission:lowpower,0,0,0,0,A
 01000035=1,11,4,mission:grabpowr,0,0,0,0,A
 01000204=1,53,2,01000035,0,0,0,0,A
 01000206=1,54,2,01000035,0,0,0,0,A
@@ -8934,13 +8936,13 @@ AreTeamMembersRecruitable=yes
 01000596=5,48,0,3,0,0,0,0,ND,21,6,Mis_xA3_EvaBriefing02,0,0,0,0,A,131,9,CASEAT01,0,0,0,0,90,53,2,01000597,0,0,0,0,A,53,2,01000598,0,0,0,0,A
 01000597=5,48,0,3,0,0,0,0,NE,21,6,Mis_xA3_EvaBriefing01,0,0,0,0,A,131,9,CASEAT02,0,0,0,0,90,53,2,01000386,0,0,0,0,A,4,1,01000775,0,0,0,0,A
 01000598=5,100,0,14,0,0,0,0,A,108,0,0,0,0,0,0,LA,108,0,0,0,0,0,0,LB,108,0,0,0,0,0,0,LC,53,2,01000601,0,0,0,0,A
-01000599=11,48,0,3,0,0,0,0,NA,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,132,11,2,0,0,0,0,4500,53,2,01000602,0,0,0,0,A,53,2,01000603,0,0,0,0,A,3,0,9,0,0,0,0,A,53,2,01000604,0,0,0,0,A,47,0,0,0,0,0,0,A,74,0,9,0,0,0,0,A,53,2,01000208,0,0,0,0,A,11,4,mission:all01q,0,0,0,0,A
+01000599=12,48,0,3,0,0,0,0,NA,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,132,11,2,0,0,0,0,4500,53,2,01000602,0,0,0,0,A,53,2,01000603,0,0,0,0,A,3,0,9,0,0,0,0,A,53,2,01000604,0,0,0,0,A,47,0,0,0,0,0,0,A,74,0,9,0,0,0,0,A,53,2,01000208,0,0,0,0,A,11,4,mission:all01q,0,0,0,0,A,53,2,01000031,0,0,0,0,A
 01000600=3,56,0,57,0,0,0,0,A,53,2,01000590,0,0,0,0,A,53,2,01000605,0,0,0,0,A
 01000601=1,21,6,EVA_SecondaryObjectiveAchieved,0,0,0,0,A
 01000602=5,51,0,0,0,0,0,0,A,17,0,367,0,0,0,0,A,17,0,368,0,0,0,0,A,17,0,365,0,0,0,0,A,17,0,32,0,0,0,0,A
 01000603=4,7,1,01000522,0,0,0,0,A,55,0,12,0,0,0,0,BB,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,53,2,01000606,0,0,0,0,A
 01000604=4,53,2,01000607,0,0,0,0,A,53,2,01000609,0,0,0,0,A,54,2,01000604,0,0,0,0,A,54,2,01000383,0,0,0,0,A
-01000605=2,21,6,Mis_xA3_EvaNeedPower,0,0,0,0,A,11,4,mission:lowpower,0,0,0,0,A
+01000605=2,53,2,01000033,0,0,0,0,A,100,0,13,0,0,0,0,A
 01000606=3,7,1,01000522,0,0,0,0,A,55,0,12,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
 01000607=4,54,2,01000609,0,0,0,0,A,53,2,01000611,0,0,0,0,A,53,2,01000612,0,0,0,0,A,54,2,01000607,0,0,0,0,A
 01000608=4,54,2,01000610,0,0,0,0,A,53,2,01000614,0,0,0,0,A,53,2,01000616,0,0,0,0,A,54,2,01000608,0,0,0,0,A
@@ -9687,6 +9689,8 @@ PlayerControl=no
 3=MSGuard Country
 
 [Events]
+01000031=1,13,0,5
+01000033=1,13,0,25
 01000035=1,13,0,150
 01000204=1,30,0,0
 01000206=1,58,0,0
@@ -9709,7 +9713,7 @@ PlayerControl=no
 01000602=1,13,0,0
 01000603=2,16,0,17,13,0,30
 01000604=1,30,0,9
-01000605=1,13,0,8
+01000605=1,13,0,5
 01000606=2,16,0,25,13,0,15
 01000607=1,36,0,41
 01000608=1,37,0,40
@@ -10052,7 +10056,7 @@ PlayerControl=no
 01000964=2,28,0,12,4,0,0
 
 [FA2spVersionControl]
-Version=91
+Version=94
 LastPreviewOption=2
 
 [FV]
@@ -12576,6 +12580,8 @@ DestroyableBridges=yes
 01000017=2,PlantTF_Gone,01000936
 01000018=2,Needle_Stuff,01000846
 01000030=0,Nuke_Briefing,01000593
+01000032=0,[BTR] Yuri Attention Movie 1,01000031
+01000034=0,[BTR] Power_Low_Warning Addition 1,01000033
 01000203=2,Power_Low_Hint 1,01000035
 01000205=2,Player_Power_Low_Repeat 1,01000204
 01000207=2,Player_Power_High_Repeat 1,01000206
@@ -14047,6 +14053,8 @@ DestroyableBridges=yes
 161122=TREE05
 
 [Triggers]
+01000031=Americans,<none>,[BTR] Yuri Attention Movie,1,1,1,1,0
+01000033=Americans,<none>,[BTR] Power_Low_Warning Addition,1,1,1,1,0
 01000035=Americans,<none>,Power_Low_Hint,1,1,1,0,0
 01000204=Americans,<none>,Player_Power_Low_Repeat,0,1,1,1,0
 01000206=Americans,<none>,Player_Power_High_Repeat,0,1,1,1,0
@@ -14808,4 +14816,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=g6vOuPUsGQVRrQ1QO2aiiKDk4cI=
+1=Vrh98hUgi6jjOGjfO1WN5Eag+PA=
