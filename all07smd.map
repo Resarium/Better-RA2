@@ -5995,7 +5995,7 @@ PlayerControl=no
 01000565=1,4,0,0
 
 [FA2spVersionControl]
-Version=53
+Version=54
 LastPreviewOption=2
 
 [French]
@@ -6083,46 +6083,44 @@ BuildTimeMultiplier=1.0
 15=Yuri3
 
 [Infantry]
-0=Neutral,POLARB,256,110,112,2,Guard,64,None,0,-1,0,1,1
-1=Neutral,POLARB,256,96,145,2,Guard,128,None,0,-1,0,1,1
-2=YuriCountry,YURI,256,165,156,4,Area Guard,160,None,0,-1,0,1,1
-3=YuriCountry,YURI,256,165,154,3,Area Guard,160,None,0,-1,0,1,1
-4=YuriCountry,VIRUS,256,164,153,3,Area Guard,160,None,0,-1,0,1,1
-5=YuriCountry,BRUTE,256,186,157,3,Area Guard,160,None,0,-1,0,1,1
-6=YuriCountry,BRUTE,256,183,159,2,Area Guard,160,None,0,-1,0,1,1
-7=YuriCountry,BRUTE,256,183,157,2,Area Guard,160,None,0,-1,0,1,1
-8=YuriCountry,BRUTE,256,186,157,4,Area Guard,160,None,0,-1,0,1,1
-9=YuriCountry,YURI,256,184,158,4,Area Guard,160,None,0,-1,0,1,1
-10=YuriCountry,YURI,256,184,157,2,Area Guard,160,None,0,-1,0,1,1
-11=Yuri2,INIT,256,165,142,2,Area Guard,96,None,0,-1,0,1,1
-12=Yuri2,INIT,256,169,138,3,Area Guard,96,None,0,-1,0,1,1
-13=Yuri2,INIT,256,165,138,4,Area Guard,96,None,0,-1,0,1,1
-14=Yuri2,YURI,256,170,118,3,Area Guard,128,None,0,-1,0,1,1
-15=Yuri2,YURI,256,173,118,3,Area Guard,128,None,0,-1,0,1,1
-16=YuriCountry,INIT,256,175,172,3,Guard,0,None,0,-1,0,1,1
-17=YuriCountry,INIT,256,176,172,2,Guard,0,None,0,-1,0,1,1
-18=YuriCountry,INIT,256,176,174,3,Guard,0,None,0,-1,0,1,1
-19=YuriCountry,INIT,256,177,173,4,Guard,0,None,0,-1,0,1,1
-20=YuriCountry,INIT,256,176,173,4,Guard,0,None,0,-1,0,1,1
-21=YuriCountry,INIT,256,190,154,2,Guard,0,None,0,-1,0,1,1
-22=YuriCountry,INIT,256,191,154,2,Guard,0,None,0,-1,0,1,1
-23=YuriCountry,INIT,256,191,155,2,Guard,0,None,0,-1,0,1,1
-24=YuriCountry,INIT,256,190,155,2,Guard,0,None,0,-1,0,1,1
-25=YuriCountry,INIT,256,189,153,3,Guard,0,None,0,-1,0,1,1
-26=YuriCountry,INIT,256,172,157,2,Guard,0,None,0,-1,0,1,1
-27=YuriCountry,INIT,256,173,157,2,Guard,0,None,0,-1,0,1,1
-28=YuriCountry,INIT,256,173,158,2,Guard,0,None,0,-1,0,1,1
-29=YuriCountry,INIT,256,172,158,3,Guard,0,None,0,-1,0,1,1
-30=YuriCountry,INIT,256,174,159,2,Guard,0,None,0,-1,0,1,1
-31=YuriCountry,INIT,256,193,177,2,Guard,0,None,0,-1,0,1,1
-32=YuriCountry,INIT,256,193,176,2,Guard,0,None,0,-1,0,1,1
-33=YuriCountry,INIT,256,195,177,3,Guard,0,None,0,-1,0,1,1
-34=YuriCountry,INIT,256,194,178,4,Guard,0,None,0,-1,0,1,1
-35=YuriCountry,INIT,256,193,178,2,Guard,0,None,0,-1,0,1,1
-36=Neutral,POLARB,256,137,63,2,Area Guard,0,None,0,-1,0,1,1
-37=Neutral,POLARB,256,129,72,2,Area Guard,128,None,0,-1,0,1,1
-38=Yuri2,YURI,256,123,180,1,Guard,64,None,0,-1,0,1,1
-39=Yuri2,YURI,256,120,176,4,Guard,64,None,0,-1,0,1,1
+0=YuriCountry,YURI,256,165,156,4,Area Guard,160,None,0,-1,0,1,1
+1=YuriCountry,YURI,256,165,154,3,Area Guard,160,None,0,-1,0,1,1
+2=YuriCountry,VIRUS,256,164,153,3,Area Guard,160,None,0,-1,0,1,1
+3=YuriCountry,BRUTE,256,186,157,3,Area Guard,160,None,0,-1,0,1,1
+4=YuriCountry,BRUTE,256,183,159,2,Area Guard,160,None,0,-1,0,1,1
+5=YuriCountry,BRUTE,256,183,157,2,Area Guard,160,None,0,-1,0,1,1
+6=YuriCountry,BRUTE,256,186,157,4,Area Guard,160,None,0,-1,0,1,1
+7=YuriCountry,YURI,256,184,158,4,Area Guard,160,None,0,-1,0,1,1
+8=YuriCountry,YURI,256,184,157,2,Area Guard,160,None,0,-1,0,1,1
+9=Yuri2,INIT,256,165,142,2,Area Guard,96,None,0,-1,0,1,1
+10=Yuri2,INIT,256,169,138,3,Area Guard,96,None,0,-1,0,1,1
+11=Yuri2,INIT,256,165,138,4,Area Guard,96,None,0,-1,0,1,1
+12=Yuri2,YURI,256,170,118,3,Area Guard,128,None,0,-1,0,1,1
+13=Yuri2,YURI,256,173,118,3,Area Guard,128,None,0,-1,0,1,1
+14=YuriCountry,INIT,256,175,172,3,Guard,0,None,0,-1,0,1,1
+15=YuriCountry,INIT,256,176,172,2,Guard,0,None,0,-1,0,1,1
+16=YuriCountry,INIT,256,176,174,3,Guard,0,None,0,-1,0,1,1
+17=YuriCountry,INIT,256,177,173,4,Guard,0,None,0,-1,0,1,1
+18=YuriCountry,INIT,256,176,173,4,Guard,0,None,0,-1,0,1,1
+19=YuriCountry,INIT,256,190,154,2,Guard,0,None,0,-1,0,1,1
+20=YuriCountry,INIT,256,191,154,2,Guard,0,None,0,-1,0,1,1
+21=YuriCountry,INIT,256,191,155,2,Guard,0,None,0,-1,0,1,1
+22=YuriCountry,INIT,256,190,155,2,Guard,0,None,0,-1,0,1,1
+23=YuriCountry,INIT,256,189,153,3,Guard,0,None,0,-1,0,1,1
+24=YuriCountry,INIT,256,172,157,2,Guard,0,None,0,-1,0,1,1
+25=YuriCountry,INIT,256,173,157,2,Guard,0,None,0,-1,0,1,1
+26=YuriCountry,INIT,256,173,158,2,Guard,0,None,0,-1,0,1,1
+27=YuriCountry,INIT,256,172,158,3,Guard,0,None,0,-1,0,1,1
+28=YuriCountry,INIT,256,174,159,2,Guard,0,None,0,-1,0,1,1
+29=YuriCountry,INIT,256,193,177,2,Guard,0,None,0,-1,0,1,1
+30=YuriCountry,INIT,256,193,176,2,Guard,0,None,0,-1,0,1,1
+31=YuriCountry,INIT,256,195,177,3,Guard,0,None,0,-1,0,1,1
+32=YuriCountry,INIT,256,194,178,4,Guard,0,None,0,-1,0,1,1
+33=YuriCountry,INIT,256,193,178,2,Guard,0,None,0,-1,0,1,1
+34=Neutral,POLARB,256,137,63,2,Area Guard,0,None,0,-1,0,1,1
+35=Neutral,POLARB,256,129,72,2,Area Guard,128,None,0,-1,0,1,1
+36=Yuri2,YURI,256,123,180,1,Guard,64,None,0,-1,0,1,1
+37=Yuri2,YURI,256,120,176,4,Guard,64,None,0,-1,0,1,1
 
 [IsoMapPack5]
 1=VgwAIAcDAIQA//8AAAAERAADgwD//wAAQQEEKlUAhfUCBShXAAUAgihUACmAACcHAQUAhq
@@ -10826,4 +10824,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=UBDH+OXOwJuKVnQRN0yek5/WRM4=
+1=CzSbQ6kgZHe2xLQLVG6u8uZI8P0=

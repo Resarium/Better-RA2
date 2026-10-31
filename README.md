@@ -334,6 +334,7 @@ YR Allied 7:
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
 - Limited the MCV Chrono reinforcements to happen once at most, bringing it more in line with similar triggers in other missions, like in Escape Velocity
 - Removed the singular tree on Antarctic ice
+- Removed the polar bears
 
 YR Soviet 1:
 - Added a cut voiceline that introduces the Grand Cannon at the start of the mission
