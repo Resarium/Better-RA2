@@ -273,6 +273,21 @@ YR Allied 2:
 	- It's a clear oversight that the player is capable of constructing these things at this point of the story, especially since they all get introduced later on
 - Added 3 in-game seconds of delay to Return_Control so that Eva's voicelines don't cut each other off
 
+YR Allied 3
+- Restored Radar depending on controlling the Space Needle (and having power too)
+- Triggers Easy_Enter is only enabled on easy, not easy and medium and Medium_Enter is enabled on medium not hard
+	- This means the whole map is revealed on easy, some of the map is revealed on medium, and no extra terrain is revealed on hard
+- Removed various obsolete and unused, triggers, waypoints, scripts, taskforces, and teamtypes
+- Improved Yuri nuke targeting logic, allowing Yuri to now nuke plants TB-TF
+- added hints on easy for capturing the space needle, capturing power plants to bring the weather controller back online, capturing or destroying enemy power plants to depower the nuke, and a hint for snipers outranging the virus
+- Fixed a Yuri engineer team targeting the wrong powerplant
+- Change some triggers that only fired once to one time or and removed an action that made the trigger disable itself
+- Changed some Yuri taskforces to use Yuri Engineers instead of Allied Engineers
+- Improved logic for Yuri sending attacks to powerplants and moving teams between power plants
+- Removed a null action from WC_Briefing trigger
+- Renamed many triggers to be more consistent with other functionally similar triggers
+- Added "--Battle Control Online--" text when player input is unlocked
+
 YR Allied 4:
 - Fix typo on General ini changes (was spelled Gereral)
 - Added a loop to the bridge-fixing Engineer's script so that they will continuously attempt to fix a bridge in the rare event that they try to "disarm" the bridge hut first
