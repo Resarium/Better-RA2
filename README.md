@@ -329,6 +329,7 @@ YR Allied 7:
 	- The Psychic Dominator voiceline is added in YR Allied 1 already
 - Added a cut voiceline that plays when the player is attacked by one of the initial Yuri attack teams on Tierra Del Fuego
 	- voiceline used: Mis_xA7_EvaProtectSovietBase
+- Added a failsafe trigger that enables Yuri oil grabber teams if the player constructs a Spy Satellite
 - Re-enabled a trigger that gives the player additional paradrop teams at the start of the mission
 - Delayed input unlock by 5 in-game seconds for better timing
 - Fixed the pathing of a Yuri paradrop team on Tierra Del Fuego
