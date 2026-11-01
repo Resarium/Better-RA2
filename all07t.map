@@ -4470,6 +4470,7 @@ TechLevel=12
 TechLevel=12
 
 [General]
+Stray=4.0
 TeamDelays=750,1000,1500
 TotalAITeamCap=30,30,30
 SpyMoneyStealPercent=.05
