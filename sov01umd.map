@@ -6469,8 +6469,8 @@ AllowedToStartInMultiplayer=no
 08FC09DC=1,13,0,15
 08FC0BAC=1,13,0,15
 0900AB1C=1,13,0,6
-09040ADC=1,13,0,48
-090435FC=1,13,0,10
+09040ADC=1,13,0,53
+090435FC=1,13,0,12
 090437CC=1,13,0,6
 0905A37C=1,13,0,0
 0905A54C=1,13,0,0
@@ -6637,7 +6637,7 @@ AllowedToStartInMultiplayer=no
 0E626A2C=1,13,0,5
 
 [FA2spVersionControl]
-Version=72
+Version=77
 LastPreviewOption=2
 
 [French]
@@ -10448,4 +10448,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=q1rD3y7DvbN+StygIjekXVc/u3Q=
+1=eyKRGVhgzkYh13bcMO7mlzpivf0=
