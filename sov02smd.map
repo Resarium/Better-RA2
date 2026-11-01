@@ -5059,7 +5059,7 @@ Value=50
 01000421=1,53,2,01000420,0,0,0,0,A
 01000422=1,9,0,21,0,0,0,0,A
 01000423=1,53,2,01000422,0,0,0,0,A
-01000424=3,114,0,0,0,0,0,0,A,115,9,NAINDP,0,0,0,0,120,21,6,Unit_Sofia_IndustrialPlant,0,0,0,0,A
+01000424=4,114,0,0,0,0,0,0,A,115,9,NAINDP,0,0,0,0,120,21,6,Unit_Sofia_IndustrialPlant,0,0,0,0,A,53,2,01000509,0,0,0,0,A
 01000425=4,54,2,01000390,0,0,0,0,A,53,2,01000410,0,0,0,0,A,53,2,01000411,0,0,0,0,A,54,2,01000425,0,0,0,0,A
 01000426=1,56,0,11,0,0,0,0,A
 01000427=1,56,0,12,0,0,0,0,A
@@ -5481,11 +5481,11 @@ PlayerControl=no
 01000503=1,32,0,25
 01000505=1,13,0,15
 01000507=1,36,0,18
-01000509=1,32,0,10
+01000509=2,32,0,10,13,0,20
 01000511=1,13,0,3
 
 [FA2spVersionControl]
-Version=55
+Version=56
 LastPreviewOption=2
 
 [GACSPH]
@@ -9137,7 +9137,7 @@ PlayerControl=no
 01000503=Player,<none>,[BTR] Zofia Movie,1,1,1,1,0
 01000505=Neutral,<none>,[BTR] Zofia Movie Addition,1,1,1,1,0
 01000507=Neutral,<none>,[BTR] Mirage Ambush Speech,0,1,1,1,0
-01000509=Player,<none>,[BTR] Force Shield Introduction,0,1,1,1,0
+01000509=Player,<none>,[BTR] Force Shield Introduction,1,1,1,1,0
 01000511=Player,<none>,[BTR] Force Shield Introduction Delay,1,1,1,1,0
 
 [Units]
@@ -9303,4 +9303,4 @@ TechLevel=12
 TechLevel=9
 
 [Digest]
-1=ZtkJu0g4CstJIoBtYuhBQpQaWJU=
+1=KFywtmue3YuY2BKMxrvoLTryK4U=
