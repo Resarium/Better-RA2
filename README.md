@@ -308,6 +308,8 @@ YR Allied 4:
 	- Affected trigger: (01000365 Y Auto Hover 1 Alt)
 	- Developer's Note: TL;DR fixed House alliances for the African Empire House
 - Added "--Battle Control Online--" text when player input is unlocked
+- Fixed a bug where, if the player destroys the main Yuri base before rescuing Professor Einstein, they can see Einstein's rescue helicopter magically disappear when he boards it
+- Fixed a bug where the back segment of the great pyramid has 0 hp which allowed the player to step on it and look as if they are inside the pyramid
 
 YR Allied 5:
 - Restored the Lasher tank's TechLevel to its default value so that both the player and the AI can build it again
