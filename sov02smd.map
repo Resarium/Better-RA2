@@ -5080,6 +5080,8 @@ Value=50
 01000503=2,53,2,01000505,0,0,0,0,A,100,0,38,0,0,0,0,A
 01000505=1,21,6,S02_p01,0,0,0,0,A
 01000507=1,21,6,Mis_xS2_ZofiaMirageWarning,0,0,0,0,A
+01000509=1,53,2,01000511,0,0,0,0,A
+01000511=2,114,0,1,0,0,0,0,A,21,6,Unit_Sofia_ForceShieldYuri,0,0,0,0,A
 
 [BORIS]
 TechLevel=12
@@ -5479,9 +5481,11 @@ PlayerControl=no
 01000503=1,32,0,25
 01000505=1,13,0,15
 01000507=1,36,0,18
+01000509=1,32,0,10
+01000511=1,13,0,3
 
 [FA2spVersionControl]
-Version=52
+Version=55
 LastPreviewOption=2
 
 [GACSPH]
@@ -8102,7 +8106,7 @@ TiberiumExplosive=no
 DestroyableBridges=yes
 
 [Structures]
-0=Einstein House,GACSPH,256,98,177,0,01000011,1,0,1,0,0,None,None,None,0,0
+0=Einstein House,GACSPH,256,98,177,0,01000011,0,0,1,0,0,None,None,None,0,0
 1036219=Einstein House,CAMISC02,256,99,170,0,None,0,0,1,0,0,None,None,None,0,0
 1036220=Einstein House,CAMISC01,256,98,170,0,None,0,0,1,0,0,None,None,None,0,0
 1036221=Einstein House,CAFARM02,256,96,172,0,None,0,0,1,0,0,None,None,None,0,0
@@ -8322,6 +8326,8 @@ TechLevel=12
 01000504=0,[BTR] Zofia Movie 1,01000503
 01000506=0,[BTR] Zofia Movie Addition 1,01000505
 01000508=0,[BTR] Mirage Ambush Speech 1,01000507
+01000510=0,[BTR] Force Shield Introduction 1,01000509
+01000512=0,[BTR] Force Shield Introduction Delay 1,01000511
 
 [TaskForces]
 0=01000095
@@ -9131,6 +9137,8 @@ PlayerControl=no
 01000503=Player,<none>,[BTR] Zofia Movie,1,1,1,1,0
 01000505=Neutral,<none>,[BTR] Zofia Movie Addition,1,1,1,1,0
 01000507=Neutral,<none>,[BTR] Mirage Ambush Speech,0,1,1,1,0
+01000509=Player,<none>,[BTR] Force Shield Introduction,0,1,1,1,0
+01000511=Player,<none>,[BTR] Force Shield Introduction Delay,1,1,1,1,0
 
 [Units]
 0=Civilian House,CONA,256,178,123,128,Sleep,None,0,-1,0,-1,1,1
@@ -9295,4 +9303,4 @@ TechLevel=12
 TechLevel=9
 
 [Digest]
-1=y7j1Ii+3Eu6fsRqUbOQnl3XsM6M=
+1=ZtkJu0g4CstJIoBtYuhBQpQaWJU=

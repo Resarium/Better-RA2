@@ -361,11 +361,13 @@ YR Soviet 1:
 - Removed trigger actions that deal damage to the Tech Power Plants on the map and instead enables an invisible building based on difficulty to increase drain on player power
 	- The original intention behind these damage actions was likely to decrease the amount of power granted by these Tech Power Plants. This change reworks it to be less confusing to the player.
 	- Affected triggers: (0B454BBC Reinforce_Cap Group 1), (06A6646C Reinforce_Cap Group 2)
+	- The building is destroyed right after the player gains full power so as not to affect the next phase
 
 YR Soviet 2:
 - Added a cut voiceline that introduces the German Tank Destroyers when they move out to attack the player
 - Added a cut voiceline that introduces the Battle Bunker once the player deploys their MCV
 - Added a cut voiceline that introduces the Spy Plane once the player constructs a Radar Dish
+- Added a cut voiceline that introduces the Force Shield once the player constructs a Soviet Battle Lab
 - Added a cut voiceline + sidebar movie for this mission when the player deploys their MCV
 - Added a cut voiceline that warns the player of enemy Mirage Tank ambushes
 	- This voiceline is triggered whenever an enemy Mirage tank AITeam reaches their ambush position. These AITeams are only built when the player recruits Apocalypse tanks
