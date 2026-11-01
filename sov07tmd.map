@@ -324,17 +324,17 @@ Name=Combine 02 Shock SCR
 Name=Combine Team Alpha SCR
 
 [01000059]
-0=3,69
-1=39,13
-2=20,22
+0=20,22
+1=3,69
+2=39,13
 Name=Combine 03 IFV SCR
 
 [01000060]
-0=14,0
-1=3,69
-2=8,2
-3=39,14
-4=20,22
+0=20,22
+1=14,0
+2=3,69
+3=8,2
+4=39,14
 Name=Combine 03 Troops SCR
 
 [01000061]
@@ -616,11 +616,10 @@ Name=Allied Spec Ops vs Nuke
 [01000095]
 0=47,131082
 1=49,0
-2=9,0
-3=46,131082
-4=0,6
-5=0,9
-6=0,1
+2=46,131082
+3=0,6
+4=0,9
+5=0,1
 Name=Soviet Siege Chopper Attack
 
 [01000096]
@@ -2743,6 +2742,7 @@ AreTeamMembersRecruitable=yes
 
 [01000246]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine 03 IFV
 Group=-1
@@ -2776,6 +2776,7 @@ AreTeamMembersRecruitable=yes
 
 [01000247]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine 03 Troops
 Group=-1
@@ -2809,6 +2810,7 @@ AreTeamMembersRecruitable=yes
 
 [01000248]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine Shock_IFV 03a
 Group=-1
@@ -2843,6 +2845,7 @@ AreTeamMembersRecruitable=yes
 
 [01000249]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine Shock_IFV 03b
 Group=-1
@@ -2877,6 +2880,7 @@ AreTeamMembersRecruitable=yes
 
 [01000250]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine Shock_IFV 03c
 Group=-1
@@ -2911,6 +2915,7 @@ AreTeamMembersRecruitable=yes
 
 [01000251]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine Flakker_IFV 03d
 Group=-1
@@ -2945,6 +2950,7 @@ AreTeamMembersRecruitable=yes
 
 [01000252]
 Max=1
+Tag=01000621
 Full=no
 Name=Combine Ivan_IFV 03e
 Group=-1
@@ -5557,6 +5563,78 @@ OnlyTargetHouseEnemy=no
 TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=yes
 
+[01000622]
+0=11,5
+Name=[BTR] Guard SCR
+
+[01000623]
+Max=1
+Tag=01000621
+Full=no
+Name=[BTR] Combine 03 IFV Idle
+Group=-1
+House=Temp
+Script=01000622
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000139
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[01000628]
+Max=1
+Tag=01000621
+Full=no
+Name=[BTR] Combine 03 Troops Idle
+Group=-1
+House=Temp
+Script=01000622
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=01000140
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
 [ADOG]
 Name=Allied Attack Dog
 ForbiddenHouses=Russians,Confederation,Africans,Arabs,YuriCountry,Player
@@ -5936,9 +6014,9 @@ ForbiddenHouses=Russians,Confederation,Africans,Arabs,YuriCountry,Player
 01000466=5,21,6,Mis_xS7_ZofiaAllianceWarning,0,0,0,0,A,17,0,70,0,0,0,0,BS,55,0,5,0,0,0,0,BS,11,4,MISSION:ComboWarn01,0,0,0,0,A,11,4,MISSION:ComboWarn02,0,0,0,0,A
 01000467=4,21,6,Mis_xS7_ZofiaAllianceWarning,0,0,0,0,A,55,0,5,0,0,0,0,BS,11,4,MISSION:ComboWarn01,0,0,0,0,A,11,4,MISSION:ComboWarn02,0,0,0,0,A
 01000468=2,4,1,01000242,0,0,0,0,A,54,2,01000468,0,0,0,0,A
-01000469=3,53,2,01000470,0,0,0,0,A,53,2,01000471,0,0,0,0,A,54,2,01000469,0,0,0,0,A
-01000470=3,4,1,01000246,0,0,0,0,A,53,2,01000472,0,0,0,0,A,54,2,01000470,0,0,0,0,A
-01000471=2,4,1,01000247,0,0,0,0,A,54,2,01000471,0,0,0,0,A
+01000469=5,53,2,01000470,0,0,0,0,A,53,2,01000471,0,0,0,0,A,53,2,01000620,0,0,0,0,A,53,2,01000629,0,0,0,0,A,54,2,01000469,0,0,0,0,A
+01000470=4,4,1,01000246,0,0,0,0,A,53,2,01000472,0,0,0,0,A,53,2,01000624,0,0,0,0,A,54,2,01000470,0,0,0,0,A
+01000471=3,4,1,01000247,0,0,0,0,A,53,2,01000626,0,0,0,0,A,54,2,01000471,0,0,0,0,A
 01000472=2,53,2,01000473,0,0,0,0,A,54,2,01000472,0,0,0,0,A
 01000473=7,4,1,01000248,0,0,0,0,A,4,1,01000249,0,0,0,0,A,4,1,01000250,0,0,0,0,A,4,1,01000251,0,0,0,0,A,4,1,01000252,0,0,0,0,A,53,2,01000474,0,0,0,0,A,54,2,01000473,0,0,0,0,A
 01000474=2,53,2,01000475,0,0,0,0,A,54,2,01000474,0,0,0,0,A
@@ -6007,6 +6085,11 @@ ForbiddenHouses=Russians,Confederation,Africans,Arabs,YuriCountry,Player
 01000537=1,54,2,01000454,0,0,0,0,A
 01000538=5,4,1,01000322,0,0,0,0,A,4,1,01000323,0,0,0,0,A,4,1,01000324,0,0,0,0,A,4,1,01000325,0,0,0,0,A,4,1,01000326,0,0,0,0,A
 01000616=1,21,6,Mis_xS7_ZofiaMutatorWarning,0,0,0,0,A
+01000618=1,16,0,0,0,0,0,0,A
+01000620=21,11,4,FUCK IT WE BALL,0,0,0,0,A,57,0,14,0,0,0,0,A,57,0,13,0,0,0,0,A,57,0,15,0,0,0,0,A,57,0,16,0,0,0,0,A,57,0,17,0,0,0,0,A,57,0,18,0,0,0,0,A,57,0,19,0,0,0,0,A,5,1,01000246,0,0,0,0,A,5,1,01000247,0,0,0,0,A,5,1,01000248,0,0,0,0,A,5,1,01000249,0,0,0,0,A,5,1,01000250,0,0,0,0,A,5,1,01000251,0,0,0,0,A,5,1,01000252,0,0,0,0,A,5,1,01000623,0,0,0,0,A,5,1,01000628,0,0,0,0,A,6,0,22,0,0,0,0,A,53,2,01000469,0,0,0,0,A,54,2,01000629,0,0,0,0,A,54,2,01000620,0,0,0,0,A
+01000624=2,4,1,01000623,0,0,0,0,A,54,2,01000624,0,0,0,0,A
+01000626=2,4,1,01000628,0,0,0,0,A,54,2,01000626,0,0,0,0,A
+01000629=21,11,4,TAKING TOO LONG,0,0,0,0,A,57,0,14,0,0,0,0,A,57,0,13,0,0,0,0,A,57,0,15,0,0,0,0,A,57,0,16,0,0,0,0,A,57,0,17,0,0,0,0,A,57,0,18,0,0,0,0,A,57,0,19,0,0,0,0,A,5,1,01000246,0,0,0,0,A,5,1,01000247,0,0,0,0,A,5,1,01000248,0,0,0,0,A,5,1,01000249,0,0,0,0,A,5,1,01000250,0,0,0,0,A,5,1,01000251,0,0,0,0,A,5,1,01000252,0,0,0,0,A,5,1,01000623,0,0,0,0,A,5,1,01000628,0,0,0,0,A,6,0,22,0,0,0,0,A,53,2,01000469,0,0,0,0,A,12,2,01000620,0,0,0,0,A,54,2,01000629,0,0,0,0,A
 
 [Aircraft]
 0=BadGuy3 House,ORCA,256,48,111,0,Area Guard,None,0,-1,1,1
@@ -6493,9 +6576,14 @@ PlayerControl=no
 01000537=1,48,0,0
 01000538=1,47,0,1
 01000616=1,13,0,25
+01000618=1,13,0,0
+01000620=1,6,0,0
+01000624=1,36,0,13
+01000626=1,36,0,14
+01000629=1,13,0,400
 
 [FA2spVersionControl]
-Version=13
+Version=31
 LastPreviewOption=2
 
 [GACSPH]
@@ -9043,6 +9131,7 @@ UnderParMessage=GUI:UnderParMsgSov07md
 80=01000103
 81=01000104
 82=01000105
+83=01000622
 
 [Smudge]
 0=BURNT11,144,84,0
@@ -9437,6 +9526,11 @@ RequiredHouses=Player,BadGuy2
 01000614=2,Loop_Cheer for Win,01000428
 01000615=0,Create_BG1_Bio Loaders,01000538
 01000617=0,[BTR] Genetic Mutator Followup Speech 1,01000616
+01000619=0,[DEBUG] Reveal 1,01000618
+01000621=2,[BTR] Combine 03 Atk'd Pre Combine 1,01000620
+01000625=2,[BTR] Combine 03 (IFV) Idle 1,01000624
+01000627=2,[BTR] Combine 03 (Troops) Idle 1,01000626
+01000630=2,[BTR] TAKING TOO LONG 1,01000629
 
 [TaskForces]
 0=01000106
@@ -9666,6 +9760,8 @@ RequiredHouses=Player,BadGuy2
 126=01000328
 127=01000329
 128=01000330
+129=01000623
+130=01000628
 
 [Temp]
 Name=Temp
@@ -10628,6 +10724,11 @@ PlayerControl=no
 01000537=Americans,<none>,Detect_O House Dead,0,1,1,1,0
 01000538=Americans,<none>,Create_BG1_Bio Loaders,0,1,1,1,0
 01000616=BadGuy1,<none>,[BTR] Genetic Mutator Followup Speech,1,0,1,1,0
+01000618=Neutral,<none>,[DEBUG] Reveal,0,1,1,1,0
+01000620=Neutral,<none>,[BTR] Combine 03 Atk'd Pre Combine,0,1,1,1,0
+01000624=BadGuy3,<none>,[BTR] Combine 03 (IFV) Idle,1,1,1,1,0
+01000626=BadGuy3,<none>,[BTR] Combine 03 (Troops) Idle,1,1,1,1,0
+01000629=Neutral,<none>,[BTR] TAKING TOO LONG,1,1,1,1,0
 
 [Units]
 0=BadGuy3 House,CMIN,256,49,134,64,Harvest,None,0,-1,0,-1,1,1
@@ -10667,6 +10768,42 @@ PlayerControl=no
 34=BadGuy1 House,LTNK,256,72,78,96,Area Guard,None,0,-1,0,-1,1,0
 35=BadGuy1 House,LTNK,256,75,74,96,Area Guard,None,0,-1,0,-1,1,0
 36=BadGuy1 House,LTNK,256,76,74,96,Area Guard,None,0,-1,0,-1,1,0
+37=Player House,SREF,256,145,142,224,Guard,None,200,-1,0,-1,0,0
+38=Player House,SREF,256,145,143,224,Guard,None,200,-1,0,-1,0,0
+39=Player House,SREF,256,146,142,224,Guard,None,200,-1,0,-1,0,0
+40=Player House,SREF,256,144,142,224,Guard,None,200,-1,0,-1,0,0
+41=Player House,SREF,256,144,143,224,Guard,None,200,-1,0,-1,0,0
+42=Player House,SREF,256,145,141,224,Guard,None,200,-1,0,-1,0,0
+43=Player House,SREF,256,146,141,224,Guard,None,200,-1,0,-1,0,0
+44=Player House,SREF,256,144,141,224,Guard,None,200,-1,0,-1,0,0
+45=Player House,SREF,256,143,142,224,Guard,None,200,-1,0,-1,0,0
+46=Player House,SREF,256,143,144,224,Guard,None,200,-1,0,-1,0,0
+47=Player House,SREF,256,144,144,224,Guard,None,200,-1,0,-1,0,0
+48=Player House,SREF,256,143,143,224,Guard,None,200,-1,0,-1,0,0
+49=Player House,SREF,256,145,144,224,Guard,None,200,-1,0,-1,0,0
+50=Player House,SREF,256,147,142,224,Guard,None,200,-1,0,-1,0,0
+51=Player House,SREF,256,147,141,224,Guard,None,200,-1,0,-1,0,0
+52=Player House,SREF,256,147,140,224,Guard,None,200,-1,0,-1,0,0
+53=Player House,SREF,256,146,140,224,Guard,None,200,-1,0,-1,0,0
+54=Player House,SREF,256,145,140,224,Guard,None,200,-1,0,-1,0,0
+55=Player House,HTK,256,144,140,224,Guard,None,200,-1,0,-1,0,0
+56=Player House,HTK,256,143,140,224,Guard,None,200,-1,0,-1,0,0
+57=Player House,HTK,256,143,141,224,Guard,None,200,-1,0,-1,0,0
+58=Player House,HTK,256,146,143,224,Guard,None,200,-1,0,-1,0,0
+59=Player House,HTK,256,146,144,224,Guard,None,200,-1,0,-1,0,0
+60=Player House,HTK,256,147,143,224,Guard,None,200,-1,0,-1,0,0
+61=Player House,HTK,256,147,139,224,Guard,None,200,-1,0,-1,0,0
+62=Player House,HTK,256,148,139,224,Guard,None,200,-1,0,-1,0,0
+63=Player House,HTK,256,148,140,224,Guard,None,200,-1,0,-1,0,0
+64=Player House,HTK,256,142,144,224,Guard,None,200,-1,0,-1,0,0
+65=Player House,SREF,256,144,153,224,Guard,None,200,-1,0,-1,0,0
+66=Player House,HTK,256,142,145,224,Guard,None,200,-1,0,-1,0,0
+67=Player House,HTK,256,143,145,224,Guard,None,200,-1,0,-1,0,0
+68=Player House,SREF,256,145,154,224,Guard,None,200,-1,0,-1,0,0
+69=Player House,SREF,256,144,154,224,Guard,None,200,-1,0,-1,0,0
+70=Player House,SREF,256,155,141,224,Guard,None,200,-1,0,-1,0,0
+71=Player House,SREF,256,156,141,224,Guard,None,200,-1,0,-1,0,0
+72=Player House,SREF,256,156,142,224,Guard,None,200,-1,0,-1,0,0
 
 [VariableNames]
 0=Minions Build,0
@@ -10797,4 +10934,4 @@ Name=Yuri Prime
 TechLevel=12
 
 [Digest]
-1=FIJmv/xwp29jRqdamY0anc7KhIg=
+1=ONOpbcxnhzNImbcIog1nCmlPyi0=

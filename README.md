@@ -421,3 +421,6 @@ YR Soviet 7:
 	- Every time a member of a combined team is recruited to form the final team, the local variable responsible for their part spawns a dummy unit that acts as a counting increment. If any counter dummy persists for more than 100 ingame seconds, it will erase all counter dummies for the respective combined team and send the entirety of the unformed team or their partial survivors on a hunt, then the cycle repeats
 - Fixed an oversight where the player faces additional enemy attacks if they deploy their ConYard too late (deployment is considered too late if the player triggers the Yuri weary taunt)
 	- It's clear this was the intention from the way the triggers are set up. The only issue was that the trigger setup wasn't done properly
+- Added failsafes to the big IFV Combo Team to prevent it from breaking
+	- if the team is attacked before the combo is fully formed, it now attacks the player and restarts the combo setup
+	- if the team takes extremely long to fully form the combo (which sometimes happens when one of its IFVs is taken by the other combo teams), it now attacks the player and restarts the combo setup
