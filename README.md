@@ -278,6 +278,7 @@ YR Allied 2:
 	- Affected technotypes: Virus, Magnetron, Mastermind, Chaos Drone, Psychic Dominator, Genetic Mutator and Yuri Prime
 	- It's a clear oversight that the player is capable of constructing these things at this point of the story, especially since they all get introduced later on
 - Added 3 in-game seconds of delay to Return_Control so that Eva's voicelines don't cut each other off
+- Fixed broken civilian clean-up triggers so that civilians no longer all run towards your base if you destroy the top left Yuri base after you destroy all Grinders
 
 YR Allied 3:
 - Added cut Yuri sidebar movie that plays after the player gains battlefield control
