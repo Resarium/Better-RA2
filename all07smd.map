@@ -6045,7 +6045,6 @@ Prerequisite=RADAR,GACNST
 RequiredHouses=Americans
 
 [General]
-Stray=4.0
 AISlaveMinerNumber=2,2,2
 SpyMoneyStealPercent=0.05
 CampaignMoneyDeltaEasy=5000
