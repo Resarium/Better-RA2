@@ -209,6 +209,11 @@ Soviet 10:
 - fix all broken cliffs
 - remove duplicate and redundant triggers
 - fix softlock lose condition
+- the Allied Battle Lab is now replaced by a dummy building, the real one is placed off-map (so that BadGuy1 can still benefit from its tech) and is destroyed when the dummy is captured or destroyed
+- replaced the battle lab capture triggers so that capturing is no longer influenced by C4 units
+- made the Weather Control Device capturable
+- replaced the weather controller capture triggers so that capturing is no longer influenced by C4 units (and with it, the Global Var can be used)
+- toned down lighting
 
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
