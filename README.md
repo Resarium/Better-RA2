@@ -75,6 +75,7 @@ Allied 7:
 - re-oriented some defenses
 - remapped water tiles
 - reordered IDs across the map
+- Changed Stray from 2.0 to 4.0 to prevent larger attack teams from getting stuck
 	
 Allied 8:
 - Added a cut Tanya voiceline that plays once the player gets rid of the Psychic Beacon
