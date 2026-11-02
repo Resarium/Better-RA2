@@ -5703,6 +5703,7 @@ AreTeamMembersRecruitable=no
 01000565=1,53,2,01000567,0,0,0,0,A
 01000567=11,21,6,Mis_xA7_EvaProtectSovietBase,0,0,0,0,A,104,5,01000188,0,0,0,0,120,104,5,01000190,0,0,0,0,120,104,5,01000192,0,0,0,0,120,104,5,01000194,0,0,0,0,120,104,5,01000207,0,0,0,0,120,104,5,01000196,0,0,0,0,120,104,5,01000198,0,0,0,0,120,104,5,01000201,0,0,0,0,120,104,5,01000204,0,0,0,0,120,104,5,01000206,0,0,0,0,120
 01000569=3,53,2,01000471,0,0,0,0,A,54,2,01000470,0,0,0,0,A,54,2,01000472,0,0,0,0,A
+01000571=1,56,0,31,0,0,0,0,A
 
 [Africans]
 IQ=4
@@ -5985,7 +5986,7 @@ PlayerControl=no
 01000468=1,13,0,5
 01000469=1,19,0,23
 01000470=1,4,0,0
-01000471=1,13,0,0
+01000471=2,13,0,0,37,0,31
 01000472=1,4,0,0
 01000473=1,60,2,1,GATECH
 01000474=1,60,2,1,GATECH
@@ -5996,10 +5997,11 @@ PlayerControl=no
 01000563=1,13,0,60
 01000565=1,4,0,0
 01000567=1,13,0,0
-01000569=1,32,0,62
+01000569=2,32,0,62,37,0,31
+01000571=1,48,0,0
 
 [FA2spVersionControl]
-Version=66
+Version=67
 LastPreviewOption=2
 
 [French]
@@ -9789,7 +9791,7 @@ DestroyableBridges=yes
 63=Yuri2,YAGGUN,256,141,164,0,None,1,0,1,0,0,None,None,None,1,0
 64=Yuri2,YAGGUN,256,147,169,0,None,1,0,1,0,0,None,None,None,1,0
 65=Yuri2,YAGGUN,256,143,168,0,None,1,0,1,0,0,None,None,None,1,0
-66=YuriCountry,YAPSYT,256,168,197,0,None,1,0,1,0,0,None,None,None,1,0
+66=YuriCountry,YAPSYT,256,168,197,0,01000572,1,0,1,0,0,None,None,None,1,0
 67=YuriCountry,YAPSYT,256,167,185,0,None,1,0,1,0,0,None,None,None,1,0
 68=YuriCountry,YAGGUN,256,171,199,128,None,1,0,1,0,0,None,None,None,1,0
 69=YuriCountry,YAGGUN,256,165,199,128,None,1,0,1,0,0,None,None,None,1,0
@@ -9952,6 +9954,7 @@ TechLevel=12
 01000566=0,[BTR] Attacked Before Main Event 1,01000565
 01000568=0,[BTR] Attacked Before Main Event Actual 1,01000567
 01000570=0,[BTR] Activate Oil Grab SpySat 1,01000569
+01000572=0,[BTR] Psychic Tower Destroyed 1,01000571
 
 [TaskForces]
 0=01000078
@@ -10576,6 +10579,7 @@ TechLevel=12
 01000565=Neutral,<none>,[BTR] Attacked Before Main Event,0,1,1,1,0
 01000567=Neutral,<none>,[BTR] Attacked Before Main Event Actual,1,1,1,1,0
 01000569=Americans,<none>,[BTR] Activate Oil Grab SpySat,0,0,1,1,0
+01000571=Neutral,<none>,[BTR] Psychic Tower Destroyed,0,1,1,1,0
 
 [Units]
 0=Yuri3,BSUB,256,126,127,96,Area Guard,None,0,-1,0,-1,1,1
@@ -10665,6 +10669,7 @@ TechLevel=12
 28=Yuri_Prime_Built,0
 29=Has_Allied_BLab,0
 30=Has_Allied_WarF,0
+31=[BTR] P_Tower Destroyed,0
 
 [Waypoints]
 0=178122
@@ -10831,4 +10836,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=z5Av08LzXqb6QaRqLTt/4XA9hkU=
+1=9BVxRhIzXmDpxdWfQ6b6yp8qTOA=

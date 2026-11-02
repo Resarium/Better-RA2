@@ -363,6 +363,7 @@ YR Allied 7:
 - Limited the MCV Chrono reinforcements to happen once at most, bringing it more in line with similar triggers in other missions, like in Escape Velocity
 - Removed the singular tree on Antarctic ice
 - Removed the polar bears
+- Oil grabber Engineers will no longer spawn if the psychic tower that spawns them is destroyed
 
 YR Soviet 1:
 - Added a cut voiceline that introduces the Grand Cannon at the start of the mission
