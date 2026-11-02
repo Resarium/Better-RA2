@@ -266,7 +266,7 @@ YR Allied 2:
 - Added a group of rescuable Allied infantry near one of the Grinders
 	- Rescuing them plays either an un-used voicelines or a generic GGI select voiceline, depending on whether the player did so BEFORE or AFTER they destroyed all Grinders on the map respectively
 - Added a fourth hero unit that uses the modified Texan civilian's stats as an easter egg
-	- This unit can be found in the mind-controlled civilian pen in the bottom right corner of the map. Clicking on him will activate the easter egg trigger
+	- This unit can be obtained by placing the other 3 movie stars on specific tiles in the hollywood filming area (and the nearby office building must not be destroyed)
 	- Added an extra ini change to make the hero immune to mind control
 - Extended the intro sequence to add in the un-used Eva voicelines introducing the Slave Miner and Slaves to the player
 	- There are two un-used voicelines in the files, one for the Slave Miner and one for the Slaves. Due to overlap, one of them is randomly selected each time you play the mission

@@ -4912,7 +4912,7 @@ Immune=yes
 01000443=1,13,0,0
 
 [FA2spVersionControl]
-Version=34
+Version=35
 LastPreviewOption=2
 
 [FV]
@@ -8046,34 +8046,6 @@ RequiredHouses=Americans
 22=French,LTNK,256,136,44,0,Guard,01000015,0,-1,0,-1,1,1
 23=French,LTNK,256,137,44,0,Guard,01000015,0,-1,0,-1,1,1
 24=French,LTNK,256,138,44,0,Guard,01000015,0,-1,0,-1,1,1
-25=Americans,SREF,256,123,71,64,Guard,None,200,-1,0,-1,0,0
-26=Americans,SREF,256,123,72,64,Guard,None,200,-1,0,-1,0,0
-27=Americans,SREF,256,123,70,64,Guard,None,200,-1,0,-1,0,0
-28=Americans,SREF,256,124,70,64,Guard,None,200,-1,0,-1,0,0
-29=Americans,SREF,256,124,71,64,Guard,None,200,-1,0,-1,0,0
-30=Americans,SREF,256,124,72,64,Guard,None,200,-1,0,-1,0,0
-31=Americans,SREF,256,125,72,64,Guard,None,200,-1,0,-1,0,0
-32=Americans,SREF,256,125,71,64,Guard,None,200,-1,0,-1,0,0
-33=Americans,SREF,256,125,70,64,Guard,None,200,-1,0,-1,0,0
-34=Americans,SREF,256,125,69,64,Guard,None,200,-1,0,-1,0,0
-35=Americans,SREF,256,124,69,64,Guard,None,200,-1,0,-1,0,0
-36=Americans,SREF,256,123,69,64,Guard,None,200,-1,0,-1,0,0
-37=Americans,SREF,256,77,160,64,Guard,None,200,-1,0,-1,0,0
-38=Americans,SREF,256,77,159,64,Guard,None,200,-1,0,-1,0,0
-39=Americans,SREF,256,77,158,64,Guard,None,200,-1,0,-1,0,0
-40=Americans,SREF,256,87,157,64,Guard,None,200,-1,0,-1,0,0
-41=Americans,SREF,256,87,158,64,Guard,None,200,-1,0,-1,0,0
-42=Americans,SREF,256,87,159,64,Guard,None,200,-1,0,-1,0,0
-43=Americans,SREF,256,87,161,64,Guard,None,200,-1,0,-1,0,0
-44=Americans,SREF,256,87,160,64,Guard,None,200,-1,0,-1,0,0
-45=Americans,SREF,256,77,161,64,Guard,None,200,-1,0,-1,0,0
-46=Americans,SREF,256,77,157,64,Guard,None,200,-1,0,-1,0,0
-47=Americans,SREF,256,123,73,64,Guard,None,200,-1,0,-1,0,0
-48=Americans,SREF,256,124,73,64,Guard,None,200,-1,0,-1,0,0
-49=Americans,SREF,256,125,73,64,Guard,None,200,-1,0,-1,0,0
-50=Americans,FV,256,78,157,64,Guard,None,200,-1,0,-1,0,0
-51=Americans,FV,256,78,158,64,Guard,None,200,-1,0,-1,0,0
-52=Americans,FV,256,78,159,64,Guard,None,200,-1,0,-1,0,0
 
 [VIRUS]
 Name=Yuri Virus
@@ -8284,4 +8256,4 @@ Multiplay=yes
 ParentCountry=YuriCountry
 
 [Digest]
-1=fFTuDSCQ2lb4zBRi6589+jJ8GTc=
+1=BA8xi9mluKRZmhAGSGI5U7ppiBY=
