@@ -8,7 +8,7 @@
 
 ; This FA2 uses FA2sp created by secsome, modified by Handama & E1Elite
 ; Get the lastest dll at https://github.com/handama/FA2sp
-; Current version : 1.6.3, HDM Edition 1.5.0
+; Current version : 1.6.3, HDM Edition 1.4.4
 
 [Header]
 Width=59
@@ -10056,7 +10056,7 @@ PlayerControl=no
 01000964=2,28,0,12,4,0,0
 
 [FA2spVersionControl]
-Version=94
+Version=96
 LastPreviewOption=2
 
 [FV]
@@ -14121,7 +14121,7 @@ DestroyableBridges=yes
 01000646=Americans,01000668,French_Dead_TB,1,1,1,1,0
 01000647=Americans,01000645,TA_Group_Dead_TB,1,1,1,1,0
 01000648=GDI,01000630,Backup1_Becomes_TE_1,1,1,1,1,0
-01000649=PPTF,<none>,TF_TE_ChangeHouse,1,1,1,1,0
+01000649=PPTF Country,<none>,TF_TE_ChangeHouse,1,1,1,1,0
 01000650=Americans,01000633,TC_Group_Alive_TE,1,1,1,1,0
 01000651=Americans,01000650,TC_Group_Dead_TE,1,1,1,1,0
 01000652=Americans,01000653,French_Alive_TA,1,1,1,1,0
@@ -14816,4 +14816,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=Vrh98hUgi6jjOGjfO1WN5Eag+PA=
+1=/iL7blaVm7K1zuS3DnvUpK5NZmI=
