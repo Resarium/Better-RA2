@@ -59,6 +59,7 @@ Allied 5:
 		- Changed the Battle Lab objective to allow the player to capture it to progress the mission, unlike in Vanilla where capturing it fails you the mission despite EVA's follow-up voiceline not making any sense.
 		- Added 1 in-game second delay to Nuke 1 Destroyed, Nuke 2 Destroyed, Nuke 1 Captured, Nuke 2 Captured, to accommodate reworked Spy setup
 		- Modified Nuke Silos to no longer be spyable since doing so was pointless and never affected the mission outcome in any meaningful way.
+	- Side effect 4: if all 3 Spies are on the same tile and enter a building at the same time therefore disappears at the same time, the trigger setup breaks. (not sure if there's a solution for this)
 - Increased SpySpyMoneyStealPercent from 0.05 to 0.2 so that there is more incentive to infiltrate enemy Refineries
 - Added an extra reveal when the player discovers the crash-landed units to make them easier to spot
 	- This repositions and uses waypoint 25, which wasn't used for anything else before this
@@ -376,6 +377,7 @@ YR Soviet 1:
 	- The original intention behind these damage actions was likely to decrease the amount of power granted by these Tech Power Plants. This change reworks it to be less confusing to the player.
 	- Affected triggers: (0B454BBC Reinforce_Cap Group 1), (06A6646C Reinforce_Cap Group 2)
 	- The building is destroyed right after the player gains full power so as not to affect the next phase
+- Fixed a bug where the mission softlocks if the player somehow manages to destroy the Partially Built Psychic Dominator before the time travel sequence
 
 YR Soviet 2:
 - Added a cut voiceline that introduces the German Tank Destroyers when they move out to attack the player
