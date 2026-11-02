@@ -4,6 +4,9 @@ WIP
 General Changes:
 TeamDelays are fixed in all applicable missions so that it isn't reversed. Hard is hard and easy is easy!
 
+Tutorial 1:
+- The player can no longer use "deploy" function on the Night Hawk Engi sequence to break it
+
 Allied 1:
 - Added the cut Eva voicelines for when the player spots the Soviet supply base and when the supply base is destroyed
 - fixed the shallow pavement bridge
