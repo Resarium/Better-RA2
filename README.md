@@ -220,8 +220,6 @@ Soviet 10:
 - replaced the weather controller capture triggers so that capturing is no longer influenced by C4 units (and with it, the Global Var can be used)
 - toned down lighting
 - Fixed BadGuy1 and BadGuy2 not being allied to the Other3 House, resulting in rare scenarios where their air units will destroy the Weather Controller
-- Changed Squid introduction to happen when the player owns both a Battle Lab and a Shipyard
-	- Original implementation seems to be bugged due to ID reordering, making the "Build Unit Type..." event condition crash the game
 
 Soviet 11:
 - Changed the tiles near the Kremlin so that it no longer sits awkwardly on paved road
