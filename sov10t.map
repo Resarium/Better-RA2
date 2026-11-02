@@ -1634,6 +1634,7 @@ Value=50
 01000161=10,99,7,_Amb_BirdsBeach,0,0,0,0,BV,99,7,_Amb_BirdsBeach,0,0,0,0,BZ,99,7,_Amb_BirdsBeach,0,0,0,0,CB,99,7,_Amb_BirdsBeach,0,0,0,0,CD,99,7,_Amb_BirdsBeach,0,0,0,0,BT,99,7,_Amb_BirdsBeach,0,0,0,0,BR,99,7,_Amb_BirdsBeach,0,0,0,0,CI,99,7,_Amb_BirdsBeach,0,0,0,0,CG,99,7,_Amb_BirdsBeach,0,0,0,0,CF,99,7,_Amb_BirdsBeach,0,0,0,0,CE
 01000162=14,99,7,_Amb_OceanLight,0,0,0,0,AY,99,7,_Amb_OceanLight,0,0,0,0,O,99,7,_Amb_OceanLight,0,0,0,0,AX,99,7,_Amb_OceanLight,0,0,0,0,AW,99,7,_Amb_OceanLight,0,0,0,0,AV,99,7,_Amb_OceanLight,0,0,0,0,BE,99,7,_Amb_OceanLight,0,0,0,0,BF,99,7,_Amb_OceanLight,0,0,0,0,BG,99,7,_Amb_OceanLight,0,0,0,0,BD,99,7,_Amb_OceanLight,0,0,0,0,BC,99,7,_Amb_OceanLight,0,0,0,0,BB,99,7,_Amb_OceanLight,0,0,0,0,BA,99,7,_Amb_OceanLight,0,0,0,0,BL,99,7,_Amb_OceanLight,0,0,0,0,BN
 01000163=11,99,7,_Amb_OceanLight,0,0,0,0,BP,99,7,_Amb_OceanLight,0,0,0,0,BQ,99,7,_Amb_OceanLight,0,0,0,0,BS,99,7,_Amb_OceanLight,0,0,0,0,BU,99,7,_Amb_OceanLight,0,0,0,0,BX,99,7,_Amb_OceanLight,0,0,0,0,BW,99,7,_Amb_OceanLight,0,0,0,0,CA,99,7,_Amb_OceanLight,0,0,0,0,CC,99,7,_Amb_OceanLight,0,0,0,0,CL,99,7,_Amb_OceanLight,0,0,0,0,CJ,99,7,_Amb_OceanLight,0,0,0,0,CH
+01000164=3,100,0,118,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,324,0,0,0,0,120
 01000165=7,102,0,93,0,0,0,0,CP,53,2,01000166,0,0,0,0,A,53,2,01000119,0,0,0,0,A,90,0,32,0,0,0,0,AG,90,0,16,0,0,0,0,Q,90,0,60,0,0,0,0,BI,90,0,81,0,0,0,0,CD
 01000166=1,56,0,4,0,0,0,0,A
 01000167=1,80,1,01000090,0,0,0,0,CR
@@ -1641,7 +1642,6 @@ Value=50
 01000169=5,14,0,13,0,0,0,0,A,17,0,97,0,0,0,0,CT,55,0,1,0,0,0,0,CT,19,7,Bonus,0,0,0,0,A,21,6,Mis_S10_Yuri,0,0,0,0,A
 01000170=4,53,2,01000140,0,0,0,0,A,53,2,01000007,0,0,0,0,A,12,2,01000212,0,0,0,0,A,12,2,01000000,0,0,0,0,A
 01000212=2,11,4,MISSION:Sov10d,0,0,0,0,A,19,7,WarningAlarm,0,0,0,0,A
-087F2C4C=3,100,0,118,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,324,0,0,0,0,120
 
 [BadGuy1]
 Name=BadGuy1
@@ -1913,6 +1913,7 @@ TechLevel=-1
 01000161=1,47,0,0
 01000162=1,47,0,0
 01000163=1,47,0,0
+01000164=1,20,0,24
 01000165=1,14,0,0
 01000166=1,13,0,5
 01000167=1,32,0,54
@@ -1920,10 +1921,9 @@ TechLevel=-1
 01000169=1,4,0,0
 01000170=1,57,0,161
 01000212=1,6,0,0
-087F2C4C=2,32,0,61,32,0,10
 
 [FA2spVersionControl]
-Version=58
+Version=47
 LastPreviewOption=2
 
 [GATECH]
@@ -4886,7 +4886,7 @@ TechLevel=-1
 01000199=0,Ambient Sounds,01000163
 01000200=0,Zofia 3 Online,01000125
 01000201=0,Movie_WCD,01000123
-01000202=0,Squid Intro 1,087F2C4C
+01000202=0,Movie_Squid,01000164
 01000203=0,Harassment_2,01000127
 01000204=0,Harassment_3,01000128
 01000205=0,Harassment_4,01000129
@@ -5543,6 +5543,7 @@ TechLevel=-1
 01000161=Americans,01000160,Ambient Birds 2,0,1,1,1,0
 01000162=Americans,01000161,Ocean Lite,0,1,1,1,0
 01000163=Americans,01000162,Ocean Lite 2,0,1,1,1,0
+01000164=Player,<none>,Squid Intro,0,1,1,1,0
 01000165=Americans,<none>,WCD_Attack_fake,0,1,1,1,0
 01000166=Americans,<none>,WCD_Enabled_real,1,1,1,1,0
 01000167=Player,<none>,Kill the Nuke!,0,0,1,1,0
@@ -5550,7 +5551,6 @@ TechLevel=-1
 01000169=Americans,<none>,Bonus Psy Corps,0,1,1,1,0
 01000170=BadGuy1,<none>,[BTR] Battle Lab - Destroyed,0,1,1,1,0
 01000212=Neutral,<none>,[BTR] Battle Lab - Damaged,0,1,1,1,0
-087F2C4C=Player,<none>,Squid Intro,0,1,1,1,0
 
 [Units]
 0=BadGuy1 House,AEGIS,256,153,130,128,Guard,01000002,0,-1,0,-1,1,1
@@ -5698,4 +5698,4 @@ TechLevel=-1
 TechLevel=-1
 
 [Digest]
-1=TOyqJWjuGSIfmw056IXbmG7L5Kk=
+1=fDm2dnwOB0VVED30ZRrvMYUtuU4=
