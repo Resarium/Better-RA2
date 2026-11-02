@@ -56,7 +56,7 @@ Tag=09AB9DEC
 Full=no
 Name=Evil Patrol 3
 Group=-1
-House=BadGuy1
+House=BadGuy3
 Script=0972F534
 Whiner=no
 Droppod=no
@@ -365,7 +365,7 @@ Tag=09AB9DEC
 Full=no
 Name=Evil Armor 1
 Group=-1
-House=BadGuy1
+House=BadGuy3
 Script=0972EDB4
 Whiner=no
 Droppod=no
@@ -405,7 +405,7 @@ Tag=09AB9DEC
 Full=no
 Name=Evil Patrol 2
 Group=-1
-House=BadGuy1
+House=BadGuy3
 Script=0972FA04
 Whiner=no
 Droppod=no
@@ -1797,7 +1797,7 @@ Tag=09AB9DEC
 Full=no
 Name=Evil Patrol 1
 Group=-1
-House=BadGuy1
+House=BadGuy3
 Script=09721DB4
 Whiner=yes
 Droppod=no
@@ -3147,6 +3147,7 @@ Value=50
 [Actions]
 01000000=4,53,2,0CF745DC,0,0,0,0,A,54,2,01000000,0,0,0,0,A,54,2,07BB91BC,0,0,0,0,A,54,2,08511C5C,0,0,0,0,A
 01000001=1,21,6,Mis_A2_Tanya,0,0,0,0,A
+01000003=1,16,0,0,0,0,0,0,A
 03E6423C=1,99,7,_Amb_OceanLight,0,0,0,0,AN
 075A9ADC=3,48,0,4,0,0,0,0,E,4,1,0A2BD7DC,0,0,0,0,A,100,0,99,0,0,0,0,A
 077F3084=3,3,0,15,0,0,0,0,A,74,0,15,0,0,0,0,A,38,0,18,0,0,0,0,A
@@ -3195,7 +3196,7 @@ Value=50
 09366E6C=1,54,2,0BE8EE3C,0,0,0,0,A
 0963903C=4,53,2,0A0661FC,0,0,0,0,A,113,0,13,0,0,0,0,A,113,0,18,0,0,0,0,A,113,0,17,0,0,0,0,A
 09AB895C=9,7,1,081104F4,0,0,0,0,A,7,1,0B996384,0,0,0,0,A,7,1,08F73AF4,0,0,0,0,A,7,1,07A458C4,0,0,0,0,A,7,1,08DA8F04,0,0,0,0,A,7,1,0A632EFC,0,0,0,0,A,7,1,0C1B17B4,0,0,0,0,A,7,1,0A300CBC,0,0,0,0,A,7,1,0AF7132C,0,0,0,0,A
-09ABB17C=2,14,0,13,0,0,0,0,A,21,6,Mis_S3_UnYuriedCiv,0,0,0,0,A
+09ABB17C=2,36,0,13,0,0,0,0,A,21,6,Mis_S3_UnYuriedCiv,0,0,0,0,A
 09AF25BC=1,6,0,16,0,0,0,0,A
 09AF2CCC=1,6,0,16,0,0,0,0,A
 09B9297C=5,55,0,0,0,0,0,0,U,17,0,20,0,0,0,0,U,104,5,0C48359C,0,0,0,0,30,48,0,4,0,0,0,0,U,53,2,0D9C1F3C,0,0,0,0,A
@@ -3277,7 +3278,7 @@ IQ=5
 005=NAHAND,61,60
 006=NAWEAP,50,61
 007=NARADR,57,60
-008=GADEPT,42,65
+008=NADEPT,41,65
 009=NATECH,43,60
 010=NAPOWR,49,66
 011=NAPOWR,49,58
@@ -3299,7 +3300,7 @@ IQ=5
 027=NAPOWR,52,58
 Edge=West
 Color=DarkRed
-Allies=BadGuy1 House,BadGuy2 House,Evil House,Civie1 House,House Elania
+Allies=BadGuy2 House,Evil House,Civie1 House,House Elania,BadGuy3 House
 Country=BadGuy1
 Credits=400
 NodeCount=28
@@ -3334,10 +3335,32 @@ IQ=5
 012=NAPOWR,51,109
 Edge=West
 Color=DarkRed
-Allies=BadGuy1 House,BadGuy2 House,Evil House,Civie1 House,House Elania
+Allies=BadGuy1 House,Evil House,Civie1 House,House Elania,BadGuy3 House
 Country=BadGuy2
 Credits=200
 NodeCount=13
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
+[BadGuy3]
+Name=BadGuy3
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians
+
+[BadGuy3 House]
+IQ=5
+Edge=West
+Color=DarkRed
+Allies=House Elania,Civie1 House,Evil House,BadGuy1 House,BadGuy2 House
+Country=BadGuy3
+Credits=200
+NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
@@ -3406,7 +3429,7 @@ Insignificant=no
 IQ=1
 Edge=North
 Color=Grey
-Allies=BadGuy1 House,BadGuy2 House,Evil House,Civie1 House
+Allies=BadGuy1 House,BadGuy2 House,Evil House,BadGuy3 House
 Country=Civilian1
 Credits=0
 NodeCount=0
@@ -3438,6 +3461,7 @@ Range=6
 7=EngineerLand
 8=Elania
 9=Reinforcers
+10=BadGuy3
 
 [CrateRules]
 SoloCrateMoney=10000
@@ -3489,6 +3513,7 @@ PlayerControl=yes
 [Events]
 01000000=1,1,0,13
 01000001=1,13,0,3
+01000003=1,13,0,0
 03E6423C=1,8,0,0
 075A9ADC=1,13,0,1
 077F3084=1,47,0,52
@@ -3613,7 +3638,7 @@ ParentCountry=Russians
 IQ=5
 Edge=West
 Color=Red
-Allies=BadGuy1 House,BadGuy2 House,Evil House,Civie1 House,House Elania
+Allies=BadGuy1 House,BadGuy2 House,Civie1 House,House Elania,BadGuy3 House
 Country=Evil
 Credits=0
 NodeCount=0
@@ -3622,7 +3647,7 @@ PercentBuilt=0
 PlayerControl=no
 
 [FA2spVersionControl]
-Version=43
+Version=52
 LastPreviewOption=2
 
 [GAAIRC]
@@ -3706,6 +3731,7 @@ PlayerControl=no
 7=EngineerLand House
 8=House Elania
 9=Reinforcers House
+10=BadGuy3 House
 
 [INPURPLAMP]
 LightRedTint=0.3
@@ -5262,8 +5288,17 @@ TiberiumExplosive=no
 DestroyableBridges=no
 
 [Structures]
-0=BadGuy2 House,NAPSYB,256,47,100,0,07BBBBEC,0,0,1,0,0,None,None,None,1,1
+0=BadGuy3 House,NAPSYB,256,47,100,0,07BBBBEC,0,0,1,0,0,None,None,None,1,1
 1=Civie1 House,CASTL05H,64,50,103,0,None,0,0,1,0,0,None,None,None,0,0
+2=BadGuy3 House,NAPOWR,256,30,106,0,None,0,0,1,0,0,None,None,None,1,0
+3=BadGuy3 House,NAPOWR,256,33,109,0,None,0,0,1,0,0,None,None,None,1,0
+4=BadGuy1 House,NADEPT,256,41,65,0,None,0,0,1,0,0,None,None,None,1,0
+5=BadGuy1 House,NALASR,256,68,82,192,None,1,0,1,0,0,None,None,None,0,0
+6=BadGuy1 House,NALASR,256,68,78,192,None,1,0,1,0,0,None,None,None,0,0
+7=BadGuy1 House,NALASR,256,68,55,32,None,1,0,1,0,0,None,None,None,0,0
+8=BadGuy1 House,NALASR,256,68,60,96,None,1,0,1,0,0,None,None,None,0,0
+9=BadGuy1 House,NALASR,256,54,74,128,None,1,0,1,0,0,None,None,None,0,0
+10=BadGuy1 House,NALASR,256,44,74,160,None,1,0,1,0,0,None,None,None,0,0
 1025483=Civie1 House,CASTL04,256,104,78,0,None,0,0,1,0,0,None,None,None,0,0
 1025484=Civie1 House,CACHIG01,256,26,62,0,None,0,0,1,0,0,None,None,None,0,0
 1025485=Civie1 House,CACHIG03,256,25,67,0,None,0,0,1,0,0,None,None,None,0,0
@@ -5325,8 +5360,6 @@ DestroyableBridges=no
 1025547=Civie1 House,CANEWY15,256,76,59,0,None,0,0,1,0,0,None,None,None,0,0
 1025548=Civie1 House,CANWY22,256,69,67,0,None,0,0,1,0,0,None,None,None,0,0
 1025549=Civie1 House,CATEXS05,256,76,66,0,None,0,0,1,0,0,None,None,None,0,0
-1025550=BadGuy1 House,NALASR,256,68,82,0,None,1,0,1,0,0,None,None,None,0,0
-1025551=BadGuy1 House,NALASR,256,68,78,0,None,1,0,1,0,0,None,None,None,0,0
 1025552=Civie1 House,CASTL01,256,106,40,0,None,0,0,1,0,0,None,None,None,0,0
 1025553=Civie1 House,CANWY26,256,24,92,0,None,0,0,1,0,0,None,None,None,0,0
 1025554=Civie1 House,CASTL02,256,70,59,0,None,0,0,1,0,0,None,None,None,0,0
@@ -5352,15 +5385,10 @@ DestroyableBridges=no
 1025595=BadGuy1 House,NAHAND,256,61,60,0,07A0221C,1,0,1,0,0,None,None,None,0,0
 1025596=BadGuy1 House,NAWEAP,256,50,61,0,07A0642C,1,0,1,0,0,None,None,None,0,0
 1025599=BadGuy1 House,NARADR,256,57,60,0,None,1,0,1,0,0,None,None,None,0,0
-1025602=BadGuy1 House,GADEPT,256,42,65,0,None,1,0,1,0,0,None,None,None,0,0
 1025605=BadGuy1 House,NATECH,256,43,60,0,None,1,0,1,0,0,None,None,None,0,0
 1025606=BadGuy1 House,NAPOWR,256,49,66,0,None,1,0,1,0,0,None,None,None,0,0
 1025609=BadGuy1 House,NAPOWR,256,49,58,0,None,1,0,1,0,0,None,None,None,0,0
 1025612=BadGuy1 House,NALASR,256,57,74,0,None,1,0,1,0,0,None,None,None,0,0
-1025613=BadGuy1 House,NALASR,256,54,74,0,None,1,0,1,0,0,None,None,None,0,0
-1025614=BadGuy1 House,NALASR,256,44,74,0,None,1,0,1,0,0,None,None,None,0,0
-1025615=BadGuy1 House,NALASR,256,68,60,0,None,1,0,1,0,0,None,None,None,0,0
-1025616=BadGuy1 House,NALASR,256,68,55,0,None,1,0,1,0,0,None,None,None,0,0
 1025617=BadGuy1 House,NAFLAK,256,63,63,0,None,1,0,1,0,0,None,None,None,0,0
 1025618=BadGuy1 House,NAFLAK,256,49,64,0,None,1,0,1,0,0,None,None,None,0,0
 1025619=BadGuy1 House,NAFLAK,256,57,63,0,None,1,0,1,0,0,None,None,None,0,0
@@ -5410,6 +5438,7 @@ TechLevel=12
 
 [Tags]
 01000002=0,[BTR] Tanya Beacon Speech 1,01000001
+01000004=0,[DEBUG] Reveal 1,01000003
 03E63F4C=0,Play Shore Sounds,03E6423C
 075A96BC=0,Prism Tank Movie Play,075A9ADC
 077F4514=0,BG2 Production Begin,077F3084
@@ -5880,6 +5909,7 @@ PlayerControl=yes
 [Triggers]
 01000000=Evil,0CF745DC,BTR Psychic Beacon Captured Player Built,0,1,1,1,0
 01000001=Neutral,<none>,[BTR] Tanya Beacon Speech,1,1,1,1,0
+01000003=Neutral,<none>,[DEBUG] Reveal,1,1,1,1,0
 03E6423C=Player,<none>,Play Shore Sounds,0,1,1,1,0
 075A9ADC=Player,<none>,Prism Tank Movie Play,1,1,1,1,0
 077F3084=BadGuy2,<none>,BG2 Production Begin,0,1,1,1,0
@@ -5928,7 +5958,7 @@ PlayerControl=yes
 09366E6C=Player,<none>,Techs Goto Arch End,1,1,1,1,0
 0963903C=Player,<none>,_Win Occurred,0,1,1,1,0
 09AB895C=BadGuy1,<none>,BG Patrols Start (Hard),0,0,0,1,0
-09ABB17C=Americans,<none>,Cons & Techs Redeemed,1,1,1,1,1
+09ABB17C=BadGuy3,<none>,Cons & Techs Redeemed,1,1,1,1,1
 09AF25BC=Evil,<none>,Engineers Are Evil,0,1,1,1,0
 09AF2CCC=Evil,<none>,GIs Are Evil,0,1,1,1,0
 09B9297C=BadGuy1,<none>,Desolator Gooing,0,1,1,1,0
@@ -6082,4 +6112,4 @@ Name=Kirov Airship
 TechLevel=12
 
 [Digest]
-1=CTYwbG1JqMQJEXvJHQjpU1Q/nE0=
+1=WUd1z96lG3wQYPQARV7YF0feAqc=

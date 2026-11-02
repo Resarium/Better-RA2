@@ -87,6 +87,11 @@ Allied 8:
 - Added Elite abilities to Engineer so that it now benefits from Elite veterancy (faster, self-healing)
 - The player can now build the American version of the Air Force Headquarters, as intended. This also fixes AITriggers that depend on the player owning an American Air Force Headquarters
 - End-of-game fire sale now also fire sale BadGuy2's buildings, in addition to BadGuy1
+- Changed Psychic Beacon to a different House so it doesn't get depowered and lose its active animation if you destroy all of the nearby Tesla Reactors
+- Changed Allied Service Depot in BadGuy1's base to Soviet Repair Crane instead
+- Reworked (09ABB17C Cons & Techs Redeemed) to now change all TechnoTypes of BadGuy3 House (newly added) to Player House instead of relying on tags to change their House when the Beacon is destroyed
+	- This fixes the confusing issue of one of the GIs in one of the patrols refusing to change to Player House
+- Re-oriented enemy defenses
 
 Allied 9:
 - Added a cut voicelines of SEALs requesting help against the Soviet base defenses
