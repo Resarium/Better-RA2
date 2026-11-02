@@ -2364,6 +2364,8 @@ IgnoreGlobalAITriggers=yes
 TiberiumDeathToVisceroid=no
 
 [CAMSC10]
+Primary=none
+Secondary=none
 CanBeOccupied=no
 
 [CANEWY04]
@@ -2592,7 +2594,7 @@ Insignificant=no
 IQ=0
 Edge=South
 Color=Grey
-Allies=BadGuy1 House,BadGuy2 House,BadGuy3 House,Civie1 House,Other1 House,Other2 House
+Allies=BadGuy1 House,BadGuy2 House,BadGuy3 House,Other1 House,Other2 House,Player House
 Country=Civilian1
 Credits=0
 NodeCount=0
@@ -2780,7 +2782,7 @@ TechLevel=-1
 01000388=1,13,0,2
 
 [FA2spVersionControl]
-Version=100
+Version=102
 LastPreviewOption=2
 
 [FLAKT]
@@ -5024,4 +5026,4 @@ Speed=5
 JumpjetSpeed=5
 
 [Digest]
-1=AhlprY3q4SpLjQ4o4JPaNk+oNuM=
+1=0Aep2jQqbuBCIeV2llp6Zfmazv0=
