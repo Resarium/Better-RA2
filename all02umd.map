@@ -9539,7 +9539,7 @@ PlayerControl=no
 01000988=1,59,0,19
 
 [FA2spVersionControl]
-Version=123
+Version=124
 LastPreviewOption=2
 
 [French]
@@ -14952,28 +14952,6 @@ Warhead=SA
 129=YuriCountry,LTNK,256,181,114,224,Guard,None,0,-1,0,-1,1,1
 130=YuriCountry,YTNK,256,139,74,64,Guard,None,0,-1,0,-1,1,1
 131=YuriCountry,SMIN,138,168,115,64,Unload,None,0,-1,0,-1,1,1
-132=Americans,SREF,256,164,130,224,Guard,None,200,-1,0,-1,0,0
-133=Americans,SREF,256,163,130,224,Guard,None,200,-1,0,-1,0,0
-134=Americans,SREF,256,163,129,224,Guard,None,200,-1,0,-1,0,0
-135=Americans,SREF,256,164,129,224,Guard,None,200,-1,0,-1,0,0
-136=Americans,SREF,256,163,131,224,Guard,None,200,-1,0,-1,0,0
-137=Americans,SREF,256,162,130,224,Guard,None,200,-1,0,-1,0,0
-138=Americans,SREF,256,162,131,224,Guard,None,200,-1,0,-1,0,0
-139=Americans,SREF,256,164,128,224,Guard,None,200,-1,0,-1,0,0
-140=Americans,SREF,256,165,128,224,Guard,None,200,-1,0,-1,0,0
-141=Americans,SREF,256,165,129,224,Guard,None,200,-1,0,-1,0,0
-142=Americans,SREF,256,165,127,224,Guard,None,200,-1,0,-1,0,0
-143=Americans,SREF,256,166,127,224,Guard,None,200,-1,0,-1,0,0
-144=Americans,SREF,256,166,128,224,Guard,None,200,-1,0,-1,0,0
-145=Americans,SREF,256,161,131,224,Guard,None,200,-1,0,-1,0,0
-146=Americans,SREF,256,161,132,224,Guard,None,200,-1,0,-1,0,0
-147=Americans,SREF,256,162,132,224,Guard,None,200,-1,0,-1,0,0
-148=Americans,SREF,256,166,126,224,Guard,None,200,-1,0,-1,0,0
-149=Americans,SREF,256,167,126,224,Guard,None,200,-1,0,-1,0,0
-150=Americans,SREF,256,167,127,224,Guard,None,200,-1,0,-1,0,0
-151=Americans,SREF,256,160,132,224,Guard,None,200,-1,0,-1,0,0
-152=Americans,SREF,256,160,133,224,Guard,None,200,-1,0,-1,0,0
-153=Americans,SREF,256,161,133,224,Guard,None,200,-1,0,-1,0,0
 
 [VIRUS]
 TechLevel=12
@@ -15452,4 +15430,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=6NH6olHK9Eul7kFVHxLHJ0gut/s=
+1=DIlItC4ZrsP44jeVOsh0t9rTHc0=
