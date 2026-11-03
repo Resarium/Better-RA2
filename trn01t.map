@@ -1098,7 +1098,7 @@ Value=100
 0C4ABEBC=1,13,0,1
 
 [FA2spVersionControl]
-Version=2
+Version=3
 LastPreviewOption=2
 
 [GACNST]
@@ -2395,7 +2395,7 @@ DestroyableBridges=yes
 
 [Units]
 0=Other1 House,CMIN,256,48,87,64,Harvest,07C4F3D4,0,-1,0,-1,1,1
-1=Civie1 House,SHAD,256,37,66,0,Guard,094BA404,0,-1,0,-1,1,1
+1=Civie1 House,SHAD_2,256,37,66,0,Guard,094BA404,0,-1,0,-1,0,0
 
 [VariableNames]
 0=Engineer Landed,0
@@ -2467,4 +2467,4 @@ Value=50
 98=88057
 
 [Digest]
-1=NdSEWGwtBj7lGajq3/X5j80Mw8M=
+1=Y0JN0pOAhM4V0E5QWkgOtfX/Pok=
