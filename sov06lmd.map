@@ -2663,7 +2663,7 @@ TechLevel=11
 01000304=1,13,0,20
 
 [FA2spVersionControl]
-Version=7
+Version=9
 LastPreviewOption=2
 
 [FLAKT]
@@ -2695,7 +2695,15 @@ PercentBuilt=0
 PlayerControl=no
 
 [General]
-ParachuteMaxFallRate=-10
+Engineer=LUNR
+ThirdCrew=LUNR
+AlliedCrew=LUNR
+SovietCrew=LUNR
+SoloCrateMoney=10000
+AISlaveMinerNumber=0,0,0
+SpyMoneyStealPercent=0.05
+CampaignMoneyDeltaEasy=15000
+CampaignMoneyDeltaHard=-15000
 
 [Germans]
 IQ=0
@@ -4367,4 +4375,4 @@ Name=Kirov Airship
 TechLevel=11
 
 [Digest]
-1=cUS3jyNVTKurtqCSg/jmA0qZscc=
+1=acFcnAjqJRFILXZG7pRJFJdAwl8=
