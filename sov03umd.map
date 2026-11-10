@@ -2795,7 +2795,7 @@ AB=4,36,0,2,36,0,3,36,0,4,36,0,7
 0F951BEC=1,13,0,4
 
 [FA2spVersionControl]
-Version=45
+Version=46
 LastPreviewOption=2
 
 [GACNST]
@@ -3970,7 +3970,7 @@ Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
 Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
 Maxdebris=3
 MoveSound=LasherTankMoveStart
-TechLevel=2
+TechLevel=11
 VoiceMove=LasherTankMove
 CrushSound=TankCrush
 Accelerates=false
@@ -6102,4 +6102,4 @@ Name=Kirov Airship
 TechLevel=12
 
 [Digest]
-1=vz7zQTtK275AAJGpFKqhxkPb4J4=
+1=5Ua2LI0VZ6hwwtlZoXYGBoVGlQI=
