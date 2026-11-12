@@ -6001,7 +6001,7 @@ PlayerControl=no
 01000571=1,48,0,0
 
 [FA2spVersionControl]
-Version=67
+Version=68
 LastPreviewOption=2
 
 [French]
@@ -6123,9 +6123,8 @@ BuildTimeMultiplier=1.0
 31=YuriCountry,INIT,256,195,177,3,Guard,0,None,0,-1,0,1,1
 32=YuriCountry,INIT,256,194,178,4,Guard,0,None,0,-1,0,1,1
 33=YuriCountry,INIT,256,193,178,2,Guard,0,None,0,-1,0,1,1
-34=Neutral,POLARB,256,129,72,2,Area Guard,128,None,0,-1,0,1,1
-35=Yuri2,YURI,256,123,180,1,Guard,64,None,0,-1,0,1,1
-36=Yuri2,YURI,256,120,176,4,Guard,64,None,0,-1,0,1,1
+34=Yuri2,YURI,256,123,180,1,Guard,64,None,0,-1,0,1,1
+35=Yuri2,YURI,256,120,176,4,Guard,64,None,0,-1,0,1,1
 
 [IsoMapPack5]
 1=VgwAIAcDAIQA//8AAAAERAADgwD//wAAQQEEKlUAhfUCBShXAAUAgihUACmAACcHAQUAhq
@@ -10836,4 +10835,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=9BVxRhIzXmDpxdWfQ6b6yp8qTOA=
+1=1/NlPtN0+4IeJTCZ5vU7l2/diSA=

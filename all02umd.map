@@ -8831,8 +8831,8 @@ VoiceSpecialAttack=ArnoldMove
 01000790=4,53,2,01000539,0,0,0,0,A,54,2,01000788,0,0,0,0,A,54,2,01000789,0,0,0,0,A,54,2,01000790,0,0,0,0,A
 01000919=1,16,0,0,0,0,0,0,A
 01000921=11,7,1,01000925,0,0,0,0,A,55,0,1,0,0,0,0,ID,11,4,mission:topsecret,0,0,0,0,A,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,12,2,01000972,0,0,0,0,A,12,2,01000974,0,0,0,0,A,12,2,01000976,0,0,0,0,A,12,2,01000978,0,0,0,0,A,12,2,01000980,0,0,0,0,A,12,2,01000982,0,0,0,0,A
-01000926=7,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,21,6,Mis_xA2_GGIThankYou,0,0,0,0,A,12,2,01000928,0,0,0,0,A,4,1,01000931,0,0,0,0,A
-01000928=7,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,19,7,GuardianGISelect,0,0,0,0,A,12,2,01000926,0,0,0,0,A,4,1,01000931,0,0,0,0,A
+01000926=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,21,6,Mis_xA2_GGIThankYou,0,0,0,0,A,4,1,01000931,0,0,0,0,A
+01000928=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,19,7,GuardianGISelect,0,0,0,0,A,4,1,01000931,0,0,0,0,A
 01000933=2,56,0,65,0,0,0,0,A,54,2,01000935,0,0,0,0,A
 01000935=2,57,0,65,0,0,0,0,A,54,2,01000933,0,0,0,0,A
 01000938=3,48,0,3,0,0,0,0,B,53,2,01000952,0,0,0,0,A,53,2,01000940,0,0,0,0,A
@@ -8853,8 +8853,14 @@ VoiceSpecialAttack=ArnoldMove
 01000980=1,56,0,69,0,0,0,0,A
 01000982=1,57,0,69,0,0,0,0,A
 01000984=3,21,6,Mis_xA2_EvaDinoMovie,0,0,0,0,A,17,0,62,0,0,0,0,BK,4,1,01000447,0,0,0,0,A
+01000985=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,21,6,Mis_xA2_GGIThankYou,0,0,0,0,A,4,1,01000931,0,0,0,0,A
 01000986=3,21,6,Mis_xA2_EvaDinoMovie,0,0,0,0,A,17,0,62,0,0,0,0,BK,4,1,01000447,0,0,0,0,A
+01000987=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,21,6,Mis_xA2_GGIThankYou,0,0,0,0,A,4,1,01000931,0,0,0,0,A
 01000988=3,21,6,Mis_xA2_EvaDinoMovie,0,0,0,0,A,17,0,62,0,0,0,0,BK,4,1,01000447,0,0,0,0,A
+01000989=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,19,7,GuardianGISelect,0,0,0,0,A,4,1,01000931,0,0,0,0,A
+01000990=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,21,6,Mis_xA2_GGIThankYou,0,0,0,0,A,4,1,01000931,0,0,0,0,A
+01000991=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,19,7,GuardianGISelect,0,0,0,0,A,4,1,01000931,0,0,0,0,A
+01000992=6,19,7,CrateFreeUnit,0,0,0,0,A,19,7,BeaconPlaced,0,0,0,0,A,14,0,0,0,0,0,0,A,55,0,1,0,0,0,0,IL,19,7,GuardianGISelect,0,0,0,0,A,4,1,01000931,0,0,0,0,A
 
 [Africans]
 IQ=0
@@ -9535,11 +9541,17 @@ PlayerControl=no
 01000980=2,1,0,19,13,0,1
 01000982=1,1,0,19
 01000984=1,59,0,17
+01000985=2,37,0,1,1,0,19
 01000986=1,59,0,18
+01000987=2,37,0,1,1,0,18
 01000988=1,59,0,19
+01000989=2,36,0,1,1,0,19
+01000990=2,37,0,1,1,0,17
+01000991=2,36,0,1,1,0,18
+01000992=2,36,0,1,1,0,17
 
 [FA2spVersionControl]
-Version=124
+Version=131
 LastPreviewOption=2
 
 [French]
@@ -14794,8 +14806,8 @@ Warhead=SA
 01000790=Americans,01000789,Discover_Trigger,0,1,1,1,0
 01000919=Neutral,<none>,[DEBUG] Map Reveal,1,1,1,1,0
 01000921=Neutral,<none>,[BTR] 4th Hero Found,1,1,1,1,0
-01000926=Americans,01000928,[BTR] GGI Rescued_Grinders_Alive,0,1,1,1,0
-01000928=Americans,<none>,[BTR] GGI Rescued_Grinders_Gone,0,1,1,1,0
+01000926=Americans,01000985,[BTR] GGI Rescued_Grinders_Alive,0,1,1,1,0
+01000928=Americans,01000989,[BTR] GGI Rescued_Grinders_Gone,0,1,1,1,0
 01000933=Neutral,<none>,[BTR] Roll SM VO 1,0,1,1,1,0
 01000935=Neutral,<none>,[BTR] Roll SM VO 2,0,1,1,1,0
 01000938=Americans,<none>,[BTR] Briefing_Slave_Miner 1,1,1,1,1,0
@@ -14816,8 +14828,14 @@ Warhead=SA
 01000980=Neutral,<none>,[BTR] Stallone Enter,0,1,1,1,0
 01000982=Neutral,<none>,[BTR] Stallone Exit,0,1,1,1,0
 01000984=Neutral,01000986,Find_Dino Arnold,0,1,1,1,0
+01000985=Americans,01000987,[BTR] GGI Rescued_Grinders_Alive Stallone,0,1,1,1,0
 01000986=Neutral,01000988,Find_Dino Clint,0,1,1,1,0
+01000987=Americans,01000990,[BTR] GGI Rescued_Grinders_Alive Clint,0,1,1,1,0
 01000988=Neutral,<none>,Find_Dino Stallone,0,1,1,1,0
+01000989=Americans,01000991,[BTR] GGI Rescued_Grinders_Gone Stallone,0,1,1,1,0
+01000990=Americans,01000928,[BTR] GGI Rescued_Grinders_Alive Arnie,0,1,1,1,0
+01000991=Americans,01000992,[BTR] GGI Rescued_Grinders_Gone Clint,0,1,1,1,0
+01000992=Americans,<none>,[BTR] GGI Rescued_Grinders_Gone Arnie,0,1,1,1,0
 
 [Units]
 0=Confederation,LTNK,256,115,183,64,Guard,None,0,-1,0,-1,1,1
@@ -15430,4 +15448,4 @@ PercentBuilt=100
 PlayerControl=no
 
 [Digest]
-1=DIlItC4ZrsP44jeVOsh0t9rTHc0=
+1=mrBIrXEYpSe2goRwu2DcZjin31Q=
