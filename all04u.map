@@ -3265,6 +3265,9 @@ TiberiumDeathToVisceroid=no
 Name=RA2 Chicago Sears Tower
 SpySat=no
 
+[CACHIG06]
+UIName=Name:CACHIG06
+
 [CIVBFM]
 Name=Civilian Beach Fat Male
 Image=BeInvisibleHack
@@ -3472,7 +3475,7 @@ TechLevel=-1
 01000354=1,4,0,0
 
 [FA2spVersionControl]
-Version=47
+Version=48
 LastPreviewOption=2
 
 [GADEPT]
@@ -6435,4 +6438,4 @@ Value=50
 98=89142
 
 [Digest]
-1=9k0xIQj8jyoktfV/4R632mFb0dI=
+1=NU8pKuaZcHAkDotJtSSBWkbbBbU=
