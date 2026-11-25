@@ -2,7 +2,8 @@
 WIP
 
 General Changes:
-TeamDelays are fixed in all applicable missions so that it isn't reversed. Hard is hard and easy is easy!
+- TeamDelays are fixed in all applicable missions so that it isn't reversed. Hard is hard and easy is easy!
+- Fixed a bug where the Apocalypse Tank's muzzle animations aren't present in Yuri's Revenge
 
 Tutorial 1:
 - The player can no longer use "deploy" function on the Night Hawk Engi sequence to break it
